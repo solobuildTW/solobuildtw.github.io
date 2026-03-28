@@ -1,0 +1,442 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Claude Code 經驗包 — SoloBuild</title>
+  <meta name="description" content="200 小時的 AI 代理實戰精華。非工程師也能建立 10 代理協作系統。早鳥限定 8 折：教學包 NT$499 / 靈魂包 NT$649 / 組合包 NT$999。" />
+  <meta property="og:title" content="Claude Code 經驗包 — SoloBuild" />
+  <meta property="og:description" content="200 小時的 AI 代理實戰精華。非工程師也能建立 10 代理協作系統。" />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://solobuild.github.io/" />
+  <meta property="og:locale" content="zh_TW" />
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🧠</text></svg>" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@300;400;500;700&family=Inter:wght@400;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- ========== HEADER / NAV ========== -->
+  <header class="site-header">
+    <div class="container header-inner">
+      <a href="#" class="brand-logo">SoloBuild</a>
+      <nav class="header-nav">
+        <a href="#features" data-zh="特色" data-en="Features">特色</a>
+        <a href="#pricing" data-zh="定價" data-en="Pricing">定價</a>
+        <a href="#faq" data-zh="常見問題" data-en="FAQ">常見問題</a>
+        <button class="lang-toggle" data-lang="zh" aria-label="切換語言">中 / EN</button>
+        <a href="#pricing" class="btn btn-primary btn-sm" data-zh="立即購買" data-en="Buy Now">立即購買</a>
+      </nav>
+      <button class="mobile-menu-toggle" aria-label="開啟選單">&#9776;</button>
+    </div>
+  </header>
+
+  <!-- ========== HERO ========== -->
+  <section class="hero">
+    <div class="container hero-inner">
+      <div class="hero-badge" data-zh="Claude Code 實戰經驗包" data-en="Claude Code Experience Pack">Claude Code 實戰經驗包</div>
+      <h1 class="hero-title">
+        <span data-zh="Claude Code 經驗包" data-en="Claude Code Experience Pack">Claude Code 經驗包</span><br />
+        <span class="accent" data-zh="——&nbsp;200 小時的 AI 代理實戰精華" data-en="——&nbsp;200 Hours of AI Agent Battle-Tested Wisdom">——&nbsp;200 小時的 AI 代理實戰精華</span>
+      </h1>
+      <p class="hero-subtitle" data-zh="非工程師也能建立的多 AI 協作系統" data-en="Multi-AI Collaboration System Anyone Can Build">非工程師也能建立的多 AI 協作系統</p>
+      <p class="hero-tagline">
+        <span data-zh-html="這裡沒有什麼驚世技術，<br class=&quot;hide-desktop&quot; />只有讓人少折騰 200 小時的寶貴經驗。" data-en-html="No rocket science here — just 200+ hours of hard-won experience so you don't have to repeat my mistakes.">這裡沒有什麼驚世技術，<br class="hide-desktop" />只有讓人少折騰 200 小時的寶貴經驗。</span>
+      </p>
+      <div class="hero-cta-group">
+        <a href="#pricing" class="btn btn-primary btn-lg" data-zh="立即取得，少折騰 200 小時" data-en="Get It Now, Save 200 Hours">立即取得，少折騰 200 小時</a>
+        <a href="#features" class="btn btn-outline btn-lg" data-zh="了解內容" data-en="Learn More">了解內容</a>
+      </div>
+      <div class="hero-social-proof">
+        <div class="stat-item"><span class="stat-num">200+</span><span class="stat-label" data-zh="小時踩坑濃縮" data-en="Hours of Hard-Won Experience">小時踩坑濃縮</span></div>
+        <div class="stat-divider"></div>
+        <div class="stat-item"><span class="stat-num">18</span><span class="stat-label" data-zh="章節 + 3 附錄" data-en="Chapters + 3 Appendices">章節 + 3 附錄</span></div>
+        <div class="stat-divider"></div>
+        <div class="stat-item"><span class="stat-num">10</span><span class="stat-label" data-zh="代理協作架構" data-en="Agent Collaboration Architecture">代理協作架構</span></div>
+        <div class="stat-divider"></div>
+        <div class="stat-item"><span class="stat-num">50%+</span><span class="stat-label" data-zh="Token 成本節省" data-en="Token Cost Savings">Token 成本節省</span></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== PAIN POINTS ========== -->
+  <section class="pain-points">
+    <div class="container">
+      <h2 class="section-title" data-zh="你是不是也遇過這些狀況？" data-en="Sound familiar?">你是不是也遇過這些狀況？</h2>
+      <div class="pain-grid">
+        <div class="pain-card">
+          <div class="pain-icon">🔥</div>
+          <p data-zh="花三小時找問題為什麼 AI 一直跑出錯誤" data-en="Spent 3 hours debugging why AI keeps throwing errors">花三小時找問題為什麼 AI 一直跑出錯誤</p>
+        </div>
+        <div class="pain-card">
+          <div class="pain-icon">💸</div>
+          <p data-zh="Token 莫名其妙燒光，什麼有用的事都沒做出來" data-en="Burned through tokens with nothing useful to show for it">Token 莫名其妙燒光，什麼有用的事都沒做出來</p>
+        </div>
+        <div class="pain-card">
+          <div class="pain-icon">😰</div>
+          <p data-zh="聽到別人各種使用 AI 工具，覺得追不上異常焦慮" data-en="Seeing everyone using AI tools and feeling anxiously left behind">聽到別人各種使用 AI 工具，覺得追不上異常焦慮</p>
+        </div>
+        <div class="pain-card">
+          <div class="pain-icon">🤷</div>
+          <p data-zh="想要開始，但太多專有名詞太複雜不知從何下手" data-en="Want to start, but too many jargons — don't know where to begin">想要開始，但太多專有名詞太複雜不知從何下手</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== FEATURES ========== -->
+  <section class="features" id="features">
+    <div class="container">
+      <div class="section-header">
+        <h2 class="section-title" data-zh="這份經驗包裡有什麼" data-en="What's Inside">這份經驗包裡有什麼</h2>
+        <p class="section-desc">
+          <span data-zh-html="從龍蝦 OpenClaw 到 Claude Code — 200+ 小時的濃縮，打包給想動手做的你。花一小時看完，你今天就能用 AI 團隊幫你做你想做的事！" data-en-html="From OpenClaw to Claude Code — 200+ hours condensed for builders like you. Read it in an hour, deploy your AI team today!">從龍蝦 OpenClaw 到 Claude Code — 200+ 小時的濃縮，打包給想動手做的你。花一小時看完，你今天就能用 AI 團隊幫你做你想做的事！</span>
+        </p>
+      </div>
+
+      <div class="features-tabs">
+        <div class="tab-nav">
+          <button class="tab-btn active" data-tab="tutorial">
+            <span class="tag tag-tutorial" data-zh="教" data-en="T">教</span> <span data-zh="教學包內容" data-en="Tutorial Pack Contents">教學包內容</span>
+          </button>
+          <button class="tab-btn" data-tab="soul">
+            <span class="tag tag-soul" data-zh="魂" data-en="S">魂</span> <span data-zh="靈魂包內容" data-en="Soul Pack Contents">靈魂包內容</span>
+          </button>
+        </div>
+
+        <div class="tab-content active" id="tab-tutorial">
+          <div class="features-grid">
+            <div class="feature-card">
+              <div class="feature-num" data-zh="Part 1–5" data-en="Part 1–5">Part 1–5</div>
+              <h3 data-zh="18 章 + 附錄，80–100 頁" data-en="18 Chapters + Appendices, 80–100 Pages">18 章 + 附錄，80–100 頁</h3>
+              <p data-zh="從單一 Prompt 到多代理系統的完整進化路徑，每章都是真實踩坑後的心得。" data-en="Complete evolution from single prompts to multi-agent systems. Every chapter is a real lesson learned.">從單一 Prompt 到多代理系統的完整進化路徑，每章都是真實踩坑後的心得。</p>
+            </div>
+            <div class="feature-card">
+              <div class="feature-num" data-zh="核心主題" data-en="Core Topic">核心主題</div>
+              <h3 data-zh="10 代理架構設計" data-en="10-Agent Architecture Design">10 代理架構設計</h3>
+              <p data-zh="企劃員、審查員、TDD 導師、安全審查員⋯每個角色的邊界和協作規則。" data-en="Planner, Reviewer, TDD Guide, Security Auditor… clear boundaries and collaboration rules for each role.">企劃員、審查員、TDD 導師、安全審查員⋯每個角色的邊界和協作規則。</p>
+            </div>
+            <div class="feature-card">
+              <div class="feature-num" data-zh="記憶系統" data-en="Memory System">記憶系統</div>
+              <h3 data-zh="為什麼代理一直忘記你說過的話" data-en="Why Your Agent Keeps Forgetting What You Said">為什麼代理一直忘記你說過的話</h3>
+              <p data-zh="Rules 分層策略、MEMORY 結構設計，讓代理跨 Session 保持狀態。" data-en="Layered Rules strategy and MEMORY structure design for cross-session state persistence.">Rules 分層策略、MEMORY 結構設計，讓代理跨 Session 保持狀態。</p>
+            </div>
+            <div class="feature-card">
+              <div class="feature-num" data-zh="成本控管" data-en="Cost Control">成本控管</div>
+              <h3 data-zh="實測節省 35% Token 花費" data-en="Tested: 35% Token Cost Reduction">實測節省 35% Token 花費</h3>
+              <p data-zh="模型選型策略、Context Window 管理、避免代理空轉燒 Token 的方法。" data-en="Model selection strategy, Context Window management, and preventing idle token burn.">模型選型策略、Context Window 管理、避免代理空轉燒 Token 的方法。</p>
+            </div>
+            <div class="feature-card">
+              <div class="feature-num" data-zh="錯誤案例" data-en="Error Cases">錯誤案例</div>
+              <h3 data-zh="30+ 次真實失敗紀錄" data-en="30+ Real Failure Records">30+ 次真實失敗紀錄</h3>
+              <p data-zh="每一個重大錯誤的完整還原，以及怎麼設計防呆機制讓它永遠不再發生。" data-en="Full reconstruction of every major mistake, plus foolproof mechanisms to prevent recurrence.">每一個重大錯誤的完整還原，以及怎麼設計防呆機制讓它永遠不再發生。</p>
+            </div>
+            <div class="feature-card">
+              <div class="feature-num" data-zh="附錄" data-en="Appendices">附錄</div>
+              <h3 data-zh="3 個附錄速查表" data-en="3 Quick-Reference Appendices">3 個附錄速查表</h3>
+              <p data-zh="常用指令、模型分工建議、Rules 範本清單，部署時隨時查閱。" data-en="Common commands, model assignment tips, Rules template list — ready to reference during deployment.">常用指令、模型分工建議、Rules 範本清單，部署時隨時查閱。</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="tab-content" id="tab-soul">
+          <div class="features-grid">
+            <div class="feature-card soul">
+              <div class="feature-num" data-zh="代理定義" data-en="Agent Definitions">代理定義</div>
+              <h3 data-zh="10 個專業代理配置檔" data-en="10 Professional Agent Configs">10 個專業代理配置檔</h3>
+              <p data-zh="明確的角色、邊界、協作規則。每個檔案都有「為什麼這樣設」的完整註解。" data-en="Clear roles, boundaries, and collaboration rules. Every file includes full annotations explaining design decisions.">明確的角色、邊界、協作規則。每個檔案都有「為什麼這樣設」的完整註解。</p>
+            </div>
+            <div class="feature-card soul">
+              <div class="feature-num" data-zh="Skills 庫" data-en="Skills Library">Skills 庫</div>
+              <h3 data-zh="可重用的技能模板" data-en="Reusable Skill Templates">可重用的技能模板</h3>
+              <p data-zh="涵蓋常見工作流程的 Skills 範本，複製後根據需求修改即可。" data-en="Workflow skill templates you can copy and customize for your needs.">涵蓋常見工作流程的 Skills 範本，複製後根據需求修改即可。</p>
+            </div>
+            <div class="feature-card soul">
+              <div class="feature-num" data-zh="Rules 系統" data-en="Rules System">Rules 系統</div>
+              <h3 data-zh="分層規則防呆架構" data-en="Layered Foolproof Rule Architecture">分層規則防呆架構</h3>
+              <p data-zh="通用規則 + 語言專用規則的分層設計，預防你還沒犯過的錯誤。" data-en="Universal + language-specific layered rules that prevent mistakes you haven't made yet.">通用規則 + 語言專用規則的分層設計，預防你還沒犯過的錯誤。</p>
+            </div>
+            <div class="feature-card soul">
+              <div class="feature-num" data-zh="Start 模板" data-en="Start Template">Start 模板</div>
+              <h3 data-zh="一句話喚醒回憶" data-en="One Line to Wake Up Memory">一句話喚醒回憶</h3>
+              <p data-zh="讓整個代理系統從第一則訊息就正確運行的啟動模板。" data-en="A startup template that gets your entire agent system running correctly from message one.">讓整個代理系統從第一則訊息就正確運行的啟動模板。</p>
+            </div>
+            <div class="feature-card soul">
+              <div class="feature-num" data-zh="MEMORY" data-en="MEMORY">MEMORY</div>
+              <h3 data-zh="持久記憶結構" data-en="Persistent Memory Structure">持久記憶結構</h3>
+              <p data-zh="給代理跨 Session 持久記憶，又不撐爆 Context Window 的完整方案。" data-en="A complete solution for cross-session persistent memory without blowing up the Context Window.">給代理跨 Session 持久記憶，又不撐爆 Context Window 的完整方案。</p>
+            </div>
+            <div class="feature-card soul">
+              <div class="feature-num" data-zh="三角制衡" data-en="Triangle Check">三角制衡</div>
+              <h3 data-zh="3 代理商業決策流程" data-en="3-Agent Business Decision Process">3 代理商業決策流程</h3>
+              <p data-zh="企劃員 → 評論員 → 決策員的制衡系統，降低決策遺漏率達 63%。" data-en="Planner → Critic → Decider check-and-balance system, reducing decision oversight gaps by 63%.">企劃員 → 評論員 → 決策員的制衡系統，降低決策遺漏率達 63%。</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== STORY / TRUST ========== -->
+  <section class="story">
+    <div class="container story-inner">
+      <div class="story-content">
+        <h2 class="section-title" data-zh="一個獨立開發者分享給另一個獨立開發者" data-en="From One Solo Builder to Another">一個獨立開發者分享給另一個獨立開發者</h2>
+        <p data-zh="我不是 AI 公司的工程師，也不是資深電腦科學家。過去一年，我從零 AI 編程經驗，一路建到 10 個代理協作的全自動架構。過程中我搞砸了很多東西。" data-en="I'm not an AI company engineer or a senior computer scientist. Over the past year, I went from zero AI coding experience to building a fully automated 10-agent collaboration system. I messed up a lot along the way.">我不是 AI 公司的工程師，也不是資深電腦科學家。過去一年，我從零 AI 編程經驗，一路建到 10 個代理協作的全自動架構。過程中我搞砸了很多東西。</p>
+        <p data-zh="這份經驗包是我自己最需要的那種指南 — 不講學術概念，不說難懂的底層邏輯，只講在真實系統中什麼有用、什麼會出事、以及為什麼。" data-en="This experience pack is the guide I wished I had — no academic theory, no complex abstractions, just what works in real systems, what breaks, and why.">這份經驗包是我自己最需要的那種指南 — 不講學術概念，不說難懂的底層邏輯，只講在真實系統中什麼有用、什麼會出事、以及為什麼。</p>
+        <blockquote class="story-quote">
+          <span data-zh-html="這不是線上課程。沒有測驗、沒有證書、沒有追加銷售。<br />就是一個人把 200+ 小時的濃縮經驗分享給另一個人。" data-en-html="This isn't an online course. No quizzes, no certificates, no upsells.<br />Just one person sharing 200+ hours of condensed experience with another.">這不是線上課程。沒有測驗、沒有證書、沒有追加銷售。<br />就是一個人把 200+ 小時的濃縮經驗分享給另一個人。</span>
+        </blockquote>
+      </div>
+      <div class="story-visual">
+        <div class="arch-diagram">
+          <div class="arch-title" data-zh="10 代理架構示意" data-en="10-Agent Architecture">10 代理架構示意</div>
+          <div class="arch-nodes">
+            <div class="arch-node center">🧠 <span data-zh="總管" data-en="Manager">總管</span></div>
+            <div class="arch-ring">
+              <div class="arch-node small">📋 <span data-zh="企劃員" data-en="Planner">企劃員</span></div>
+              <div class="arch-node small">🔍 <span data-zh="審查員" data-en="Reviewer">審查員</span></div>
+              <div class="arch-node small">🧪 TDD</div>
+              <div class="arch-node small">🔒 <span data-zh="安全" data-en="Security">安全</span></div>
+              <div class="arch-node small">🏗 <span data-zh="架構師" data-en="Architect">架構師</span></div>
+              <div class="arch-node small">⚙️ <span data-zh="工程師" data-en="Engineer">工程師</span></div>
+              <div class="arch-node small">📊 <span data-zh="研究員" data-en="Researcher">研究員</span></div>
+              <div class="arch-node small">🤖 <span data-zh="自我改善" data-en="Self-Improve">自我改善</span></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== PRICING ========== -->
+  <section class="pricing" id="pricing">
+    <div class="container">
+      <div class="section-header">
+        <h2 class="section-title" data-zh="選擇你的方案" data-en="Choose Your Plan">選擇你的方案</h2>
+        <p class="section-desc" data-zh="直接購買，PDF 立即下載。沒有訂閱、沒有到期日。" data-en="Buy once, download instantly. No subscriptions, no expiration.">直接購買，PDF 立即下載。沒有訂閱、沒有到期日。</p>
+
+        <!-- Promo Banner -->
+        <div class="promo-banner promo-banner--large">
+          <span class="promo-icon">🔥</span>
+          <span class="promo-text">
+            <span data-zh="早鳥限定 UP TO 24% OFF，上市期間限時特價！" data-en="Early Bird UP TO 24% OFF — Limited-time launch pricing!">早鳥限定 UP TO 24% OFF，上市期間限時特價！</span>
+          </span>
+        </div>
+
+        <div class="platform-toggle">
+          <button class="platform-btn active" data-platform="tw" data-zh="台灣（綠界）" data-en="Taiwan (ECPay)">台灣（綠界）</button>
+          <button class="platform-btn" data-platform="intl" data-zh="國際（Lemon Squeezy）" data-en="International (Lemon Squeezy)">國際（Lemon Squeezy）</button>
+        </div>
+      </div>
+
+      <div class="pricing-grid">
+
+        <!-- Teaching Pack -->
+        <div class="pricing-card" id="buy-teaching" data-product="teaching">
+          <div class="discount-badge">23% OFF</div>
+          <div class="pricing-tag tag-tutorial" data-zh="教學包" data-en="Tutorial Pack">教學包</div>
+          <h3 class="pricing-name">Tutorial Pack</h3>
+          <p class="pricing-desc" data-zh="18 章實戰指南，200+ 小時踩坑濃縮" data-en="18-chapter field guide, 200+ hours of hard-won experience">18 章實戰指南，200+ 小時踩坑濃縮</p>
+          <div class="pricing-price">
+            <span class="price-tw">
+              <span class="price-original-strike">NT$650</span>
+              NT$<strong>499</strong>
+            </span>
+            <span class="price-intl hidden">
+              <span class="price-original-strike">$20</span>
+              USD <strong>$16.99</strong>
+            </span>
+          </div>
+          <div class="pricing-original">
+            <span class="orig-tw" data-zh="一杯咖啡的價格，省下 200 小時" data-en="Price of a coffee, saves 200 hours">一杯咖啡的價格，省下 200 小時</span>
+            <span class="orig-intl hidden" data-zh="一杯咖啡的價格，省下 200 小時" data-en="Price of a coffee, saves 200 hours">Price of a coffee, saves 200 hours</span>
+          </div>
+          <ul class="pricing-features">
+            <li data-zh="Part 1–5，18 章 + 3 附錄" data-en="Part 1–5, 18 Chapters + 3 Appendices">Part 1–5，18 章 + 3 附錄</li>
+            <li data-zh="80–100 頁 PDF（繁體中文）" data-en="80–100 Page PDF (Traditional Chinese)">80–100 頁 PDF（繁體中文）</li>
+            <li data-zh="10 代理架構設計原理" data-en="10-Agent Architecture Design Principles">10 代理架構設計原理</li>
+            <li data-zh="記憶系統 &amp; Rules 分層策略" data-en="Memory System &amp; Layered Rules Strategy">記憶系統 &amp; Rules 分層策略</li>
+            <li data-zh="Token 成本控管（實測省 35%）" data-en="Token Cost Control (Tested: 35% Savings)">Token 成本控管（實測省 35%）</li>
+            <li data-zh="30+ 個真實錯誤案例" data-en="30+ Real Error Case Studies">30+ 個真實錯誤案例</li>
+          </ul>
+          <a href="#buy-teaching" class="btn btn-primary btn-full" data-zh="購買教學包" data-en="Buy Tutorial Pack">購買教學包</a>
+        </div>
+
+        <!-- Combo Pack（中間，最多人選） -->
+        <div class="pricing-card combo" id="buy-combo" data-product="combo">
+          <div class="featured-badge combo-badge" data-zh="最多人選" data-en="Most Popular">最多人選</div>
+          <div class="discount-badge">31% OFF</div>
+          <div class="pricing-tag tag-combo" data-zh="組合包" data-en="Combo Pack">組合包</div>
+          <h3 class="pricing-name">Combo Pack</h3>
+          <p class="pricing-desc" data-zh="教學 + 靈魂完整配置，最超值方案" data-en="Tutorial + Soul complete setup, best value">教學 + 靈魂完整配置，最超值方案</p>
+          <div class="pricing-price">
+            <span class="price-tw">
+              <span class="price-original-strike">NT$1,450</span>
+              NT$<strong>999</strong>
+            </span>
+            <span class="price-intl hidden">
+              <span class="price-original-strike">$48</span>
+              USD <strong>$32.99</strong>
+            </span>
+          </div>
+          <div class="pricing-original">
+            <span class="orig-tw"><span data-zh="原價合計" data-en="Originally">原價合計</span> NT$1,450，<strong class="savings"><span data-zh="省" data-en="Save">省</span> NT$451</strong></span>
+            <span class="orig-intl hidden">Originally $48, <strong class="savings">Save $15.01</strong></span>
+          </div>
+          <ul class="pricing-features">
+            <li class="no-check">✅ <span data-zh="包含教學包全部內容" data-en="Includes all Tutorial Pack content">包含教學包全部內容</span></li>
+            <li class="no-check">✅ <span data-zh="包含靈魂包全部內容" data-en="Includes all Soul Pack content">包含靈魂包全部內容</span></li>
+            <li class="no-check">🔥 <span data-zh="讀完原理，當天就能部署完成" data-en="Read the theory, deploy the same day">讀完原理，當天就能部署完成</span></li>
+            <li data-zh="理解 + 配置，不是盲目複製" data-en="Understand + configure, not blindly copy">理解 + 配置，不是盲目複製</li>
+            <li data-zh="未來更新免費獲取" data-en="Free future updates">未來更新免費獲取</li>
+          </ul>
+          <a href="#buy-combo" class="btn btn-combo btn-full" data-zh="購買組合包（最超值）" data-en="Buy Combo Pack (Best Value)">購買組合包（最超值）</a>
+        </div>
+
+        <!-- Soul Pack -->
+        <div class="pricing-card" id="buy-soul" data-product="soul">
+          <div class="discount-badge">24% OFF</div>
+          <div class="pricing-tag tag-soul" data-zh="靈魂包" data-en="Soul Pack">靈魂包</div>
+          <h3 class="pricing-name">Soul Pack</h3>
+          <p class="pricing-desc" data-zh="可直接套用的 10 代理生產環境配置" data-en="Production-ready 10-agent configuration, deploy instantly">可直接套用的 10 代理生產環境配置</p>
+          <div class="pricing-price">
+            <span class="price-tw">
+              <span class="price-original-strike">NT$850</span>
+              NT$<strong>649</strong>
+            </span>
+            <span class="price-intl hidden">
+              <span class="price-original-strike">$28</span>
+              USD <strong>$21.99</strong>
+            </span>
+          </div>
+          <div class="pricing-original">
+            <span class="orig-tw" data-zh="裝好就能用，不用從零開始" data-en="Ready to use, no setup from scratch">裝好就能用，不用從零開始</span>
+            <span class="orig-intl hidden" data-zh="裝好就能用，不用從零開始" data-en="Ready to use, no setup from scratch">Ready to use, no setup from scratch</span>
+          </div>
+          <ul class="pricing-features">
+            <li class="no-check">🔥 <span data-zh="部署完成，馬上就能直接使用" data-en="Deploy and start using immediately">部署完成，馬上就能直接使用</span></li>
+            <li data-zh="10 個代理定義檔（含完整註解）" data-en="10 Agent Definition Files (Fully Annotated)">10 個代理定義檔（含完整註解）</li>
+            <li data-zh="Skills 模板庫" data-en="Skills Template Library">Skills 模板庫</li>
+            <li data-zh="Rules 分層規則系統" data-en="Layered Rules System">Rules 分層規則系統</li>
+            <li data-zh="Start 啟動模板" data-en="Start Template">Start 啟動模板</li>
+            <li data-zh="MEMORY 記憶結構" data-en="MEMORY Structure">MEMORY 記憶結構</li>
+            <li data-zh="Hooks 前後置配置" data-en="Hooks Pre/Post Configuration">Hooks 前後置配置</li>
+            <li data-zh="三角制衡決策流程" data-en="Triangle Check Decision Process">三角制衡決策流程</li>
+          </ul>
+          <a href="#buy-soul" class="btn btn-primary btn-full" data-zh="購買靈魂包" data-en="Buy Soul Pack">購買靈魂包</a>
+        </div>
+
+      </div>
+
+      <!-- Compare table -->
+      <div class="compare-wrap">
+        <button class="compare-toggle" data-zh="詳細比較三種方案 ▾" data-en="Compare All Plans ▾">詳細比較三種方案 ▾</button>
+        <table class="compare-table hidden">
+          <thead>
+            <tr>
+              <th data-zh="內容" data-en="Content">內容</th>
+              <th><span class="tag tag-tutorial" data-zh="教" data-en="T">教</span> <span data-zh="教學包" data-en="Tutorial">教學包</span></th>
+              <th data-zh="組合包" data-en="Combo">組合包</th>
+              <th><span class="tag tag-soul" data-zh="魂" data-en="S">魂</span> <span data-zh="靈魂包" data-en="Soul">靈魂包</span></th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr><td data-zh="18 章 PDF 指南" data-en="18-Chapter PDF Guide">18 章 PDF 指南</td><td>✅</td><td>✅</td><td>—</td></tr>
+            <tr><td data-zh="3 附錄速查表" data-en="3 Appendix Quick Refs">3 附錄速查表</td><td>✅</td><td>✅</td><td>—</td></tr>
+            <tr><td data-zh="10 代理定義檔" data-en="10 Agent Definitions">10 代理定義檔</td><td>—</td><td>✅</td><td>✅</td></tr>
+            <tr><td data-zh="Skills 模板庫" data-en="Skills Templates">Skills 模板庫</td><td>—</td><td>✅</td><td>✅</td></tr>
+            <tr><td data-zh="Rules 規則系統" data-en="Rules System">Rules 規則系統</td><td>—</td><td>✅</td><td>✅</td></tr>
+            <tr><td data-zh="Start 啟動模板" data-en="Start Template">Start 啟動模板</td><td>—</td><td>✅</td><td>✅</td></tr>
+            <tr><td data-zh="MEMORY 記憶結構" data-en="MEMORY Structure">MEMORY 記憶結構</td><td>—</td><td>✅</td><td>✅</td></tr>
+            <tr><td data-zh="Hooks 配置" data-en="Hooks Config">Hooks 配置</td><td>—</td><td>✅</td><td>✅</td></tr>
+            <tr><td data-zh="三角制衡流程" data-en="Triangle Check Process">三角制衡流程</td><td>—</td><td>✅</td><td>✅</td></tr>
+            <tr class="tr-price">
+              <td data-zh="綠界定價" data-en="ECPay Pricing">綠界定價</td>
+              <td>NT$<strong>499</strong></td>
+              <td><strong>NT$999</strong></td>
+              <td>NT$<strong>649</strong></td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== FAQ ========== -->
+  <section class="faq" id="faq">
+    <div class="container">
+      <h2 class="section-title" data-zh="常見問題" data-en="FAQ">常見問題</h2>
+      <div class="faq-list">
+
+        <details class="faq-item">
+          <summary data-zh="我不是工程師，適合嗎？" data-en="I'm not an engineer. Is this for me?">我不是工程師，適合嗎？</summary>
+          <p data-zh-html="適合。這份指南寫給「任何想動手做、但不知道怎麼開始」的人。<br />只要你用過 AI 工具或打算嘗試，就能從中獲益。" data-en-html="Yes. This guide is for anyone who wants to build but doesn't know where to start.<br />If you've used AI tools or plan to, you'll benefit.">適合。這份指南寫給「任何想動手做、但不知道怎麼開始」的人。<br />只要你用過 AI 工具或打算嘗試，就能從中獲益。</p>
+        </details>
+
+        <details class="faq-item">
+          <summary data-zh="靈魂包的檔案格式是什麼？" data-en="What format are the Soul Pack files?">靈魂包的檔案格式是什麼？</summary>
+          <p data-zh-html="在靈魂包資料夾開啟 Claude Code，大總管會自動問你名字、幫你安裝好一切。<br />不需要手動複製任何檔案，也不需要安裝額外工具。" data-en-html="Open Claude Code in the Soul Pack folder. The Manager will automatically ask your name and set everything up.<br />No manual copying, no extra tools needed.">在靈魂包資料夾開啟 Claude Code，大總管會自動問你名字、幫你安裝好一切。<br />不需要手動複製任何檔案，也不需要安裝額外工具。</p>
+        </details>
+
+        <details class="faq-item">
+          <summary data-zh="購買後怎麼取得？" data-en="How do I get it after purchase?">購買後怎麼取得？</summary>
+          <p data-zh-html="本站台灣付款使用綠界金流，國際付款使用 Lemon Squeezy。<br />購買後立即提供下載連結和寄送到你的 Email。" data-en-html="Taiwan payments via ECPay, international via Lemon Squeezy.<br />Download link provided immediately after payment, also sent to your email.">本站台灣付款使用綠界金流，國際付款使用 Lemon Squeezy。<br />購買後立即提供下載連結和寄送到你的 Email。</p>
+        </details>
+
+        <details class="faq-item">
+          <summary data-zh="教學包和靈魂包有什麼差別？" data-en="What's the difference between Tutorial and Soul Pack?">教學包和靈魂包有什麼差別？</summary>
+          <p data-zh-html="教學包是「知識」— 理解為什麼要這樣架構、各種決策背後的原因。<br />靈魂包是「工具」— 可以直接複製部署的配置檔案。<br />如果預算允許，組合包是最完整的選擇。" data-en-html="Tutorial Pack is &ldquo;knowledge&rdquo; — understand the architecture and reasoning behind every decision.<br />Soul Pack is &ldquo;tools&rdquo; — production-ready config files you can deploy immediately.<br />If budget allows, Combo Pack is the most complete choice.">教學包是「知識」— 理解為什麼要這樣架構、各種決策背後的原因。<br />靈魂包是「工具」— 可以直接複製部署的配置檔案。<br />如果預算允許，組合包是最完整的選擇。</p>
+        </details>
+
+        <details class="faq-item">
+          <summary data-zh="綠界和 Lemon Squeezy 有什麼差別？" data-en="What's the difference between ECPay and Lemon Squeezy?">綠界和 Lemon Squeezy 有什麼差別？</summary>
+          <p data-zh-html="內容完全相同。綠界適合台灣用戶，支援台灣信用卡和轉帳。<br />Lemon Squeezy 為國際版，以美元計價。" data-en-html="Identical content. ECPay supports Taiwan credit cards and bank transfer.<br />Lemon Squeezy is international, priced in USD.">內容完全相同。綠界適合台灣用戶，支援台灣信用卡和轉帳。<br />Lemon Squeezy 為國際版，以美元計價。</p>
+        </details>
+
+        <details class="faq-item">
+          <summary data-zh="可以退款嗎？" data-en="Can I get a refund?">可以退款嗎？</summary>
+          <p data-zh-html="數位商品購買後恕不退款。如果有任何問題，歡迎先透過 contact@solobuild.dev 聯繫。" data-en-html="Digital products are non-refundable. For any questions, please contact contact@solobuild.dev first.">數位商品購買後恕不退款。如果有任何問題，歡迎先透過 contact@solobuild.dev 聯繫。</p>
+        </details>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== FINAL CTA ========== -->
+  <section class="final-cta">
+    <div class="container final-cta-inner">
+      <h2 data-zh="準備好少折騰 200 小時了嗎？" data-en="Ready to Save 200 Hours of Trial and Error?">準備好少折騰 200 小時了嗎？</h2>
+      <p data-zh="一個下午讀完，當天晚上就能部署。" data-en="Read in an afternoon, deploy by evening.">一個下午讀完，當天晚上就能部署。</p>
+      <div class="final-cta-buttons">
+        <a href="#buy-teaching" class="btn btn-outline-light" data-zh="教學包 NT$499" data-en="Tutorial $16.99">教學包 NT$499</a>
+        <a href="#buy-soul" class="btn btn-outline-light" data-zh="靈魂包 NT$649" data-en="Soul $21.99">靈魂包 NT$649</a>
+        <a href="#buy-combo" class="btn btn-primary-light" data-zh="組合包 NT$999（最超值）" data-en="Combo $32.99 (Best Value)">組合包 NT$999（最超值）</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== FOOTER ========== -->
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <div class="footer-brand">
+        <span class="brand-logo">SoloBuild</span>
+        <p data-zh="由一個獨立開發者，為另一個獨立開發者打造。" data-en="Built by a solo builder, for solo builders.">由一個獨立開發者，為另一個獨立開發者打造。</p>
+      </div>
+      <div class="footer-links">
+        <a href="mailto:contact@solobuild.dev" data-zh="聯絡我們" data-en="Contact Us">聯絡我們</a>
+        <a href="#pricing" data-zh="購買方案" data-en="Buy">購買方案</a>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <div class="container">
+        <p>© 2026 SoloBuild. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="main.js"></script>
+</body>
+</html>
