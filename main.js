@@ -4,7 +4,6 @@ document.addEventListener('DOMContentLoaded', () => {
 
   // ---- Language state (must be declared early) ----
   const langBtn = document.querySelector('.lang-toggle');
-  const platformBtns = document.querySelectorAll('.platform-btn');
   let currentLang = localStorage.getItem('solobuild-lang') || 'zh';
 
   function setLang(lang) {
@@ -22,24 +21,6 @@ document.addEventListener('DOMContentLoaded', () => {
       langBtn.textContent = lang === 'zh' ? '中 / EN' : 'EN / 中';
       langBtn.classList.toggle('active-en', lang === 'en');
     }
-    // 英文版預設國際定價，中文版預設台灣定價
-    const platform = lang === 'en' ? 'intl' : 'tw';
-    document.querySelectorAll('.price-tw').forEach(el => {
-      el.classList.toggle('hidden', platform !== 'tw');
-    });
-    document.querySelectorAll('.price-intl').forEach(el => {
-      el.classList.toggle('hidden', platform !== 'intl');
-    });
-    document.querySelectorAll('.orig-tw').forEach(el => {
-      el.classList.toggle('hidden', platform !== 'tw');
-    });
-    document.querySelectorAll('.orig-intl').forEach(el => {
-      el.classList.toggle('hidden', platform !== 'intl');
-    });
-    // 同步 platform 按鈕狀態
-    platformBtns.forEach(b => {
-      b.classList.toggle('active', b.dataset.platform === platform);
-    });
   }
 
   if (langBtn) {
@@ -68,29 +49,35 @@ document.addEventListener('DOMContentLoaded', () => {
   });
 
   // ---- Platform toggle (TW / International) ----
-  // platformBtns already declared above
+  const platformBtns = document.querySelectorAll('.platform-btn');
+
+  function applyPlatform(platform) {
+    platformBtns.forEach(b => b.classList.toggle('active', b.dataset.platform === platform));
+
+    // Toggle price displays
+    document.querySelectorAll('.price-tw').forEach(el => {
+      el.classList.toggle('hidden', platform !== 'tw');
+    });
+    document.querySelectorAll('.price-intl').forEach(el => {
+      el.classList.toggle('hidden', platform !== 'intl');
+    });
+    document.querySelectorAll('.orig-tw').forEach(el => {
+      el.classList.toggle('hidden', platform !== 'tw');
+    });
+    document.querySelectorAll('.orig-intl').forEach(el => {
+      el.classList.toggle('hidden', platform !== 'intl');
+    });
+
+    // Swap buy button hrefs and lemonsqueezy-button class
+    document.querySelectorAll('[data-href-tw][data-href-intl]').forEach(el => {
+      const href = platform === 'intl' ? el.dataset.hrefIntl : el.dataset.hrefTw;
+      el.setAttribute('href', href);
+      el.classList.toggle('lemonsqueezy-button', platform === 'intl');
+    });
+  }
 
   platformBtns.forEach(btn => {
-    btn.addEventListener('click', () => {
-      const platform = btn.dataset.platform;
-
-      platformBtns.forEach(b => b.classList.remove('active'));
-      btn.classList.add('active');
-
-      // Toggle price displays
-      document.querySelectorAll('.price-tw').forEach(el => {
-        el.classList.toggle('hidden', platform !== 'tw');
-      });
-      document.querySelectorAll('.price-intl').forEach(el => {
-        el.classList.toggle('hidden', platform !== 'intl');
-      });
-      document.querySelectorAll('.orig-tw').forEach(el => {
-        el.classList.toggle('hidden', platform !== 'tw');
-      });
-      document.querySelectorAll('.orig-intl').forEach(el => {
-        el.classList.toggle('hidden', platform !== 'intl');
-      });
-    });
+    btn.addEventListener('click', () => applyPlatform(btn.dataset.platform));
   });
 
   // ---- Compare table toggle ----
