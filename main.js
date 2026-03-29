@@ -1,4 +1,4 @@
-/* SoloBuild Landing Page — main.js */
+/* SoloBuildTW Landing Page — main.js */
 
 document.addEventListener('DOMContentLoaded', () => {
 
