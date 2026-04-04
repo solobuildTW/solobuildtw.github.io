@@ -22,6 +22,21 @@ document.addEventListener('DOMContentLoaded', () => {
       langBtn.textContent = lang === 'zh' ? '中 / EN' : 'EN / 中';
       langBtn.classList.toggle('active-en', lang === 'en');
     }
+    document.title = lang === 'en'
+      ? 'Claude Code Experience Pack — SoloBuildTW'
+      : 'Claude Code 經驗包 — SoloBuildTW';
+    const metaDesc = document.querySelector('meta[name="description"]');
+    if (metaDesc) metaDesc.content = lang === 'en'
+      ? 'Your colleagues are already using AI. No coding needed — 10 AI roles start working for you tonight. Tutorial $16.99 / Soul $21.99 / Combo $32.99.'
+      : '你的同事已經在用 AI 了，你呢？不用寫程式、不用懂技術，今晚就能讓 AI 開始幫你做事。早鳥限定：教學包 NT$499 / 靈魂包 NT$649 / 組合包 NT$999。';
+    const ogTitle = document.querySelector('meta[property="og:title"]');
+    if (ogTitle) ogTitle.content = lang === 'en'
+      ? 'Claude Code Experience Pack — SoloBuildTW'
+      : 'Claude Code 經驗包 — SoloBuildTW';
+    const ogDesc = document.querySelector('meta[property="og:description"]');
+    if (ogDesc) ogDesc.content = lang === 'en'
+      ? 'Your colleagues are already using AI. No coding needed — let AI start working for you tonight.'
+      : '你的同事已經在用 AI 了，你呢？不用寫程式、不用懂技術，今晚就能讓 AI 開始幫你做事。';
   }
 
   if (langBtn) {
