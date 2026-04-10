@@ -99,16 +99,61 @@ document.addEventListener('DOMContentLoaded', () => {
   // Auto-select International when lang=en
   if (currentLang === 'en') applyPlatform('intl');
 
-  // ---- GA4 begin_checkout tracking ----
+  // ---- Checkout via CF Worker (TW) or LemonSqueezy (INTL) ----
+  const CF_WORKER = 'https://solobuild-pay.harvey3630.workers.dev';
+  const PRODUCT_MAP = { teaching: 'handbook', soul: 'soulpack', combo: 'combo' };
+
+  async function checkoutTW(productId, btnEl) {
+    const mapped = PRODUCT_MAP[productId] || productId;
+    btnEl.textContent = '處理中...';
+    btnEl.style.pointerEvents = 'none';
+    try {
+      const res = await fetch(`${CF_WORKER}/api/checkout`, {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ product: mapped, ref: '', email: '' })
+      });
+      const data = await res.json();
+      if (!res.ok) throw new Error(data.error || 'Checkout failed');
+      // Create hidden form and submit to NewebPay
+      const form = document.createElement('form');
+      form.method = 'POST';
+      form.action = data.PaymentURL;
+      ['MerchantID', 'TradeInfo', 'TradeSha', 'Version'].forEach(k => {
+        const input = document.createElement('input');
+        input.type = 'hidden';
+        input.name = k;
+        input.value = data[k];
+        form.appendChild(input);
+      });
+      document.body.appendChild(form);
+      form.submit();
+    } catch (err) {
+      alert('付款頁面載入失敗，請稍後再試。');
+      btnEl.textContent = btnEl.getAttribute('data-' + currentLang) || '購買';
+      btnEl.style.pointerEvents = '';
+    }
+  }
+
   document.querySelectorAll('[data-href-tw][data-href-intl]').forEach(el => {
-    el.addEventListener('click', () => {
-      const product = el.closest('[data-product]');
-      const productId = product ? product.dataset.product : 'unknown';
+    el.addEventListener('click', (e) => {
+      const card = el.closest('[data-product]');
+      const productId = card ? card.dataset.product : 'unknown';
+
+      // GA4 tracking
       if (typeof gtag === 'function') {
         gtag('event', 'begin_checkout', {
           items: [{ item_id: productId, item_name: el.textContent.trim() }]
         });
       }
+
+      // If TW platform selected, use CF Worker checkout instead of EPG link
+      const isTW = !el.classList.contains('lemonsqueezy-button');
+      if (isTW) {
+        e.preventDefault();
+        checkoutTW(productId, el);
+      }
+      // INTL: let LemonSqueezy handle normally via href
     });
   });
 
