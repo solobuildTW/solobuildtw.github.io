@@ -163,13 +163,9 @@ document.addEventListener('DOMContentLoaded', () => {
         });
       }
 
-      // If TW platform selected, use CF Worker checkout instead of EPG link
-      const isTW = !el.classList.contains('lemonsqueezy-button');
-      if (isTW) {
-        e.preventDefault();
-        checkoutTW(productId, el);
-      }
-      // INTL: let LemonSqueezy handle normally via href
+      // All payments go through CF Worker (藍新) — EPG links are 403
+      e.preventDefault();
+      checkoutTW(productId, el);
     });
   });
 

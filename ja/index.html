@@ -589,17 +589,77 @@
         });
       }
 
-      // ---- GA4 Purchase Click Tracking ----
+      // ---- Affiliate ref tracking ----
+      (function captureRef() {
+        const params = new URLSearchParams(window.location.search);
+        const urlRef = params.get('ref');
+        if (urlRef && urlRef.trim().length > 0) {
+          sessionStorage.setItem('solobuild-ref', urlRef.trim());
+        }
+      })();
+
+      function getRef() {
+        return sessionStorage.getItem('solobuild-ref') || '';
+      }
+
+      // ---- CF Worker checkout (藍新) ----
+      const CF_WORKER = 'https://solobuild-pay.harvey3630.workers.dev';
+      const PRODUCT_MAP = {
+        'buy-teaching': 'handbook', 'teaching': 'handbook',
+        'buy-soul': 'soulpack', 'soul': 'soulpack',
+        'buy-combo': 'combo', 'combo': 'combo'
+      };
+
+      async function checkoutJA(productId, btnEl) {
+        const mapped = PRODUCT_MAP[productId] || productId;
+        const ref = getRef();
+        const originalText = btnEl.textContent;
+        btnEl.textContent = '処理中...';
+        btnEl.style.pointerEvents = 'none';
+        try {
+          const res = await fetch(`${CF_WORKER}/api/checkout`, {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify({ product: mapped, ref: ref, email: '' })
+          });
+          const data = await res.json();
+          if (!res.ok) throw new Error(data.error || 'Checkout failed');
+          const form = document.createElement('form');
+          form.method = 'POST';
+          form.action = data.PaymentURL;
+          ['MerchantID', 'TradeInfo', 'TradeSha', 'Version'].forEach(k => {
+            const input = document.createElement('input');
+            input.type = 'hidden';
+            input.name = k;
+            input.value = data[k];
+            form.appendChild(input);
+          });
+          document.body.appendChild(form);
+          form.submit();
+        } catch (err) {
+          alert('決済ページの読み込みに失敗しました。もう一度お試しください。');
+          btnEl.textContent = originalText;
+          btnEl.style.pointerEvents = '';
+        }
+      }
+
+      // ---- Intercept all purchase links ----
       document.querySelectorAll('a[id^="buy-"], a.btn-primary, a.btn-combo, a.btn-outline-light, a.btn-primary-light').forEach(function(btn) {
-        btn.addEventListener('click', function() {
-          var card = this.closest('.pricing-card');
-          var product = card ? (card.id || card.dataset.product || this.textContent.trim()) : this.textContent.trim();
+        btn.addEventListener('click', function(e) {
+          var card = this.closest('.pricing-card, [data-product]');
+          var product = card ? (card.id || card.dataset.product || 'unknown') : 'unknown';
+
+          // GA4 tracking
           if (typeof gtag === 'function') {
-            gtag('event', 'purchase_click', {
+            gtag('event', 'begin_checkout', {
               'event_category': 'conversion',
               'event_label': 'ja_' + product
             });
           }
+
+          // All payments go through CF Worker (藍新)
+          e.preventDefault();
+          checkoutJA(product, this);
         });
       });
     });
