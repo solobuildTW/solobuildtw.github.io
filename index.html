@@ -31,9 +31,6 @@
     gtag('js', new Date());
     gtag('config', 'G-DWXVFMH12H');
   </script>
-  <!-- Lemon Squeezy Affiliate Tracking -->
-  <script>window.lemonSqueezyAffiliateConfig = { store: "solobuildtw" };</script>
-  <script src="https://lmsqueezy.com/affiliate.js" defer></script>
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
@@ -86,6 +83,23 @@
       }
     ]
   }
+  </script>
+  <!-- GA4 Purchase Click Tracking -->
+  <script>
+    document.addEventListener('DOMContentLoaded', function() {
+      document.querySelectorAll('a[id^="buy-"], a.btn-primary, a.btn-combo, a.btn-outline-light, a.btn-primary-light').forEach(function(btn) {
+        btn.addEventListener('click', function() {
+          var card = this.closest('.pricing-card');
+          var product = card ? (card.id || card.dataset.product || this.textContent.trim()) : this.textContent.trim();
+          if (typeof gtag === 'function') {
+            gtag('event', 'purchase_click', {
+              'event_category': 'conversion',
+              'event_label': product
+            });
+          }
+        });
+      });
+    });
   </script>
 </head>
 <body>
@@ -302,7 +316,7 @@
 
         <div class="platform-toggle">
           <button class="platform-btn active" data-platform="tw" data-zh="台灣（藍新）" data-en="Taiwan (藍新)">台灣（藍新）</button>
-          <button class="platform-btn" data-platform="intl" data-zh="國際（Lemon Squeezy）" data-en="International (Lemon Squeezy)">國際（Lemon Squeezy）</button>
+          <button class="platform-btn" data-platform="intl" data-zh="信用卡 / 轉帳" data-en="Credit Card / Transfer">信用卡 / 轉帳</button>
         </div>
       </div>
 
@@ -336,7 +350,7 @@
             <li data-zh="Token 成本控管（實測省 50%）" data-en="Token Cost Control (Tested: 50% Savings)">Token 成本控管（實測省 50%）</li>
             <li data-zh="30+ 個真實錯誤案例" data-en="30+ Real Error Case Studies">30+ 個真實錯誤案例</li>
           </ul>
-          <a href="https://core.newebpay.com/EPG/Solobuildtw/qwz830" class="btn btn-primary btn-full" data-zh="購買教學包" data-en="Buy Tutorial Pack" data-href-tw="https://core.newebpay.com/EPG/Solobuildtw/qwz830" data-href-intl="https://solobuild.lemonsqueezy.com/checkout/buy/387dbd23-83d0-4cd4-82db-063989bbfb29">購買教學包</a>
+          <a href="https://core.newebpay.com/EPG/Solobuildtw/qwz830" class="btn btn-primary btn-full" data-zh="購買教學包" data-en="Buy Tutorial Pack" data-href-tw="https://core.newebpay.com/EPG/Solobuildtw/qwz830" data-href-intl="https://core.newebpay.com/EPG/Solobuildtw/qwz830">購買教學包</a>
         </div>
 
         <!-- Combo Pack（中間，最多人選） -->
@@ -367,7 +381,7 @@
             <li data-zh="理解 + 配置，不是盲目複製" data-en="Understand + configure, not blindly copy">理解 + 配置，不是盲目複製</li>
             <li data-zh="未來更新免費獲取" data-en="Free future updates">未來更新免費獲取</li>
           </ul>
-          <a href="https://core.newebpay.com/EPG/Solobuildtw/fpNsoe" class="btn btn-combo btn-full" data-zh="購買組合包（最超值）" data-en="Buy Combo Pack (Best Value)" data-href-tw="https://core.newebpay.com/EPG/Solobuildtw/fpNsoe" data-href-intl="https://solobuild.lemonsqueezy.com/checkout/buy/0a7a320a-da27-44d8-b938-8df8a17ee3ef">購買組合包（最超值）</a>
+          <a href="https://core.newebpay.com/EPG/Solobuildtw/fpNsoe" class="btn btn-combo btn-full" data-zh="購買組合包（最超值）" data-en="Buy Combo Pack (Best Value)" data-href-tw="https://core.newebpay.com/EPG/Solobuildtw/fpNsoe" data-href-intl="https://core.newebpay.com/EPG/Solobuildtw/fpNsoe">購買組合包（最超值）</a>
         </div>
 
         <!-- Soul Pack -->
@@ -400,7 +414,7 @@
             <li data-zh="Hooks 前後置配置" data-en="Hooks Pre/Post Configuration">Hooks 前後置配置</li>
             <li data-zh="三角制衡決策流程" data-en="Triangle Check Decision Process">三角制衡決策流程</li>
           </ul>
-          <a href="https://core.newebpay.com/EPG/Solobuildtw/4Pmrjp" class="btn btn-primary btn-full" data-zh="購買靈魂包" data-en="Buy Soul Pack" data-href-tw="https://core.newebpay.com/EPG/Solobuildtw/4Pmrjp" data-href-intl="https://solobuild.lemonsqueezy.com/checkout/buy/6b021c97-5a28-4057-af77-5268419c23f9">購買靈魂包</a>
+          <a href="https://core.newebpay.com/EPG/Solobuildtw/4Pmrjp" class="btn btn-primary btn-full" data-zh="購買靈魂包" data-en="Buy Soul Pack" data-href-tw="https://core.newebpay.com/EPG/Solobuildtw/4Pmrjp" data-href-intl="https://core.newebpay.com/EPG/Solobuildtw/4Pmrjp">購買靈魂包</a>
         </div>
 
       </div>
@@ -463,7 +477,7 @@
 
         <details class="faq-item">
           <summary data-zh="購買後怎麼取得？" data-en="How do I get it after purchase?">購買後怎麼取得？</summary>
-          <p data-zh-html="台灣付款使用藍新金流，支援信用卡及轉帳。國際付款使用 Lemon Squeezy 安全金流。<br />購買後立即提供下載連結和寄送到你的 Email。" data-en-html="Taiwan payments via 藍新金流 (credit card &amp; bank transfer). International via Lemon Squeezy secure checkout.<br />Download link provided immediately after payment, also sent to your email.">台灣付款使用藍新金流，支援信用卡及轉帳。國際付款使用 Lemon Squeezy 安全金流。<br />購買後立即提供下載連結和寄送到你的 Email。</p>
+          <p data-zh-html="付款使用藍新金流，支援信用卡及銀行轉帳。<br />購買後立即提供下載連結和寄送到你的 Email。" data-en-html="All payments via 藍新金流 (credit card &amp; bank transfer).<br />Download link provided immediately after payment, also sent to your email.">付款使用藍新金流，支援信用卡及銀行轉帳。<br />購買後立即提供下載連結和寄送到你的 Email。</p>
         </details>
 
         <details class="faq-item">
@@ -473,7 +487,7 @@
 
         <details class="faq-item">
           <summary data-zh="台灣版和國際版有什麼差別？" data-en="What's the difference between TW and International version?">台灣版和國際版有什麼差別？</summary>
-          <p data-zh-html="內容完全相同。台灣版以新台幣計價，透過藍新金流付款，支援信用卡及銀行轉帳。國際版以美元計價，透過 Lemon Squeezy 安全付款。" data-en-html="Identical content. TW version is priced in TWD via 藍新金流 (credit card &amp; bank transfer). International in USD via Lemon Squeezy secure checkout.">內容完全相同。台灣版以新台幣計價，透過藍新金流付款，支援信用卡及銀行轉帳。國際版以美元計價，透過 Lemon Squeezy 安全付款。</p>
+          <p data-zh-html="內容完全相同。所有方案統一使用藍新金流付款，支援信用卡及銀行轉帳。" data-en-html="Identical content. All plans use 藍新金流 for payment (credit card &amp; bank transfer).">內容完全相同。所有方案統一使用藍新金流付款，支援信用卡及銀行轉帳。</p>
         </details>
 
         <details class="faq-item">
@@ -491,9 +505,9 @@
       <h2 data-zh="準備好讓你的 AI 團隊幫你上工了嗎？" data-en="Ready to Put Your AI Team to Work?">準備好讓你的 AI 團隊幫你上工了嗎？</h2>
       <p data-zh="兩小時看完，今晚你的 10 個 AI 就能各就各位，開始替你做事。" data-en="Read in two hours. Tonight, your 10 AIs get into position and start working for you.">兩小時看完，今晚你的 10 個 AI 就能各就各位，開始替你做事。</p>
       <div class="final-cta-buttons">
-        <a href="https://core.newebpay.com/EPG/Solobuildtw/qwz830" class="btn btn-outline-light" data-zh="教學包 NT$499" data-en="Tutorial $16.99" data-href-tw="https://core.newebpay.com/EPG/Solobuildtw/qwz830" data-href-intl="https://solobuild.lemonsqueezy.com/checkout/buy/387dbd23-83d0-4cd4-82db-063989bbfb29">教學包 NT$499</a>
-        <a href="https://core.newebpay.com/EPG/Solobuildtw/4Pmrjp" class="btn btn-outline-light" data-zh="靈魂包 NT$649" data-en="Soul $21.99" data-href-tw="https://core.newebpay.com/EPG/Solobuildtw/4Pmrjp" data-href-intl="https://solobuild.lemonsqueezy.com/checkout/buy/6b021c97-5a28-4057-af77-5268419c23f9">靈魂包 NT$649</a>
-        <a href="https://core.newebpay.com/EPG/Solobuildtw/fpNsoe" class="btn btn-primary-light" data-zh="組合包 NT$999（最超值）" data-en="Combo $32.99 (Best Value)" data-href-tw="https://core.newebpay.com/EPG/Solobuildtw/fpNsoe" data-href-intl="https://solobuild.lemonsqueezy.com/checkout/buy/0a7a320a-da27-44d8-b938-8df8a17ee3ef">組合包 NT$999（最超值）</a>
+        <a href="https://core.newebpay.com/EPG/Solobuildtw/qwz830" class="btn btn-outline-light" data-zh="教學包 NT$499" data-en="Tutorial $16.99" data-href-tw="https://core.newebpay.com/EPG/Solobuildtw/qwz830" data-href-intl="https://core.newebpay.com/EPG/Solobuildtw/qwz830">教學包 NT$499</a>
+        <a href="https://core.newebpay.com/EPG/Solobuildtw/4Pmrjp" class="btn btn-outline-light" data-zh="靈魂包 NT$649" data-en="Soul $21.99" data-href-tw="https://core.newebpay.com/EPG/Solobuildtw/4Pmrjp" data-href-intl="https://core.newebpay.com/EPG/Solobuildtw/4Pmrjp">靈魂包 NT$649</a>
+        <a href="https://core.newebpay.com/EPG/Solobuildtw/fpNsoe" class="btn btn-primary-light" data-zh="組合包 NT$999（最超值）" data-en="Combo $32.99 (Best Value)" data-href-tw="https://core.newebpay.com/EPG/Solobuildtw/fpNsoe" data-href-intl="https://core.newebpay.com/EPG/Solobuildtw/fpNsoe">組合包 NT$999（最超值）</a>
       </div>
     </div>
   </section>
@@ -520,7 +534,6 @@
     </div>
   </footer>
 
-  <script src="https://assets.lemonsqueezy.com/lemon.js" defer></script>
   <script src="main.js"></script>
 </body>
 </html>
