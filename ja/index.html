@@ -90,7 +90,7 @@
   <!-- GA4 Purchase Click Tracking -->
   <script>
     document.addEventListener('DOMContentLoaded', function() {
-      document.querySelectorAll('a[id^="buy-"], a.btn-primary, a.btn-combo, a.btn-outline-light, a.btn-primary-light').forEach(function(btn) {
+      document.querySelectorAll('.pricing-card a.btn-primary, .pricing-card a.btn-combo, .final-cta-buttons a').forEach(function(btn) {
         btn.addEventListener('click', function() {
           var card = this.closest('.pricing-card');
           var product = card ? (card.id || card.dataset.product || this.textContent.trim()) : this.textContent.trim();
@@ -506,9 +506,9 @@
       <h2>AI チームに働いてもらう準備はできていますか？</h2>
       <p>2 時間で読み終わり、今夜には 10 種類の AI が各ポジションにつき、あなたのために動き始めます。</p>
       <div class="final-cta-buttons">
-        <a href="https://core.newebpay.com/EPG/Solobuildtw/qwz830" class="btn btn-outline-light lemonsqueezy-button">経験パック $16.99</a>
-        <a href="https://core.newebpay.com/EPG/Solobuildtw/4Pmrjp" class="btn btn-outline-light lemonsqueezy-button">ソウルパック $21.99</a>
-        <a href="https://core.newebpay.com/EPG/Solobuildtw/fpNsoe" class="btn btn-primary-light lemonsqueezy-button">セットパック $32.99（最もお得）</a>
+        <a href="#" class="btn btn-outline-light" data-product="teaching">経験パック $16.99</a>
+        <a href="#" class="btn btn-outline-light" data-product="soul">ソウルパック $21.99</a>
+        <a href="#" class="btn btn-primary-light" data-product="combo">セットパック $32.99（最もお得）</a>
       </div>
     </div>
   </section>
@@ -644,7 +644,7 @@
       }
 
       // ---- Intercept all purchase links ----
-      document.querySelectorAll('a[id^="buy-"], a.btn-primary, a.btn-combo, a.btn-outline-light, a.btn-primary-light').forEach(function(btn) {
+      document.querySelectorAll('.pricing-card a.btn-primary, .pricing-card a.btn-combo, .final-cta-buttons a').forEach(function(btn) {
         btn.addEventListener('click', function(e) {
           var card = this.closest('.pricing-card, [data-product]');
           var product = card ? (card.id || card.dataset.product || 'unknown') : 'unknown';

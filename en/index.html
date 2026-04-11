@@ -90,7 +90,7 @@
   <!-- GA4 Purchase Click Tracking -->
   <script>
     document.addEventListener('DOMContentLoaded', function() {
-      document.querySelectorAll('a[id^="buy-"], a.btn-primary, a.btn-combo, a.btn-outline-light, a.btn-primary-light').forEach(function(btn) {
+      document.querySelectorAll('.pricing-card a.btn-primary, .pricing-card a.btn-combo, .final-cta-buttons a').forEach(function(btn) {
         btn.addEventListener('click', function() {
           var card = this.closest('.pricing-card');
           var product = card ? (card.id || card.dataset.product || this.textContent.trim()) : this.textContent.trim();
@@ -643,7 +643,7 @@
       }
 
       // ---- Intercept all purchase links ----
-      document.querySelectorAll('a[id^="buy-"], a.btn-primary, a.btn-combo, a.btn-outline-light, a.btn-primary-light').forEach(function(btn) {
+      document.querySelectorAll('.pricing-card a.btn-primary, .pricing-card a.btn-combo, .final-cta-buttons a').forEach(function(btn) {
         btn.addEventListener('click', function(e) {
           var card = this.closest('.pricing-card, [data-product]');
           var product = card ? (card.id || card.dataset.product || 'unknown') : 'unknown';
