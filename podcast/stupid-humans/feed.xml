@@ -7,7 +7,7 @@
     <description>人類到底有多蠢？阿佑翻遍歷史與新聞，每集挖出一個讓你又笑又傻眼的真實蠢事。</description>
     <copyright>© 2026 阿佑</copyright>
     <generator>SoloBuildTW Podcast RSS Generator v2</generator>
-    <lastBuildDate>Sat, 11 Apr 2026 01:09:15 -0000</lastBuildDate>
+    <lastBuildDate>Sat, 11 Apr 2026 12:05:48 -0000</lastBuildDate>
     <atom:link href="https://solobuildtw.github.io/podcast/stupid-humans/feed.xml" rel="self" type="application/rss+xml"/>
     <itunes:title>史上最蠢人類</itunes:title>
     <itunes:author>阿佑</itunes:author>
@@ -28,6 +28,24 @@
       <link>https://solobuildtw.github.io/podcast/stupid-humans/</link>
     </image>
     <itunes:category text="Comedy"/>
+    <item>
+      <title>EP008 1932年澳洲軍隊帶著機關槍討伐鴯鶓，結果被鳥打敗，全面撤退。牠們的鳥羽毛甚至擋</title>
+      <description>1932年澳洲軍隊帶著機關槍討伐鴯鶓，結果被鳥打敗，全面撤退。牠們的鳥羽毛甚至擋得住機槍子彈。這場「鴯鶓戰爭」是真實發生的，澳洲官方記錄在案，沒有人為這件事感到驕傲。</description>
+      <pubDate>Sat, 11 Apr 2026 12:05:48 -0000</pubDate>
+      <guid>27282b02777e35c6950195906551aa67</guid>
+      <link>https://solobuildtw.github.io/podcast/stupid-humans/ep/008</link>
+      <enclosure url="https://solobuildtw.github.io/podcast/stupid-humans/audio/EP008_1932年澳洲軍隊帶著機關槍討伐鴯鶓，結果被鳥打敗，全面撤退.mp3" type="audio/mpeg" length="17475962"/>
+      <itunes:title>EP008 1932年澳洲軍隊帶著機關槍討伐鴯鶓，結果被鳥打敗，全面撤退。牠們的鳥羽毛甚至擋</itunes:title>
+      <itunes:author>阿佑</itunes:author>
+      <itunes:duration>00:12:08</itunes:duration>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:episode>8</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:summary>1932年澳洲軍隊帶著機關槍討伐鴯鶓，結果被鳥打敗，全面撤退。牠們的鳥羽毛甚至擋得住機槍子彈。這場「鴯鶓戰爭」是真實發生的，澳洲官方記錄在案，沒有人為這件事感到驕傲。</itunes:summary>
+      <itunes:subtitle>1932年澳洲軍隊帶著機關槍討伐鴯鶓，結果被鳥打敗，全面撤退。牠們的鳥羽毛甚至擋</itunes:subtitle>
+      <itunes:keywords>搞笑,蠢事,喜劇,台灣,真實故事</itunes:keywords>
+      <content:encoded><![CDATA[1932年澳洲軍隊帶著機關槍討伐鴯鶓，結果被鳥打敗，全面撤退。牠們的鳥羽毛甚至擋得住機槍子彈。這場「鴯鶓戰爭」是真實發生的，澳洲官方記錄在案，沒有人為這件事感到驕傲。]]></content:encoded>
+    </item>
     <item>
       <title>EP005 可口可樂砸了四百萬美元開發新配方，推出「新可樂」，結果七十九天之後被憤怒的消費者</title>
       <description>可口可樂砸了四百萬美元開發新配方，推出「新可樂」，結果七十九天之後被憤怒的消費者罵到不得不下架。一個百年品牌為了打敗百事，最後把自己搞成笑話。阿佑說，這叫做聰明過頭，蠢到家了。</description>

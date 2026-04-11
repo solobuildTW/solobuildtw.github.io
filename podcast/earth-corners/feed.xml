@@ -7,7 +7,7 @@
     <description>地球上有些角落你一輩子不會去，但故事精彩到值得聽完。熙熙帶你走訪冷門國家、邊境小鎮與被遺忘的文明。</description>
     <copyright>© 2026 熙熙</copyright>
     <generator>SoloBuildTW Podcast RSS Generator v2</generator>
-    <lastBuildDate>Sat, 11 Apr 2026 01:13:36 -0000</lastBuildDate>
+    <lastBuildDate>Sat, 11 Apr 2026 12:06:55 -0000</lastBuildDate>
     <atom:link href="https://solobuildtw.github.io/podcast/earth-corners/feed.xml" rel="self" type="application/rss+xml"/>
     <itunes:title>地球的角落</itunes:title>
     <itunes:author>熙熙</itunes:author>
@@ -30,6 +30,42 @@
     <itunes:category text="Society &amp; Culture">
       <itunes:category text="Places &amp; Travel"/>
     </itunes:category>
+    <item>
+      <title>EP014 熙熙帶你一起探索代奧米德群島：一座能親眼看見「明天」的昨日之島。在白令海峽的深處</title>
+      <description>熙熙帶你一起探索代奧米德群島：一座能親眼看見「明天」的昨日之島。在白令海峽的深處，也就是亞洲大陸與北美洲相望的那片遼闊海域裡，有兩座你可能從未聽</description>
+      <pubDate>Sat, 11 Apr 2026 12:06:55 -0000</pubDate>
+      <guid>0ebdd887510b0a6447754ee532eae96e</guid>
+      <link>https://solobuildtw.github.io/podcast/earth-corners/ep/014</link>
+      <enclosure url="https://solobuildtw.github.io/podcast/earth-corners/audio/EP014_熙熙帶你一起探索代奧米德群島：一座能親眼看見「明天」的昨日之.mp3" type="audio/mpeg" length="16765640"/>
+      <itunes:title>EP014 熙熙帶你一起探索代奧米德群島：一座能親眼看見「明天」的昨日之島。在白令海峽的深處</itunes:title>
+      <itunes:author>熙熙</itunes:author>
+      <itunes:duration>00:11:38</itunes:duration>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:episode>14</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:summary>熙熙帶你一起探索代奧米德群島：一座能親眼看見「明天」的昨日之島。在白令海峽的深處，也就是亞洲大陸與北美洲相望的那片遼闊海域裡，有兩座你可能從未聽</itunes:summary>
+      <itunes:subtitle>熙熙帶你一起探索代奧米德群島：一座能親眼看見「明天」的昨日之島。在白令海峽的深處</itunes:subtitle>
+      <itunes:keywords>旅遊,地理,冷門國家,文化,探索</itunes:keywords>
+      <content:encoded><![CDATA[熙熙帶你一起探索代奧米德群島：一座能親眼看見「明天」的昨日之島。在白令海峽的深處，也就是亞洲大陸與北美洲相望的那片遼闊海域裡，有兩座你可能從未聽]]></content:encoded>
+    </item>
+    <item>
+      <title>EP013 法羅群島，羊比人多，草皮屋頂從山坡上生長。熙熙帶你進入這片被北大西洋風雪雕刻的群</title>
+      <description>法羅群島，羊比人多，草皮屋頂從山坡上生長。熙熙帶你進入這片被北大西洋風雪雕刻的群島，感受那種與天氣共舞、與傳統共存的堅韌又浪漫的生命方式。</description>
+      <pubDate>Sat, 11 Apr 2026 12:06:22 -0000</pubDate>
+      <guid>b017052418d64d78764e03c762dd4c99</guid>
+      <link>https://solobuildtw.github.io/podcast/earth-corners/ep/013</link>
+      <enclosure url="https://solobuildtw.github.io/podcast/earth-corners/audio/EP013_法羅群島，羊比人多，草皮屋頂從山坡上生長。熙熙帶你進入這片被.mp3" type="audio/mpeg" length="17038359"/>
+      <itunes:title>EP013 法羅群島，羊比人多，草皮屋頂從山坡上生長。熙熙帶你進入這片被北大西洋風雪雕刻的群</itunes:title>
+      <itunes:author>熙熙</itunes:author>
+      <itunes:duration>00:11:49</itunes:duration>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:episode>13</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:summary>法羅群島，羊比人多，草皮屋頂從山坡上生長。熙熙帶你進入這片被北大西洋風雪雕刻的群島，感受那種與天氣共舞、與傳統共存的堅韌又浪漫的生命方式。</itunes:summary>
+      <itunes:subtitle>法羅群島，羊比人多，草皮屋頂從山坡上生長。熙熙帶你進入這片被北大西洋風雪雕刻的群</itunes:subtitle>
+      <itunes:keywords>旅遊,地理,冷門國家,文化,探索</itunes:keywords>
+      <content:encoded><![CDATA[法羅群島，羊比人多，草皮屋頂從山坡上生長。熙熙帶你進入這片被北大西洋風雪雕刻的群島，感受那種與天氣共舞、與傳統共存的堅韌又浪漫的生命方式。]]></content:encoded>
+    </item>
     <item>
       <title>EP011 在西班牙戈梅拉島，人們用口哨說話，哨音可以傳遞五公裡。熙熙帶你聆聽這種古老哨語的</title>
       <description>在西班牙戈梅拉島，人們用口哨說話，哨音可以傳遞五公裡。熙熙帶你聆聽這種古老哨語的誕生與復甦，感受一個社群如何用聲音把每個人緊緊編織在一起。</description>

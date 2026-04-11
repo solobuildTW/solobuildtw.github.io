@@ -7,7 +7,7 @@
     <description>深夜，一根蠟燭，一個故事。燭先生在黑暗中細語，帶你走進那些不能見光的怪談。</description>
     <copyright>© 2026 燭先生</copyright>
     <generator>SoloBuildTW Podcast RSS Generator v2</generator>
-    <lastBuildDate>Sat, 11 Apr 2026 01:17:34 -0000</lastBuildDate>
+    <lastBuildDate>Sat, 11 Apr 2026 12:07:28 -0000</lastBuildDate>
     <atom:link href="https://solobuildtw.github.io/podcast/candlelight-stories/feed.xml" rel="self" type="application/rss+xml"/>
     <itunes:title>燭光怪譚</itunes:title>
     <itunes:author>燭先生</itunes:author>
@@ -30,6 +30,24 @@
     <itunes:category text="Fiction">
       <itunes:category text="Horror"/>
     </itunes:category>
+    <item>
+      <title>EP011 江戶時代的紀伊國坂，一個男人在無燈的夜路遇見了掩面哭泣的女人。她轉過臉來，那裡沒</title>
+      <description>江戶時代的紀伊國坂，一個男人在無燈的夜路遇見了掩面哭泣的女人。她轉過臉來，那裡沒有眼睛，沒有鼻子，沒有嘴。日本怪談「無臉鬼」，用無聲的方式，瓦解你對這個世界的全部信任。</description>
+      <pubDate>Sat, 11 Apr 2026 12:07:28 -0000</pubDate>
+      <guid>282fc2c21433324f5f9e2a83263a608f</guid>
+      <link>https://solobuildtw.github.io/podcast/candlelight-stories/ep/011</link>
+      <enclosure url="https://solobuildtw.github.io/podcast/candlelight-stories/audio/EP011_江戶時代的紀伊國坂，一個男人在無燈的夜路遇見了掩面哭泣的女人.mp3" type="audio/mpeg" length="17335528"/>
+      <itunes:title>EP011 江戶時代的紀伊國坂，一個男人在無燈的夜路遇見了掩面哭泣的女人。她轉過臉來，那裡沒</itunes:title>
+      <itunes:author>燭先生</itunes:author>
+      <itunes:duration>00:12:02</itunes:duration>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:episode>11</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:summary>江戶時代的紀伊國坂，一個男人在無燈的夜路遇見了掩面哭泣的女人。她轉過臉來，那裡沒有眼睛，沒有鼻子，沒有嘴。日本怪談「無臉鬼」，用無聲的方式，瓦解你對這個世界的全部信任。</itunes:summary>
+      <itunes:subtitle>江戶時代的紀伊國坂，一個男人在無燈的夜路遇見了掩面哭泣的女人。她轉過臉來，那裡沒</itunes:subtitle>
+      <itunes:keywords>鬼故事,怪談,靈異,深夜,台灣</itunes:keywords>
+      <content:encoded><![CDATA[江戶時代的紀伊國坂，一個男人在無燈的夜路遇見了掩面哭泣的女人。她轉過臉來，那裡沒有眼睛，沒有鼻子，沒有嘴。日本怪談「無臉鬼」，用無聲的方式，瓦解你對這個世界的全部信任。]]></content:encoded>
+    </item>
     <item>
       <title>EP009 傍晚廟埕，夕陽把孩子們的影子拉得又細又長。古老的「影子鬼」遊戲，規則是只能在影子</title>
       <description>傍晚廟埕，夕陽把孩子們的影子拉得又細又長。古老的「影子鬼」遊戲，規則是只能在影子的範圍裡移動。遊戲進行到一半，孩子們數了數地面，五個孩子，六道影子。</description>

@@ -7,7 +7,7 @@
     <description>你知道嗎？世界上有些知識冷到讓人噴飯！芸芸每集帶來一個你從沒想過會想知道的冷知識，三分鐘讓你多一個嚇到朋友的話題。</description>
     <copyright>© 2026 芸芸</copyright>
     <generator>SoloBuildTW Podcast RSS Generator v2</generator>
-    <lastBuildDate>Sat, 11 Apr 2026 12:05:10 -0000</lastBuildDate>
+    <lastBuildDate>Sat, 11 Apr 2026 12:05:13 -0000</lastBuildDate>
     <atom:link href="https://solobuildtw.github.io/podcast/cold-knowledge/feed.xml" rel="self" type="application/rss+xml"/>
     <itunes:title>冷知識電波</itunes:title>
     <itunes:author>芸芸</itunes:author>
@@ -33,13 +33,13 @@
     <item>
       <title>EP013 1859年的卡靈頓事件讓全球電報係統大癱瘓，極光美到在赤道都看得見！芸芸帶你穿越</title>
       <description>1859年的卡靈頓事件讓全球電報係統大癱瘓，極光美到在赤道都看得見！芸芸帶你穿越時空重返那場百年太陽風暴，並揭開如果同樣的事件發生在今天，我們的科技文明將面臨什麼災難！</description>
-      <pubDate>Sat, 11 Apr 2026 12:05:10 -0000</pubDate>
+      <pubDate>Sat, 11 Apr 2026 12:05:13 -0000</pubDate>
       <guid>2fead4e8f10078f18b4ee4ee23eb2b5d</guid>
       <link>https://solobuildtw.github.io/podcast/cold-knowledge/ep/013</link>
-      <enclosure url="https://solobuildtw.github.io/podcast/cold-knowledge/audio/EP013_1859年的卡靈頓事件讓全球電報係統大癱瘓，極光美到在赤道都.mp3" type="audio/mpeg" length="9437184"/>
+      <enclosure url="https://solobuildtw.github.io/podcast/cold-knowledge/audio/EP013_1859年的卡靈頓事件讓全球電報係統大癱瘓，極光美到在赤道都.mp3" type="audio/mpeg" length="16987577"/>
       <itunes:title>EP013 1859年的卡靈頓事件讓全球電報係統大癱瘓，極光美到在赤道都看得見！芸芸帶你穿越</itunes:title>
       <itunes:author>芸芸</itunes:author>
-      <itunes:duration>00:06:44</itunes:duration>
+      <itunes:duration>00:11:47</itunes:duration>
       <itunes:explicit>no</itunes:explicit>
       <itunes:episode>13</itunes:episode>
       <itunes:episodeType>full</itunes:episodeType>
