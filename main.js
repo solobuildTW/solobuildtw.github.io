@@ -99,19 +99,35 @@ document.addEventListener('DOMContentLoaded', () => {
   // Auto-select International when lang=en
   if (currentLang === 'en') applyPlatform('intl');
 
+  // ---- Affiliate ref tracking ----
+  // Capture ref from URL on page load and persist in sessionStorage
+  // Handles: ?ref=REF001, combined params like ?ref=REF001&lang=en, missing ref
+  (function captureRef() {
+    const params = new URLSearchParams(window.location.search);
+    const urlRef = params.get('ref');
+    if (urlRef && urlRef.trim().length > 0) {
+      sessionStorage.setItem('solobuild-ref', urlRef.trim());
+    }
+  })();
+
+  function getRef() {
+    return sessionStorage.getItem('solobuild-ref') || '';
+  }
+
   // ---- Checkout via CF Worker (TW) or LemonSqueezy (INTL) ----
   const CF_WORKER = 'https://solobuild-pay.harvey3630.workers.dev';
   const PRODUCT_MAP = { teaching: 'handbook', soul: 'soulpack', combo: 'combo' };
 
   async function checkoutTW(productId, btnEl) {
     const mapped = PRODUCT_MAP[productId] || productId;
+    const ref = getRef();
     btnEl.textContent = '處理中...';
     btnEl.style.pointerEvents = 'none';
     try {
       const res = await fetch(`${CF_WORKER}/api/checkout`, {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({ product: mapped, ref: '', email: '' })
+        body: JSON.stringify({ product: mapped, ref: ref, email: '' })
       });
       const data = await res.json();
       if (!res.ok) throw new Error(data.error || 'Checkout failed');
