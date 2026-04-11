@@ -1,0 +1,214 @@
+<?xml version="1.0" ?>
+<rss xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+  <channel>
+    <title>地球的角落</title>
+    <link>https://solobuildtw.github.io/podcast/earth-corners/</link>
+    <language>zh-tw</language>
+    <description>地球上有些角落你一輩子不會去，但故事精彩到值得聽完。熙熙帶你走訪冷門國家、邊境小鎮與被遺忘的文明。</description>
+    <copyright>© 2026 熙熙</copyright>
+    <generator>SoloBuildTW Podcast RSS Generator v2</generator>
+    <lastBuildDate>Sat, 11 Apr 2026 01:13:36 -0000</lastBuildDate>
+    <atom:link href="https://solobuildtw.github.io/podcast/earth-corners/feed.xml" rel="self" type="application/rss+xml"/>
+    <itunes:title>地球的角落</itunes:title>
+    <itunes:author>熙熙</itunes:author>
+    <itunes:summary>地球上有些角落你一輩子不會去，但故事精彩到值得聽完。熙熙帶你走訪冷門國家、邊境小鎮與被遺忘的文明。</itunes:summary>
+    <itunes:subtitle>地球上有些角落你一輩子不會去，但故事精彩到值得聽完。熙熙帶你走訪冷門國家、邊境小鎮與被遺忘的文明。</itunes:subtitle>
+    <itunes:explicit>no</itunes:explicit>
+    <itunes:language>zh-tw</itunes:language>
+    <itunes:type>episodic</itunes:type>
+    <itunes:keywords>旅遊,地理,冷門國家,文化,探索</itunes:keywords>
+    <itunes:owner>
+      <itunes:name>熙熙</itunes:name>
+      <itunes:email>viviank889@gmail.com</itunes:email>
+    </itunes:owner>
+    <itunes:image href="https://solobuildtw.github.io/podcast/earth-corners/cover.jpg"/>
+    <image>
+      <url>https://solobuildtw.github.io/podcast/earth-corners/cover.jpg</url>
+      <title>地球的角落</title>
+      <link>https://solobuildtw.github.io/podcast/earth-corners/</link>
+    </image>
+    <itunes:category text="Society &amp; Culture">
+      <itunes:category text="Places &amp; Travel"/>
+    </itunes:category>
+    <item>
+      <title>EP011 在西班牙戈梅拉島，人們用口哨說話，哨音可以傳遞五公裡。熙熙帶你聆聽這種古老哨語的</title>
+      <description>在西班牙戈梅拉島，人們用口哨說話，哨音可以傳遞五公裡。熙熙帶你聆聽這種古老哨語的誕生與復甦，感受一個社群如何用聲音把每個人緊緊編織在一起。</description>
+      <pubDate>Sat, 11 Apr 2026 01:13:36 -0000</pubDate>
+      <guid>1ae75cb624bf4d57722397f0944e63ea</guid>
+      <link>https://solobuildtw.github.io/podcast/earth-corners/ep/011</link>
+      <enclosure url="https://solobuildtw.github.io/podcast/earth-corners/audio/EP011_在西班牙戈梅拉島，人們用口哨說話，哨音可以傳遞五公裡。熙熙帶.mp3" type="audio/mpeg" length="17071586"/>
+      <itunes:title>EP011 在西班牙戈梅拉島，人們用口哨說話，哨音可以傳遞五公裡。熙熙帶你聆聽這種古老哨語的</itunes:title>
+      <itunes:author>熙熙</itunes:author>
+      <itunes:duration>00:11:51</itunes:duration>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:episode>11</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:summary>在西班牙戈梅拉島，人們用口哨說話，哨音可以傳遞五公裡。熙熙帶你聆聽這種古老哨語的誕生與復甦，感受一個社群如何用聲音把每個人緊緊編織在一起。</itunes:summary>
+      <itunes:subtitle>在西班牙戈梅拉島，人們用口哨說話，哨音可以傳遞五公裡。熙熙帶你聆聽這種古老哨語的</itunes:subtitle>
+      <itunes:keywords>旅遊,地理,冷門國家,文化,探索</itunes:keywords>
+      <content:encoded><![CDATA[在西班牙戈梅拉島，人們用口哨說話，哨音可以傳遞五公裡。熙熙帶你聆聽這種古老哨語的誕生與復甦，感受一個社群如何用聲音把每個人緊緊編織在一起。]]></content:encoded>
+    </item>
+    <item>
+      <title>EP010 斯瓦巴的凍土深處，藏著人類文明的最後一道保險。熙熙帶你探訪末日種子庫，以及在極地</title>
+      <description>斯瓦巴的凍土深處，藏著人類文明的最後一道保險。熙熙帶你探訪末日種子庫，以及在極地極端光影之中，學會珍惜每一寸光明的人們的生命哲學。</description>
+      <pubDate>Sat, 11 Apr 2026 01:13:10 -0000</pubDate>
+      <guid>93dfb562029d381352df01be00429da0</guid>
+      <link>https://solobuildtw.github.io/podcast/earth-corners/ep/010</link>
+      <enclosure url="https://solobuildtw.github.io/podcast/earth-corners/audio/EP010_斯瓦巴的凍土深處，藏著人類文明的最後一道保險。熙熙帶你探訪末.mp3" type="audio/mpeg" length="16919240"/>
+      <itunes:title>EP010 斯瓦巴的凍土深處，藏著人類文明的最後一道保險。熙熙帶你探訪末日種子庫，以及在極地</itunes:title>
+      <itunes:author>熙熙</itunes:author>
+      <itunes:duration>00:11:44</itunes:duration>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:episode>10</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:summary>斯瓦巴的凍土深處，藏著人類文明的最後一道保險。熙熙帶你探訪末日種子庫，以及在極地極端光影之中，學會珍惜每一寸光明的人們的生命哲學。</itunes:summary>
+      <itunes:subtitle>斯瓦巴的凍土深處，藏著人類文明的最後一道保險。熙熙帶你探訪末日種子庫，以及在極地</itunes:subtitle>
+      <itunes:keywords>旅遊,地理,冷門國家,文化,探索</itunes:keywords>
+      <content:encoded><![CDATA[斯瓦巴的凍土深處，藏著人類文明的最後一道保險。熙熙帶你探訪末日種子庫，以及在極地極端光影之中，學會珍惜每一寸光明的人們的生命哲學。]]></content:encoded>
+    </item>
+    <item>
+      <title>EP009 熙熙帶你一起探索不丹的白色禁地：世界最高未竟之峰，崗卡本森的故事。在喜馬拉雅山脈</title>
+      <description>熙熙帶你一起探索不丹的白色禁地：世界最高未竟之峰，崗卡本森的故事。在喜馬拉雅山脈溫柔的懷抱裡，有一個你可能從未聽過的地方</description>
+      <pubDate>Sat, 11 Apr 2026 01:12:44 -0000</pubDate>
+      <guid>5dbad0b9c40ac095f7d693ce33a7426c</guid>
+      <link>https://solobuildtw.github.io/podcast/earth-corners/ep/009</link>
+      <enclosure url="https://solobuildtw.github.io/podcast/earth-corners/audio/EP009_熙熙帶你一起探索不丹的白色禁地：世界最高未竟之峰，崗卡本森的.mp3" type="audio/mpeg" length="17053405"/>
+      <itunes:title>EP009 熙熙帶你一起探索不丹的白色禁地：世界最高未竟之峰，崗卡本森的故事。在喜馬拉雅山脈</itunes:title>
+      <itunes:author>熙熙</itunes:author>
+      <itunes:duration>00:11:50</itunes:duration>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:episode>9</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:summary>熙熙帶你一起探索不丹的白色禁地：世界最高未竟之峰，崗卡本森的故事。在喜馬拉雅山脈溫柔的懷抱裡，有一個你可能從未聽過的地方</itunes:summary>
+      <itunes:subtitle>熙熙帶你一起探索不丹的白色禁地：世界最高未竟之峰，崗卡本森的故事。在喜馬拉雅山脈</itunes:subtitle>
+      <itunes:keywords>旅遊,地理,冷門國家,文化,探索</itunes:keywords>
+      <content:encoded><![CDATA[熙熙帶你一起探索不丹的白色禁地：世界最高未竟之峰，崗卡本森的故事。在喜馬拉雅山脈溫柔的懷抱裡，有一個你可能從未聽過的地方]]></content:encoded>
+    </item>
+    <item>
+      <title>EP008 熙熙帶你一起探索衣索比亞的地獄之門：在地球最炙熱的角落，遇見與鹽共。在地球的某個</title>
+      <description>熙熙帶你一起探索衣索比亞的地獄之門：在地球最炙熱的角落，遇見與鹽共。在地球的某個角落，具體來說，是在非洲大陸東北邊的衣索比亞，藏著一個你可能從未聽過</description>
+      <pubDate>Sat, 11 Apr 2026 01:12:17 -0000</pubDate>
+      <guid>087500cca4449951a2bf0624778ecf70</guid>
+      <link>https://solobuildtw.github.io/podcast/earth-corners/ep/008</link>
+      <enclosure url="https://solobuildtw.github.io/podcast/earth-corners/audio/EP008_熙熙帶你一起探索衣索比亞的地獄之門：在地球最炙熱的角落，遇見.mp3" type="audio/mpeg" length="16465964"/>
+      <itunes:title>EP008 熙熙帶你一起探索衣索比亞的地獄之門：在地球最炙熱的角落，遇見與鹽共。在地球的某個</itunes:title>
+      <itunes:author>熙熙</itunes:author>
+      <itunes:duration>00:11:26</itunes:duration>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:episode>8</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:summary>熙熙帶你一起探索衣索比亞的地獄之門：在地球最炙熱的角落，遇見與鹽共。在地球的某個角落，具體來說，是在非洲大陸東北邊的衣索比亞，藏著一個你可能從未聽過</itunes:summary>
+      <itunes:subtitle>熙熙帶你一起探索衣索比亞的地獄之門：在地球最炙熱的角落，遇見與鹽共。在地球的某個</itunes:subtitle>
+      <itunes:keywords>旅遊,地理,冷門國家,文化,探索</itunes:keywords>
+      <content:encoded><![CDATA[熙熙帶你一起探索衣索比亞的地獄之門：在地球最炙熱的角落，遇見與鹽共。在地球的某個角落，具體來說，是在非洲大陸東北邊的衣索比亞，藏著一個你可能從未聽過]]></content:encoded>
+    </item>
+    <item>
+      <title>EP006 熙熙帶你一起探索阿索斯山，一座禁止女性踏入的千年聖山共和國。在地球的某個角落，有</title>
+      <description>熙熙帶你一起探索阿索斯山，一座禁止女性踏入的千年聖山共和國。在地球的某個角落，有一片半島從希臘北方靜靜地伸入愛琴海，它的輪廓就像一隻修長而虔</description>
+      <pubDate>Sat, 11 Apr 2026 01:11:51 -0000</pubDate>
+      <guid>a42306f93e7c7b935094172085a6a63a</guid>
+      <link>https://solobuildtw.github.io/podcast/earth-corners/ep/006</link>
+      <enclosure url="https://solobuildtw.github.io/podcast/earth-corners/audio/EP006_熙熙帶你一起探索阿索斯山，一座禁止女性踏入的千年聖山共和國。.mp3" type="audio/mpeg" length="17152462"/>
+      <itunes:title>EP006 熙熙帶你一起探索阿索斯山，一座禁止女性踏入的千年聖山共和國。在地球的某個角落，有</itunes:title>
+      <itunes:author>熙熙</itunes:author>
+      <itunes:duration>00:11:54</itunes:duration>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:episode>6</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:summary>熙熙帶你一起探索阿索斯山，一座禁止女性踏入的千年聖山共和國。在地球的某個角落，有一片半島從希臘北方靜靜地伸入愛琴海，它的輪廓就像一隻修長而虔</itunes:summary>
+      <itunes:subtitle>熙熙帶你一起探索阿索斯山，一座禁止女性踏入的千年聖山共和國。在地球的某個角落，有</itunes:subtitle>
+      <itunes:keywords>旅遊,地理,冷門國家,文化,探索</itunes:keywords>
+      <content:encoded><![CDATA[熙熙帶你一起探索阿索斯山，一座禁止女性踏入的千年聖山共和國。在地球的某個角落，有一片半島從希臘北方靜靜地伸入愛琴海，它的輪廓就像一隻修長而虔]]></content:encoded>
+    </item>
+    <item>
+      <title>EP005 格陵蘭，名字是綠地，八成土地卻被冰雪覆蓋。熙熙帶你走進世界最大島嶼，探索五萬六千</title>
+      <description>格陵蘭，名字是綠地，八成土地卻被冰雪覆蓋。熙熙帶你走進世界最大島嶼，探索五萬六千人如何在永夜與永晝之間，活出有色彩又有溫度的真實人生。</description>
+      <pubDate>Sat, 11 Apr 2026 01:11:25 -0000</pubDate>
+      <guid>524074bc3bb53f3f07576ef142e5b571</guid>
+      <link>https://solobuildtw.github.io/podcast/earth-corners/ep/005</link>
+      <enclosure url="https://solobuildtw.github.io/podcast/earth-corners/audio/EP005_格陵蘭，名字是綠地，八成土地卻被冰雪覆蓋。熙熙帶你走進世界最.mp3" type="audio/mpeg" length="17025820"/>
+      <itunes:title>EP005 格陵蘭，名字是綠地，八成土地卻被冰雪覆蓋。熙熙帶你走進世界最大島嶼，探索五萬六千</itunes:title>
+      <itunes:author>熙熙</itunes:author>
+      <itunes:duration>00:11:49</itunes:duration>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:episode>5</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:summary>格陵蘭，名字是綠地，八成土地卻被冰雪覆蓋。熙熙帶你走進世界最大島嶼，探索五萬六千人如何在永夜與永晝之間，活出有色彩又有溫度的真實人生。</itunes:summary>
+      <itunes:subtitle>格陵蘭，名字是綠地，八成土地卻被冰雪覆蓋。熙熙帶你走進世界最大島嶼，探索五萬六千</itunes:subtitle>
+      <itunes:keywords>旅遊,地理,冷門國家,文化,探索</itunes:keywords>
+      <content:encoded><![CDATA[格陵蘭，名字是綠地，八成土地卻被冰雪覆蓋。熙熙帶你走進世界最大島嶼，探索五萬六千人如何在永夜與永晝之間，活出有色彩又有溫度的真實人生。]]></content:encoded>
+    </item>
+    <item>
+      <title>EP004 美國沙漠裡，有一個只有一戶人家的奇幻共和國。熙熙帶你拜訪莫洛西亞，這個用幽默和四</title>
+      <description>美國沙漠裡，有一個只有一戶人家的奇幻共和國。熙熙帶你拜訪莫洛西亞，這個用幽默和四十年堅持打造的夢想王國，溫柔挑戰你對國家的所有想像。</description>
+      <pubDate>Sat, 11 Apr 2026 01:10:58 -0000</pubDate>
+      <guid>bc2886466b617d0d4a873c7a27cf3dac</guid>
+      <link>https://solobuildtw.github.io/podcast/earth-corners/ep/004</link>
+      <enclosure url="https://solobuildtw.github.io/podcast/earth-corners/audio/EP004_美國沙漠裡，有一個只有一戶人家的奇幻共和國。熙熙帶你拜訪莫洛.mp3" type="audio/mpeg" length="16714858"/>
+      <itunes:title>EP004 美國沙漠裡，有一個只有一戶人家的奇幻共和國。熙熙帶你拜訪莫洛西亞，這個用幽默和四</itunes:title>
+      <itunes:author>熙熙</itunes:author>
+      <itunes:duration>00:11:36</itunes:duration>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:episode>4</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:summary>美國沙漠裡，有一個只有一戶人家的奇幻共和國。熙熙帶你拜訪莫洛西亞，這個用幽默和四十年堅持打造的夢想王國，溫柔挑戰你對國家的所有想像。</itunes:summary>
+      <itunes:subtitle>美國沙漠裡，有一個只有一戶人家的奇幻共和國。熙熙帶你拜訪莫洛西亞，這個用幽默和四</itunes:subtitle>
+      <itunes:keywords>旅遊,地理,冷門國家,文化,探索</itunes:keywords>
+      <content:encoded><![CDATA[美國沙漠裡，有一個只有一戶人家的奇幻共和國。熙熙帶你拜訪莫洛西亞，這個用幽默和四十年堅持打造的夢想王國，溫柔挑戰你對國家的所有想像。]]></content:encoded>
+    </item>
+    <item>
+      <title>EP003 蒙古草原上，家是一個可以移動的圓。熙熙邀你跟著游牧民族的腳步，感受那種以天地為座</title>
+      <description>蒙古草原上，家是一個可以移動的圓。熙熙邀你跟著游牧民族的腳步，感受那種以天地為座標的生命節奏，以及那份隨時都能安頓下來的從容與自由。</description>
+      <pubDate>Sat, 11 Apr 2026 01:10:33 -0000</pubDate>
+      <guid>f76362b37d0ba6ccb684c48da798f2e1</guid>
+      <link>https://solobuildtw.github.io/podcast/earth-corners/ep/003</link>
+      <enclosure url="https://solobuildtw.github.io/podcast/earth-corners/audio/EP003_蒙古草原上，家是一個可以移動的圓。熙熙邀你跟著游牧民族的腳步.mp3" type="audio/mpeg" length="17527371"/>
+      <itunes:title>EP003 蒙古草原上，家是一個可以移動的圓。熙熙邀你跟著游牧民族的腳步，感受那種以天地為座</itunes:title>
+      <itunes:author>熙熙</itunes:author>
+      <itunes:duration>00:12:10</itunes:duration>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:episode>3</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:summary>蒙古草原上，家是一個可以移動的圓。熙熙邀你跟著游牧民族的腳步，感受那種以天地為座標的生命節奏，以及那份隨時都能安頓下來的從容與自由。</itunes:summary>
+      <itunes:subtitle>蒙古草原上，家是一個可以移動的圓。熙熙邀你跟著游牧民族的腳步，感受那種以天地為座</itunes:subtitle>
+      <itunes:keywords>旅遊,地理,冷門國家,文化,探索</itunes:keywords>
+      <content:encoded><![CDATA[蒙古草原上，家是一個可以移動的圓。熙熙邀你跟著游牧民族的腳步，感受那種以天地為座標的生命節奏，以及那份隨時都能安頓下來的從容與自由。]]></content:encoded>
+    </item>
+    <item>
+      <title>EP002 在撒哈拉沙漠的風沙之中，曾有一個輝煌的蘇丹王國靜靜地繁榮著。熙熙帶你走進外德霍的</title>
+      <description>在撒哈拉沙漠的風沙之中，曾有一個輝煌的蘇丹王國靜靜地繁榮著。熙熙帶你走進外德霍的故事，聆聽那些被時間遺忘、卻仍在口耳間傳遞的史詩。</description>
+      <pubDate>Sat, 11 Apr 2026 01:10:04 -0000</pubDate>
+      <guid>879d2b4035dde3f470b6d6accd7ace3a</guid>
+      <link>https://solobuildtw.github.io/podcast/earth-corners/ep/002</link>
+      <enclosure url="https://solobuildtw.github.io/podcast/earth-corners/audio/EP002_在撒哈拉沙漠的風沙之中，曾有一個輝煌的蘇丹王國靜靜地繁榮著。.mp3" type="audio/mpeg" length="17234591"/>
+      <itunes:title>EP002 在撒哈拉沙漠的風沙之中，曾有一個輝煌的蘇丹王國靜靜地繁榮著。熙熙帶你走進外德霍的</itunes:title>
+      <itunes:author>熙熙</itunes:author>
+      <itunes:duration>00:11:58</itunes:duration>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:episode>2</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:summary>在撒哈拉沙漠的風沙之中，曾有一個輝煌的蘇丹王國靜靜地繁榮著。熙熙帶你走進外德霍的故事，聆聽那些被時間遺忘、卻仍在口耳間傳遞的史詩。</itunes:summary>
+      <itunes:subtitle>在撒哈拉沙漠的風沙之中，曾有一個輝煌的蘇丹王國靜靜地繁榮著。熙熙帶你走進外德霍的</itunes:subtitle>
+      <itunes:keywords>旅遊,地理,冷門國家,文化,探索</itunes:keywords>
+      <content:encoded><![CDATA[在撒哈拉沙漠的風沙之中，曾有一個輝煌的蘇丹王國靜靜地繁榮著。熙熙帶你走進外德霍的故事，聆聽那些被時間遺忘、卻仍在口耳間傳遞的史詩。]]></content:encoded>
+    </item>
+    <item>
+      <title>EP001 圖瓦盧，這個即將沉入海平面的南太平洋島國，正在打造世界第一個數位國家。熙熙帶你感</title>
+      <description>圖瓦盧，這個即將沉入海平面的南太平洋島國，正在打造世界第一個數位國家。熙熙帶你感受一個民族在失去土地前，如何用科技留住記憶與尊嚴。</description>
+      <pubDate>Sat, 11 Apr 2026 01:09:37 -0000</pubDate>
+      <guid>36e8a3d231fe06ef4714163a791e8546</guid>
+      <link>https://solobuildtw.github.io/podcast/earth-corners/ep/001</link>
+      <enclosure url="https://solobuildtw.github.io/podcast/earth-corners/audio/EP001_圖瓦盧，這個即將沉入海平面的南太平洋島國，正在打造世界第一個.mp3" type="audio/mpeg" length="17094156"/>
+      <itunes:title>EP001 圖瓦盧，這個即將沉入海平面的南太平洋島國，正在打造世界第一個數位國家。熙熙帶你感</itunes:title>
+      <itunes:author>熙熙</itunes:author>
+      <itunes:duration>00:11:52</itunes:duration>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:episode>1</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:summary>圖瓦盧，這個即將沉入海平面的南太平洋島國，正在打造世界第一個數位國家。熙熙帶你感受一個民族在失去土地前，如何用科技留住記憶與尊嚴。</itunes:summary>
+      <itunes:subtitle>圖瓦盧，這個即將沉入海平面的南太平洋島國，正在打造世界第一個數位國家。熙熙帶你感</itunes:subtitle>
+      <itunes:keywords>旅遊,地理,冷門國家,文化,探索</itunes:keywords>
+      <content:encoded><![CDATA[圖瓦盧，這個即將沉入海平面的南太平洋島國，正在打造世界第一個數位國家。熙熙帶你感受一個民族在失去土地前，如何用科技留住記憶與尊嚴。]]></content:encoded>
+    </item>
+  </channel>
+</rss>
