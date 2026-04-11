@@ -1,0 +1,608 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Claude Code 経験パック — SoloBuildTW</title>
+  <meta name="description" content="あなたの同僚はすでに AI を使っています。プログラミング不要・技術知識不要。200時間の実践ノートを今夜から使えます。経験パック $24 / ソウルパック $31 / セットパック $55。" />
+  <meta property="og:title" content="Claude Code 経験パック — SoloBuildTW" />
+  <meta property="og:description" content="あなたの同僚はすでに AI を使っています。プログラミング不要・技術知識不要。今夜から AI チームに働いてもらいましょう。" />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://solobuildtw.github.io/ja/" />
+  <meta property="og:locale" content="ja_JP" />
+  <meta property="og:image" content="https://solobuildtw.github.io/images/combo_1200x675.png" />
+  <meta property="og:image:width" content="1200" />
+  <meta property="og:image:height" content="675" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Claude Code 経験パック — SoloBuildTW" />
+  <meta name="twitter:description" content="あなたの同僚はすでに AI を使っています。プログラミング不要・技術知識不要。今夜から AI チームに働いてもらいましょう。経験パック $24 / ソウルパック $31 / セットパック $55。" />
+  <meta name="twitter:image" content="https://solobuildtw.github.io/images/combo_1200x675.png" />
+  <link rel="canonical" href="https://solobuildtw.github.io/ja/" />
+  <link rel="alternate" hreflang="zh-Hant" href="https://solobuildtw.github.io/" />
+  <link rel="alternate" hreflang="en" href="https://solobuildtw.github.io/?lang=en" />
+  <link rel="alternate" hreflang="ja" href="https://solobuildtw.github.io/ja/" />
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🧠</text></svg>" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@300;400;500;700&family=Noto+Sans+JP:wght@300;400;500;700&family=Inter:wght@400;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="../style.css" />
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-DWXVFMH12H"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-DWXVFMH12H');
+  </script>
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "name": "SoloBuildTW",
+    "url": "https://solobuildtw.github.io",
+    "logo": "https://solobuildtw.github.io/images/combo_1200x675.png"
+  }
+  </script>
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "ItemList",
+    "itemListElement": [
+      {
+        "@type": "Product",
+        "position": 1,
+        "name": "Claude Code 経験パック（Tutorial Pack）",
+        "description": "ゼロから Claude Code で自動化ビジネスを構築する完全な実践ガイド（18章）",
+        "offers": {
+          "@type": "Offer",
+          "price": "24",
+          "priceCurrency": "USD",
+          "availability": "https://schema.org/InStock"
+        }
+      },
+      {
+        "@type": "Product",
+        "position": 2,
+        "name": "Claude Code ソウルパック（Soul Pack）",
+        "description": "ワンクリックでインストールできる Claude Code の完全設定パック（Skills・Hooks・Agents 含む）",
+        "offers": {
+          "@type": "Offer",
+          "price": "31",
+          "priceCurrency": "USD",
+          "availability": "https://schema.org/InStock"
+        }
+      },
+      {
+        "@type": "Product",
+        "position": 3,
+        "name": "Claude Code セットパック（Combo Pack）",
+        "description": "経験パックとソウルパックのお得なセット",
+        "offers": {
+          "@type": "Offer",
+          "price": "55",
+          "priceCurrency": "USD",
+          "availability": "https://schema.org/InStock"
+        }
+      }
+    ]
+  }
+  </script>
+  <!-- GA4 Purchase Click Tracking -->
+  <script>
+    document.addEventListener('DOMContentLoaded', function() {
+      document.querySelectorAll('a[id^="buy-"], a.btn-primary, a.btn-combo, a.btn-outline-light, a.btn-primary-light').forEach(function(btn) {
+        btn.addEventListener('click', function() {
+          var card = this.closest('.pricing-card');
+          var product = card ? (card.id || card.dataset.product || this.textContent.trim()) : this.textContent.trim();
+          if (typeof gtag === 'function') {
+            gtag('event', 'purchase_click', {
+              'event_category': 'conversion',
+              'event_label': product
+            });
+          }
+        });
+      });
+    });
+  </script>
+  <style>
+    /* Japanese font override */
+    body {
+      font-family: 'Noto Sans JP', 'Noto Sans TC', 'Inter', sans-serif;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- ========== HEADER / NAV ========== -->
+  <header class="site-header">
+    <div class="container header-inner">
+      <a href="/" class="brand-logo">SoloBuildTW</a>
+      <nav class="header-nav">
+        <a href="#features">特長</a>
+        <a href="#pricing">価格</a>
+        <a href="#faq">よくある質問</a>
+        <div class="lang-switcher" style="display:flex;gap:4px;align-items:center;font-size:0.85rem;">
+          <a href="/" style="color:var(--text-muted);text-decoration:none;">中文</a>
+          <span style="color:var(--text-muted);">|</span>
+          <a href="/?lang=en" style="color:var(--text-muted);text-decoration:none;">EN</a>
+          <span style="color:var(--text-muted);">|</span>
+          <strong style="color:var(--primary);">日本語</strong>
+        </div>
+        <a href="#pricing" class="btn btn-primary btn-sm">今すぐ購入</a>
+      </nav>
+      <button class="mobile-menu-toggle" aria-label="メニューを開く">&#9776;</button>
+    </div>
+  </header>
+
+  <!-- ========== HERO ========== -->
+  <section class="hero">
+    <div class="container hero-inner">
+      <div class="hero-badge">一人でも持てる AI フルタイムチーム</div>
+      <h1 class="hero-title">
+        <span>あなたの AI チームを作りましょう</span><br />
+        <span class="accent">メール整理からサイト構築まで、全部任せられます。</span>
+      </h1>
+      <p class="hero-subtitle">プログラミング不要・技術知識不要。10 種類の AI が各ポジションに就き、今夜から稼働開始できます。</p>
+      <p class="hero-tagline">
+        一人で抱え込まなくていい——<br class="hide-desktop" />あなたの AI チームが今夜から動き出します。
+      </p>
+      <div class="hero-cta-group">
+        <a href="#pricing" class="btn btn-primary btn-lg">今すぐ入手して、AI チームを今夜から動かす</a>
+        <a href="#features" class="btn btn-outline btn-lg">詳しい内容を見る</a>
+      </div>
+      <div class="hero-social-proof">
+        <div class="stat-item"><span class="stat-num">10 種類</span><span class="stat-label">専門 AI が一度にそろいます</span></div>
+        <div class="stat-divider"></div>
+        <div class="stat-item"><span class="stat-num">24 時間</span><span class="stat-label">休みなく待機、休暇なし</span></div>
+        <div class="stat-divider"></div>
+        <div class="stat-item"><span class="stat-num">200 時間</span><span class="stat-label">実践で得た知識を凝縮しました</span></div>
+        <div class="stat-divider"></div>
+        <div class="stat-item"><span class="stat-num">1 人</span><span class="stat-label">でもチーム全体の成果が出せます</span></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== PAIN POINTS ========== -->
+  <section class="pain-points">
+    <div class="container">
+      <h2 class="section-title">こんな経験はありませんか？AI が役立つのはわかるのに、どこから始めればいいかわからない。</h2>
+      <div class="pain-grid">
+        <div class="pain-card">
+          <div class="pain-icon">🔥</div>
+          <p>毎日同じ作業の繰り返し。AI が助けてくれるとわかっているのに、入力欄を開いて眺めるばかりで、何を打てばいいかわからない。</p>
+        </div>
+        <div class="pain-card">
+          <div class="pain-icon">😮</div>
+          <p>一人でサイトを丸ごと作ったり、レポートを自動送信したり、メールを自動整理している人を見かける——どんな魔法を使っているのか見当もつかない。</p>
+        </div>
+        <div class="pain-card">
+          <div class="pain-icon">💸</div>
+          <p>隣の同僚はもう AI を使って早退しているのに、自分はまだ白紙のページを前にぼーっとしている。</p>
+        </div>
+        <div class="pain-card">
+          <div class="pain-icon">🤷</div>
+          <p>自分で調べてみたけれど、記事を 10 本読んでも余計に混乱するだけで、どこから手をつければいいかますますわからなくなった。</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== FEATURES ========== -->
+  <section class="features" id="features">
+    <div class="container">
+      <div class="section-header">
+        <h2 class="section-title">この経験パックが、あなたの AI チームを丸ごと組み上げます</h2>
+        <p class="section-desc">
+          200 時間の試行錯誤を一冊のガイドに凝縮。開いたらすぐ使えます。<br />
+          メール整理・レポート作成・サイト構築まで——10 種類の AI が各役割を担い、すぐに実践できます。
+        </p>
+      </div>
+
+      <div class="features-tabs">
+        <div class="tab-nav">
+          <button class="tab-btn active" data-tab="tutorial">
+            <span class="tag tag-tutorial">教</span> 経験パックの内容
+          </button>
+          <button class="tab-btn" data-tab="soul">
+            <span class="tag tag-soul">魂</span> ソウルパックの内容
+          </button>
+        </div>
+
+        <div class="tab-content active" id="tab-tutorial">
+          <div class="features-grid">
+            <div class="feature-card">
+              <div class="feature-num">Part 1–5</div>
+              <h3>18 章の完全ガイド、約 1 時間で読み切れます</h3>
+              <p>ゼロから AI チームを完成させるまでの完全なロードマップ。各章は実際の失敗から学んだ知見です。</p>
+            </div>
+            <div class="feature-card">
+              <div class="feature-num">コアテーマ</div>
+              <h3>10 種類の AI アシスタントを作り、それぞれ別の仕事を担当させます</h3>
+              <p>アシスタント・エンジニア・リサーチャー・レビュアー⋯各 AI に明確な役割があり、本物のチームのように機能します。</p>
+            </div>
+            <div class="feature-card">
+              <div class="feature-num">メモリシステム</div>
+              <h3>なぜ AI は以前の話をすぐ忘れてしまうのか？</h3>
+              <p>AI があなたの好みや作業スタイルを記憶するようにする方法。毎回一から教え直す必要がなくなります。</p>
+            </div>
+            <div class="feature-card">
+              <div class="feature-num">コスト管理</div>
+              <h3>実測で AI 利用費を 50% 以上削減</h3>
+              <p>適切なツールの選び方とコスト削減の方法を学び、AI が無駄に費用を消費するのを防ぎます。</p>
+            </div>
+            <div class="feature-card">
+              <div class="feature-num">失敗事例</div>
+              <h3>30 件以上の実際の失敗記録</h3>
+              <p>すべての重大ミスを完全再現し、同じ失敗が二度と起きないフールプルーフの仕組みを設計します。</p>
+            </div>
+            <div class="feature-card">
+              <div class="feature-num">付録</div>
+              <h3>3 つのクイックリファレンス付録</h3>
+              <p>よく使うコマンド・モデル分担の提案・Rules テンプレート一覧を、デプロイ中にいつでも参照できます。</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="tab-content" id="tab-soul">
+          <div class="features-grid">
+            <div class="feature-card soul">
+              <div class="feature-num">🚀 ゼロ設定で起動</div>
+              <h3>開いたらすぐ使える、プログラミング不要</h3>
+              <p>フォルダを開くだけで AI がすべてを自動セットアップ。設定ファイルの編集もコード作成も不要、そのまま使い始められます。</p>
+            </div>
+            <div class="feature-card soul">
+              <div class="feature-num">AI チーム</div>
+              <h3>10 種類の AI アシスタント、インストールしたらすぐ使えます</h3>
+              <p>各アシスタントに専門領域があり、何をすべきか・すべきでないかを理解しています。完全なドキュメント付き。</p>
+            </div>
+            <div class="feature-card soul">
+              <div class="feature-num">作業テンプレート</div>
+              <h3>よく使うワークフローテンプレート、コピペですぐ使えます</h3>
+              <p>一般的な作業シナリオのテンプレートをそのまま使い、必要に応じてカスタマイズするだけです。</p>
+            </div>
+            <div class="feature-card soul">
+              <div class="feature-num">フールプルーフ機能</div>
+              <h3>自動でよくある落とし穴を回避します</h3>
+              <p>組み込みのエラー防止ルールで、まだ経験していないミスを予防します。他の人が踏んだ落とし穴を、あなたが踏む必要はありません。</p>
+            </div>
+            <div class="feature-card soul">
+              <div class="feature-num">長期記憶</div>
+              <h3>AI が前回の会話を覚えていて、毎回忘れることがありません</h3>
+              <p>コマンド一つでチーム全体を起動。AI があなたの好み・プロジェクト・作業スタイルを記憶します。</p>
+            </div>
+            <div class="feature-card soul">
+              <div class="feature-num">品質チェック</div>
+              <h3>3 つの AI が互いにチェックして、より良い意思決定を支援します</h3>
+              <p>企画 → 審査 → 意思決定の三段階チェックで、エラー率を 63% 削減します。</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== STORY / TRUST ========== -->
+  <section class="story">
+    <div class="container story-inner">
+      <div class="story-content">
+        <h2 class="section-title">私も最初は何もわからないところから始めました</h2>
+        <p>正直に言うと、最初に Claude を開いたとき、何を指示すればいいか全くわかりませんでした。いろいろ聞いてみても、返ってくるのは的外れな答えばかり。AI なんて見た目だけで使えないものだと思っていました。その後、200 時間かけてゆっくり探り続けた結果、気づきました——AI は本当に仕事を助けてくれる。問題は AI が賢くないのではなく、使い方を教えてくれる人がいなかっただけだと。</p>
+        <p>その 200 時間で学んだことをすべてこの経験パックにまとめました。難しい理論を教えるためではなく、私が歩んだ回り道をあなたに歩ませないために。今夜から AI チームをすぐに動かせるようにするために。今の私は一人で 3 つのプラットフォームのコンテンツを管理し、自動投稿し、毎週レポートを自動生成しています——以前は人を雇わないとできないと思っていたことばかりです。</p>
+        <blockquote class="story-quote">
+          これはオンラインコースではありません。試験もチェックインもありません。<br />
+          ただ、すべての落とし穴を経験した人が、あなたのために道を整えてくれています。
+        </blockquote>
+      </div>
+      <div class="story-visual">
+        <div class="arch-diagram">
+          <div class="arch-title">10 エージェント構成図</div>
+          <div class="arch-nodes">
+            <div class="arch-node center">🧠 マネージャー</div>
+            <div class="arch-ring">
+              <div class="arch-node small">🛠 アシスタント</div>
+              <div class="arch-node small">⚙️ バックエンド</div>
+              <div class="arch-node small">🎨 フロントエンド</div>
+              <div class="arch-node small">📊 データ</div>
+              <div class="arch-node small">🐍 スクリプト</div>
+              <div class="arch-node small">📝 クリエイター</div>
+              <div class="arch-node small">🔍 リサーチャー</div>
+              <div class="arch-node small">🔔 モニター</div>
+              <div class="arch-node small">✅ レビュアー</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== PRICING ========== -->
+  <section class="pricing" id="pricing">
+    <div class="container">
+      <div class="section-header">
+        <h2 class="section-title">プランを選んでください</h2>
+        <p class="section-desc">購入したらすぐダウンロード。サブスクリプションなし、有効期限なし。</p>
+
+        <!-- Promo Banner -->
+        <div class="promo-banner">
+          <span class="promo-icon">🔥</span>
+          <span class="promo-text">
+            早期購入限定
+            <strong>20% OFF</strong> — ローンチ期間限定特別価格！
+          </span>
+        </div>
+
+        <p style="text-align:center;margin-top:12px;font-size:0.9rem;color:var(--text-muted);">
+          日本からのご購入は <strong>BOOTH</strong> または下記の国際クレジットカード決済をご利用ください。<br />
+          価格は USD 表示です（参考：¥2,480 / ¥3,280 / ¥4,980）。
+        </p>
+      </div>
+
+      <div class="pricing-grid">
+
+        <!-- Teaching Pack -->
+        <div class="pricing-card" id="buy-teaching" data-product="teaching">
+          <div class="discount-badge">-23%</div>
+          <div class="pricing-tag tag-tutorial">経験パック</div>
+          <h3 class="pricing-name">Tutorial Pack</h3>
+          <p class="pricing-desc">18 章の実践ガイド、200 時間以上の試行錯誤を凝縮</p>
+          <div class="pricing-price">
+            <span class="price-intl">
+              <span class="price-original-strike">$24</span>
+              USD <strong>$16.99</strong>
+            </span>
+          </div>
+          <div class="pricing-original">
+            <span class="orig-intl" style="font-size:0.82rem;color:var(--text-muted);">参考価格：¥2,480（早期購入割引後）</span>
+          </div>
+          <ul class="pricing-features">
+            <li>Part 1–5、18 章 + 付録 3 本</li>
+            <li>80〜100 ページ PDF</li>
+            <li>10 エージェント構成の設計原則</li>
+            <li>メモリシステム &amp; Rules 階層戦略</li>
+            <li>Token コスト管理（実測 50% 削減）</li>
+            <li>30 件以上の実際の失敗事例</li>
+          </ul>
+          <a href="https://core.newebpay.com/EPG/Solobuildtw/qwz830" class="btn btn-primary btn-full lemonsqueezy-button">経験パックを購入する</a>
+        </div>
+
+        <!-- Combo Pack (most popular) -->
+        <div class="pricing-card combo" id="buy-combo" data-product="combo">
+          <div class="featured-badge combo-badge">人気 No.1</div>
+          <div class="pricing-tag tag-combo">セットパック</div>
+          <h3 class="pricing-name">Combo Pack</h3>
+          <p class="pricing-desc">経験パック + ソウルパックの完全セット、最もお得なプラン</p>
+          <div class="pricing-price">
+            <span class="price-intl">
+              <span class="price-original-strike">$55</span>
+              USD <strong>$32.99</strong>
+            </span>
+          </div>
+          <div class="pricing-original">
+            <span class="orig-intl">別々に購入すると $38.98、<strong class="savings">$5.99 お得</strong></span>
+          </div>
+          <ul class="pricing-features">
+            <li class="no-check">✅ 経験パックの全内容を含みます</li>
+            <li class="no-check">✅ ソウルパックの全内容を含みます</li>
+            <li class="no-check">🔥 読んだ当日にデプロイ完了できます</li>
+            <li>理解してから設定、盲目的なコピーではありません</li>
+            <li>将来のアップデートは無料で取得できます</li>
+          </ul>
+          <a href="https://core.newebpay.com/EPG/Solobuildtw/fpNsoe" class="btn btn-combo btn-full lemonsqueezy-button">セットパックを購入する（最もお得）</a>
+        </div>
+
+        <!-- Soul Pack -->
+        <div class="pricing-card" id="buy-soul" data-product="soul">
+          <div class="discount-badge">-24%</div>
+          <div class="pricing-tag tag-soul">ソウルパック</div>
+          <h3 class="pricing-name">Soul Pack</h3>
+          <p class="pricing-desc">すぐに使える 10 エージェント本番環境設定</p>
+          <div class="pricing-price">
+            <span class="price-intl">
+              <span class="price-original-strike">$31</span>
+              USD <strong>$21.99</strong>
+            </span>
+          </div>
+          <div class="pricing-original">
+            <span class="orig-intl" style="font-size:0.82rem;color:var(--text-muted);">参考価格：¥3,280（早期購入割引後）</span>
+          </div>
+          <ul class="pricing-features">
+            <li class="no-check">🔥 デプロイしたらすぐ使い始められます</li>
+            <li>10 種類のエージェント定義ファイル（完全コメント付き）</li>
+            <li>Skills テンプレートライブラリ</li>
+            <li>Rules 階層ルールシステム</li>
+            <li>Start 起動テンプレート</li>
+            <li>MEMORY 記憶構造</li>
+            <li>Hooks 前後処理設定</li>
+            <li>三角チェック意思決定プロセス</li>
+          </ul>
+          <a href="https://core.newebpay.com/EPG/Solobuildtw/4Pmrjp" class="btn btn-primary btn-full lemonsqueezy-button">ソウルパックを購入する</a>
+        </div>
+
+      </div>
+
+      <!-- Compare table -->
+      <div class="compare-wrap">
+        <button class="compare-toggle" id="ja-compare-toggle">3 つのプランを詳しく比較する ▾</button>
+        <table class="compare-table hidden" id="ja-compare-table">
+          <thead>
+            <tr>
+              <th>内容</th>
+              <th><span class="tag tag-tutorial">教</span> 経験パック</th>
+              <th><span class="tag tag-combo">組</span> セットパック</th>
+              <th><span class="tag tag-soul">魂</span> ソウルパック</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr><td>18 章 PDF ガイド</td><td>✅</td><td>✅</td><td>—</td></tr>
+            <tr><td>付録 3 本（クイックリファレンス）</td><td>✅</td><td>✅</td><td>—</td></tr>
+            <tr><td>10 種類のエージェント定義ファイル</td><td>—</td><td>✅</td><td>✅</td></tr>
+            <tr><td>Skills テンプレートライブラリ</td><td>—</td><td>✅</td><td>✅</td></tr>
+            <tr><td>Rules ルールシステム</td><td>—</td><td>✅</td><td>✅</td></tr>
+            <tr><td>Start 起動テンプレート</td><td>—</td><td>✅</td><td>✅</td></tr>
+            <tr><td>MEMORY 記憶構造</td><td>—</td><td>✅</td><td>✅</td></tr>
+            <tr><td>Hooks 設定</td><td>—</td><td>✅</td><td>✅</td></tr>
+            <tr><td>三角チェックプロセス</td><td>—</td><td>✅</td><td>✅</td></tr>
+            <tr class="tr-price">
+              <td>USD 価格</td>
+              <td>$<strong>16.99</strong></td>
+              <td><strong>$32.99</strong></td>
+              <td>$<strong>21.99</strong></td>
+            </tr>
+            <tr class="tr-price">
+              <td>参考価格（JPY）</td>
+              <td>¥<strong>2,480</strong></td>
+              <td>¥<strong>4,980</strong></td>
+              <td>¥<strong>3,280</strong></td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== FAQ ========== -->
+  <section class="faq" id="faq">
+    <div class="container">
+      <h2 class="section-title">よくある質問</h2>
+      <div class="faq-list">
+
+        <details class="faq-item">
+          <summary>エンジニアではないのですが、使えますか？</summary>
+          <p>はい、使えます。このガイドは「やってみたいけど、どこから始めればいいかわからない」すべての方に向けて書かれています。<br />AI ツールを使ったことがある方、あるいはこれから使いたいと思っている方なら、必ず得るものがあります。</p>
+        </details>
+
+        <details class="faq-item">
+          <summary>ソウルパックのファイル形式は何ですか？</summary>
+          <p>ソウルパックのフォルダで Claude Code を開くと、マネージャーが自動的に名前を聞いてすべてをセットアップしてくれます。<br />ファイルを手動でコピーする必要も、追加のツールをインストールする必要もありません。</p>
+        </details>
+
+        <details class="faq-item">
+          <summary>購入後、どうやって受け取りますか？</summary>
+          <p>国際クレジットカード（USD 決済）でのご購入後、ダウンロードリンクがすぐに表示され、登録メールアドレスにも送付されます。<br />BOOTH での取り扱い開始後は、BOOTH からもご購入いただけます。</p>
+        </details>
+
+        <details class="faq-item">
+          <summary>経験パックとソウルパックの違いは何ですか？</summary>
+          <p>経験パックは「知識」です——なぜこのアーキテクチャにするのか、各決定の背景にある理由を理解するものです。<br />ソウルパックは「ツール」です——すぐにデプロイできる設定ファイル一式です。<br />予算が許すなら、セットパックが最も完全な選択肢です。</p>
+        </details>
+
+        <details class="faq-item">
+          <summary>日本から購入できますか？</summary>
+          <p>はい、可能です。現在は国際クレジットカード（USD 決済）でご購入いただけます。<br />BOOTH での販売も準備中ですので、もうしばらくお待ちください。ご質問は SoloBuildTW@gmail.com までお気軽にどうぞ。</p>
+        </details>
+
+        <details class="faq-item">
+          <summary>返金はできますか？</summary>
+          <p>デジタル商品の性質上、購入後の返金は承っておりません。ご不明な点がございましたら、購入前に SoloBuildTW@gmail.com までお問い合わせください。</p>
+        </details>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== FINAL CTA ========== -->
+  <section class="final-cta">
+    <div class="container final-cta-inner">
+      <h2>AI チームに働いてもらう準備はできていますか？</h2>
+      <p>2 時間で読み終わり、今夜には 10 種類の AI が各ポジションにつき、あなたのために動き始めます。</p>
+      <div class="final-cta-buttons">
+        <a href="https://core.newebpay.com/EPG/Solobuildtw/qwz830" class="btn btn-outline-light lemonsqueezy-button">経験パック $16.99</a>
+        <a href="https://core.newebpay.com/EPG/Solobuildtw/4Pmrjp" class="btn btn-outline-light lemonsqueezy-button">ソウルパック $21.99</a>
+        <a href="https://core.newebpay.com/EPG/Solobuildtw/fpNsoe" class="btn btn-primary-light lemonsqueezy-button">セットパック $32.99（最もお得）</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== FOOTER ========== -->
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <div class="footer-brand">
+        <span class="brand-logo">SoloBuildTW</span>
+        <p>すべての落とし穴を経験した人が、これから始めるあなたのために道を整えました。</p>
+      </div>
+      <div class="footer-links">
+        <a href="#pricing">プランを購入</a>
+        <a href="../privacy.html">プライバシーポリシー</a>
+        <a href="../terms.html">利用規約</a>
+        <a href="../refund.html">返金ポリシー</a>
+        <a href="mailto:SoloBuildTW@gmail.com">お問い合わせ</a>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <div class="container">
+        <p>© 2026 SoloBuildTW. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    /* Minimal JS for Japanese page — tab switcher + compare toggle + mobile nav */
+    document.addEventListener('DOMContentLoaded', () => {
+
+      // ---- Tab switcher ----
+      const tabBtns = document.querySelectorAll('.tab-btn');
+      const tabContents = document.querySelectorAll('.tab-content');
+      tabBtns.forEach(btn => {
+        btn.addEventListener('click', () => {
+          const target = btn.dataset.tab;
+          tabBtns.forEach(b => b.classList.remove('active'));
+          tabContents.forEach(c => c.classList.remove('active'));
+          btn.classList.add('active');
+          const content = document.getElementById(`tab-${target}`);
+          if (content) content.classList.add('active');
+        });
+      });
+
+      // ---- Compare table toggle ----
+      const compareToggle = document.getElementById('ja-compare-toggle');
+      const compareTable = document.getElementById('ja-compare-table');
+      if (compareToggle && compareTable) {
+        compareToggle.addEventListener('click', () => {
+          const isHidden = compareTable.classList.contains('hidden');
+          compareTable.classList.toggle('hidden', !isHidden);
+          compareToggle.textContent = isHidden
+            ? '比較表を閉じる ▴'
+            : '3 つのプランを詳しく比較する ▾';
+        });
+      }
+
+      // ---- Mobile nav toggle ----
+      const mobileToggle = document.querySelector('.mobile-menu-toggle');
+      const headerNav = document.querySelector('.header-nav');
+      if (mobileToggle && headerNav) {
+        mobileToggle.addEventListener('click', () => {
+          const isOpen = headerNav.style.display === 'flex';
+          if (isOpen) {
+            headerNav.removeAttribute('style');
+          } else {
+            headerNav.style.display = 'flex';
+            headerNav.style.flexDirection = 'column';
+            headerNav.style.position = 'absolute';
+            headerNav.style.top = '64px';
+            headerNav.style.left = '0';
+            headerNav.style.right = '0';
+            headerNav.style.background = 'rgba(250,247,242,0.98)';
+            headerNav.style.padding = '16px 24px 24px';
+            headerNav.style.gap = '16px';
+            headerNav.style.borderBottom = '1px solid rgba(30,58,95,0.1)';
+          }
+        });
+      }
+
+      // ---- GA4 Purchase Click Tracking ----
+      document.querySelectorAll('a[id^="buy-"], a.btn-primary, a.btn-combo, a.btn-outline-light, a.btn-primary-light').forEach(function(btn) {
+        btn.addEventListener('click', function() {
+          var card = this.closest('.pricing-card');
+          var product = card ? (card.id || card.dataset.product || this.textContent.trim()) : this.textContent.trim();
+          if (typeof gtag === 'function') {
+            gtag('event', 'purchase_click', {
+              'event_category': 'conversion',
+              'event_label': 'ja_' + product
+            });
+          }
+        });
+      });
+    });
+  </script>
+</body>
+</html>
