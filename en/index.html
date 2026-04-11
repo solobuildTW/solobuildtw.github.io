@@ -1,0 +1,667 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Claude Code Experience Pack — SoloBuildTW</title>
+  <meta name="description" content="Your colleagues are already using AI. No coding, no tech skills needed. 200 hours of real-world notes, ready for you tonight. Early Bird: Tutorial $16.99 / Soul Pack $21.99 / Combo $32.99." />
+  <meta property="og:title" content="Claude Code Experience Pack — SoloBuildTW" />
+  <meta property="og:description" content="Your colleagues are already using AI. No coding, no tech skills needed. Let your AI team start working tonight." />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://solobuildtw.github.io/en/" />
+  <meta property="og:locale" content="en_US" />
+  <meta property="og:image" content="https://solobuildtw.github.io/images/combo_1200x675.png" />
+  <meta property="og:image:width" content="1200" />
+  <meta property="og:image:height" content="675" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Claude Code Experience Pack — SoloBuildTW" />
+  <meta name="twitter:description" content="Your colleagues are already using AI. No coding, no tech skills needed. Let your AI team start working tonight. Early Bird: Tutorial $16.99 / Soul Pack $21.99 / Combo $32.99." />
+  <meta name="twitter:image" content="https://solobuildtw.github.io/images/combo_1200x675.png" />
+  <link rel="canonical" href="https://solobuildtw.github.io/en/" />
+  <link rel="alternate" hreflang="zh-Hant" href="https://solobuildtw.github.io/" />
+  <link rel="alternate" hreflang="en" href="https://solobuildtw.github.io/en/" />
+  <link rel="alternate" hreflang="ja" href="https://solobuildtw.github.io/ja/" />
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🧠</text></svg>" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Noto+Sans+TC:wght@300;400;500;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="../style.css" />
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-DWXVFMH12H"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-DWXVFMH12H');
+  </script>
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "name": "SoloBuildTW",
+    "url": "https://solobuildtw.github.io",
+    "logo": "https://solobuildtw.github.io/images/combo_1200x675.png"
+  }
+  </script>
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "ItemList",
+    "itemListElement": [
+      {
+        "@type": "Product",
+        "position": 1,
+        "name": "Claude Code Tutorial Pack",
+        "description": "A complete 18-chapter field guide to building an automated business with Claude Code from scratch",
+        "offers": {
+          "@type": "Offer",
+          "price": "16.99",
+          "priceCurrency": "USD",
+          "availability": "https://schema.org/InStock"
+        }
+      },
+      {
+        "@type": "Product",
+        "position": 2,
+        "name": "Claude Code Soul Pack",
+        "description": "A one-click install Claude Code configuration pack including Skills, Hooks, and Agents",
+        "offers": {
+          "@type": "Offer",
+          "price": "21.99",
+          "priceCurrency": "USD",
+          "availability": "https://schema.org/InStock"
+        }
+      },
+      {
+        "@type": "Product",
+        "position": 3,
+        "name": "Claude Code Combo Pack (Tutorial + Soul)",
+        "description": "The best-value bundle combining Tutorial Pack and Soul Pack",
+        "offers": {
+          "@type": "Offer",
+          "price": "32.99",
+          "priceCurrency": "USD",
+          "availability": "https://schema.org/InStock"
+        }
+      }
+    ]
+  }
+  </script>
+  <!-- GA4 Purchase Click Tracking -->
+  <script>
+    document.addEventListener('DOMContentLoaded', function() {
+      document.querySelectorAll('a[id^="buy-"], a.btn-primary, a.btn-combo, a.btn-outline-light, a.btn-primary-light').forEach(function(btn) {
+        btn.addEventListener('click', function() {
+          var card = this.closest('.pricing-card');
+          var product = card ? (card.id || card.dataset.product || this.textContent.trim()) : this.textContent.trim();
+          if (typeof gtag === 'function') {
+            gtag('event', 'purchase_click', {
+              'event_category': 'conversion',
+              'event_label': product
+            });
+          }
+        });
+      });
+    });
+  </script>
+  <style>
+    /* English font override — Inter first */
+    body {
+      font-family: 'Inter', 'Noto Sans TC', sans-serif;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- ========== HEADER / NAV ========== -->
+  <header class="site-header">
+    <div class="container header-inner">
+      <a href="/" class="brand-logo">SoloBuildTW</a>
+      <nav class="header-nav">
+        <a href="#features">Features</a>
+        <a href="#pricing">Pricing</a>
+        <a href="#faq">FAQ</a>
+        <div class="lang-switcher" style="display:flex;gap:4px;align-items:center;font-size:0.85rem;">
+          <a href="/" style="color:var(--text-muted);text-decoration:none;">中文</a>
+          <span style="color:var(--text-muted);">|</span>
+          <strong style="color:var(--primary);">EN</strong>
+          <span style="color:var(--text-muted);">|</span>
+          <a href="/ja/" style="color:var(--text-muted);text-decoration:none;">日本語</a>
+        </div>
+        <a href="#pricing" class="btn btn-primary btn-sm">Buy Now</a>
+      </nav>
+      <button class="mobile-menu-toggle" aria-label="Open menu">&#9776;</button>
+    </div>
+  </header>
+
+  <!-- ========== HERO ========== -->
+  <section class="hero">
+    <div class="container hero-inner">
+      <div class="hero-badge">Your Own Full-Time AI Team</div>
+      <h1 class="hero-title">
+        <span>Build Your AI Team</span><br />
+        <span class="accent">From organizing emails to building websites — let them handle it all.</span>
+      </h1>
+      <p class="hero-subtitle">No coding, no tech skills needed. 10 AI roles ready to go — your new team starts working tonight.</p>
+      <p class="hero-tagline">
+        You don't have to do it alone —<br class="hide-desktop" /> your AI team is ready to start tonight.
+      </p>
+      <div class="hero-cta-group">
+        <a href="#pricing" class="btn btn-primary btn-lg">Get It Now — Let Your AI Team Start Tonight</a>
+        <a href="#features" class="btn btn-outline btn-lg">See what's inside</a>
+      </div>
+      <div class="hero-social-proof">
+        <div class="stat-item"><span class="stat-num">10</span><span class="stat-label">Professional AI roles, ready in one go</span></div>
+        <div class="stat-divider"></div>
+        <div class="stat-item"><span class="stat-num">24/7</span><span class="stat-label">On call around the clock, no days off</span></div>
+        <div class="stat-divider"></div>
+        <div class="stat-item"><span class="stat-num">200 hrs</span><span class="stat-label">Hard-won lessons, condensed for you tonight</span></div>
+        <div class="stat-divider"></div>
+        <div class="stat-item"><span class="stat-num">1 person</span><span class="stat-label">Can match the output of an entire team</span></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== PAIN POINTS ========== -->
+  <section class="pain-points">
+    <div class="container">
+      <h2 class="section-title">Sound familiar? AI could help, but you don't know where to start.</h2>
+      <div class="pain-grid">
+        <div class="pain-card">
+          <div class="pain-icon">🔥</div>
+          <p>Doing the same tasks every day. You know AI could help, but you open it up, stare at the input box, and have no idea what to type.</p>
+        </div>
+        <div class="pain-card">
+          <div class="pain-icon">😮</div>
+          <p>Seeing others build entire websites solo, auto-send reports, auto-organize emails — and you have no idea what magic they're using.</p>
+        </div>
+        <div class="pain-card">
+          <div class="pain-icon">💸</div>
+          <p>Your colleague is already using AI to leave work early, while you're still staring at a blank page.</p>
+        </div>
+        <div class="pain-card">
+          <div class="pain-icon">🤷</div>
+          <p>You tried researching on your own, read ten articles, ended up more confused, and still don't know where to start.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== FEATURES ========== -->
+  <section class="features" id="features">
+    <div class="container">
+      <div class="section-header">
+        <h2 class="section-title">This Pack Builds Your AI Team For You</h2>
+        <p class="section-desc">
+          200 hours of hard-won experience, distilled into one guide you can open and use right away.<br />
+          From organizing emails and writing reports to building websites — 10 AI roles, each with a clear job, ready to go.
+        </p>
+      </div>
+
+      <div class="features-tabs">
+        <div class="tab-nav">
+          <button class="tab-btn active" data-tab="tutorial">
+            <span class="tag tag-tutorial">T</span> Tutorial Pack Contents
+          </button>
+          <button class="tab-btn" data-tab="soul">
+            <span class="tag tag-soul">S</span> Soul Pack Contents
+          </button>
+        </div>
+
+        <div class="tab-content active" id="tab-tutorial">
+          <div class="features-grid">
+            <div class="feature-card">
+              <div class="feature-num">Part 1–5</div>
+              <h3>18 Chapters, About 1 Hour to Read</h3>
+              <p>Complete path from zero to a fully working AI team. Every chapter is a real lesson learned.</p>
+            </div>
+            <div class="feature-card">
+              <div class="feature-num">Core Topic</div>
+              <h3>Build 10 AI Assistants, Each Handling Different Tasks</h3>
+              <p>Assistant, Engineer, Researcher, Reviewer… each AI has clear responsibilities, like a real team.</p>
+            </div>
+            <div class="feature-card">
+              <div class="feature-num">Memory System</div>
+              <h3>Why Does AI Keep Forgetting What You Said?</h3>
+              <p>Make AI remember your preferences and workflow — no need to re-teach every time.</p>
+            </div>
+            <div class="feature-card">
+              <div class="feature-num">Cost Control</div>
+              <h3>Tested: Save Over 50% on AI Costs</h3>
+              <p>Learn how to pick the right tools, save money, and prevent AI from idling and wasting your budget.</p>
+            </div>
+            <div class="feature-card">
+              <div class="feature-num">Error Cases</div>
+              <h3>30+ Real Failure Records</h3>
+              <p>Full reconstruction of every major mistake, plus foolproof mechanisms to prevent recurrence.</p>
+            </div>
+            <div class="feature-card">
+              <div class="feature-num">Appendices</div>
+              <h3>3 Quick-Reference Appendices</h3>
+              <p>Common commands, model assignment tips, Rules template list — ready to reference during deployment.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="tab-content" id="tab-soul">
+          <div class="features-grid">
+            <div class="feature-card soul">
+              <div class="feature-num">🚀 Zero Setup</div>
+              <h3>Open and Use, No Coding Required</h3>
+              <p>Open the folder, AI sets everything up automatically. No config files to edit, no code to write — just start using it.</p>
+            </div>
+            <div class="feature-card soul">
+              <div class="feature-num">AI Team</div>
+              <h3>10 AI Assistants, Ready to Use</h3>
+              <p>Each assistant has its own specialty and knows its responsibilities. Fully documented.</p>
+            </div>
+            <div class="feature-card soul">
+              <div class="feature-num">Templates</div>
+              <h3>Workflow Templates, Copy-Paste Ready</h3>
+              <p>Templates for common work scenarios. Grab and go, customize as needed.</p>
+            </div>
+            <div class="feature-card soul">
+              <div class="feature-num">Foolproof</div>
+              <h3>Auto-Prevention for Common Pitfalls</h3>
+              <p>Built-in error prevention rules. Mistakes others made — you won't have to repeat.</p>
+            </div>
+            <div class="feature-card soul">
+              <div class="feature-num">Memory</div>
+              <h3>AI Remembers Previous Conversations</h3>
+              <p>One command wakes up the entire team. AI remembers your preferences, projects, and workflow.</p>
+            </div>
+            <div class="feature-card soul">
+              <div class="feature-num">Quality Check</div>
+              <h3>3 AIs Cross-Check Each Other for Better Decisions</h3>
+              <p>Plan → Review → Decide triple-check process, reducing error rate by 63%.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== STORY / TRUST ========== -->
+  <section class="story">
+    <div class="container story-inner">
+      <div class="story-content">
+        <h2 class="section-title">I Started Knowing Nothing Too</h2>
+        <p>Honestly, the first time I opened Claude, I had no idea what to tell it. I spent ages asking questions and got nothing but fluff. I thought AI was just hype — flashy but useless. Then I spent 200 hours slowly figuring it out, and realized: AI can genuinely do real work for you. The problem was never that it wasn't smart enough — nobody told you how to use it.</p>
+        <p>I put everything I learned in those 200 hours into this experience pack. Not to teach you theory — just to save you from the detours I took, so your AI team can start working tonight. Now I run content across three platforms solo, auto-post, auto-generate weekly reports — things I used to think required hiring people.</p>
+        <blockquote class="story-quote">
+          This isn't some online course. No exams, no attendance.<br />
+          Just someone who's been through it all, paving the way for you.
+        </blockquote>
+      </div>
+      <div class="story-visual">
+        <div class="arch-diagram">
+          <div class="arch-title">10-Agent Architecture</div>
+          <div class="arch-nodes">
+            <div class="arch-node center">🧠 Manager</div>
+            <div class="arch-ring">
+              <div class="arch-node small">🛠 Assistant</div>
+              <div class="arch-node small">⚙️ Backend Engineer</div>
+              <div class="arch-node small">🎨 Frontend Engineer</div>
+              <div class="arch-node small">📊 Data Engineer</div>
+              <div class="arch-node small">🐍 Script Engineer</div>
+              <div class="arch-node small">📝 Creative Researcher</div>
+              <div class="arch-node small">🔍 Senior Researcher</div>
+              <div class="arch-node small">🔔 Monitor</div>
+              <div class="arch-node small">✅ Reviewer</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== PRICING ========== -->
+  <section class="pricing" id="pricing">
+    <div class="container">
+      <div class="section-header">
+        <h2 class="section-title">Choose Your Plan</h2>
+        <p class="section-desc">Buy once, download instantly. No subscriptions, no expiration.</p>
+
+        <!-- Promo Banner -->
+        <div class="promo-banner">
+          <span class="promo-icon">🔥</span>
+          <span class="promo-text">
+            Early Bird
+            <strong>20% OFF</strong> — Limited-time launch pricing!
+          </span>
+        </div>
+
+        <p style="text-align:center;margin-top:12px;font-size:0.9rem;color:var(--text-muted);">
+          All prices in USD. International credit cards accepted via secure checkout.
+        </p>
+      </div>
+
+      <div class="pricing-grid">
+
+        <!-- Tutorial Pack -->
+        <div class="pricing-card" id="buy-teaching" data-product="teaching">
+          <div class="discount-badge">-23%</div>
+          <div class="pricing-tag tag-tutorial">Tutorial Pack</div>
+          <h3 class="pricing-name">Tutorial Pack</h3>
+          <p class="pricing-desc">18-chapter field guide, 200+ hours of hard-won experience</p>
+          <div class="pricing-price">
+            <span class="price-intl">
+              <span class="price-original-strike">$24</span>
+              USD <strong>$16.99</strong>
+            </span>
+          </div>
+          <div class="pricing-original">
+            <span class="orig-intl">Price of a coffee, saves 200 hours</span>
+          </div>
+          <ul class="pricing-features">
+            <li>Part 1–5, 18 Chapters + 3 Appendices</li>
+            <li>80–100 Page PDF</li>
+            <li>10-Agent Architecture Design Principles</li>
+            <li>Memory System &amp; Layered Rules Strategy</li>
+            <li>Token Cost Control (Tested: 50% Savings)</li>
+            <li>30+ Real Error Case Studies</li>
+          </ul>
+          <a href="https://core.newebpay.com/EPG/Solobuildtw/qwz830" class="btn btn-primary btn-full">Buy Tutorial Pack</a>
+        </div>
+
+        <!-- Combo Pack (Most Popular) -->
+        <div class="pricing-card combo" id="buy-combo" data-product="combo">
+          <div class="featured-badge combo-badge">Most Popular</div>
+          <div class="pricing-tag tag-combo">Combo Pack</div>
+          <h3 class="pricing-name">Combo Pack</h3>
+          <p class="pricing-desc">Tutorial + Soul complete setup, best value</p>
+          <div class="pricing-price">
+            <span class="price-intl">
+              <span class="price-original-strike">$55</span>
+              USD <strong>$32.99</strong>
+            </span>
+          </div>
+          <div class="pricing-original">
+            <span class="orig-intl">Buy separately $38.98, <strong class="savings">Save $5.99</strong></span>
+          </div>
+          <ul class="pricing-features">
+            <li class="no-check">✅ Includes all Tutorial Pack content</li>
+            <li class="no-check">✅ Includes all Soul Pack content</li>
+            <li class="no-check">🔥 Read the theory, deploy the same day</li>
+            <li>Understand + configure, not blindly copy</li>
+            <li>Free future updates</li>
+          </ul>
+          <a href="https://core.newebpay.com/EPG/Solobuildtw/fpNsoe" class="btn btn-combo btn-full">Buy Combo Pack (Best Value)</a>
+        </div>
+
+        <!-- Soul Pack -->
+        <div class="pricing-card" id="buy-soul" data-product="soul">
+          <div class="discount-badge">-24%</div>
+          <div class="pricing-tag tag-soul">Soul Pack</div>
+          <h3 class="pricing-name">Soul Pack</h3>
+          <p class="pricing-desc">Production-ready 10-agent configuration, deploy instantly</p>
+          <div class="pricing-price">
+            <span class="price-intl">
+              <span class="price-original-strike">$31</span>
+              USD <strong>$21.99</strong>
+            </span>
+          </div>
+          <div class="pricing-original">
+            <span class="orig-intl">Ready to use, no setup from scratch</span>
+          </div>
+          <ul class="pricing-features">
+            <li class="no-check">🔥 Deploy and start using immediately</li>
+            <li>10 Agent Definition Files (Fully Annotated)</li>
+            <li>Skills Template Library</li>
+            <li>Layered Rules System</li>
+            <li>Start Template</li>
+            <li>MEMORY Structure</li>
+            <li>Hooks Pre/Post Configuration</li>
+            <li>Triangle Check Decision Process</li>
+          </ul>
+          <a href="https://core.newebpay.com/EPG/Solobuildtw/4Pmrjp" class="btn btn-primary btn-full">Buy Soul Pack</a>
+        </div>
+
+      </div>
+
+      <!-- Compare table -->
+      <div class="compare-wrap">
+        <button class="compare-toggle" id="en-compare-toggle">Compare All Plans ▾</button>
+        <table class="compare-table hidden" id="en-compare-table">
+          <thead>
+            <tr>
+              <th>Content</th>
+              <th><span class="tag tag-tutorial">T</span> Tutorial</th>
+              <th><span class="tag tag-combo">C</span> Combo</th>
+              <th><span class="tag tag-soul">S</span> Soul</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr><td>18-Chapter PDF Guide</td><td>✅</td><td>✅</td><td>—</td></tr>
+            <tr><td>3 Appendix Quick Refs</td><td>✅</td><td>✅</td><td>—</td></tr>
+            <tr><td>10 Agent Definitions</td><td>—</td><td>✅</td><td>✅</td></tr>
+            <tr><td>Skills Templates</td><td>—</td><td>✅</td><td>✅</td></tr>
+            <tr><td>Rules System</td><td>—</td><td>✅</td><td>✅</td></tr>
+            <tr><td>Start Template</td><td>—</td><td>✅</td><td>✅</td></tr>
+            <tr><td>MEMORY Structure</td><td>—</td><td>✅</td><td>✅</td></tr>
+            <tr><td>Hooks Config</td><td>—</td><td>✅</td><td>✅</td></tr>
+            <tr><td>Triangle Check Process</td><td>—</td><td>✅</td><td>✅</td></tr>
+            <tr class="tr-price">
+              <td>USD Pricing</td>
+              <td>$<strong>16.99</strong></td>
+              <td><strong>$32.99</strong></td>
+              <td>$<strong>21.99</strong></td>
+            </tr>
+            <tr class="tr-price">
+              <td>Original Price</td>
+              <td>$<strong>24</strong></td>
+              <td>$<strong>55</strong></td>
+              <td>$<strong>31</strong></td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== FAQ ========== -->
+  <section class="faq" id="faq">
+    <div class="container">
+      <h2 class="section-title">FAQ</h2>
+      <div class="faq-list">
+
+        <details class="faq-item">
+          <summary>I'm not an engineer. Is this for me?</summary>
+          <p>Yes. This guide is for anyone who wants to build but doesn't know where to start.<br />If you've used AI tools or plan to, you'll benefit.</p>
+        </details>
+
+        <details class="faq-item">
+          <summary>What format are the Soul Pack files?</summary>
+          <p>Open Claude Code in the Soul Pack folder. The Manager will automatically ask your name and set everything up.<br />No manual copying, no extra tools needed.</p>
+        </details>
+
+        <details class="faq-item">
+          <summary>How do I get it after purchase?</summary>
+          <p>All payments processed securely via international credit card (USD).<br />Download link provided immediately after payment, also sent to your email.</p>
+        </details>
+
+        <details class="faq-item">
+          <summary>What's the difference between Tutorial and Soul Pack?</summary>
+          <p>Tutorial Pack is &ldquo;knowledge&rdquo; — understand the architecture and reasoning behind every decision.<br />Soul Pack is &ldquo;tools&rdquo; — production-ready config files you can deploy immediately.<br />If budget allows, Combo Pack is the most complete choice.</p>
+        </details>
+
+        <details class="faq-item">
+          <summary>Are payments secure?</summary>
+          <p>All payments are processed through a secure payment gateway supporting international credit cards. Your payment information is never stored on our servers.</p>
+        </details>
+
+        <details class="faq-item">
+          <summary>Can I get a refund?</summary>
+          <p>Digital products are non-refundable. For any questions, please contact SoloBuildTW@gmail.com first.</p>
+        </details>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== FINAL CTA ========== -->
+  <section class="final-cta">
+    <div class="container final-cta-inner">
+      <h2>Ready to Put Your AI Team to Work?</h2>
+      <p>Read in two hours. Tonight, your 10 AIs get into position and start working for you.</p>
+      <div class="final-cta-buttons">
+        <a href="https://core.newebpay.com/EPG/Solobuildtw/qwz830" class="btn btn-outline-light" data-product="teaching">Tutorial $16.99</a>
+        <a href="https://core.newebpay.com/EPG/Solobuildtw/4Pmrjp" class="btn btn-outline-light" data-product="soul">Soul $21.99</a>
+        <a href="https://core.newebpay.com/EPG/Solobuildtw/fpNsoe" class="btn btn-primary-light" data-product="combo">Combo $32.99 (Best Value)</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== FOOTER ========== -->
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <div class="footer-brand">
+        <span class="brand-logo">SoloBuildTW</span>
+        <p>Built by someone who's been through it all, paving the way for you.</p>
+      </div>
+      <div class="footer-links">
+        <a href="#pricing">Buy</a>
+        <a href="../privacy.html">Privacy Policy</a>
+        <a href="../terms.html">Terms of Service</a>
+        <a href="../refund.html">Refund Policy</a>
+        <a href="mailto:SoloBuildTW@gmail.com">Contact Us</a>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <div class="container">
+        <p>© 2026 SoloBuildTW. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    /* Minimal JS for English page — tab switcher + compare toggle + mobile nav + CF Worker checkout */
+    document.addEventListener('DOMContentLoaded', () => {
+
+      // ---- Tab switcher ----
+      const tabBtns = document.querySelectorAll('.tab-btn');
+      const tabContents = document.querySelectorAll('.tab-content');
+      tabBtns.forEach(btn => {
+        btn.addEventListener('click', () => {
+          const target = btn.dataset.tab;
+          tabBtns.forEach(b => b.classList.remove('active'));
+          tabContents.forEach(c => c.classList.remove('active'));
+          btn.classList.add('active');
+          const content = document.getElementById(`tab-${target}`);
+          if (content) content.classList.add('active');
+        });
+      });
+
+      // ---- Compare table toggle ----
+      const compareToggle = document.getElementById('en-compare-toggle');
+      const compareTable = document.getElementById('en-compare-table');
+      if (compareToggle && compareTable) {
+        compareToggle.addEventListener('click', () => {
+          const isHidden = compareTable.classList.contains('hidden');
+          compareTable.classList.toggle('hidden', !isHidden);
+          compareToggle.textContent = isHidden
+            ? 'Close Comparison ▴'
+            : 'Compare All Plans ▾';
+        });
+      }
+
+      // ---- Mobile nav toggle ----
+      const mobileToggle = document.querySelector('.mobile-menu-toggle');
+      const headerNav = document.querySelector('.header-nav');
+      if (mobileToggle && headerNav) {
+        mobileToggle.addEventListener('click', () => {
+          const isOpen = headerNav.style.display === 'flex';
+          if (isOpen) {
+            headerNav.removeAttribute('style');
+          } else {
+            headerNav.style.display = 'flex';
+            headerNav.style.flexDirection = 'column';
+            headerNav.style.position = 'absolute';
+            headerNav.style.top = '64px';
+            headerNav.style.left = '0';
+            headerNav.style.right = '0';
+            headerNav.style.background = 'rgba(250,247,242,0.98)';
+            headerNav.style.padding = '16px 24px 24px';
+            headerNav.style.gap = '16px';
+            headerNav.style.borderBottom = '1px solid rgba(30,58,95,0.1)';
+          }
+        });
+      }
+
+      // ---- Affiliate ref tracking ----
+      (function captureRef() {
+        const params = new URLSearchParams(window.location.search);
+        const urlRef = params.get('ref');
+        if (urlRef && urlRef.trim().length > 0) {
+          sessionStorage.setItem('solobuild-ref', urlRef.trim());
+        }
+      })();
+
+      function getRef() {
+        return sessionStorage.getItem('solobuild-ref') || '';
+      }
+
+      // ---- CF Worker checkout (藍新) ----
+      const CF_WORKER = 'https://solobuild-pay.harvey3630.workers.dev';
+      const PRODUCT_MAP = {
+        'buy-teaching': 'handbook', 'teaching': 'handbook',
+        'buy-soul': 'soulpack', 'soul': 'soulpack',
+        'buy-combo': 'combo', 'combo': 'combo'
+      };
+
+      async function checkoutEN(productId, btnEl) {
+        const mapped = PRODUCT_MAP[productId] || productId;
+        const ref = getRef();
+        const originalText = btnEl.textContent;
+        btnEl.textContent = 'Processing...';
+        btnEl.style.pointerEvents = 'none';
+        try {
+          const res = await fetch(`${CF_WORKER}/api/checkout`, {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify({ product: mapped, ref: ref, email: '' })
+          });
+          const data = await res.json();
+          if (!res.ok) throw new Error(data.error || 'Checkout failed');
+          const form = document.createElement('form');
+          form.method = 'POST';
+          form.action = data.PaymentURL;
+          ['MerchantID', 'TradeInfo', 'TradeSha', 'Version'].forEach(k => {
+            const input = document.createElement('input');
+            input.type = 'hidden';
+            input.name = k;
+            input.value = data[k];
+            form.appendChild(input);
+          });
+          document.body.appendChild(form);
+          form.submit();
+        } catch (err) {
+          alert('Failed to load checkout page. Please try again.');
+          btnEl.textContent = originalText;
+          btnEl.style.pointerEvents = '';
+        }
+      }
+
+      // ---- Intercept all purchase links ----
+      document.querySelectorAll('a[id^="buy-"], a.btn-primary, a.btn-combo, a.btn-outline-light, a.btn-primary-light').forEach(function(btn) {
+        btn.addEventListener('click', function(e) {
+          var card = this.closest('.pricing-card, [data-product]');
+          var product = card ? (card.id || card.dataset.product || 'unknown') : 'unknown';
+
+          // GA4 tracking
+          if (typeof gtag === 'function') {
+            gtag('event', 'begin_checkout', {
+              'event_category': 'conversion',
+              'event_label': 'en_' + product
+            });
+          }
+
+          // All payments go through CF Worker (藍新)
+          e.preventDefault();
+          checkoutEN(product, this);
+        });
+      });
+    });
+  </script>
+</body>
+</html>
