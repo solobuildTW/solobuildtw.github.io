@@ -7,7 +7,7 @@
     <description>人類到底有多蠢？阿佑翻遍歷史與新聞，每集挖出一個讓你又笑又傻眼的真實蠢事。</description>
     <copyright>© 2026 阿佑</copyright>
     <generator>SoloBuildTW Podcast RSS Generator v2</generator>
-    <lastBuildDate>Sat, 11 Apr 2026 12:05:48 -0000</lastBuildDate>
+    <lastBuildDate>Sun, 12 Apr 2026 21:15:10 -0000</lastBuildDate>
     <atom:link href="https://solobuildtw.github.io/podcast/stupid-humans/feed.xml" rel="self" type="application/rss+xml"/>
     <itunes:title>史上最蠢人類</itunes:title>
     <itunes:author>阿佑</itunes:author>
@@ -19,7 +19,7 @@
     <itunes:keywords>搞笑,蠢事,喜劇,台灣,真實故事</itunes:keywords>
     <itunes:owner>
       <itunes:name>阿佑</itunes:name>
-      <itunes:email>solobuildtw@gmail.com</itunes:email>
+      <itunes:email>harvey3630@gmail.com</itunes:email>
     </itunes:owner>
     <itunes:image href="https://solobuildtw.github.io/podcast/stupid-humans/cover.jpg"/>
     <image>
@@ -29,112 +29,22 @@
     </image>
     <itunes:category text="Comedy"/>
     <item>
-      <title>EP008 1932年澳洲軍隊帶著機關槍討伐鴯鶓，結果被鳥打敗，全面撤退。牠們的鳥羽毛甚至擋</title>
-      <description>1932年澳洲軍隊帶著機關槍討伐鴯鶓，結果被鳥打敗，全面撤退。牠們的鳥羽毛甚至擋得住機槍子彈。這場「鴯鶓戰爭」是真實發生的，澳洲官方記錄在案，沒有人為這件事感到驕傲。</description>
-      <pubDate>Sat, 11 Apr 2026 12:05:48 -0000</pubDate>
-      <guid>27282b02777e35c6950195906551aa67</guid>
-      <link>https://solobuildtw.github.io/podcast/stupid-humans/ep/008</link>
-      <enclosure url="https://op3.dev/e/https://solobuildtw.github.io/podcast/stupid-humans/audio/EP008_1932年澳洲軍隊帶著機關槍討伐鴯鶓，結果被鳥打敗，全面撤退.mp3" type="audio/mpeg" length="17475962"/>
-      <itunes:title>EP008 1932年澳洲軍隊帶著機關槍討伐鴯鶓，結果被鳥打敗，全面撤退。牠們的鳥羽毛甚至擋</itunes:title>
+      <title>EP999 S84佑希測試</title>
+      <description>S84佑希測試</description>
+      <pubDate>Sun, 12 Apr 2026 21:15:10 -0000</pubDate>
+      <guid>ec3f059ec5cba79a864911a766e59b6e</guid>
+      <link>https://solobuildtw.github.io/podcast/stupid-humans/ep/999</link>
+      <enclosure url="https://solobuildtw.github.io/podcast/stupid-humans/audio/CH3_EP999_S84佑希測試.mp3" type="audio/mpeg" length="120384"/>
+      <itunes:title>EP999 S84佑希測試</itunes:title>
       <itunes:author>阿佑</itunes:author>
-      <itunes:duration>00:12:08</itunes:duration>
+      <itunes:duration>00:00:07</itunes:duration>
       <itunes:explicit>no</itunes:explicit>
-      <itunes:episode>8</itunes:episode>
+      <itunes:episode>999</itunes:episode>
       <itunes:episodeType>full</itunes:episodeType>
-      <itunes:summary>1932年澳洲軍隊帶著機關槍討伐鴯鶓，結果被鳥打敗，全面撤退。牠們的鳥羽毛甚至擋得住機槍子彈。這場「鴯鶓戰爭」是真實發生的，澳洲官方記錄在案，沒有人為這件事感到驕傲。</itunes:summary>
-      <itunes:subtitle>1932年澳洲軍隊帶著機關槍討伐鴯鶓，結果被鳥打敗，全面撤退。牠們的鳥羽毛甚至擋</itunes:subtitle>
+      <itunes:summary>S84佑希測試</itunes:summary>
+      <itunes:subtitle>S84佑希測試</itunes:subtitle>
       <itunes:keywords>搞笑,蠢事,喜劇,台灣,真實故事</itunes:keywords>
-      <content:encoded><![CDATA[1932年澳洲軍隊帶著機關槍討伐鴯鶓，結果被鳥打敗，全面撤退。牠們的鳥羽毛甚至擋得住機槍子彈。這場「鴯鶓戰爭」是真實發生的，澳洲官方記錄在案，沒有人為這件事感到驕傲。]]></content:encoded>
-    </item>
-    <item>
-      <title>EP005 可口可樂砸了四百萬美元開發新配方，推出「新可樂」，結果七十九天之後被憤怒的消費者</title>
-      <description>可口可樂砸了四百萬美元開發新配方，推出「新可樂」，結果七十九天之後被憤怒的消費者罵到不得不下架。一個百年品牌為了打敗百事，最後把自己搞成笑話。阿佑說，這叫做聰明過頭，蠢到家了。</description>
-      <pubDate>Sat, 11 Apr 2026 01:09:15 -0000</pubDate>
-      <guid>31b143231caf7e38154def63077a133c</guid>
-      <link>https://solobuildtw.github.io/podcast/stupid-humans/ep/005</link>
-      <enclosure url="https://op3.dev/e/https://solobuildtw.github.io/podcast/stupid-humans/audio/EP005_可口可樂砸了四百萬美元開發新配方，推出「新可樂」，結果七十九.mp3" type="audio/mpeg" length="16995100"/>
-      <itunes:title>EP005 可口可樂砸了四百萬美元開發新配方，推出「新可樂」，結果七十九天之後被憤怒的消費者</itunes:title>
-      <itunes:author>阿佑</itunes:author>
-      <itunes:duration>00:11:48</itunes:duration>
-      <itunes:explicit>no</itunes:explicit>
-      <itunes:episode>5</itunes:episode>
-      <itunes:episodeType>full</itunes:episodeType>
-      <itunes:summary>可口可樂砸了四百萬美元開發新配方，推出「新可樂」，結果七十九天之後被憤怒的消費者罵到不得不下架。一個百年品牌為了打敗百事，最後把自己搞成笑話。阿佑說，這叫做聰明過頭，蠢到家了。</itunes:summary>
-      <itunes:subtitle>可口可樂砸了四百萬美元開發新配方，推出「新可樂」，結果七十九天之後被憤怒的消費者</itunes:subtitle>
-      <itunes:keywords>搞笑,蠢事,喜劇,台灣,真實故事</itunes:keywords>
-      <content:encoded><![CDATA[可口可樂砸了四百萬美元開發新配方，推出「新可樂」，結果七十九天之後被憤怒的消費者罵到不得不下架。一個百年品牌為了打敗百事，最後把自己搞成笑話。阿佑說，這叫做聰明過頭，蠢到家了。]]></content:encoded>
-    </item>
-    <item>
-      <title>EP004 NASA花一億兩千五百萬美元打造的火星探測器，因為一個團隊用英製單位、另一個團隊</title>
-      <description>NASA花一億兩千五百萬美元打造的火星探測器，因為一個團隊用英製單位、另一個團隊用公製單位，在沒有人發現的情況下直接撞進火星大氣層燒掉。阿佑說，有些錯誤不是蠢，是懶得確認一件小事。</description>
-      <pubDate>Sat, 11 Apr 2026 01:08:53 -0000</pubDate>
-      <guid>8a94885a80ba00b724b927205295479b</guid>
-      <link>https://solobuildtw.github.io/podcast/stupid-humans/ep/004</link>
-      <enclosure url="https://op3.dev/e/https://solobuildtw.github.io/podcast/stupid-humans/audio/EP004_NASA花一億兩千五百萬美元打造的火星探測器，因為一個團隊用.mp3" type="audio/mpeg" length="16127417"/>
-      <itunes:title>EP004 NASA花一億兩千五百萬美元打造的火星探測器，因為一個團隊用英製單位、另一個團隊</itunes:title>
-      <itunes:author>阿佑</itunes:author>
-      <itunes:duration>00:11:11</itunes:duration>
-      <itunes:explicit>no</itunes:explicit>
-      <itunes:episode>4</itunes:episode>
-      <itunes:episodeType>full</itunes:episodeType>
-      <itunes:summary>NASA花一億兩千五百萬美元打造的火星探測器，因為一個團隊用英製單位、另一個團隊用公製單位，在沒有人發現的情況下直接撞進火星大氣層燒掉。阿佑說，有些錯誤不是蠢，是懶得確認一件小事。</itunes:summary>
-      <itunes:subtitle>NASA花一億兩千五百萬美元打造的火星探測器，因為一個團隊用英製單位、另一個團隊</itunes:subtitle>
-      <itunes:keywords>搞笑,蠢事,喜劇,台灣,真實故事</itunes:keywords>
-      <content:encoded><![CDATA[NASA花一億兩千五百萬美元打造的火星探測器，因為一個團隊用英製單位、另一個團隊用公製單位，在沒有人發現的情況下直接撞進火星大氣層燒掉。阿佑說，有些錯誤不是蠢，是懶得確認一件小事。]]></content:encoded>
-    </item>
-    <item>
-      <title>EP003 摩托羅拉曾經有機會以合理價格收購諾基亞，高層開了一個會之後決定不買。後來諾基亞被</title>
-      <description>摩托羅拉曾經有機會以合理價格收購諾基亞，高層開了一個會之後決定不買。後來諾基亞被微軟收購，摩托羅拉被谷歌收購，最後兩家公司都消失了。這種決策品質，阿佑表示懷疑這群人的學歷是假的。</description>
-      <pubDate>Sat, 11 Apr 2026 01:08:31 -0000</pubDate>
-      <guid>29560558140daf386af332fec0f7c52e</guid>
-      <link>https://solobuildtw.github.io/podcast/stupid-humans/ep/003</link>
-      <enclosure url="https://op3.dev/e/https://solobuildtw.github.io/podcast/stupid-humans/audio/EP003_摩托羅拉曾經有機會以合理價格收購諾基亞，高層開了一個會之後決.mp3" type="audio/mpeg" length="16111743"/>
-      <itunes:title>EP003 摩托羅拉曾經有機會以合理價格收購諾基亞，高層開了一個會之後決定不買。後來諾基亞被</itunes:title>
-      <itunes:author>阿佑</itunes:author>
-      <itunes:duration>00:11:11</itunes:duration>
-      <itunes:explicit>no</itunes:explicit>
-      <itunes:episode>3</itunes:episode>
-      <itunes:episodeType>full</itunes:episodeType>
-      <itunes:summary>摩托羅拉曾經有機會以合理價格收購諾基亞，高層開了一個會之後決定不買。後來諾基亞被微軟收購，摩托羅拉被谷歌收購，最後兩家公司都消失了。這種決策品質，阿佑表示懷疑這群人的學歷是假的。</itunes:summary>
-      <itunes:subtitle>摩托羅拉曾經有機會以合理價格收購諾基亞，高層開了一個會之後決定不買。後來諾基亞被</itunes:subtitle>
-      <itunes:keywords>搞笑,蠢事,喜劇,台灣,真實故事</itunes:keywords>
-      <content:encoded><![CDATA[摩托羅拉曾經有機會以合理價格收購諾基亞，高層開了一個會之後決定不買。後來諾基亞被微軟收購，摩托羅拉被谷歌收購，最後兩家公司都消失了。這種決策品質，阿佑表示懷疑這群人的學歷是假的。]]></content:encoded>
-    </item>
-    <item>
-      <title>EP002 拿破崙帶著六十萬大軍闖進俄羅斯，結果被冬天打敗，活著撤回來的不到十萬人。他犯的錯</title>
-      <description>拿破崙帶著六十萬大軍闖進俄羅斯，結果被冬天打敗，活著撤回來的不到十萬人。他犯的錯叫「沉沒成本謬誤」——輸得越慘越不肯認輸，越不認輸死得越慘。史上最貴的一堂課，你不用花錢，阿佑說給你聽。</description>
-      <pubDate>Sat, 11 Apr 2026 01:08:10 -0000</pubDate>
-      <guid>f30e92b43e79e5d613c00a1d87160bfd</guid>
-      <link>https://solobuildtw.github.io/podcast/stupid-humans/ep/002</link>
-      <enclosure url="https://op3.dev/e/https://solobuildtw.github.io/podcast/stupid-humans/audio/EP002_拿破崙帶著六十萬大軍闖進俄羅斯，結果被冬天打敗，活著撤回來的.mp3" type="audio/mpeg" length="17317346"/>
-      <itunes:title>EP002 拿破崙帶著六十萬大軍闖進俄羅斯，結果被冬天打敗，活著撤回來的不到十萬人。他犯的錯</itunes:title>
-      <itunes:author>阿佑</itunes:author>
-      <itunes:duration>00:12:01</itunes:duration>
-      <itunes:explicit>no</itunes:explicit>
-      <itunes:episode>2</itunes:episode>
-      <itunes:episodeType>full</itunes:episodeType>
-      <itunes:summary>拿破崙帶著六十萬大軍闖進俄羅斯，結果被冬天打敗，活著撤回來的不到十萬人。他犯的錯叫「沉沒成本謬誤」——輸得越慘越不肯認輸，越不認輸死得越慘。史上最貴的一堂課，你不用花錢，阿佑說給你聽。</itunes:summary>
-      <itunes:subtitle>拿破崙帶著六十萬大軍闖進俄羅斯，結果被冬天打敗，活著撤回來的不到十萬人。他犯的錯</itunes:subtitle>
-      <itunes:keywords>搞笑,蠢事,喜劇,台灣,真實故事</itunes:keywords>
-      <content:encoded><![CDATA[拿破崙帶著六十萬大軍闖進俄羅斯，結果被冬天打敗，活著撤回來的不到十萬人。他犯的錯叫「沉沒成本謬誤」——輸得越慘越不肯認輸，越不認輸死得越慘。史上最貴的一堂課，你不用花錢，阿佑說給你聽。]]></content:encoded>
-    </item>
-    <item>
-      <title>EP001 柯達的工程師在1975年親手發明了數位相機，公司高層看完之後說「先不要讓別人知道</title>
-      <description>柯達的工程師在1975年親手發明了數位相機，公司高層看完之後說「先不要讓別人知道這件事」，然後把它鎖進地下室二十年。這不是在開玩笑，這是真實發生的商業自殺。阿佑帶你看清楚，成功是如何把人變蠢的。</description>
-      <pubDate>Sat, 11 Apr 2026 01:07:48 -0000</pubDate>
-      <guid>9871e0ade63257c53f4f173b47d6efd2</guid>
-      <link>https://solobuildtw.github.io/podcast/stupid-humans/ep/001</link>
-      <enclosure url="https://op3.dev/e/https://solobuildtw.github.io/podcast/stupid-humans/audio/EP001_柯達的工程師在1975年親手發明了數位相機，公司高層看完之後.mp3" type="audio/mpeg" length="17100426"/>
-      <itunes:title>EP001 柯達的工程師在1975年親手發明了數位相機，公司高層看完之後說「先不要讓別人知道</itunes:title>
-      <itunes:author>阿佑</itunes:author>
-      <itunes:duration>00:11:52</itunes:duration>
-      <itunes:explicit>no</itunes:explicit>
-      <itunes:episode>1</itunes:episode>
-      <itunes:episodeType>full</itunes:episodeType>
-      <itunes:summary>柯達的工程師在1975年親手發明了數位相機，公司高層看完之後說「先不要讓別人知道這件事」，然後把它鎖進地下室二十年。這不是在開玩笑，這是真實發生的商業自殺。阿佑帶你看清楚，成功是如何把人變蠢的。</itunes:summary>
-      <itunes:subtitle>柯達的工程師在1975年親手發明了數位相機，公司高層看完之後說「先不要讓別人知道</itunes:subtitle>
-      <itunes:keywords>搞笑,蠢事,喜劇,台灣,真實故事</itunes:keywords>
-      <content:encoded><![CDATA[柯達的工程師在1975年親手發明了數位相機，公司高層看完之後說「先不要讓別人知道這件事」，然後把它鎖進地下室二十年。這不是在開玩笑，這是真實發生的商業自殺。阿佑帶你看清楚，成功是如何把人變蠢的。]]></content:encoded>
+      <content:encoded><![CDATA[S84佑希測試]]></content:encoded>
     </item>
   </channel>
 </rss>

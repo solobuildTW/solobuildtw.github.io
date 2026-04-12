@@ -7,7 +7,7 @@
     <description>你知道嗎？世界上有些知識冷到讓人噴飯！芸芸每集帶來一個你從沒想過會想知道的冷知識，三分鐘讓你多一個嚇到朋友的話題。</description>
     <copyright>© 2026 芸芸</copyright>
     <generator>SoloBuildTW Podcast RSS Generator v2</generator>
-    <lastBuildDate>Sat, 11 Apr 2026 12:05:13 -0000</lastBuildDate>
+    <lastBuildDate>Sun, 12 Apr 2026 21:46:11 -0000</lastBuildDate>
     <atom:link href="https://solobuildtw.github.io/podcast/cold-knowledge/feed.xml" rel="self" type="application/rss+xml"/>
     <itunes:title>冷知識電波</itunes:title>
     <itunes:author>芸芸</itunes:author>
@@ -19,7 +19,7 @@
     <itunes:keywords>冷知識,趣聞,知識,台灣,繁體中文</itunes:keywords>
     <itunes:owner>
       <itunes:name>芸芸</itunes:name>
-      <itunes:email>solobuildtw@gmail.com</itunes:email>
+      <itunes:email>harvey36309@hotmail.com</itunes:email>
     </itunes:owner>
     <itunes:image href="https://solobuildtw.github.io/podcast/cold-knowledge/cover.jpg"/>
     <image>
@@ -30,77 +30,5 @@
     <itunes:category text="Society &amp; Culture">
       <itunes:category text="Education"/>
     </itunes:category>
-    <item>
-      <title>EP013 1859年的卡靈頓事件讓全球電報係統大癱瘓，極光美到在赤道都看得見！芸芸帶你穿越</title>
-      <description>1859年的卡靈頓事件讓全球電報係統大癱瘓，極光美到在赤道都看得見！芸芸帶你穿越時空重返那場百年太陽風暴，並揭開如果同樣的事件發生在今天，我們的科技文明將面臨什麼災難！</description>
-      <pubDate>Sat, 11 Apr 2026 12:05:13 -0000</pubDate>
-      <guid>2fead4e8f10078f18b4ee4ee23eb2b5d</guid>
-      <link>https://solobuildtw.github.io/podcast/cold-knowledge/ep/013</link>
-      <enclosure url="https://op3.dev/e/https://solobuildtw.github.io/podcast/cold-knowledge/audio/EP013_1859年的卡靈頓事件讓全球電報係統大癱瘓，極光美到在赤道都.mp3" type="audio/mpeg" length="16987577"/>
-      <itunes:title>EP013 1859年的卡靈頓事件讓全球電報係統大癱瘓，極光美到在赤道都看得見！芸芸帶你穿越</itunes:title>
-      <itunes:author>芸芸</itunes:author>
-      <itunes:duration>00:11:47</itunes:duration>
-      <itunes:explicit>no</itunes:explicit>
-      <itunes:episode>13</itunes:episode>
-      <itunes:episodeType>full</itunes:episodeType>
-      <itunes:summary>1859年的卡靈頓事件讓全球電報係統大癱瘓，極光美到在赤道都看得見！芸芸帶你穿越時空重返那場百年太陽風暴，並揭開如果同樣的事件發生在今天，我們的科技文明將面臨什麼災難！</itunes:summary>
-      <itunes:subtitle>1859年的卡靈頓事件讓全球電報係統大癱瘓，極光美到在赤道都看得見！芸芸帶你穿越</itunes:subtitle>
-      <itunes:keywords>冷知識,趣聞,知識,台灣,繁體中文</itunes:keywords>
-      <content:encoded><![CDATA[1859年的卡靈頓事件讓全球電報係統大癱瘓，極光美到在赤道都看得見！芸芸帶你穿越時空重返那場百年太陽風暴，並揭開如果同樣的事件發生在今天，我們的科技文明將面臨什麼災難！]]></content:encoded>
-    </item>
-    <item>
-      <title>EP003 你知道嗎？有一種生物竟然有三顆心臟和藍色的血液！超扯的對不對！這次芸芸要帶你潛入</title>
-      <description>你知道嗎？有一種生物竟然有三顆心臟和藍色的血液！超扯的對不對！這次芸芸要帶你潛入深海，認識這個根本是外星來的鄰居——章魚！</description>
-      <pubDate>Sat, 11 Apr 2026 01:05:37 -0000</pubDate>
-      <guid>64bc2663f72ce1568afb411689d47959</guid>
-      <link>https://solobuildtw.github.io/podcast/cold-knowledge/ep/003</link>
-      <enclosure url="https://op3.dev/e/https://solobuildtw.github.io/podcast/cold-knowledge/audio/EP003_你知道嗎？有一種生物竟然有三顆心臟和藍色的血液！超扯的對不對.mp3" type="audio/mpeg" length="17412641"/>
-      <itunes:title>EP003 你知道嗎？有一種生物竟然有三顆心臟和藍色的血液！超扯的對不對！這次芸芸要帶你潛入</itunes:title>
-      <itunes:author>芸芸</itunes:author>
-      <itunes:duration>00:12:05</itunes:duration>
-      <itunes:explicit>no</itunes:explicit>
-      <itunes:episode>3</itunes:episode>
-      <itunes:episodeType>full</itunes:episodeType>
-      <itunes:summary>你知道嗎？有一種生物竟然有三顆心臟和藍色的血液！超扯的對不對！這次芸芸要帶你潛入深海，認識這個根本是外星來的鄰居——章魚！</itunes:summary>
-      <itunes:subtitle>你知道嗎？有一種生物竟然有三顆心臟和藍色的血液！超扯的對不對！這次芸芸要帶你潛入</itunes:subtitle>
-      <itunes:keywords>冷知識,趣聞,知識,台灣,繁體中文</itunes:keywords>
-      <content:encoded><![CDATA[你知道嗎？有一種生物竟然有三顆心臟和藍色的血液！超扯的對不對！這次芸芸要帶你潛入深海，認識這個根本是外星來的鄰居——章魚！]]></content:encoded>
-    </item>
-    <item>
-      <title>EP002 你知道嗎？一個嬌小的媽媽居然徒手抬起一輛汽車救了她的孩子！這聽起來超扯的對不對！</title>
-      <description>你知道嗎？一個嬌小的媽媽居然徒手抬起一輛汽車救了她的孩子！這聽起來超扯的對不對！這其實是一種叫做「歇斯底裡力量」的人體潛能喔。</description>
-      <pubDate>Sat, 11 Apr 2026 01:05:10 -0000</pubDate>
-      <guid>2d25f549f45c7b9cd53b0f8ee6f067e3</guid>
-      <link>https://solobuildtw.github.io/podcast/cold-knowledge/ep/002</link>
-      <enclosure url="https://op3.dev/e/https://solobuildtw.github.io/podcast/cold-knowledge/audio/EP002_你知道嗎？一個嬌小的媽媽居然徒手抬起一輛汽車救了她的孩子！這.mp3" type="audio/mpeg" length="16112997"/>
-      <itunes:title>EP002 你知道嗎？一個嬌小的媽媽居然徒手抬起一輛汽車救了她的孩子！這聽起來超扯的對不對！</itunes:title>
-      <itunes:author>芸芸</itunes:author>
-      <itunes:duration>00:11:11</itunes:duration>
-      <itunes:explicit>no</itunes:explicit>
-      <itunes:episode>2</itunes:episode>
-      <itunes:episodeType>full</itunes:episodeType>
-      <itunes:summary>你知道嗎？一個嬌小的媽媽居然徒手抬起一輛汽車救了她的孩子！這聽起來超扯的對不對！這其實是一種叫做「歇斯底裡力量」的人體潛能喔。</itunes:summary>
-      <itunes:subtitle>你知道嗎？一個嬌小的媽媽居然徒手抬起一輛汽車救了她的孩子！這聽起來超扯的對不對！</itunes:subtitle>
-      <itunes:keywords>冷知識,趣聞,知識,台灣,繁體中文</itunes:keywords>
-      <content:encoded><![CDATA[你知道嗎？一個嬌小的媽媽居然徒手抬起一輛汽車救了她的孩子！這聽起來超扯的對不對！這其實是一種叫做「歇斯底裡力量」的人體潛能喔。]]></content:encoded>
-    </item>
-    <item>
-      <title>EP001 你知道嗎？金字塔裡放了三千年的蜂蜜竟然還能吃！對對對，這真的超扯的！蜂蜜到底為什</title>
-      <description>你知道嗎？金字塔裡放了三千年的蜂蜜竟然還能吃！對對對，這真的超扯的！蜂蜜到底為什麼不會壞掉啊？難道它有什麼超能力嗎？這集芸芸就要來揭開蜂蜜永生不死的驚人秘密，保證讓你傻眼！</description>
-      <pubDate>Sat, 11 Apr 2026 01:04:41 -0000</pubDate>
-      <guid>a0f1a98419fe8900ffd3d677c1091519</guid>
-      <link>https://solobuildtw.github.io/podcast/cold-knowledge/ep/001</link>
-      <enclosure url="https://op3.dev/e/https://solobuildtw.github.io/podcast/cold-knowledge/audio/EP001_你知道嗎？金字塔裡放了三千年的蜂蜜竟然還能吃！對對對，這真的.mp3" type="audio/mpeg" length="17021431"/>
-      <itunes:title>EP001 你知道嗎？金字塔裡放了三千年的蜂蜜竟然還能吃！對對對，這真的超扯的！蜂蜜到底為什</itunes:title>
-      <itunes:author>芸芸</itunes:author>
-      <itunes:duration>00:11:49</itunes:duration>
-      <itunes:explicit>no</itunes:explicit>
-      <itunes:episode>1</itunes:episode>
-      <itunes:episodeType>full</itunes:episodeType>
-      <itunes:summary>你知道嗎？金字塔裡放了三千年的蜂蜜竟然還能吃！對對對，這真的超扯的！蜂蜜到底為什麼不會壞掉啊？難道它有什麼超能力嗎？這集芸芸就要來揭開蜂蜜永生不死的驚人秘密，保證讓你傻眼！</itunes:summary>
-      <itunes:subtitle>你知道嗎？金字塔裡放了三千年的蜂蜜竟然還能吃！對對對，這真的超扯的！蜂蜜到底為什</itunes:subtitle>
-      <itunes:keywords>冷知識,趣聞,知識,台灣,繁體中文</itunes:keywords>
-      <content:encoded><![CDATA[你知道嗎？金字塔裡放了三千年的蜂蜜竟然還能吃！對對對，這真的超扯的！蜂蜜到底為什麼不會壞掉啊？難道它有什麼超能力嗎？這集芸芸就要來揭開蜂蜜永生不死的驚人秘密，保證讓你傻眼！]]></content:encoded>
-    </item>
   </channel>
 </rss>
