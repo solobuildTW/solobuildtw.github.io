@@ -161,7 +161,7 @@ document.addEventListener('DOMContentLoaded', () => {
       const res = await fetch(`${CF_WORKER}/api/checkout`, {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({ product: mapped, ref: ref, email: '' })
+        body: JSON.stringify({ product: mapped, ref: ref, email: '', lang: 'tw' })
       });
       const data = await res.json();
       if (!res.ok) throw new Error(data.error || 'Checkout failed');
