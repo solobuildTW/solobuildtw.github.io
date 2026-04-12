@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TEST PAY</title>
+  <style>
+    body {
+      padding: 40px;
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+      background: #f5f5f5;
+      max-width: 600px;
+      margin: 0 auto;
+    }
+    h2 { color: #e74c3c; }
+    p { line-height: 1.6; color: #555; }
+    #btn-test {
+      padding: 16px 32px;
+      font-size: 18px;
+      background: #0066cc;
+      color: white;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+      margin-top: 20px;
+    }
+    #btn-test:hover { background: #0052a3; }
+    #log {
+      margin-top: 20px;
+      background: white;
+      padding: 12px;
+      border: 1px solid #ddd;
+      border-radius: 4px;
+      white-space: pre-wrap;
+      word-break: break-all;
+      font-family: 'Courier New', monospace;
+      font-size: 12px;
+      color: #333;
+      max-height: 400px;
+      overflow-y: auto;
+    }
+  </style>
+</head>
+<body>
+  <h2>⚠️ 測試頁（勿分享）</h2>
+  <p>ref 預設 TEST001，按按鈕走完整 CF Worker → 藍新 NT$1</p>
+  <button id="btn-test">刷 NT$1 測試</button>
+  <pre id="log"></pre>
+
+  <script>
+    document.getElementById('btn-test').addEventListener('click', async () => {
+      const log = document.getElementById('log');
+      log.textContent = '呼叫 CF Worker...';
+      try {
+        const res = await fetch('https://solobuild-pay.harvey3630.workers.dev/api/checkout', {
+          method: 'POST',
+          headers: {'Content-Type':'application/json'},
+          body: JSON.stringify({product:'test', ref:'TEST001', email:'solobuildtw@gmail.com'})
+        });
+        const data = await res.json();
+        log.textContent = '收到 TradeInfo，準備跳藍新...\n' + JSON.stringify(data,null,2);
+        const form = document.createElement('form');
+        form.method='POST';
+        form.action=data.PaymentURL;
+        ['MerchantID','TradeInfo','TradeSha','Version'].forEach(k=>{
+          const i=document.createElement('input');
+          i.type='hidden';
+          i.name=k;
+          i.value=data[k];
+          form.appendChild(i);
+        });
+        document.body.appendChild(form);
+        form.submit();
+      } catch(e) {
+        log.textContent = '失敗: ' + e.message;
+      }
+    });
+  </script>
+</body>
+</html>

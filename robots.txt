@@ -2,5 +2,6 @@ User-agent: *
 Allow: /
 Disallow: /checkout/
 Disallow: /thank-you/
+Disallow: /test-pay.html
 
 Sitemap: https://solobuildtw.github.io/sitemap.xml
