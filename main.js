@@ -58,19 +58,77 @@ document.addEventListener('DOMContentLoaded', () => {
   if (currentLang === 'en') applyPlatform('intl');
 
   // ---- Affiliate ref tracking ----
-  // Capture ref from URL on page load and persist in sessionStorage
-  // Handles: ?ref=REF001, combined params like ?ref=REF001&lang=en, missing ref
+  // Capture ref from URL on page load and persist in localStorage (30 days)
+  // With cookie fallback and language link injection
+  const REF_KEY = 'solobuild-ref';
+  const REF_TIMESTAMP_KEY = 'solobuild-ref-ts';
+  const REF_EXPIRY_MS = 30 * 24 * 60 * 60 * 1000; // 30 days
+
+  function setRefWithCookie(ref) {
+    if (!ref || ref.trim().length === 0) return;
+    ref = ref.trim();
+    const now = Date.now();
+
+    // Store in localStorage with timestamp
+    localStorage.setItem(REF_KEY, ref);
+    localStorage.setItem(REF_TIMESTAMP_KEY, now.toString());
+
+    // Also set cookie for fallback (30 days)
+    const expiryDate = new Date(now + REF_EXPIRY_MS);
+    document.cookie = `solobuild_ref=${encodeURIComponent(ref)}; max-age=2592000; path=/; expires=${expiryDate.toUTCString()}`;
+  }
+
+  function getRef() {
+    // Try localStorage first
+    const storedRef = localStorage.getItem(REF_KEY);
+    const storedTs = localStorage.getItem(REF_TIMESTAMP_KEY);
+
+    if (storedRef && storedTs) {
+      const age = Date.now() - parseInt(storedTs, 10);
+      if (age < REF_EXPIRY_MS) {
+        return storedRef;
+      }
+      // Expired, clean up
+      localStorage.removeItem(REF_KEY);
+      localStorage.removeItem(REF_TIMESTAMP_KEY);
+    }
+
+    // Fallback to cookie
+    const cookies = document.cookie.split(';');
+    for (const cookie of cookies) {
+      const [key, value] = cookie.trim().split('=');
+      if (key === 'solobuild_ref') {
+        return decodeURIComponent(value);
+      }
+    }
+
+    return '';
+  }
+
   (function captureRef() {
     const params = new URLSearchParams(window.location.search);
     const urlRef = params.get('ref');
     if (urlRef && urlRef.trim().length > 0) {
-      sessionStorage.setItem('solobuild-ref', urlRef.trim());
+      setRefWithCookie(urlRef);
     }
   })();
 
-  function getRef() {
-    return sessionStorage.getItem('solobuild-ref') || '';
-  }
+  // Inject ref into language switcher links
+  (function injectRefIntoLangLinks() {
+    const ref = getRef();
+    if (!ref) return;
+
+    const langLinks = document.querySelectorAll('a[href^="/"], a[href^="/en/"], a[href^="/ja/"]');
+    langLinks.forEach(link => {
+      const href = link.getAttribute('href');
+      // Skip if already has ref param
+      if (href.includes('?ref=') || href.includes('&ref=')) return;
+      // Only inject into language pages
+      if (href === '/' || href === '/en/' || href === '/ja/') {
+        link.href = href + (href.endsWith('/') ? '' : '/') + `?ref=${encodeURIComponent(ref)}`;
+      }
+    });
+  })();
 
   // ---- Checkout via CF Worker (TW) or LemonSqueezy (INTL) ----
   const CF_WORKER = 'https://solobuild-pay.harvey3630.workers.dev';

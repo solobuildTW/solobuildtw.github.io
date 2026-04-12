@@ -23,8 +23,11 @@
   <link rel="alternate" hreflang="ja" href="https://solobuildtw.github.io/ja/" />
   <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🧠</text></svg>" />
   <script>
-    if (new URLSearchParams(window.location.search).get('lang') === 'en') {
-      window.location.replace('/en/' + window.location.hash);
+    const params = new URLSearchParams(window.location.search);
+    if (params.get('lang') === 'en') {
+      const ref = params.get('ref') || '';
+      const newUrl = '/en/' + (ref ? `?ref=${encodeURIComponent(ref)}` : '') + window.location.hash;
+      window.location.replace(newUrl);
     }
   </script>
   <link rel="preconnect" href="https://fonts.googleapis.com" />
