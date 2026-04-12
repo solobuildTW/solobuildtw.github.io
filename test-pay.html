@@ -55,7 +55,7 @@
         const res = await fetch('https://solobuild-pay.harvey3630.workers.dev/api/checkout', {
           method: 'POST',
           headers: {'Content-Type':'application/json'},
-          body: JSON.stringify({product:'test', ref:'TEST001', email:'solobuildtw@gmail.com'})
+          body: JSON.stringify({product:'test', ref:'TEST001'})
         });
         const data = await res.json();
         log.textContent = '收到 TradeInfo，準備跳藍新...\n' + JSON.stringify(data,null,2);
