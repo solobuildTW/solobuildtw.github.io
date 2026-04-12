@@ -32,8 +32,16 @@
 
     const item = products[product] || { name: 'Unknown', price: 0, currency: 'TWD' };
 
+    // Collect UTM from URL or sessionStorage
+    const utmKeys = ['utm_source','utm_medium','utm_campaign','utm_term','utm_content'];
+    const utm = {};
+    utmKeys.forEach(k => {
+      const v = params.get(k) || sessionStorage.getItem(k);
+      if (v) utm[k] = v;
+    });
+
     if (product) {
-      gtag('event', 'purchase', {
+      gtag('event', 'purchase', Object.assign({
         transaction_id: orderId,
         value: item.price,
         currency: item.currency,
@@ -42,8 +50,11 @@
           item_name: item.name,
           price: item.price,
           quantity: 1
-        }]
-      });
+        }],
+        campaign_source: utm.utm_source || '',
+        campaign_medium: utm.utm_medium || '',
+        campaign_name: utm.utm_campaign || product
+      }, utm));
     }
   </script>
   <style>

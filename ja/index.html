@@ -33,6 +33,17 @@
     function gtag(){dataLayer.push(arguments);}
     gtag('js', new Date());
     gtag('config', 'G-DWXVFMH12H');
+
+    // UTM capture (persist in sessionStorage)
+    (function(){
+      var keys = ['utm_source','utm_medium','utm_campaign','utm_term','utm_content'];
+      var p = new URLSearchParams(window.location.search);
+      keys.forEach(function(k){ var v = p.get(k); if (v) sessionStorage.setItem(k, v); });
+    })();
+    window.getUtm = function(){
+      var keys = ['utm_source','utm_medium','utm_campaign','utm_term','utm_content'];
+      var o = {}; keys.forEach(function(k){ var v = sessionStorage.getItem(k); if (v) o[k]=v; }); return o;
+    };
   </script>
   <script type="application/ld+json">
   {
@@ -709,12 +720,16 @@
           var card = this.closest('.pricing-card, [data-product]');
           var product = card ? (card.id || card.dataset.product || 'unknown') : 'unknown';
 
-          // GA4 tracking
+          // GA4 tracking (with UTM enrichment)
           if (typeof gtag === 'function') {
-            gtag('event', 'begin_checkout', {
+            var utm = (typeof getUtm === 'function') ? getUtm() : {};
+            gtag('event', 'begin_checkout', Object.assign({
               'event_category': 'conversion',
-              'event_label': 'ja_' + product
-            });
+              'event_label': 'ja_' + product,
+              'campaign_source': utm.utm_source || '',
+              'campaign_medium': utm.utm_medium || '',
+              'campaign_name': utm.utm_campaign || product
+            }, utm));
           }
 
           // All payments go through CF Worker (藍新)

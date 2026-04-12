@@ -130,6 +130,24 @@ document.addEventListener('DOMContentLoaded', () => {
     });
   })();
 
+  // ---- UTM capture (persist in sessionStorage for this session) ----
+  const UTM_KEYS = ['utm_source', 'utm_medium', 'utm_campaign', 'utm_term', 'utm_content'];
+  (function captureUtm() {
+    const params = new URLSearchParams(window.location.search);
+    UTM_KEYS.forEach(k => {
+      const v = params.get(k);
+      if (v) sessionStorage.setItem(k, v);
+    });
+  })();
+  function getUtm() {
+    const out = {};
+    UTM_KEYS.forEach(k => {
+      const v = sessionStorage.getItem(k);
+      if (v) out[k] = v;
+    });
+    return out;
+  }
+
   // ---- Checkout via CF Worker (TW) or LemonSqueezy (INTL) ----
   const CF_WORKER = 'https://solobuild-pay.harvey3630.workers.dev';
   const PRODUCT_MAP = { teaching: 'handbook', soul: 'soulpack', combo: 'combo' };
@@ -172,11 +190,15 @@ document.addEventListener('DOMContentLoaded', () => {
       const card = el.closest('[data-product]');
       const productId = card ? card.dataset.product : 'unknown';
 
-      // GA4 tracking
+      // GA4 tracking (with UTM enrichment)
       if (typeof gtag === 'function') {
-        gtag('event', 'begin_checkout', {
-          items: [{ item_id: productId, item_name: el.textContent.trim() }]
-        });
+        const utm = getUtm();
+        gtag('event', 'begin_checkout', Object.assign({
+          items: [{ item_id: productId, item_name: el.textContent.trim() }],
+          campaign_source: utm.utm_source || '',
+          campaign_medium: utm.utm_medium || '',
+          campaign_name: utm.utm_campaign || productId
+        }, utm));
       }
 
       // All payments go through CF Worker (藍新) — EPG links are 403
