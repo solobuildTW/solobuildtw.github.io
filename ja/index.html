@@ -684,6 +684,9 @@
       async function checkoutJA(productId, btnEl) {
         const mapped = PRODUCT_MAP[productId] || productId;
         const ref = getRef();
+        // S86: redirect to /api/pay email form
+        window.location.href = `${CF_WORKER}/api/pay?product=${encodeURIComponent(mapped)}&ref=${encodeURIComponent(ref)}&lang=ja`;
+        return;
         const originalText = btnEl.textContent;
         btnEl.textContent = '処理中...';
         btnEl.style.pointerEvents = 'none';

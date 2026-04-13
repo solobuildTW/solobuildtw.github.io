@@ -155,6 +155,11 @@ document.addEventListener('DOMContentLoaded', () => {
   async function checkoutTW(productId, btnEl) {
     const mapped = PRODUCT_MAP[productId] || productId;
     const ref = getRef();
+    // S86: redirect to /api/pay which shows email collection form first
+    const lang = document.documentElement.lang === 'ja' ? 'ja' : document.documentElement.lang === 'en' ? 'en' : 'tw';
+    const payUrl = `${CF_WORKER}/api/pay?product=${encodeURIComponent(mapped)}&ref=${encodeURIComponent(ref)}&lang=${encodeURIComponent(lang)}`;
+    window.location.href = payUrl;
+    return; // below is legacy code kept for reference
     btnEl.textContent = '處理中...';
     btnEl.style.pointerEvents = 'none';
     try {
