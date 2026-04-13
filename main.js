@@ -149,7 +149,7 @@ document.addEventListener('DOMContentLoaded', () => {
   }
 
   // ---- Checkout via CF Worker (TW) or LemonSqueezy (INTL) ----
-  const CF_WORKER = 'https://solobuild-pay.harvey3630.workers.dev';
+  const CF_WORKER = 'https://pay.solobuildtw.com';
   const PRODUCT_MAP = { teaching: 'handbook', soul: 'soulpack', combo: 'combo' };
 
   async function checkoutTW(productId, btnEl) {
