@@ -824,3 +824,118 @@ code {
   .hide-desktop { display: inline; }
   .final-cta-buttons { flex-direction: column; align-items: center; }
 }
+
+/* ---------- Extra-small devices (480px–375px) ---------- */
+@media (max-width: 480px) {
+  .container { padding: 0 16px; }
+
+  /* Hero title scaling for small screens */
+  .hero-title {
+    font-size: clamp(1.5rem, 4vw, 2rem);
+  }
+  .hero-subtitle {
+    font-size: clamp(0.95rem, 2vw, 1.1rem);
+  }
+
+  /* CTA buttons: stack vertically and full width */
+  .hero-cta-group {
+    flex-direction: column;
+    width: 100%;
+  }
+  .hero-cta-group .btn {
+    width: 100%;
+  }
+
+  /* Social proof padding and spacing */
+  .hero-social-proof {
+    padding: 12px 8px;
+  }
+  .stat-item {
+    padding: 6px 8px;
+    flex: 0 0 calc(50% - 1px);
+  }
+  .stat-num {
+    font-size: 1.4rem;
+  }
+  .stat-label {
+    font-size: 0.65rem;
+  }
+
+  /* Footer text size */
+  .site-footer {
+    font-size: 0.9rem;
+  }
+  .footer-brand p {
+    font-size: 0.75rem;
+  }
+  .footer-bottom p {
+    font-size: 0.7rem;
+  }
+}
+
+/* ---------- Tiny devices (below 375px) ---------- */
+@media (max-width: 375px) {
+  .container { padding: 0 12px; }
+
+  .hero {
+    padding: 60px 0 48px;
+  }
+
+  .hero-title {
+    font-size: clamp(1.3rem, 3.5vw, 1.8rem);
+    margin-bottom: 12px;
+  }
+
+  .hero-subtitle {
+    font-size: clamp(0.9rem, 1.8vw, 1rem);
+    margin-bottom: 16px;
+  }
+
+  .hero-tagline {
+    font-size: 0.95rem;
+    margin-bottom: 32px;
+  }
+
+  /* Smaller button padding on tiny phones */
+  .btn-lg {
+    padding: 12px 24px;
+    font-size: 1rem;
+  }
+
+  /* Stat items tighter spacing */
+  .stat-num {
+    font-size: 1.2rem;
+  }
+  .stat-label {
+    font-size: 0.6rem;
+  }
+
+  /* Reduce section padding */
+  .pain-points {
+    padding: 48px 0;
+  }
+  .features {
+    padding: 48px 0;
+  }
+  .faq {
+    padding: 48px 0;
+  }
+  .final-cta {
+    padding: 48px 0;
+  }
+  .story {
+    padding: 48px 0;
+  }
+
+  /* Footer minimal */
+  .site-footer {
+    padding: 32px 0 0;
+  }
+  .footer-inner {
+    padding-bottom: 32px;
+    gap: 16px;
+  }
+  .footer-brand p {
+    white-space: normal;
+  }
+}
