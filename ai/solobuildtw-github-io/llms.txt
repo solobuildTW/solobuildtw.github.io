@@ -1,0 +1,17 @@
+# SoloBuildTW — Claude Code 經驗包
+
+## 是什麼
+Claude Code 實戰教學系列產品，幫助開發者用 Claude Code 蓋自動化系統。
+
+## 產品線
+- 教學包：NT$499 — Claude Code 入門 PDF
+- 靈魂包：NT$649 — 進階心法 + 6 個實戰案例集
+- 組合包：NT$999 — 兩者合售
+
+## 作者
+Sheng-Wen Shih (Harvey)
+
+## 聯絡
+- Email: harvey3630@gmail.com
+- Threads: @solobuildtw
+- Web: https://solobuildtw.github.io/

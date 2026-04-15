@@ -112,6 +112,47 @@
       });
     });
   </script>
+  <!-- FAQPage Schema for AI Search Optimization -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "Claude Code 經驗包是什麼？",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "你的同事已經在用 AI 了，你呢？不用寫程式、不用懂技術，今晚就能讓 AI 開始幫你做事。早鳥限定：教學包 NT$499 / 靈魂包 NT$649 / 組合包 NT$999。"
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "如何聯絡 SoloBuildTW？",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "請至 https://solobuildtw.github.io/ 聯絡，或 email harvey3630@gmail.com"
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "教學包跟靈魂包有什麼差別？",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "教學包是 Claude Code 入門 PDF；靈魂包是進階心法 + 6 個實戰案例集；組合包是兩者合售。"
+        }
+      }
+    ]
+  }
+  </script>
+  <!-- Contact Information -->
+  <address style="display:none;">
+    <strong>Claude Code 經驗包 — SoloBuildTW</strong><br>
+    Email：<a href="mailto:harvey3630@gmail.com">harvey3630@gmail.com</a><br>
+    Threads：<a href="https://www.threads.net/@solobuildtw">@solobuildtw</a>
+  </address>
+  <!-- AI Crawler Link for LLM-based Search Engines -->
+  <link rel="llms-txt" href="/ai/solobuildtw-github-io/llms.txt">
 </head>
 <body>
 
@@ -522,10 +563,10 @@
       <h2 data-zh="準備好讓你的 AI 團隊幫你上工了嗎？" data-en="Ready to Put Your AI Team to Work?">準備好讓你的 AI 團隊幫你上工了嗎？</h2>
       <p data-zh="兩小時看完，今晚你的 10 個 AI 就能各就各位，開始替你做事。" data-en="Read in two hours. Tonight, your 10 AIs get into position and start working for you.">兩小時看完，今晚你的 10 個 AI 就能各就各位，開始替你做事。</p>
       <div class="final-cta-buttons">
-        <!-- TEMP: EPG 1 元測試 2026-04-12，測完換回 CF Worker -->
-        <a href="https://core.newebpay.com/EPG/Solobuildtw/iiW4Xc" class="btn btn-outline-light" data-zh="教學包 NT$499" data-en="Tutorial $16.99">教學包 NT$499</a>
-        <a href="javascript:void(0)" class="btn btn-outline-light" data-zh="靈魂包 NT$649" data-en="Soul $21.99" data-href-tw="https://core.newebpay.com/EPG/Solobuildtw/4Pmrjp" data-href-intl="https://core.newebpay.com/EPG/Solobuildtw/4Pmrjp">靈魂包 NT$649</a>
-        <a href="javascript:void(0)" class="btn btn-primary-light" data-zh="組合包 NT$999（最超值）" data-en="Combo $32.99 (Best Value)" data-href-tw="https://core.newebpay.com/EPG/Solobuildtw/fpNsoe" data-href-intl="https://core.newebpay.com/EPG/Solobuildtw/fpNsoe">組合包 NT$999（最超值）</a>
+        <!-- 統一走 CF Worker（S84 金流統一規則）：一律寄信 + 有 ref 加記分潤 -->
+        <a href="javascript:void(0)" class="btn btn-outline-light" data-product="teaching" data-zh="教學包 NT$499" data-en="Tutorial $16.99" data-href-tw="cf-worker" data-href-intl="cf-worker">教學包 NT$499</a>
+        <a href="javascript:void(0)" class="btn btn-outline-light" data-product="soul" data-zh="靈魂包 NT$649" data-en="Soul $21.99" data-href-tw="cf-worker" data-href-intl="cf-worker">靈魂包 NT$649</a>
+        <a href="javascript:void(0)" class="btn btn-primary-light" data-product="combo" data-zh="組合包 NT$999（最超值）" data-en="Combo $32.99 (Best Value)" data-href-tw="cf-worker" data-href-intl="cf-worker">組合包 NT$999（最超值）</a>
       </div>
     </div>
   </section>
