@@ -7,7 +7,7 @@
     <description>深夜，一根蠟燭，一個故事。燭先生在黑暗中細語，帶你走進那些不能見光的怪談。</description>
     <copyright>© 2026 燭先生</copyright>
     <generator>SoloBuildTW Podcast RSS Generator v2</generator>
-    <lastBuildDate>Thu, 16 Apr 2026 00:00:00 -0000</lastBuildDate>
+    <lastBuildDate>Wed, 15 Apr 2026 00:00:00 -0000</lastBuildDate>
     <atom:link href="https://solobuildtw.github.io/podcast/candlelight-stories/feed.xml" rel="self" type="application/rss+xml"/>
     <itunes:title>燭光怪譚</itunes:title>
     <itunes:author>燭先生</itunes:author>
@@ -30,24 +30,6 @@
     <itunes:category text="Fiction">
       <itunes:category text="Horror"/>
     </itunes:category>
-    <item>
-      <title>EP009 傍晚廟埕，夕陽把孩子們的影子拉得又細又長。古老的「影子鬼」遊戲，規則是只能在影子</title>
-      <description>傍晚廟埕，夕陽把孩子們的影子拉得又細又長。古老的「影子鬼」遊戲，規則是只能在影子的範圍裡移動。遊戲進行到一半，孩子們數了數地面，五個孩子，六道影子。</description>
-      <pubDate>Thu, 16 Apr 2026 00:00:00 -0000</pubDate>
-      <guid>6f681a67397880a0e381e7fd5944783f</guid>
-      <link>https://solobuildtw.github.io/podcast/candlelight-stories/ep/009</link>
-      <enclosure url="https://podcast-cdn.pick-tw.com/audio/CH5/EP009_%E5%82%8D%E6%99%9A%E5%BB%9F%E5%9F%95%EF%BC%8C%E5%A4%95%E9%99%BD%E6%8A%8A%E5%AD%A9%E5%AD%90%E5%80%91%E7%9A%84%E5%BD%B1%E5%AD%90%E6%8B%89%E5%BE%97%E5%8F%88%E7%B4%B0%E5%8F%88%E9%95%B7%E3%80%82%E5%8F%A4%E8%80%81%E7%9A%84%E3%80%8C%E5%BD%B1%E5%AD%90%E9%AC%BC%E3%80%8D%E9%81%8A.mp3" type="audio/mpeg" length="16997608"/>
-      <itunes:title>EP009 傍晚廟埕，夕陽把孩子們的影子拉得又細又長。古老的「影子鬼」遊戲，規則是只能在影子</itunes:title>
-      <itunes:author>燭先生</itunes:author>
-      <itunes:duration>00:11:48</itunes:duration>
-      <itunes:explicit>no</itunes:explicit>
-      <itunes:episode>9</itunes:episode>
-      <itunes:episodeType>full</itunes:episodeType>
-      <itunes:summary>傍晚廟埕，夕陽把孩子們的影子拉得又細又長。古老的「影子鬼」遊戲，規則是只能在影子的範圍裡移動。遊戲進行到一半，孩子們數了數地面，五個孩子，六道影子。</itunes:summary>
-      <itunes:subtitle>傍晚廟埕，夕陽把孩子們的影子拉得又細又長。古老的「影子鬼」遊戲，規則是只能在影子</itunes:subtitle>
-      <itunes:keywords>鬼故事,怪談,靈異,深夜,台灣</itunes:keywords>
-      <content:encoded><![CDATA[傍晚廟埕，夕陽把孩子們的影子拉得又細又長。古老的「影子鬼」遊戲，規則是只能在影子的範圍裡移動。遊戲進行到一半，孩子們數了數地面，五個孩子，六道影子。]]></content:encoded>
-    </item>
     <item>
       <title>EP008 日本童謠「籠中鳥」，旋律天真，歌詞卻藏著古老的悲嗚。蒙眼的孩子必須猜出正後方站著</title>
       <description>日本童謠「籠中鳥」，旋律天真，歌詞卻藏著古老的悲嗚。蒙眼的孩子必須猜出正後方站著的是誰。然而有一天，五個孩子玩這遊戲，蒙眼的小美喊出了由紀的名字，卻沒有人回答她。</description>
