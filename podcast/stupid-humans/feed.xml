@@ -28,23 +28,5 @@
       <link>https://solobuildtw.github.io/podcast/stupid-humans/</link>
     </image>
     <itunes:category text="Comedy"/>
-    <item>
-      <title>EP999 S84佑希測試</title>
-      <description>S84佑希測試</description>
-      <pubDate>Sun, 12 Apr 2026 21:15:10 -0000</pubDate>
-      <guid>ec3f059ec5cba79a864911a766e59b6e</guid>
-      <link>https://solobuildtw.github.io/podcast/stupid-humans/ep/999</link>
-      <enclosure url="https://podcast-cdn.pick-tw.com/audio/CH3/CH3_EP999_S84佑希測試.mp3" type="audio/mpeg" length="120384"/>
-      <itunes:title>EP999 S84佑希測試</itunes:title>
-      <itunes:author>阿佑</itunes:author>
-      <itunes:duration>00:00:07</itunes:duration>
-      <itunes:explicit>no</itunes:explicit>
-      <itunes:episode>999</itunes:episode>
-      <itunes:episodeType>full</itunes:episodeType>
-      <itunes:summary>S84佑希測試</itunes:summary>
-      <itunes:subtitle>S84佑希測試</itunes:subtitle>
-      <itunes:keywords>搞笑,蠢事,喜劇,台灣,真實故事</itunes:keywords>
-      <content:encoded><![CDATA[S84佑希測試]]></content:encoded>
-    </item>
   </channel>
 </rss>
