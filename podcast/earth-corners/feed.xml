@@ -7,7 +7,7 @@
     <description>地球上有些角落你一輩子不會去，但故事精彩到值得聽完。熙熙帶你走訪冷門國家、邊境小鎮與被遺忘的文明。</description>
     <copyright>© 2026 熙熙</copyright>
     <generator>SoloBuildTW Podcast RSS Generator v2</generator>
-    <lastBuildDate>Sun, 12 Apr 2026 21:16:08 -0000</lastBuildDate>
+    <lastBuildDate>Fri, 17 Apr 2026 14:48:29 -0000</lastBuildDate>
     <atom:link href="https://solobuildtw.github.io/podcast/earth-corners/feed.xml" rel="self" type="application/rss+xml"/>
     <itunes:title>地球的角落</itunes:title>
     <itunes:author>熙熙</itunes:author>
@@ -31,22 +31,58 @@
       <itunes:category text="Places &amp; Travel"/>
     </itunes:category>
     <item>
-      <title>EP999 S84柔洢測試</title>
-      <description>S84柔洢測試</description>
-      <pubDate>Sun, 12 Apr 2026 21:16:08 -0000</pubDate>
-      <guid>b1d8e4fae5bc673e5bc9ada2aaa33ec5</guid>
-      <link>https://solobuildtw.github.io/podcast/earth-corners/ep/999</link>
-      <enclosure url="https://solobuildtw.github.io/podcast/earth-corners/audio/CH4_EP999_S84柔洢測試.mp3" type="audio/mpeg" length="151086"/>
-      <itunes:title>EP999 S84柔洢測試</itunes:title>
+      <title>EP003 蒙古草原上，家是一個可以移動的圓。熙熙邀你跟著游牧民族的腳步，感受那種以天地為座</title>
+      <description>蒙古草原上，家是一個可以移動的圓。熙熙邀你跟著游牧民族的腳步，感受那種以天地為座標的生命節奏，以及那份隨時都能安頓下來的從容與自由。</description>
+      <pubDate>Fri, 17 Apr 2026 14:48:29 -0000</pubDate>
+      <guid>f76362b37d0ba6ccb684c48da798f2e1</guid>
+      <link>https://solobuildtw.github.io/podcast/earth-corners/ep/003</link>
+      <enclosure url="https://podcast-cdn.pick-tw.com/audio/CH4/EP003_蒙古草原上，家是一個可以移動的圓。熙熙邀你跟著游牧民族的腳步.mp3" type="audio/mpeg" length="18790653"/>
+      <itunes:title>EP003 蒙古草原上，家是一個可以移動的圓。熙熙邀你跟著游牧民族的腳步，感受那種以天地為座</itunes:title>
       <itunes:author>熙熙</itunes:author>
-      <itunes:duration>00:00:02</itunes:duration>
+      <itunes:duration>00:13:02</itunes:duration>
       <itunes:explicit>no</itunes:explicit>
-      <itunes:episode>999</itunes:episode>
+      <itunes:episode>3</itunes:episode>
       <itunes:episodeType>full</itunes:episodeType>
-      <itunes:summary>S84柔洢測試</itunes:summary>
-      <itunes:subtitle>S84柔洢測試</itunes:subtitle>
+      <itunes:summary>蒙古草原上，家是一個可以移動的圓。熙熙邀你跟著游牧民族的腳步，感受那種以天地為座標的生命節奏，以及那份隨時都能安頓下來的從容與自由。</itunes:summary>
+      <itunes:subtitle>蒙古草原上，家是一個可以移動的圓。熙熙邀你跟著游牧民族的腳步，感受那種以天地為座</itunes:subtitle>
       <itunes:keywords>旅遊,地理,冷門國家,文化,探索</itunes:keywords>
-      <content:encoded><![CDATA[S84柔洢測試]]></content:encoded>
+      <content:encoded><![CDATA[蒙古草原上，家是一個可以移動的圓。熙熙邀你跟著游牧民族的腳步，感受那種以天地為座標的生命節奏，以及那份隨時都能安頓下來的從容與自由。]]></content:encoded>
+    </item>
+    <item>
+      <title>EP003 蒙古草原上，家是一個可以移動的圓。熙熙邀你跟著游牧民族的腳步，感受那種以天地為座</title>
+      <description>蒙古草原上，家是一個可以移動的圓。熙熙邀你跟著游牧民族的腳步，感受那種以天地為座標的生命節奏，以及那份隨時都能安頓下來的從容與自由。</description>
+      <pubDate>Wed, 15 Apr 2026 22:16:25 -0000</pubDate>
+      <guid>60aeca1364726cfb32f2cd35e058517b</guid>
+      <link>https://solobuildtw.github.io/podcast/earth-corners/ep/003</link>
+      <enclosure url="https://podcast-cdn.pick-tw.com/audio/CH4/EP003_蒙古草原上，家是一個可以移動的圓。熙熙邀你跟著游牧民族的腳步，感受那種以天地為座.mp3" type="audio/mpeg" length="18555551"/>
+      <itunes:title>EP003 蒙古草原上，家是一個可以移動的圓。熙熙邀你跟著游牧民族的腳步，感受那種以天地為座</itunes:title>
+      <itunes:author>熙熙</itunes:author>
+      <itunes:duration>00:12:53</itunes:duration>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:episode>3</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:summary>蒙古草原上，家是一個可以移動的圓。熙熙邀你跟著游牧民族的腳步，感受那種以天地為座標的生命節奏，以及那份隨時都能安頓下來的從容與自由。</itunes:summary>
+      <itunes:subtitle>蒙古草原上，家是一個可以移動的圓。熙熙邀你跟著游牧民族的腳步，感受那種以天地為座</itunes:subtitle>
+      <itunes:keywords>旅遊,地理,冷門國家,文化,探索</itunes:keywords>
+      <content:encoded><![CDATA[蒙古草原上，家是一個可以移動的圓。熙熙邀你跟著游牧民族的腳步，感受那種以天地為座標的生命節奏，以及那份隨時都能安頓下來的從容與自由。]]></content:encoded>
+    </item>
+    <item>
+      <title>EP001 圖瓦盧，這個即將沉入海平面的南太平洋島國，正在打造世界第一個數位國家。熙熙帶你感</title>
+      <description>圖瓦盧，這個即將沉入海平面的南太平洋島國，正在打造世界第一個數位國家。熙熙帶你感受一個民族在失去土地前，如何用科技留住記憶與尊嚴。</description>
+      <pubDate>Fri, 17 Apr 2026 12:24:31 -0000</pubDate>
+      <guid>36e8a3d231fe06ef4714163a791e8546</guid>
+      <link>https://solobuildtw.github.io/podcast/earth-corners/ep/001</link>
+      <enclosure url="https://podcast-cdn.pick-tw.com/audio/CH4/EP001_圖瓦盧，這個即將沉入海平面的南太平洋島國，正在打造世界第一個.mp3" type="audio/mpeg" length="18095377"/>
+      <itunes:title>EP001 圖瓦盧，這個即將沉入海平面的南太平洋島國，正在打造世界第一個數位國家。熙熙帶你感</itunes:title>
+      <itunes:author>熙熙</itunes:author>
+      <itunes:duration>00:12:33</itunes:duration>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:episode>1</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:summary>圖瓦盧，這個即將沉入海平面的南太平洋島國，正在打造世界第一個數位國家。熙熙帶你感受一個民族在失去土地前，如何用科技留住記憶與尊嚴。</itunes:summary>
+      <itunes:subtitle>圖瓦盧，這個即將沉入海平面的南太平洋島國，正在打造世界第一個數位國家。熙熙帶你感</itunes:subtitle>
+      <itunes:keywords>旅遊,地理,冷門國家,文化,探索</itunes:keywords>
+      <content:encoded><![CDATA[圖瓦盧，這個即將沉入海平面的南太平洋島國，正在打造世界第一個數位國家。熙熙帶你感受一個民族在失去土地前，如何用科技留住記憶與尊嚴。]]></content:encoded>
     </item>
   </channel>
 </rss>
