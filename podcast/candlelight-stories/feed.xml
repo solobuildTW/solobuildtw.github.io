@@ -7,8 +7,9 @@
     <description>深夜，一根蠟燭，一個故事。燭先生在黑暗中細語，帶你走進那些不能見光的怪談。</description>
     <copyright>© 2026 燭先生</copyright>
     <generator>SoloBuildTW Podcast RSS Generator v2</generator>
-    <lastBuildDate>Wed, 15 Apr 2026 00:00:00 -0000</lastBuildDate>
+    <lastBuildDate>Sat, 18 Apr 2026 00:00:00 -0000</lastBuildDate>
     <atom:link href="https://solobuildtw.github.io/podcast/candlelight-stories/feed.xml" rel="self" type="application/rss+xml"/>
+    <managingEditor>solobuildtw@gmail.com (燭先生)</managingEditor>
     <itunes:title>燭光怪譚</itunes:title>
     <itunes:author>燭先生</itunes:author>
     <itunes:summary>深夜，一根蠟燭，一個故事。燭先生在黑暗中細語，帶你走進那些不能見光的怪談。</itunes:summary>
@@ -31,62 +32,152 @@
       <itunes:category text="Horror"/>
     </itunes:category>
     <item>
-      <title>EP008 日本童謠「籠中鳥」，旋律天真，歌詞卻藏著古老的悲嗚。蒙眼的孩子必須猜出正後方站著</title>
-      <description>日本童謠「籠中鳥」，旋律天真，歌詞卻藏著古老的悲嗚。蒙眼的孩子必須猜出正後方站著的是誰。然而有一天，五個孩子玩這遊戲，蒙眼的小美喊出了由紀的名字，卻沒有人回答她。</description>
+      <title>EP011 江戶時代的紀伊國坂，一個男人在無燈的夜路遇見了掩面哭泣的女人</title>
+      <description>江戶時代的紀伊國坂，一個男人在無燈的夜路遇見了掩面哭泣的女人</description>
+      <pubDate>Sat, 18 Apr 2026 00:00:00 -0000</pubDate>
+      <guid>282fc2c21433324f5f9e2a83263a608f</guid>
+      <link>https://solobuildtw.github.io/podcast/candlelight-stories/ep/011</link>
+      <enclosure url="https://podcast-cdn.pick-tw.com/audio/CH5/EP011_%E6%B1%9F%E6%88%B6%E6%99%82%E4%BB%A3%E7%9A%84%E7%B4%80%E4%BC%8A%E5%9C%8B%E5%9D%82%EF%BC%8C%E4%B8%80%E5%80%8B%E7%94%B7%E4%BA%BA%E5%9C%A8%E7%84%A1%E7%87%88%E7%9A%84%E5%A4%9C%E8%B7%AF%E9%81%87%E8%A6%8B%E4%BA%86%E6%8E%A9%E9%9D%A2%E5%93%AD%E6%B3%A3%E7%9A%84%E5%A5%B3%E4%BA%BA.mp3" type="audio/mpeg" length="17050897"/>
+      <itunes:title>EP011 江戶時代的紀伊國坂，一個男人在無燈的夜路遇見了掩面哭泣的女人</itunes:title>
+      <itunes:author>燭先生</itunes:author>
+      <itunes:duration>00:11:50</itunes:duration>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:episode>11</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:summary>江戶時代的紀伊國坂，一個男人在無燈的夜路遇見了掩面哭泣的女人</itunes:summary>
+      <itunes:subtitle>江戶時代的紀伊國坂，一個男人在無燈的夜路遇見了掩面哭泣的女人</itunes:subtitle>
+      <itunes:keywords>鬼故事,怪談,靈異,深夜,台灣</itunes:keywords>
+      <content:encoded><![CDATA[江戶時代的紀伊國坂，一個男人在無燈的夜路遇見了掩面哭泣的女人]]></content:encoded>
+    </item>
+    <item>
+      <title>EP009 傍晚廟埕，夕陽把孩子們的影子拉得又細又長。古老的「影子鬼」遊</title>
+      <description>傍晚廟埕，夕陽把孩子們的影子拉得又細又長。古老的「影子鬼」遊</description>
+      <pubDate>Thu, 16 Apr 2026 00:00:00 -0000</pubDate>
+      <guid>6f681a67397880a0e381e7fd5944783f</guid>
+      <link>https://solobuildtw.github.io/podcast/candlelight-stories/ep/009</link>
+      <enclosure url="https://podcast-cdn.pick-tw.com/audio/CH5/EP009_%E5%82%8D%E6%99%9A%E5%BB%9F%E5%9F%95%EF%BC%8C%E5%A4%95%E9%99%BD%E6%8A%8A%E5%AD%A9%E5%AD%90%E5%80%91%E7%9A%84%E5%BD%B1%E5%AD%90%E6%8B%89%E5%BE%97%E5%8F%88%E7%B4%B0%E5%8F%88%E9%95%B7%E3%80%82%E5%8F%A4%E8%80%81%E7%9A%84%E3%80%8C%E5%BD%B1%E5%AD%90%E9%AC%BC%E3%80%8D%E9%81%8A.mp3" type="audio/mpeg" length="16821438"/>
+      <itunes:title>EP009 傍晚廟埕，夕陽把孩子們的影子拉得又細又長。古老的「影子鬼」遊</itunes:title>
+      <itunes:author>燭先生</itunes:author>
+      <itunes:duration>00:11:40</itunes:duration>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:episode>9</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:summary>傍晚廟埕，夕陽把孩子們的影子拉得又細又長。古老的「影子鬼」遊</itunes:summary>
+      <itunes:subtitle>傍晚廟埕，夕陽把孩子們的影子拉得又細又長。古老的「影子鬼」遊</itunes:subtitle>
+      <itunes:keywords>鬼故事,怪談,靈異,深夜,台灣</itunes:keywords>
+      <content:encoded><![CDATA[傍晚廟埕，夕陽把孩子們的影子拉得又細又長。古老的「影子鬼」遊]]></content:encoded>
+    </item>
+    <item>
+      <title>EP008 日本童謠「籠中鳥」，旋律天真，歌詞卻藏著古老的悲嗚。蒙眼的孩</title>
+      <description>日本童謠「籠中鳥」，旋律天真，歌詞卻藏著古老的悲嗚。蒙眼的孩</description>
       <pubDate>Wed, 15 Apr 2026 00:00:00 -0000</pubDate>
       <guid>b218c4e0056bc653c037ad2273359a76</guid>
       <link>https://solobuildtw.github.io/podcast/candlelight-stories/ep/008</link>
       <enclosure url="https://podcast-cdn.pick-tw.com/audio/CH5/EP008_%E6%97%A5%E6%9C%AC%E7%AB%A5%E8%AC%A0%E3%80%8C%E7%B1%A0%E4%B8%AD%E9%B3%A5%E3%80%8D%EF%BC%8C%E6%97%8B%E5%BE%8B%E5%A4%A9%E7%9C%9F%EF%BC%8C%E6%AD%8C%E8%A9%9E%E5%8D%BB%E8%97%8F%E8%91%97%E5%8F%A4%E8%80%81%E7%9A%84%E6%82%B2%E5%97%9A%E3%80%82%E8%92%99%E7%9C%BC%E7%9A%84%E5%AD%A9.mp3" type="audio/mpeg" length="16391358"/>
-      <itunes:title>EP008 日本童謠「籠中鳥」，旋律天真，歌詞卻藏著古老的悲嗚。蒙眼的孩子必須猜出正後方站著</itunes:title>
+      <itunes:title>EP008 日本童謠「籠中鳥」，旋律天真，歌詞卻藏著古老的悲嗚。蒙眼的孩</itunes:title>
       <itunes:author>燭先生</itunes:author>
       <itunes:duration>00:11:22</itunes:duration>
       <itunes:explicit>no</itunes:explicit>
       <itunes:episode>8</itunes:episode>
       <itunes:episodeType>full</itunes:episodeType>
-      <itunes:summary>日本童謠「籠中鳥」，旋律天真，歌詞卻藏著古老的悲嗚。蒙眼的孩子必須猜出正後方站著的是誰。然而有一天，五個孩子玩這遊戲，蒙眼的小美喊出了由紀的名字，卻沒有人回答她。</itunes:summary>
-      <itunes:subtitle>日本童謠「籠中鳥」，旋律天真，歌詞卻藏著古老的悲嗚。蒙眼的孩子必須猜出正後方站著</itunes:subtitle>
+      <itunes:summary>日本童謠「籠中鳥」，旋律天真，歌詞卻藏著古老的悲嗚。蒙眼的孩</itunes:summary>
+      <itunes:subtitle>日本童謠「籠中鳥」，旋律天真，歌詞卻藏著古老的悲嗚。蒙眼的孩</itunes:subtitle>
       <itunes:keywords>鬼故事,怪談,靈異,深夜,台灣</itunes:keywords>
-      <content:encoded><![CDATA[日本童謠「籠中鳥」，旋律天真，歌詞卻藏著古老的悲嗚。蒙眼的孩子必須猜出正後方站著的是誰。然而有一天，五個孩子玩這遊戲，蒙眼的小美喊出了由紀的名字，卻沒有人回答她。]]></content:encoded>
+      <content:encoded><![CDATA[日本童謠「籠中鳥」，旋律天真，歌詞卻藏著古老的悲嗚。蒙眼的孩]]></content:encoded>
     </item>
     <item>
-      <title>EP003 深夜的荒廢古寺，孤獨書生劉生在燭火下苦讀。三個夜晚，素白衣裝的神秘女子無聲無息地</title>
-      <description>深夜的荒廢古寺，孤獨書生劉生在燭火下苦讀。三個夜晚，素白衣裝的神秘女子無聲無息地出現在門口。她美得不像真實，談吐深邃，卻留下了不屬於活人的冰冷。燭先生說，孤獨，有時是最危險的氣味，會召喚不該來的存在。</description>
+      <title>EP006 台灣南部黏膩著海風的村莊，少年阿鴻和夥伴們溜進廢棄的水泥骨架</title>
+      <description>台灣南部黏膩著海風的村莊，少年阿鴻和夥伴們溜進廢棄的水泥骨架</description>
+      <pubDate>Mon, 13 Apr 2026 00:00:00 -0000</pubDate>
+      <guid>839eff47f087872fee1b69c98b83a830</guid>
+      <link>https://solobuildtw.github.io/podcast/candlelight-stories/ep/006</link>
+      <enclosure url="https://podcast-cdn.pick-tw.com/audio/CH5/EP006_%E5%8F%B0%E7%81%A3%E5%8D%97%E9%83%A8%E9%BB%8F%E8%86%A9%E8%91%97%E6%B5%B7%E9%A2%A8%E7%9A%84%E6%9D%91%E8%8E%8A%EF%BC%8C%E5%B0%91%E5%B9%B4%E9%98%BF%E9%B4%BB%E5%92%8C%E5%A4%A5%E4%BC%B4%E5%80%91%E6%BA%9C%E9%80%B2%E5%BB%A2%E6%A3%84%E7%9A%84%E6%B0%B4%E6%B3%A5%E9%AA%A8%E6%9E%B6.mp3" type="audio/mpeg" length="15980713"/>
+      <itunes:title>EP006 台灣南部黏膩著海風的村莊，少年阿鴻和夥伴們溜進廢棄的水泥骨架</itunes:title>
+      <itunes:author>燭先生</itunes:author>
+      <itunes:duration>00:11:05</itunes:duration>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:episode>6</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:summary>台灣南部黏膩著海風的村莊，少年阿鴻和夥伴們溜進廢棄的水泥骨架</itunes:summary>
+      <itunes:subtitle>台灣南部黏膩著海風的村莊，少年阿鴻和夥伴們溜進廢棄的水泥骨架</itunes:subtitle>
+      <itunes:keywords>鬼故事,怪談,靈異,深夜,台灣</itunes:keywords>
+      <content:encoded><![CDATA[台灣南部黏膩著海風的村莊，少年阿鴻和夥伴們溜進廢棄的水泥骨架]]></content:encoded>
+    </item>
+    <item>
+      <title>EP005 婆羅洲雨林的第三個夜晚，嬰兒哭聲從黑暗深處飄來，越來越近。老</title>
+      <description>婆羅洲雨林的第三個夜晚，嬰兒哭聲從黑暗深處飄來，越來越近。老</description>
+      <pubDate>Sun, 12 Apr 2026 00:00:00 -0000</pubDate>
+      <guid>73afb9e3f9bf65bca4d859fb65973a91</guid>
+      <link>https://solobuildtw.github.io/podcast/candlelight-stories/ep/005</link>
+      <enclosure url="https://podcast-cdn.pick-tw.com/audio/CH5/EP005_%E5%A9%86%E7%BE%85%E6%B4%B2%E9%9B%A8%E6%9E%97%E7%9A%84%E7%AC%AC%E4%B8%89%E5%80%8B%E5%A4%9C%E6%99%9A%EF%BC%8C%E5%AC%B0%E5%85%92%E5%93%AD%E8%81%B2%E5%BE%9E%E9%BB%91%E6%9A%97%E6%B7%B1%E8%99%95%E9%A3%84%E4%BE%86%EF%BC%8C%E8%B6%8A%E4%BE%86%E8%B6%8A%E8%BF%91%E3%80%82%E8%80%81.mp3" type="audio/mpeg" length="16307348"/>
+      <itunes:title>EP005 婆羅洲雨林的第三個夜晚，嬰兒哭聲從黑暗深處飄來，越來越近。老</itunes:title>
+      <itunes:author>燭先生</itunes:author>
+      <itunes:duration>00:11:19</itunes:duration>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:episode>5</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:summary>婆羅洲雨林的第三個夜晚，嬰兒哭聲從黑暗深處飄來，越來越近。老</itunes:summary>
+      <itunes:subtitle>婆羅洲雨林的第三個夜晚，嬰兒哭聲從黑暗深處飄來，越來越近。老</itunes:subtitle>
+      <itunes:keywords>鬼故事,怪談,靈異,深夜,台灣</itunes:keywords>
+      <content:encoded><![CDATA[婆羅洲雨林的第三個夜晚，嬰兒哭聲從黑暗深處飄來，越來越近。老]]></content:encoded>
+    </item>
+    <item>
+      <title>EP004 起霧的深海之夜，老漁人總在船上備一支鑿了洞的破杓子。因為濃霧</title>
+      <description>起霧的深海之夜，老漁人總在船上備一支鑿了洞的破杓子。因為濃霧</description>
+      <pubDate>Sat, 11 Apr 2026 00:00:00 -0000</pubDate>
+      <guid>41963ce1d3a5b39fd974cac8a407ba7f</guid>
+      <link>https://solobuildtw.github.io/podcast/candlelight-stories/ep/004</link>
+      <enclosure url="https://podcast-cdn.pick-tw.com/audio/CH5/EP004_%E8%B5%B7%E9%9C%A7%E7%9A%84%E6%B7%B1%E6%B5%B7%E4%B9%8B%E5%A4%9C%EF%BC%8C%E8%80%81%E6%BC%81%E4%BA%BA%E7%B8%BD%E5%9C%A8%E8%88%B9%E4%B8%8A%E5%82%99%E4%B8%80%E6%94%AF%E9%91%BF%E4%BA%86%E6%B4%9E%E7%9A%84%E7%A0%B4%E6%9D%93%E5%AD%90%E3%80%82%E5%9B%A0%E7%82%BA%E6%BF%83%E9%9C%A7.mp3" type="audio/mpeg" length="16702946"/>
+      <itunes:title>EP004 起霧的深海之夜，老漁人總在船上備一支鑿了洞的破杓子。因為濃霧</itunes:title>
+      <itunes:author>燭先生</itunes:author>
+      <itunes:duration>00:11:35</itunes:duration>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:episode>4</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:summary>起霧的深海之夜，老漁人總在船上備一支鑿了洞的破杓子。因為濃霧</itunes:summary>
+      <itunes:subtitle>起霧的深海之夜，老漁人總在船上備一支鑿了洞的破杓子。因為濃霧</itunes:subtitle>
+      <itunes:keywords>鬼故事,怪談,靈異,深夜,台灣</itunes:keywords>
+      <content:encoded><![CDATA[起霧的深海之夜，老漁人總在船上備一支鑿了洞的破杓子。因為濃霧]]></content:encoded>
+    </item>
+    <item>
+      <title>EP003 深夜的荒廢古寺，孤獨書生劉生在燭火下苦讀。三個夜晚，素白衣裝</title>
+      <description>深夜的荒廢古寺，孤獨書生劉生在燭火下苦讀。三個夜晚，素白衣裝</description>
       <pubDate>Fri, 10 Apr 2026 00:00:00 -0000</pubDate>
       <guid>c1836fdedf1faa61a4a2995f82d98bf8</guid>
       <link>https://solobuildtw.github.io/podcast/candlelight-stories/ep/003</link>
       <enclosure url="https://podcast-cdn.pick-tw.com/audio/CH5/EP003_%E6%B7%B1%E5%A4%9C%E7%9A%84%E8%8D%92%E5%BB%A2%E5%8F%A4%E5%AF%BA%EF%BC%8C%E5%AD%A4%E7%8D%A8%E6%9B%B8%E7%94%9F%E5%8A%89%E7%94%9F%E5%9C%A8%E7%87%AD%E7%81%AB%E4%B8%8B%E8%8B%A6%E8%AE%80%E3%80%82%E4%B8%89%E5%80%8B%E5%A4%9C%E6%99%9A%EF%BC%8C%E7%B4%A0%E7%99%BD%E8%A1%A3%E8%A3%9D.mp3" type="audio/mpeg" length="16567528"/>
-      <itunes:title>EP003 深夜的荒廢古寺，孤獨書生劉生在燭火下苦讀。三個夜晚，素白衣裝的神秘女子無聲無息地</itunes:title>
+      <itunes:title>EP003 深夜的荒廢古寺，孤獨書生劉生在燭火下苦讀。三個夜晚，素白衣裝</itunes:title>
       <itunes:author>燭先生</itunes:author>
       <itunes:duration>00:11:30</itunes:duration>
       <itunes:explicit>no</itunes:explicit>
       <itunes:episode>3</itunes:episode>
       <itunes:episodeType>full</itunes:episodeType>
-      <itunes:summary>深夜的荒廢古寺，孤獨書生劉生在燭火下苦讀。三個夜晚，素白衣裝的神秘女子無聲無息地出現在門口。她美得不像真實，談吐深邃，卻留下了不屬於活人的冰冷。燭先生說，孤獨，有時是最危險的氣味，會召喚不該來的存在。</itunes:summary>
-      <itunes:subtitle>深夜的荒廢古寺，孤獨書生劉生在燭火下苦讀。三個夜晚，素白衣裝的神秘女子無聲無息地</itunes:subtitle>
+      <itunes:summary>深夜的荒廢古寺，孤獨書生劉生在燭火下苦讀。三個夜晚，素白衣裝</itunes:summary>
+      <itunes:subtitle>深夜的荒廢古寺，孤獨書生劉生在燭火下苦讀。三個夜晚，素白衣裝</itunes:subtitle>
       <itunes:keywords>鬼故事,怪談,靈異,深夜,台灣</itunes:keywords>
-      <content:encoded><![CDATA[深夜的荒廢古寺，孤獨書生劉生在燭火下苦讀。三個夜晚，素白衣裝的神秘女子無聲無息地出現在門口。她美得不像真實，談吐深邃，卻留下了不屬於活人的冰冷。燭先生說，孤獨，有時是最危險的氣味，會召喚不該來的存在。]]></content:encoded>
+      <content:encoded><![CDATA[深夜的荒廢古寺，孤獨書生劉生在燭火下苦讀。三個夜晚，素白衣裝]]></content:encoded>
     </item>
     <item>
-      <title>EP002 百物語，一個源自日本的古老禁忌遊戲。一百根蠟燭，一百個故事，每熄一盞，黑暗便更近</title>
-      <description>百物語，一個源自日本的古老禁忌遊戲。一百根蠟燭，一百個故事，每熄一盞，黑暗便更近一分。當最後一根蠟燭吹熄，那扇通往另一個世界的門，就此悄然開啟。燭先生說，有些遊戲，一旦開始，就必須有始有終。</description>
+      <title>EP002 百物語，一個源自日本的古老禁忌遊戲。一百根蠟燭，一百個故事，</title>
+      <description>百物語，一個源自日本的古老禁忌遊戲。一百根蠟燭，一百個故事，</description>
       <pubDate>Thu, 09 Apr 2026 00:00:00 -0000</pubDate>
       <guid>c463b3bfc3263a9cddd7b9bd26fb9111</guid>
       <link>https://solobuildtw.github.io/podcast/candlelight-stories/ep/002</link>
       <enclosure url="https://podcast-cdn.pick-tw.com/audio/CH5/EP002_%E7%99%BE%E7%89%A9%E8%AA%9E%EF%BC%8C%E4%B8%80%E5%80%8B%E6%BA%90%E8%87%AA%E6%97%A5%E6%9C%AC%E7%9A%84%E5%8F%A4%E8%80%81%E7%A6%81%E5%BF%8C%E9%81%8A%E6%88%B2%E3%80%82%E4%B8%80%E7%99%BE%E6%A0%B9%E8%A0%9F%E7%87%AD%EF%BC%8C%E4%B8%80%E7%99%BE%E5%80%8B%E6%95%85%E4%BA%8B%EF%BC%8C.mp3" type="audio/mpeg" length="16976292"/>
-      <itunes:title>EP002 百物語，一個源自日本的古老禁忌遊戲。一百根蠟燭，一百個故事，每熄一盞，黑暗便更近</itunes:title>
+      <itunes:title>EP002 百物語，一個源自日本的古老禁忌遊戲。一百根蠟燭，一百個故事，</itunes:title>
       <itunes:author>燭先生</itunes:author>
       <itunes:duration>00:11:47</itunes:duration>
       <itunes:explicit>no</itunes:explicit>
       <itunes:episode>2</itunes:episode>
       <itunes:episodeType>full</itunes:episodeType>
-      <itunes:summary>百物語，一個源自日本的古老禁忌遊戲。一百根蠟燭，一百個故事，每熄一盞，黑暗便更近一分。當最後一根蠟燭吹熄，那扇通往另一個世界的門，就此悄然開啟。燭先生說，有些遊戲，一旦開始，就必須有始有終。</itunes:summary>
-      <itunes:subtitle>百物語，一個源自日本的古老禁忌遊戲。一百根蠟燭，一百個故事，每熄一盞，黑暗便更近</itunes:subtitle>
+      <itunes:summary>百物語，一個源自日本的古老禁忌遊戲。一百根蠟燭，一百個故事，</itunes:summary>
+      <itunes:subtitle>百物語，一個源自日本的古老禁忌遊戲。一百根蠟燭，一百個故事，</itunes:subtitle>
       <itunes:keywords>鬼故事,怪談,靈異,深夜,台灣</itunes:keywords>
-      <content:encoded><![CDATA[百物語，一個源自日本的古老禁忌遊戲。一百根蠟燭，一百個故事，每熄一盞，黑暗便更近一分。當最後一根蠟燭吹熄，那扇通往另一個世界的門，就此悄然開啟。燭先生說，有些遊戲，一旦開始，就必須有始有終。]]></content:encoded>
+      <content:encoded><![CDATA[百物語，一個源自日本的古老禁忌遊戲。一百根蠟燭，一百個故事，]]></content:encoded>
     </item>
     <item>
       <title>EP001 深夜的老校園，三樓走廊盡頭有一扇永遠上鎖的廁所隔間。傳說午夜敲三下，紅衣學姊會從</title>
-      <description>深夜的老校園，三樓走廊盡頭有一扇永遠上鎖的廁所隔間。傳說午夜敲三下，紅衣學姊會從門後回應。幾個膽大的高三生決定親身驗證，那夜之後，有人開始看見紅色的影子。燭先生說，有些門，輕輕敲，就不應該再開。</description>
+      <description>深夜的老校園，三樓走廊盡頭有一扇永遠上鎖的廁所隔間。傳說午夜敲三下，紅衣學姊會從</description>
       <pubDate>Wed, 08 Apr 2026 00:00:00 -0000</pubDate>
       <guid>ae9904ee32899d7ebaa6cfb467f78c2e</guid>
       <link>https://solobuildtw.github.io/podcast/candlelight-stories/ep/001</link>
@@ -97,10 +188,10 @@
       <itunes:explicit>no</itunes:explicit>
       <itunes:episode>1</itunes:episode>
       <itunes:episodeType>full</itunes:episodeType>
-      <itunes:summary>深夜的老校園，三樓走廊盡頭有一扇永遠上鎖的廁所隔間。傳說午夜敲三下，紅衣學姊會從門後回應。幾個膽大的高三生決定親身驗證，那夜之後，有人開始看見紅色的影子。燭先生說，有些門，輕輕敲，就不應該再開。</itunes:summary>
+      <itunes:summary>深夜的老校園，三樓走廊盡頭有一扇永遠上鎖的廁所隔間。傳說午夜敲三下，紅衣學姊會從</itunes:summary>
       <itunes:subtitle>深夜的老校園，三樓走廊盡頭有一扇永遠上鎖的廁所隔間。傳說午夜敲三下，紅衣學姊會從</itunes:subtitle>
       <itunes:keywords>鬼故事,怪談,靈異,深夜,台灣</itunes:keywords>
-      <content:encoded><![CDATA[深夜的老校園，三樓走廊盡頭有一扇永遠上鎖的廁所隔間。傳說午夜敲三下，紅衣學姊會從門後回應。幾個膽大的高三生決定親身驗證，那夜之後，有人開始看見紅色的影子。燭先生說，有些門，輕輕敲，就不應該再開。]]></content:encoded>
+      <content:encoded><![CDATA[深夜的老校園，三樓走廊盡頭有一扇永遠上鎖的廁所隔間。傳說午夜敲三下，紅衣學姊會從]]></content:encoded>
     </item>
   </channel>
 </rss>

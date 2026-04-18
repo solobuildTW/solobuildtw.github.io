@@ -7,8 +7,9 @@
     <description>地球上有些角落你一輩子不會去，但故事精彩到值得聽完。熙熙帶你走訪冷門國家、邊境小鎮與被遺忘的文明。</description>
     <copyright>© 2026 熙熙</copyright>
     <generator>SoloBuildTW Podcast RSS Generator v2</generator>
-    <lastBuildDate>Fri, 17 Apr 2026 19:01:50 -0000</lastBuildDate>
+    <lastBuildDate>Mon, 13 Apr 2026 00:00:00 -0000</lastBuildDate>
     <atom:link href="https://solobuildtw.github.io/podcast/earth-corners/feed.xml" rel="self" type="application/rss+xml"/>
+    <managingEditor>viviank889@gmail.com (熙熙)</managingEditor>
     <itunes:title>地球的角落</itunes:title>
     <itunes:author>熙熙</itunes:author>
     <itunes:summary>地球上有些角落你一輩子不會去，但故事精彩到值得聽完。熙熙帶你走訪冷門國家、邊境小鎮與被遺忘的文明。</itunes:summary>
@@ -30,5 +31,77 @@
     <itunes:category text="Society &amp; Culture">
       <itunes:category text="Places &amp; Travel"/>
     </itunes:category>
+    <item>
+      <title>EP006 熙熙帶你一起探索阿索斯山，一座禁止女性踏入的千年聖山共和國</title>
+      <description>熙熙帶你一起探索阿索斯山，一座禁止女性踏入的千年聖山共和國</description>
+      <pubDate>Mon, 13 Apr 2026 00:00:00 -0000</pubDate>
+      <guid>a42306f93e7c7b935094172085a6a63a</guid>
+      <link>https://solobuildtw.github.io/podcast/earth-corners/ep/006</link>
+      <enclosure url="https://podcast-cdn.pick-tw.com/audio/CH4/EP006_%E7%86%99%E7%86%99%E5%B8%B6%E4%BD%A0%E4%B8%80%E8%B5%B7%E6%8E%A2%E7%B4%A2%E9%98%BF%E7%B4%A2%E6%96%AF%E5%B1%B1%EF%BC%8C%E4%B8%80%E5%BA%A7%E7%A6%81%E6%AD%A2%E5%A5%B3%E6%80%A7%E8%B8%8F%E5%85%A5%E7%9A%84%E5%8D%83%E5%B9%B4%E8%81%96%E5%B1%B1%E5%85%B1%E5%92%8C%E5%9C%8B%E3%80%82.mp3" type="audio/mpeg" length="18194434"/>
+      <itunes:title>EP006 熙熙帶你一起探索阿索斯山，一座禁止女性踏入的千年聖山共和國</itunes:title>
+      <itunes:author>熙熙</itunes:author>
+      <itunes:duration>00:12:38</itunes:duration>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:episode>6</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:summary>熙熙帶你一起探索阿索斯山，一座禁止女性踏入的千年聖山共和國</itunes:summary>
+      <itunes:subtitle>熙熙帶你一起探索阿索斯山，一座禁止女性踏入的千年聖山共和國</itunes:subtitle>
+      <itunes:keywords>旅遊,地理,冷門國家,文化,探索</itunes:keywords>
+      <content:encoded><![CDATA[熙熙帶你一起探索阿索斯山，一座禁止女性踏入的千年聖山共和國]]></content:encoded>
+    </item>
+    <item>
+      <title>EP005 格陵蘭，名字是綠地，八成土地卻被冰雪覆蓋。熙熙帶你走進世界最</title>
+      <description>格陵蘭，名字是綠地，八成土地卻被冰雪覆蓋。熙熙帶你走進世界最</description>
+      <pubDate>Sun, 12 Apr 2026 00:00:00 -0000</pubDate>
+      <guid>524074bc3bb53f3f07576ef142e5b571</guid>
+      <link>https://solobuildtw.github.io/podcast/earth-corners/ep/005</link>
+      <enclosure url="https://podcast-cdn.pick-tw.com/audio/CH4/EP005_%E6%A0%BC%E9%99%B5%E8%98%AD%EF%BC%8C%E5%90%8D%E5%AD%97%E6%98%AF%E7%B6%A0%E5%9C%B0%EF%BC%8C%E5%85%AB%E6%88%90%E5%9C%9F%E5%9C%B0%E5%8D%BB%E8%A2%AB%E5%86%B0%E9%9B%AA%E8%A6%86%E8%93%8B%E3%80%82%E7%86%99%E7%86%99%E5%B8%B6%E4%BD%A0%E8%B5%B0%E9%80%B2%E4%B8%96%E7%95%8C%E6%9C%80.mp3" type="audio/mpeg" length="18240827"/>
+      <itunes:title>EP005 格陵蘭，名字是綠地，八成土地卻被冰雪覆蓋。熙熙帶你走進世界最</itunes:title>
+      <itunes:author>熙熙</itunes:author>
+      <itunes:duration>00:12:40</itunes:duration>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:episode>5</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:summary>格陵蘭，名字是綠地，八成土地卻被冰雪覆蓋。熙熙帶你走進世界最</itunes:summary>
+      <itunes:subtitle>格陵蘭，名字是綠地，八成土地卻被冰雪覆蓋。熙熙帶你走進世界最</itunes:subtitle>
+      <itunes:keywords>旅遊,地理,冷門國家,文化,探索</itunes:keywords>
+      <content:encoded><![CDATA[格陵蘭，名字是綠地，八成土地卻被冰雪覆蓋。熙熙帶你走進世界最]]></content:encoded>
+    </item>
+    <item>
+      <title>EP003 蒙古草原上，家是一個可以移動的圓。熙熙邀你跟著游牧民族的腳步</title>
+      <description>蒙古草原上，家是一個可以移動的圓。熙熙邀你跟著游牧民族的腳步</description>
+      <pubDate>Fri, 10 Apr 2026 00:00:00 -0000</pubDate>
+      <guid>f76362b37d0ba6ccb684c48da798f2e1</guid>
+      <link>https://solobuildtw.github.io/podcast/earth-corners/ep/003</link>
+      <enclosure url="https://podcast-cdn.pick-tw.com/audio/CH4/EP003_%E8%92%99%E5%8F%A4%E8%8D%89%E5%8E%9F%E4%B8%8A%EF%BC%8C%E5%AE%B6%E6%98%AF%E4%B8%80%E5%80%8B%E5%8F%AF%E4%BB%A5%E7%A7%BB%E5%8B%95%E7%9A%84%E5%9C%93%E3%80%82%E7%86%99%E7%86%99%E9%82%80%E4%BD%A0%E8%B7%9F%E8%91%97%E6%B8%B8%E7%89%A7%E6%B0%91%E6%97%8F%E7%9A%84%E8%85%B3%E6%AD%A5.mp3" type="audio/mpeg" length="18718555"/>
+      <itunes:title>EP003 蒙古草原上，家是一個可以移動的圓。熙熙邀你跟著游牧民族的腳步</itunes:title>
+      <itunes:author>熙熙</itunes:author>
+      <itunes:duration>00:12:59</itunes:duration>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:episode>3</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:summary>蒙古草原上，家是一個可以移動的圓。熙熙邀你跟著游牧民族的腳步</itunes:summary>
+      <itunes:subtitle>蒙古草原上，家是一個可以移動的圓。熙熙邀你跟著游牧民族的腳步</itunes:subtitle>
+      <itunes:keywords>旅遊,地理,冷門國家,文化,探索</itunes:keywords>
+      <content:encoded><![CDATA[蒙古草原上，家是一個可以移動的圓。熙熙邀你跟著游牧民族的腳步]]></content:encoded>
+    </item>
+    <item>
+      <title>EP001 圖瓦盧，這個即將沉入海平面的南太平洋島國，正在打造世界第一個</title>
+      <description>圖瓦盧，這個即將沉入海平面的南太平洋島國，正在打造世界第一個</description>
+      <pubDate>Wed, 08 Apr 2026 00:00:00 -0000</pubDate>
+      <guid>36e8a3d231fe06ef4714163a791e8546</guid>
+      <link>https://solobuildtw.github.io/podcast/earth-corners/ep/001</link>
+      <enclosure url="https://podcast-cdn.pick-tw.com/audio/CH4/EP001_%E5%9C%96%E7%93%A6%E7%9B%A7%EF%BC%8C%E9%80%99%E5%80%8B%E5%8D%B3%E5%B0%87%E6%B2%89%E5%85%A5%E6%B5%B7%E5%B9%B3%E9%9D%A2%E7%9A%84%E5%8D%97%E5%A4%AA%E5%B9%B3%E6%B4%8B%E5%B3%B6%E5%9C%8B%EF%BC%8C%E6%AD%A3%E5%9C%A8%E6%89%93%E9%80%A0%E4%B8%96%E7%95%8C%E7%AC%AC%E4%B8%80%E5%80%8B.mp3" type="audio/mpeg" length="18023280"/>
+      <itunes:title>EP001 圖瓦盧，這個即將沉入海平面的南太平洋島國，正在打造世界第一個</itunes:title>
+      <itunes:author>熙熙</itunes:author>
+      <itunes:duration>00:12:30</itunes:duration>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:episode>1</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:summary>圖瓦盧，這個即將沉入海平面的南太平洋島國，正在打造世界第一個</itunes:summary>
+      <itunes:subtitle>圖瓦盧，這個即將沉入海平面的南太平洋島國，正在打造世界第一個</itunes:subtitle>
+      <itunes:keywords>旅遊,地理,冷門國家,文化,探索</itunes:keywords>
+      <content:encoded><![CDATA[圖瓦盧，這個即將沉入海平面的南太平洋島國，正在打造世界第一個]]></content:encoded>
+    </item>
   </channel>
 </rss>

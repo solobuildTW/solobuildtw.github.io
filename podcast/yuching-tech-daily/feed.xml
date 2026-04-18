@@ -7,8 +7,9 @@
     <description>每週科技生活新知。雨晴帶你輕鬆掌握 AI 工具、科技趨勢與日常科技應用，像跟科技圈朋友聊天，每集聊一個你馬上能用的科技新知。</description>
     <copyright>© 2026 雨晴</copyright>
     <generator>SoloBuildTW Podcast RSS Generator v2</generator>
-    <lastBuildDate>Fri, 17 Apr 2026 00:00:00 -0000</lastBuildDate>
+    <lastBuildDate>Sat, 18 Apr 2026 00:00:00 -0000</lastBuildDate>
     <atom:link href="https://solobuildtw.github.io/podcast/yuching-tech-daily/feed.xml" rel="self" type="application/rss+xml"/>
+    <managingEditor>solobuildtw@gmail.com (雨晴)</managingEditor>
     <itunes:title>雨晴的科技日常</itunes:title>
     <itunes:author>雨晴</itunes:author>
     <itunes:summary>每週科技生活新知。雨晴帶你輕鬆掌握 AI 工具、科技趨勢與日常科技應用，像跟科技圈朋友聊天，每集聊一個你馬上能用的科技新知。</itunes:summary>
@@ -29,304 +30,202 @@
     </image>
     <itunes:category text="Technology"/>
     <item>
-      <title>EP010 覺得 AI 都是科技巨頭的遊戲嗎？說真的，最近「小模型」的逆襲正悄悄發生！這集雨</title>
-      <description>覺得 AI 都是科技巨頭的遊戲嗎？說真的，最近「小模型」的逆襲正悄悄發生！這集雨晴要跟你聊聊，為什麼這些能在筆電、手機上運行的 AI，才是我們創作者的真正機會，不只省錢、保護隱私，還能打造出獨一無二的
-
-🎯 想讓 AI 成為你的超級員工？SoloBuildTW 經驗包手把手教你打造 AI 自動化工作流 👉 https://core.newebpay.com/EPG/Solobuildtw/fpNsoe
-
-🎯 想用 AI 打造自動化事業？免費試讀《AI 創業調教手冊》＋開機靈魂包 → https://solobuildtw.github.io</description>
+      <title>EP011 一個人工作總覺得分身乏術嗎？說真的，如果能擁有一個不用付薪水</title>
+      <description>一個人工作總覺得分身乏術嗎？說真的，如果能擁有一個不用付薪水</description>
+      <pubDate>Sat, 18 Apr 2026 00:00:00 -0000</pubDate>
+      <guid>af9a93071db2c7f962a4d6af29176c9c</guid>
+      <link>https://solobuildtw.github.io/podcast/yuching-tech-daily/ep/011</link>
+      <enclosure url="https://podcast-cdn.pick-tw.com/audio/CH1/EP011_%E4%B8%80%E5%80%8B%E4%BA%BA%E5%B7%A5%E4%BD%9C%E7%B8%BD%E8%A6%BA%E5%BE%97%E5%88%86%E8%BA%AB%E4%B9%8F%E8%A1%93%E5%97%8E%EF%BC%9F%E8%AA%AA%E7%9C%9F%E7%9A%84%EF%BC%8C%E5%A6%82%E6%9E%9C%E8%83%BD%E6%93%81%E6%9C%89%E4%B8%80%E5%80%8B%E4%B8%8D%E7%94%A8%E4%BB%98%E8%96%AA%E6%B0%B4.mp3" type="audio/mpeg" length="14988896"/>
+      <itunes:title>EP011 一個人工作總覺得分身乏術嗎？說真的，如果能擁有一個不用付薪水</itunes:title>
+      <itunes:author>雨晴</itunes:author>
+      <itunes:duration>00:10:24</itunes:duration>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:episode>11</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:summary>一個人工作總覺得分身乏術嗎？說真的，如果能擁有一個不用付薪水</itunes:summary>
+      <itunes:subtitle>一個人工作總覺得分身乏術嗎？說真的，如果能擁有一個不用付薪水</itunes:subtitle>
+      <itunes:keywords>科技,AI,一人創業,工具,趨勢</itunes:keywords>
+      <content:encoded><![CDATA[一個人工作總覺得分身乏術嗎？說真的，如果能擁有一個不用付薪水]]></content:encoded>
+    </item>
+    <item>
+      <title>EP010 覺得 AI 都是科技巨頭的遊戲嗎？說真的，最近「小模型」的逆</title>
+      <description>覺得 AI 都是科技巨頭的遊戲嗎？說真的，最近「小模型」的逆</description>
       <pubDate>Fri, 17 Apr 2026 00:00:00 -0000</pubDate>
       <guid>5a0395bdf9d88728540ca42bc87dcea6</guid>
       <link>https://solobuildtw.github.io/podcast/yuching-tech-daily/ep/010</link>
       <enclosure url="https://podcast-cdn.pick-tw.com/audio/CH1/EP010_%E8%A6%BA%E5%BE%97%20AI%20%E9%83%BD%E6%98%AF%E7%A7%91%E6%8A%80%E5%B7%A8%E9%A0%AD%E7%9A%84%E9%81%8A%E6%88%B2%E5%97%8E%EF%BC%9F%E8%AA%AA%E7%9C%9F%E7%9A%84%EF%BC%8C%E6%9C%80%E8%BF%91%E3%80%8C%E5%B0%8F%E6%A8%A1%E5%9E%8B%E3%80%8D%E7%9A%84%E9%80%86.mp3" type="audio/mpeg" length="15303619"/>
-      <itunes:title>EP010 覺得 AI 都是科技巨頭的遊戲嗎？說真的，最近「小模型」的逆襲正悄悄發生！這集雨</itunes:title>
+      <itunes:title>EP010 覺得 AI 都是科技巨頭的遊戲嗎？說真的，最近「小模型」的逆</itunes:title>
       <itunes:author>雨晴</itunes:author>
       <itunes:duration>00:10:37</itunes:duration>
       <itunes:explicit>no</itunes:explicit>
       <itunes:episode>10</itunes:episode>
       <itunes:episodeType>full</itunes:episodeType>
-      <itunes:summary>覺得 AI 都是科技巨頭的遊戲嗎？說真的，最近「小模型」的逆襲正悄悄發生！這集雨晴要跟你聊聊，為什麼這些能在筆電、手機上運行的 AI，才是我們創作者的真正機會，不只省錢、保護隱私，還能打造出獨一無二的
-
-🎯 想讓 AI 成為你的超級員工？SoloBuildTW 經驗包手把手教你打造 AI 自動化工作流 👉 https://core.newebpay.com/EPG/Solobuildtw/fpNsoe
-
-🎯 想用 AI 打造自動化事業？免費試讀《AI 創業調教手冊》＋開機靈魂包 → https://solobuildtw.github.io</itunes:summary>
-      <itunes:subtitle>覺得 AI 都是科技巨頭的遊戲嗎？說真的，最近「小模型」的逆襲正悄悄發生！這集雨</itunes:subtitle>
+      <itunes:summary>覺得 AI 都是科技巨頭的遊戲嗎？說真的，最近「小模型」的逆</itunes:summary>
+      <itunes:subtitle>覺得 AI 都是科技巨頭的遊戲嗎？說真的，最近「小模型」的逆</itunes:subtitle>
       <itunes:keywords>科技,AI,一人創業,工具,趨勢</itunes:keywords>
-      <content:encoded><![CDATA[覺得 AI 都是科技巨頭的遊戲嗎？說真的，最近「小模型」的逆襲正悄悄發生！這集雨晴要跟你聊聊，為什麼這些能在筆電、手機上運行的 AI，才是我們創作者的真正機會，不只省錢、保護隱私，還能打造出獨一無二的
-
-🎯 想讓 AI 成為你的超級員工？SoloBuildTW 經驗包手把手教你打造 AI 自動化工作流 👉 https://core.newebpay.com/EPG/Solobuildtw/fpNsoe
-
-🎯 想用 AI 打造自動化事業？免費試讀《AI 創業調教手冊》＋開機靈魂包 → https://solobuildtw.github.io]]></content:encoded>
+      <content:encoded><![CDATA[覺得 AI 都是科技巨頭的遊戲嗎？說真的，最近「小模型」的逆]]></content:encoded>
     </item>
     <item>
-      <title>EP009 當科技巨頭都在追求巨大AI模型時，一股「小而美」的趨勢正悄悄崛起。說真的，這對我</title>
-      <description>當科技巨頭都在追求巨大AI模型時，一股「小而美」的趨勢正悄悄崛起。說真的，這對我們可能更重要！這集雨晴就來聊聊，為什麼AI變小了，反而為我們的生活帶來更安全、更令人興奮的巨大機會。
-
-🎯 想讓 AI 成為你的超級員工？SoloBuildTW 經驗包手把手教你打造 AI 自動化工作流 👉 https://core.newebpay.com/EPG/Solobuildtw/fpNsoe
-
-🎯 想用 AI 打造自動化事業？免費試讀《AI 創業調教手冊》＋開機靈魂包 → https://solobuildtw.github.io</description>
+      <title>EP009 當科技巨頭都在追求巨大AI模型時，一股「小而美」的趨勢正悄悄</title>
+      <description>當科技巨頭都在追求巨大AI模型時，一股「小而美」的趨勢正悄悄</description>
       <pubDate>Thu, 16 Apr 2026 00:00:00 -0000</pubDate>
       <guid>65d07dacf3a5967cb596c44059d8a6f7</guid>
       <link>https://solobuildtw.github.io/podcast/yuching-tech-daily/ep/009</link>
       <enclosure url="https://podcast-cdn.pick-tw.com/audio/CH1/EP009_%E7%95%B6%E7%A7%91%E6%8A%80%E5%B7%A8%E9%A0%AD%E9%83%BD%E5%9C%A8%E8%BF%BD%E6%B1%82%E5%B7%A8%E5%A4%A7AI%E6%A8%A1%E5%9E%8B%E6%99%82%EF%BC%8C%E4%B8%80%E8%82%A1%E3%80%8C%E5%B0%8F%E8%80%8C%E7%BE%8E%E3%80%8D%E7%9A%84%E8%B6%A8%E5%8B%A2%E6%AD%A3%E6%82%84%E6%82%84.mp3" type="audio/mpeg" length="14400200"/>
-      <itunes:title>EP009 當科技巨頭都在追求巨大AI模型時，一股「小而美」的趨勢正悄悄崛起。說真的，這對我</itunes:title>
+      <itunes:title>EP009 當科技巨頭都在追求巨大AI模型時，一股「小而美」的趨勢正悄悄</itunes:title>
       <itunes:author>雨晴</itunes:author>
       <itunes:duration>00:09:59</itunes:duration>
       <itunes:explicit>no</itunes:explicit>
       <itunes:episode>9</itunes:episode>
       <itunes:episodeType>full</itunes:episodeType>
-      <itunes:summary>當科技巨頭都在追求巨大AI模型時，一股「小而美」的趨勢正悄悄崛起。說真的，這對我們可能更重要！這集雨晴就來聊聊，為什麼AI變小了，反而為我們的生活帶來更安全、更令人興奮的巨大機會。
-
-🎯 想讓 AI 成為你的超級員工？SoloBuildTW 經驗包手把手教你打造 AI 自動化工作流 👉 https://core.newebpay.com/EPG/Solobuildtw/fpNsoe
-
-🎯 想用 AI 打造自動化事業？免費試讀《AI 創業調教手冊》＋開機靈魂包 → https://solobuildtw.github.io</itunes:summary>
-      <itunes:subtitle>當科技巨頭都在追求巨大AI模型時，一股「小而美」的趨勢正悄悄崛起。說真的，這對我</itunes:subtitle>
+      <itunes:summary>當科技巨頭都在追求巨大AI模型時，一股「小而美」的趨勢正悄悄</itunes:summary>
+      <itunes:subtitle>當科技巨頭都在追求巨大AI模型時，一股「小而美」的趨勢正悄悄</itunes:subtitle>
       <itunes:keywords>科技,AI,一人創業,工具,趨勢</itunes:keywords>
-      <content:encoded><![CDATA[當科技巨頭都在追求巨大AI模型時，一股「小而美」的趨勢正悄悄崛起。說真的，這對我們可能更重要！這集雨晴就來聊聊，為什麼AI變小了，反而為我們的生活帶來更安全、更令人興奮的巨大機會。
-
-🎯 想讓 AI 成為你的超級員工？SoloBuildTW 經驗包手把手教你打造 AI 自動化工作流 👉 https://core.newebpay.com/EPG/Solobuildtw/fpNsoe
-
-🎯 想用 AI 打造自動化事業？免費試讀《AI 創業調教手冊》＋開機靈魂包 → https://solobuildtw.github.io]]></content:encoded>
+      <content:encoded><![CDATA[當科技巨頭都在追求巨大AI模型時，一股「小而美」的趨勢正悄悄]]></content:encoded>
     </item>
     <item>
-      <title>EP008 當AI能幫你寫程式、做設計，甚至完成八成以上的工作，你還能抬頭挺胸地說，這個作品</title>
-      <description>當AI能幫你寫程式、做設計，甚至完成八成以上的工作，你還能抬頭挺胸地說，這個作品是你「獨立」完成的嗎？這份成就感還算數嗎？說真的，這已經不只是技術問題，更關乎我們的自我認同。
-
-🎯 想讓 AI 成為你的超級員工？SoloBuildTW 經驗包手把手教你打造 AI 自動化工作流 👉 https://core.newebpay.com/EPG/Solobuildtw/fpNsoe
-
-🎯 想用 AI 打造自動化事業？免費試讀《AI 創業調教手冊》＋開機靈魂包 → https://solobuildtw.github.io</description>
+      <title>EP008 當AI能幫你寫程式、做設計，甚至完成八成以上的工作，你還能抬</title>
+      <description>當AI能幫你寫程式、做設計，甚至完成八成以上的工作，你還能抬</description>
       <pubDate>Wed, 15 Apr 2026 00:00:00 -0000</pubDate>
       <guid>b0e12cbf83a22bf1d7f11339a4a0c4f7</guid>
       <link>https://solobuildtw.github.io/podcast/yuching-tech-daily/ep/008</link>
       <enclosure url="https://podcast-cdn.pick-tw.com/audio/CH1/EP008_%E7%95%B6AI%E8%83%BD%E5%B9%AB%E4%BD%A0%E5%AF%AB%E7%A8%8B%E5%BC%8F%E3%80%81%E5%81%9A%E8%A8%AD%E8%A8%88%EF%BC%8C%E7%94%9A%E8%87%B3%E5%AE%8C%E6%88%90%E5%85%AB%E6%88%90%E4%BB%A5%E4%B8%8A%E7%9A%84%E5%B7%A5%E4%BD%9C%EF%BC%8C%E4%BD%A0%E9%82%84%E8%83%BD%E6%8A%AC.mp3" type="audio/mpeg" length="14861627"/>
-      <itunes:title>EP008 當AI能幫你寫程式、做設計，甚至完成八成以上的工作，你還能抬頭挺胸地說，這個作品</itunes:title>
+      <itunes:title>EP008 當AI能幫你寫程式、做設計，甚至完成八成以上的工作，你還能抬</itunes:title>
       <itunes:author>雨晴</itunes:author>
       <itunes:duration>00:10:19</itunes:duration>
       <itunes:explicit>no</itunes:explicit>
       <itunes:episode>8</itunes:episode>
       <itunes:episodeType>full</itunes:episodeType>
-      <itunes:summary>當AI能幫你寫程式、做設計，甚至完成八成以上的工作，你還能抬頭挺胸地說，這個作品是你「獨立」完成的嗎？這份成就感還算數嗎？說真的，這已經不只是技術問題，更關乎我們的自我認同。
-
-🎯 想讓 AI 成為你的超級員工？SoloBuildTW 經驗包手把手教你打造 AI 自動化工作流 👉 https://core.newebpay.com/EPG/Solobuildtw/fpNsoe
-
-🎯 想用 AI 打造自動化事業？免費試讀《AI 創業調教手冊》＋開機靈魂包 → https://solobuildtw.github.io</itunes:summary>
-      <itunes:subtitle>當AI能幫你寫程式、做設計，甚至完成八成以上的工作，你還能抬頭挺胸地說，這個作品</itunes:subtitle>
+      <itunes:summary>當AI能幫你寫程式、做設計，甚至完成八成以上的工作，你還能抬</itunes:summary>
+      <itunes:subtitle>當AI能幫你寫程式、做設計，甚至完成八成以上的工作，你還能抬</itunes:subtitle>
       <itunes:keywords>科技,AI,一人創業,工具,趨勢</itunes:keywords>
-      <content:encoded><![CDATA[當AI能幫你寫程式、做設計，甚至完成八成以上的工作，你還能抬頭挺胸地說，這個作品是你「獨立」完成的嗎？這份成就感還算數嗎？說真的，這已經不只是技術問題，更關乎我們的自我認同。
-
-🎯 想讓 AI 成為你的超級員工？SoloBuildTW 經驗包手把手教你打造 AI 自動化工作流 👉 https://core.newebpay.com/EPG/Solobuildtw/fpNsoe
-
-🎯 想用 AI 打造自動化事業？免費試讀《AI 創業調教手冊》＋開機靈魂包 → https://solobuildtw.github.io]]></content:encoded>
+      <content:encoded><![CDATA[當AI能幫你寫程式、做設計，甚至完成八成以上的工作，你還能抬]]></content:encoded>
     </item>
     <item>
-      <title>EP007 說真的，你是不是也覺得網路世界越來越吵、越來越假？搜尋結果被AI農場文佔據，社群</title>
-      <description>說真的，你是不是也覺得網路世界越來越吵、越來越假？搜尋結果被AI農場文佔據，社群上的美圖也分不清真偽。這集雨晴就來跟你聊聊，AI正在如何改變我們的網路日常，以及我們還能不能找到那些真實的資訊。
-
-🎯 想讓 AI 成為你的超級員工？SoloBuildTW 經驗包手把手教你打造 AI 自動化工作流 👉 https://core.newebpay.com/EPG/Solobuildtw/fpNsoe
-
-🎯 想用 AI 打造自動化事業？免費試讀《AI 創業調教手冊》＋開機靈魂包 → https://solobuildtw.github.io</description>
+      <title>EP007 說真的，你是不是也覺得網路世界越來越吵、越來越假？搜尋結果被</title>
+      <description>說真的，你是不是也覺得網路世界越來越吵、越來越假？搜尋結果被</description>
       <pubDate>Tue, 14 Apr 2026 00:00:00 -0000</pubDate>
       <guid>36e419bd101a1a46802967be6b077d65</guid>
       <link>https://solobuildtw.github.io/podcast/yuching-tech-daily/ep/007</link>
       <enclosure url="https://podcast-cdn.pick-tw.com/audio/CH1/EP007_%E8%AA%AA%E7%9C%9F%E7%9A%84%EF%BC%8C%E4%BD%A0%E6%98%AF%E4%B8%8D%E6%98%AF%E4%B9%9F%E8%A6%BA%E5%BE%97%E7%B6%B2%E8%B7%AF%E4%B8%96%E7%95%8C%E8%B6%8A%E4%BE%86%E8%B6%8A%E5%90%B5%E3%80%81%E8%B6%8A%E4%BE%86%E8%B6%8A%E5%81%87%EF%BC%9F%E6%90%9C%E5%B0%8B%E7%B5%90%E6%9E%9C%E8%A2%AB.mp3" type="audio/mpeg" length="15431515"/>
-      <itunes:title>EP007 說真的，你是不是也覺得網路世界越來越吵、越來越假？搜尋結果被AI農場文佔據，社群</itunes:title>
+      <itunes:title>EP007 說真的，你是不是也覺得網路世界越來越吵、越來越假？搜尋結果被</itunes:title>
       <itunes:author>雨晴</itunes:author>
       <itunes:duration>00:10:42</itunes:duration>
       <itunes:explicit>no</itunes:explicit>
       <itunes:episode>7</itunes:episode>
       <itunes:episodeType>full</itunes:episodeType>
-      <itunes:summary>說真的，你是不是也覺得網路世界越來越吵、越來越假？搜尋結果被AI農場文佔據，社群上的美圖也分不清真偽。這集雨晴就來跟你聊聊，AI正在如何改變我們的網路日常，以及我們還能不能找到那些真實的資訊。
-
-🎯 想讓 AI 成為你的超級員工？SoloBuildTW 經驗包手把手教你打造 AI 自動化工作流 👉 https://core.newebpay.com/EPG/Solobuildtw/fpNsoe
-
-🎯 想用 AI 打造自動化事業？免費試讀《AI 創業調教手冊》＋開機靈魂包 → https://solobuildtw.github.io</itunes:summary>
-      <itunes:subtitle>說真的，你是不是也覺得網路世界越來越吵、越來越假？搜尋結果被AI農場文佔據，社群</itunes:subtitle>
+      <itunes:summary>說真的，你是不是也覺得網路世界越來越吵、越來越假？搜尋結果被</itunes:summary>
+      <itunes:subtitle>說真的，你是不是也覺得網路世界越來越吵、越來越假？搜尋結果被</itunes:subtitle>
       <itunes:keywords>科技,AI,一人創業,工具,趨勢</itunes:keywords>
-      <content:encoded><![CDATA[說真的，你是不是也覺得網路世界越來越吵、越來越假？搜尋結果被AI農場文佔據，社群上的美圖也分不清真偽。這集雨晴就來跟你聊聊，AI正在如何改變我們的網路日常，以及我們還能不能找到那些真實的資訊。
-
-🎯 想讓 AI 成為你的超級員工？SoloBuildTW 經驗包手把手教你打造 AI 自動化工作流 👉 https://core.newebpay.com/EPG/Solobuildtw/fpNsoe
-
-🎯 想用 AI 打造自動化事業？免費試讀《AI 創業調教手冊》＋開機靈魂包 → https://solobuildtw.github.io]]></content:encoded>
+      <content:encoded><![CDATA[說真的，你是不是也覺得網路世界越來越吵、越來越假？搜尋結果被]]></content:encoded>
     </item>
     <item>
-      <title>EP006 大家都在追逐更大更強的AI，但你知道嗎？真正的革命可能來自那些「小而美」的模型！</title>
-      <description>大家都在追逐更大更強的AI，但你知道嗎？真正的革命可能來自那些「小而美」的模型！這集雨晴要跟你聊聊，為什麼AI的未來不只是軍備競賽，小模型如何能把AI帶進我們每個人的生活，這股趨勢又會帶來什麼改變？
-
-🎯 想讓 AI 成為你的超級員工？SoloBuildTW 經驗包手把手教你打造 AI 自動化工作流 👉 https://core.newebpay.com/EPG/Solobuildtw/fpNsoe
-
-🎯 想用 AI 打造自動化事業？免費試讀《AI 創業調教手冊》＋開機靈魂包 → https://solobuildtw.github.io</description>
+      <title>EP006 大家都在追逐更大更強的AI，但你知道嗎？真正的革命可能來自那</title>
+      <description>大家都在追逐更大更強的AI，但你知道嗎？真正的革命可能來自那</description>
       <pubDate>Mon, 13 Apr 2026 00:00:00 -0000</pubDate>
       <guid>cb4c58f63e089a5719c6c849a333645a</guid>
       <link>https://solobuildtw.github.io/podcast/yuching-tech-daily/ep/006</link>
       <enclosure url="https://podcast-cdn.pick-tw.com/audio/CH1/EP006_%E5%A4%A7%E5%AE%B6%E9%83%BD%E5%9C%A8%E8%BF%BD%E9%80%90%E6%9B%B4%E5%A4%A7%E6%9B%B4%E5%BC%B7%E7%9A%84AI%EF%BC%8C%E4%BD%86%E4%BD%A0%E7%9F%A5%E9%81%93%E5%97%8E%EF%BC%9F%E7%9C%9F%E6%AD%A3%E7%9A%84%E9%9D%A9%E5%91%BD%E5%8F%AF%E8%83%BD%E4%BE%86%E8%87%AA%E9%82%A3.mp3" type="audio/mpeg" length="15267257"/>
-      <itunes:title>EP006 大家都在追逐更大更強的AI，但你知道嗎？真正的革命可能來自那些「小而美」的模型！</itunes:title>
+      <itunes:title>EP006 大家都在追逐更大更強的AI，但你知道嗎？真正的革命可能來自那</itunes:title>
       <itunes:author>雨晴</itunes:author>
       <itunes:duration>00:10:36</itunes:duration>
       <itunes:explicit>no</itunes:explicit>
       <itunes:episode>6</itunes:episode>
       <itunes:episodeType>full</itunes:episodeType>
-      <itunes:summary>大家都在追逐更大更強的AI，但你知道嗎？真正的革命可能來自那些「小而美」的模型！這集雨晴要跟你聊聊，為什麼AI的未來不只是軍備競賽，小模型如何能把AI帶進我們每個人的生活，這股趨勢又會帶來什麼改變？
-
-🎯 想讓 AI 成為你的超級員工？SoloBuildTW 經驗包手把手教你打造 AI 自動化工作流 👉 https://core.newebpay.com/EPG/Solobuildtw/fpNsoe
-
-🎯 想用 AI 打造自動化事業？免費試讀《AI 創業調教手冊》＋開機靈魂包 → https://solobuildtw.github.io</itunes:summary>
-      <itunes:subtitle>大家都在追逐更大更強的AI，但你知道嗎？真正的革命可能來自那些「小而美」的模型！</itunes:subtitle>
+      <itunes:summary>大家都在追逐更大更強的AI，但你知道嗎？真正的革命可能來自那</itunes:summary>
+      <itunes:subtitle>大家都在追逐更大更強的AI，但你知道嗎？真正的革命可能來自那</itunes:subtitle>
       <itunes:keywords>科技,AI,一人創業,工具,趨勢</itunes:keywords>
-      <content:encoded><![CDATA[大家都在追逐更大更強的AI，但你知道嗎？真正的革命可能來自那些「小而美」的模型！這集雨晴要跟你聊聊，為什麼AI的未來不只是軍備競賽，小模型如何能把AI帶進我們每個人的生活，這股趨勢又會帶來什麼改變？
-
-🎯 想讓 AI 成為你的超級員工？SoloBuildTW 經驗包手把手教你打造 AI 自動化工作流 👉 https://core.newebpay.com/EPG/Solobuildtw/fpNsoe
-
-🎯 想用 AI 打造自動化事業？免費試讀《AI 創業調教手冊》＋開機靈魂包 → https://solobuildtw.github.io]]></content:encoded>
+      <content:encoded><![CDATA[大家都在追逐更大更強的AI，但你知道嗎？真正的革命可能來自那]]></content:encoded>
     </item>
     <item>
-      <title>EP005 說真的，筆記軟體的戰爭從來沒停過，但 Notion AI 好像要來改寫遊戲規則了</title>
-      <description>說真的，筆記軟體的戰爭從來沒停過，但 Notion AI 好像要來改寫遊戲規則了！它不只能儲存，還能幫你腦力激盪、寫摘要，就像個超強助理。
-
-🎯 想讓 AI 成為你的超級員工？SoloBuildTW 經驗包手把手教你打造 AI 自動化工作流 👉 https://core.newebpay.com/EPG/Solobuildtw/fpNsoe
-
-🎯 想用 AI 打造自動化事業？免費試讀《AI 創業調教手冊》＋開機靈魂包 → https://solobuildtw.github.io</description>
+      <title>EP005 說真的，筆記軟體的戰爭從來沒停過，但 Notion AI 好</title>
+      <description>說真的，筆記軟體的戰爭從來沒停過，但 Notion AI 好</description>
       <pubDate>Sun, 12 Apr 2026 00:00:00 -0000</pubDate>
       <guid>babcfe6a16d98b1d8db02d0949bc8e07</guid>
       <link>https://solobuildtw.github.io/podcast/yuching-tech-daily/ep/005</link>
       <enclosure url="https://podcast-cdn.pick-tw.com/audio/CH1/EP005_%E8%AA%AA%E7%9C%9F%E7%9A%84%EF%BC%8C%E7%AD%86%E8%A8%98%E8%BB%9F%E9%AB%94%E7%9A%84%E6%88%B0%E7%88%AD%E5%BE%9E%E4%BE%86%E6%B2%92%E5%81%9C%E9%81%8E%EF%BC%8C%E4%BD%86%20Notion%20AI%20%E5%A5%BD.mp3" type="audio/mpeg" length="13923727"/>
-      <itunes:title>EP005 說真的，筆記軟體的戰爭從來沒停過，但 Notion AI 好像要來改寫遊戲規則了</itunes:title>
+      <itunes:title>EP005 說真的，筆記軟體的戰爭從來沒停過，但 Notion AI 好</itunes:title>
       <itunes:author>雨晴</itunes:author>
       <itunes:duration>00:09:40</itunes:duration>
       <itunes:explicit>no</itunes:explicit>
       <itunes:episode>5</itunes:episode>
       <itunes:episodeType>full</itunes:episodeType>
-      <itunes:summary>說真的，筆記軟體的戰爭從來沒停過，但 Notion AI 好像要來改寫遊戲規則了！它不只能儲存，還能幫你腦力激盪、寫摘要，就像個超強助理。
-
-🎯 想讓 AI 成為你的超級員工？SoloBuildTW 經驗包手把手教你打造 AI 自動化工作流 👉 https://core.newebpay.com/EPG/Solobuildtw/fpNsoe
-
-🎯 想用 AI 打造自動化事業？免費試讀《AI 創業調教手冊》＋開機靈魂包 → https://solobuildtw.github.io</itunes:summary>
-      <itunes:subtitle>說真的，筆記軟體的戰爭從來沒停過，但 Notion AI 好像要來改寫遊戲規則了</itunes:subtitle>
+      <itunes:summary>說真的，筆記軟體的戰爭從來沒停過，但 Notion AI 好</itunes:summary>
+      <itunes:subtitle>說真的，筆記軟體的戰爭從來沒停過，但 Notion AI 好</itunes:subtitle>
       <itunes:keywords>科技,AI,一人創業,工具,趨勢</itunes:keywords>
-      <content:encoded><![CDATA[說真的，筆記軟體的戰爭從來沒停過，但 Notion AI 好像要來改寫遊戲規則了！它不只能儲存，還能幫你腦力激盪、寫摘要，就像個超強助理。
-
-🎯 想讓 AI 成為你的超級員工？SoloBuildTW 經驗包手把手教你打造 AI 自動化工作流 👉 https://core.newebpay.com/EPG/Solobuildtw/fpNsoe
-
-🎯 想用 AI 打造自動化事業？免費試讀《AI 創業調教手冊》＋開機靈魂包 → https://solobuildtw.github.io]]></content:encoded>
+      <content:encoded><![CDATA[說真的，筆記軟體的戰爭從來沒停過，但 Notion AI 好]]></content:encoded>
     </item>
     <item>
-      <title>EP004 AI 每天都在進步，現在學的技術兩年後還夠用嗎？雨晴和你聊聊，如果我們穿越到 2</title>
-      <description>AI 每天都在進步，現在學的技術兩年後還夠用嗎？雨晴和你聊聊，如果我們穿越到 2026 年，最搶手的工程師履歷上該寫些什麼。
-
-🎯 想讓 AI 成為你的超級員工？SoloBuildTW 經驗包手把手教你打造 AI 自動化工作流 👉 https://core.newebpay.com/EPG/Solobuildtw/fpNsoe
-
-🎯 想用 AI 打造自動化事業？免費試讀《AI 創業調教手冊》＋開機靈魂包 → https://solobuildtw.github.io</description>
+      <title>EP004 AI 每天都在進步，現在學的技術兩年後還夠用嗎？雨晴和你聊聊</title>
+      <description>AI 每天都在進步，現在學的技術兩年後還夠用嗎？雨晴和你聊聊</description>
       <pubDate>Sat, 11 Apr 2026 00:00:00 -0000</pubDate>
       <guid>8536fa3f2b7ee0aa5999649746b4d8aa</guid>
       <link>https://solobuildtw.github.io/podcast/yuching-tech-daily/ep/004</link>
       <enclosure url="https://podcast-cdn.pick-tw.com/audio/CH1/EP004_AI%20%E6%AF%8F%E5%A4%A9%E9%83%BD%E5%9C%A8%E9%80%B2%E6%AD%A5%EF%BC%8C%E7%8F%BE%E5%9C%A8%E5%AD%B8%E7%9A%84%E6%8A%80%E8%A1%93%E5%85%A9%E5%B9%B4%E5%BE%8C%E9%82%84%E5%A4%A0%E7%94%A8%E5%97%8E%EF%BC%9F%E9%9B%A8%E6%99%B4%E5%92%8C%E4%BD%A0%E8%81%8A%E8%81%8A.mp3" type="audio/mpeg" length="14393931"/>
-      <itunes:title>EP004 AI 每天都在進步，現在學的技術兩年後還夠用嗎？雨晴和你聊聊，如果我們穿越到 2</itunes:title>
+      <itunes:title>EP004 AI 每天都在進步，現在學的技術兩年後還夠用嗎？雨晴和你聊聊</itunes:title>
       <itunes:author>雨晴</itunes:author>
       <itunes:duration>00:09:59</itunes:duration>
       <itunes:explicit>no</itunes:explicit>
       <itunes:episode>4</itunes:episode>
       <itunes:episodeType>full</itunes:episodeType>
-      <itunes:summary>AI 每天都在進步，現在學的技術兩年後還夠用嗎？雨晴和你聊聊，如果我們穿越到 2026 年，最搶手的工程師履歷上該寫些什麼。
-
-🎯 想讓 AI 成為你的超級員工？SoloBuildTW 經驗包手把手教你打造 AI 自動化工作流 👉 https://core.newebpay.com/EPG/Solobuildtw/fpNsoe
-
-🎯 想用 AI 打造自動化事業？免費試讀《AI 創業調教手冊》＋開機靈魂包 → https://solobuildtw.github.io</itunes:summary>
-      <itunes:subtitle>AI 每天都在進步，現在學的技術兩年後還夠用嗎？雨晴和你聊聊，如果我們穿越到 2</itunes:subtitle>
+      <itunes:summary>AI 每天都在進步，現在學的技術兩年後還夠用嗎？雨晴和你聊聊</itunes:summary>
+      <itunes:subtitle>AI 每天都在進步，現在學的技術兩年後還夠用嗎？雨晴和你聊聊</itunes:subtitle>
       <itunes:keywords>科技,AI,一人創業,工具,趨勢</itunes:keywords>
-      <content:encoded><![CDATA[AI 每天都在進步，現在學的技術兩年後還夠用嗎？雨晴和你聊聊，如果我們穿越到 2026 年，最搶手的工程師履歷上該寫些什麼。
-
-🎯 想讓 AI 成為你的超級員工？SoloBuildTW 經驗包手把手教你打造 AI 自動化工作流 👉 https://core.newebpay.com/EPG/Solobuildtw/fpNsoe
-
-🎯 想用 AI 打造自動化事業？免費試讀《AI 創業調教手冊》＋開機靈魂包 → https://solobuildtw.github.io]]></content:encoded>
+      <content:encoded><![CDATA[AI 每天都在進步，現在學的技術兩年後還夠用嗎？雨晴和你聊聊]]></content:encoded>
     </item>
     <item>
-      <title>EP003 身為獨立開發者，你是不是也常覺得孤軍奮戰？說真的，現在 AI 就是我們的最佳戰友</title>
-      <description>身為獨立開發者，你是不是也常覺得孤軍奮戰？說真的，現在 AI 就是我們的最佳戰友！最近超紅的 Claude 3 來勢洶洶，直接挑戰 GPT-4 的王者地位。
-
-🎯 想讓 AI 成為你的超級員工？SoloBuildTW 經驗包手把手教你打造 AI 自動化工作流 👉 https://core.newebpay.com/EPG/Solobuildtw/fpNsoe
-
-🎯 想用 AI 打造自動化事業？免費試讀《AI 創業調教手冊》＋開機靈魂包 → https://solobuildtw.github.io</description>
+      <title>EP003 身為獨立開發者，你是不是也常覺得孤軍奮戰？說真的，現在 AI</title>
+      <description>身為獨立開發者，你是不是也常覺得孤軍奮戰？說真的，現在 AI</description>
       <pubDate>Fri, 10 Apr 2026 00:00:00 -0000</pubDate>
-      <guid>f31a088ad33b398c9b2fa418f809222e</guid>
+      <guid>2659c63c8a919661da16bc05aead26f8</guid>
       <link>https://solobuildtw.github.io/podcast/yuching-tech-daily/ep/003</link>
-      <enclosure url="https://podcast-cdn.pick-tw.com/audio/CH1/EP003_%E8%BA%AB%E7%82%BA%E7%8D%A8%E7%AB%8B%E9%96%8B%E7%99%BC%E8%80%85%EF%BC%8C%E4%BD%A0%E6%98%AF%E4%B8%8D%E6%98%AF%E4%B9%9F%E5%B8%B8%E8%A6%BA%E5%BE%97%E5%AD%A4%E8%BB%8D%E5%A5%AE%E6%88%B0%EF%BC%9F%E8%AA%AA%E7%9C%9F%E7%9A%84%EF%BC%8C%E7%8F%BE%E5%9C%A8%20AI%20%E5%B0%B1%E6%98%AF%E6%88%91%E5%80%91%E7%9A%84%E6%9C%80%E4%BD%B3%E6%88%B0%E5%8F%8B.mp3" type="audio/mpeg" length="14259766"/>
-      <itunes:title>EP003 身為獨立開發者，你是不是也常覺得孤軍奮戰？說真的，現在 AI 就是我們的最佳戰友</itunes:title>
+      <enclosure url="https://podcast-cdn.pick-tw.com/audio/CH1/EP003_%E8%BA%AB%E7%82%BA%E7%8D%A8%E7%AB%8B%E9%96%8B%E7%99%BC%E8%80%85%EF%BC%8C%E4%BD%A0%E6%98%AF%E4%B8%8D%E6%98%AF%E4%B9%9F%E5%B8%B8%E8%A6%BA%E5%BE%97%E5%AD%A4%E8%BB%8D%E5%A5%AE%E6%88%B0%EF%BC%9F%E8%AA%AA%E7%9C%9F%E7%9A%84%EF%BC%8C%E7%8F%BE%E5%9C%A8%20AI.mp3" type="audio/mpeg" length="14259766"/>
+      <itunes:title>EP003 身為獨立開發者，你是不是也常覺得孤軍奮戰？說真的，現在 AI</itunes:title>
       <itunes:author>雨晴</itunes:author>
       <itunes:duration>00:09:54</itunes:duration>
       <itunes:explicit>no</itunes:explicit>
       <itunes:episode>3</itunes:episode>
       <itunes:episodeType>full</itunes:episodeType>
-      <itunes:summary>身為獨立開發者，你是不是也常覺得孤軍奮戰？說真的，現在 AI 就是我們的最佳戰友！最近超紅的 Claude 3 來勢洶洶，直接挑戰 GPT-4 的王者地位。
-
-🎯 想讓 AI 成為你的超級員工？SoloBuildTW 經驗包手把手教你打造 AI 自動化工作流 👉 https://core.newebpay.com/EPG/Solobuildtw/fpNsoe
-
-🎯 想用 AI 打造自動化事業？免費試讀《AI 創業調教手冊》＋開機靈魂包 → https://solobuildtw.github.io</itunes:summary>
-      <itunes:subtitle>身為獨立開發者，你是不是也常覺得孤軍奮戰？說真的，現在 AI 就是我們的最佳戰友</itunes:subtitle>
+      <itunes:summary>身為獨立開發者，你是不是也常覺得孤軍奮戰？說真的，現在 AI</itunes:summary>
+      <itunes:subtitle>身為獨立開發者，你是不是也常覺得孤軍奮戰？說真的，現在 AI</itunes:subtitle>
       <itunes:keywords>科技,AI,一人創業,工具,趨勢</itunes:keywords>
-      <content:encoded><![CDATA[身為獨立開發者，你是不是也常覺得孤軍奮戰？說真的，現在 AI 就是我們的最佳戰友！最近超紅的 Claude 3 來勢洶洶，直接挑戰 GPT-4 的王者地位。
-
-🎯 想讓 AI 成為你的超級員工？SoloBuildTW 經驗包手把手教你打造 AI 自動化工作流 👉 https://core.newebpay.com/EPG/Solobuildtw/fpNsoe
-
-🎯 想用 AI 打造自動化事業？免費試讀《AI 創業調教手冊》＋開機靈魂包 → https://solobuildtw.github.io]]></content:encoded>
+      <content:encoded><![CDATA[身為獨立開發者，你是不是也常覺得孤軍奮戰？說真的，現在 AI]]></content:encoded>
     </item>
     <item>
-      <title>EP002 你也曾夢想過自己動手打造一個產品嗎？但說真的，一個獨立開發者要面對的挑戰，遠遠不</title>
-      <description>你也曾夢想過自己動手打造一個產品嗎？但說真的，一個獨立開發者要面對的挑戰，遠遠不只是寫程式而已。你想想看，從驗證市場需求、產品行銷推廣，到處理金流和日常營運，這些事情該怎麼辦？
-
-🎯 想讓 AI 成為你的超級員工？SoloBuildTW 經驗包手把手教你打造 AI 自動化工作流 👉 https://core.newebpay.com/EPG/Solobuildtw/fpNsoe
-
-🎯 想用 AI 打造自動化事業？免費試讀《AI 創業調教手冊》＋開機靈魂包 → https://solobuildtw.github.io</description>
+      <title>EP002 你也曾夢想過自己動手打造一個產品嗎？但說真的，一個獨立開發者</title>
+      <description>你也曾夢想過自己動手打造一個產品嗎？但說真的，一個獨立開發者</description>
       <pubDate>Thu, 09 Apr 2026 00:00:00 -0000</pubDate>
       <guid>60dbf93d195d2d6d58cb5c1f6413a842</guid>
       <link>https://solobuildtw.github.io/podcast/yuching-tech-daily/ep/002</link>
       <enclosure url="https://podcast-cdn.pick-tw.com/audio/CH1/EP002_%E4%BD%A0%E4%B9%9F%E6%9B%BE%E5%A4%A2%E6%83%B3%E9%81%8E%E8%87%AA%E5%B7%B1%E5%8B%95%E6%89%8B%E6%89%93%E9%80%A0%E4%B8%80%E5%80%8B%E7%94%A2%E5%93%81%E5%97%8E%EF%BC%9F%E4%BD%86%E8%AA%AA%E7%9C%9F%E7%9A%84%EF%BC%8C%E4%B8%80%E5%80%8B%E7%8D%A8%E7%AB%8B%E9%96%8B%E7%99%BC%E8%80%85.mp3" type="audio/mpeg" length="14410231"/>
-      <itunes:title>EP002 你也曾夢想過自己動手打造一個產品嗎？但說真的，一個獨立開發者要面對的挑戰，遠遠不</itunes:title>
+      <itunes:title>EP002 你也曾夢想過自己動手打造一個產品嗎？但說真的，一個獨立開發者</itunes:title>
       <itunes:author>雨晴</itunes:author>
       <itunes:duration>00:10:00</itunes:duration>
       <itunes:explicit>no</itunes:explicit>
       <itunes:episode>2</itunes:episode>
       <itunes:episodeType>full</itunes:episodeType>
-      <itunes:summary>你也曾夢想過自己動手打造一個產品嗎？但說真的，一個獨立開發者要面對的挑戰，遠遠不只是寫程式而已。你想想看，從驗證市場需求、產品行銷推廣，到處理金流和日常營運，這些事情該怎麼辦？
-
-🎯 想讓 AI 成為你的超級員工？SoloBuildTW 經驗包手把手教你打造 AI 自動化工作流 👉 https://core.newebpay.com/EPG/Solobuildtw/fpNsoe
-
-🎯 想用 AI 打造自動化事業？免費試讀《AI 創業調教手冊》＋開機靈魂包 → https://solobuildtw.github.io</itunes:summary>
-      <itunes:subtitle>你也曾夢想過自己動手打造一個產品嗎？但說真的，一個獨立開發者要面對的挑戰，遠遠不</itunes:subtitle>
+      <itunes:summary>你也曾夢想過自己動手打造一個產品嗎？但說真的，一個獨立開發者</itunes:summary>
+      <itunes:subtitle>你也曾夢想過自己動手打造一個產品嗎？但說真的，一個獨立開發者</itunes:subtitle>
       <itunes:keywords>科技,AI,一人創業,工具,趨勢</itunes:keywords>
-      <content:encoded><![CDATA[你也曾夢想過自己動手打造一個產品嗎？但說真的，一個獨立開發者要面對的挑戰，遠遠不只是寫程式而已。你想想看，從驗證市場需求、產品行銷推廣，到處理金流和日常營運，這些事情該怎麼辦？
-
-🎯 想讓 AI 成為你的超級員工？SoloBuildTW 經驗包手把手教你打造 AI 自動化工作流 👉 https://core.newebpay.com/EPG/Solobuildtw/fpNsoe
-
-🎯 想用 AI 打造自動化事業？免費試讀《AI 創業調教手冊》＋開機靈魂包 → https://solobuildtw.github.io]]></content:encoded>
+      <content:encoded><![CDATA[你也曾夢想過自己動手打造一個產品嗎？但說真的，一個獨立開發者]]></content:encoded>
     </item>
     <item>
-      <title>EP001 曾經夢想創業，卻被團隊和資源的門檻卡住了嗎？這集雨晴要跟你聊聊，AI 如何成為你</title>
-      <description>曾經夢想創業，卻被團隊和資源的門檻卡住了嗎？這集雨晴要跟你聊聊，AI 如何成為你最強的虛擬團隊！從行銷、設計、客服到寫程式，AI 正在徹底改變遊戲規則，讓「一人公司」不再只是夢想。
-
-🎯 想讓 AI 成為你的超級員工？SoloBuildTW 經驗包手把手教你打造 AI 自動化工作流 👉 https://core.newebpay.com/EPG/Solobuildtw/fpNsoe
-
-🎯 想用 AI 打造自動化事業？免費試讀《AI 創業調教手冊》＋開機靈魂包 → https://solobuildtw.github.io</description>
+      <title>EP001 曾經夢想創業，卻被團隊和資源的門檻卡住了嗎？這集雨晴要跟你聊</title>
+      <description>曾經夢想創業，卻被團隊和資源的門檻卡住了嗎？這集雨晴要跟你聊</description>
       <pubDate>Wed, 08 Apr 2026 00:00:00 -0000</pubDate>
       <guid>b7f12836c07924fe66f5dacaeff86515</guid>
       <link>https://solobuildtw.github.io/podcast/yuching-tech-daily/ep/001</link>
       <enclosure url="https://podcast-cdn.pick-tw.com/audio/CH1/EP001_%E6%9B%BE%E7%B6%93%E5%A4%A2%E6%83%B3%E5%89%B5%E6%A5%AD%EF%BC%8C%E5%8D%BB%E8%A2%AB%E5%9C%98%E9%9A%8A%E5%92%8C%E8%B3%87%E6%BA%90%E7%9A%84%E9%96%80%E6%AA%BB%E5%8D%A1%E4%BD%8F%E4%BA%86%E5%97%8E%EF%BC%9F%E9%80%99%E9%9B%86%E9%9B%A8%E6%99%B4%E8%A6%81%E8%B7%9F%E4%BD%A0%E8%81%8A.mp3" type="audio/mpeg" length="14397066"/>
-      <itunes:title>EP001 曾經夢想創業，卻被團隊和資源的門檻卡住了嗎？這集雨晴要跟你聊聊，AI 如何成為你</itunes:title>
+      <itunes:title>EP001 曾經夢想創業，卻被團隊和資源的門檻卡住了嗎？這集雨晴要跟你聊</itunes:title>
       <itunes:author>雨晴</itunes:author>
       <itunes:duration>00:09:59</itunes:duration>
       <itunes:explicit>no</itunes:explicit>
       <itunes:episode>1</itunes:episode>
       <itunes:episodeType>full</itunes:episodeType>
-      <itunes:summary>曾經夢想創業，卻被團隊和資源的門檻卡住了嗎？這集雨晴要跟你聊聊，AI 如何成為你最強的虛擬團隊！從行銷、設計、客服到寫程式，AI 正在徹底改變遊戲規則，讓「一人公司」不再只是夢想。
-
-🎯 想讓 AI 成為你的超級員工？SoloBuildTW 經驗包手把手教你打造 AI 自動化工作流 👉 https://core.newebpay.com/EPG/Solobuildtw/fpNsoe
-
-🎯 想用 AI 打造自動化事業？免費試讀《AI 創業調教手冊》＋開機靈魂包 → https://solobuildtw.github.io</itunes:summary>
-      <itunes:subtitle>曾經夢想創業，卻被團隊和資源的門檻卡住了嗎？這集雨晴要跟你聊聊，AI 如何成為你</itunes:subtitle>
+      <itunes:summary>曾經夢想創業，卻被團隊和資源的門檻卡住了嗎？這集雨晴要跟你聊</itunes:summary>
+      <itunes:subtitle>曾經夢想創業，卻被團隊和資源的門檻卡住了嗎？這集雨晴要跟你聊</itunes:subtitle>
       <itunes:keywords>科技,AI,一人創業,工具,趨勢</itunes:keywords>
-      <content:encoded><![CDATA[曾經夢想創業，卻被團隊和資源的門檻卡住了嗎？這集雨晴要跟你聊聊，AI 如何成為你最強的虛擬團隊！從行銷、設計、客服到寫程式，AI 正在徹底改變遊戲規則，讓「一人公司」不再只是夢想。
-
-🎯 想讓 AI 成為你的超級員工？SoloBuildTW 經驗包手把手教你打造 AI 自動化工作流 👉 https://core.newebpay.com/EPG/Solobuildtw/fpNsoe
-
-🎯 想用 AI 打造自動化事業？免費試讀《AI 創業調教手冊》＋開機靈魂包 → https://solobuildtw.github.io]]></content:encoded>
+      <content:encoded><![CDATA[曾經夢想創業，卻被團隊和資源的門檻卡住了嗎？這集雨晴要跟你聊]]></content:encoded>
     </item>
   </channel>
 </rss>

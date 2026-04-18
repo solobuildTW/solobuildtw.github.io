@@ -7,8 +7,9 @@
     <description>人類到底有多蠢？阿佑翻遍歷史與新聞，每集挖出一個讓你又笑又傻眼的真實蠢事。</description>
     <copyright>© 2026 阿佑</copyright>
     <generator>SoloBuildTW Podcast RSS Generator v2</generator>
-    <lastBuildDate>Fri, 17 Apr 2026 19:01:46 -0000</lastBuildDate>
+    <lastBuildDate>Wed, 08 Apr 2026 00:00:00 -0000</lastBuildDate>
     <atom:link href="https://solobuildtw.github.io/podcast/stupid-humans/feed.xml" rel="self" type="application/rss+xml"/>
+    <managingEditor>harvey3630@gmail.com (阿佑)</managingEditor>
     <itunes:title>史上最蠢人類</itunes:title>
     <itunes:author>阿佑</itunes:author>
     <itunes:summary>人類到底有多蠢？阿佑翻遍歷史與新聞，每集挖出一個讓你又笑又傻眼的真實蠢事。</itunes:summary>
@@ -28,5 +29,23 @@
       <link>https://solobuildtw.github.io/podcast/stupid-humans/</link>
     </image>
     <itunes:category text="Comedy"/>
+    <item>
+      <title>EP001 柯達的工程師在1975年親手發明了數位相機，公司高層看完之後</title>
+      <description>柯達的工程師在1975年親手發明了數位相機，公司高層看完之後</description>
+      <pubDate>Wed, 08 Apr 2026 00:00:00 -0000</pubDate>
+      <guid>9871e0ade63257c53f4f173b47d6efd2</guid>
+      <link>https://solobuildtw.github.io/podcast/stupid-humans/ep/001</link>
+      <enclosure url="https://podcast-cdn.pick-tw.com/audio/CH3/EP001_%E6%9F%AF%E9%81%94%E7%9A%84%E5%B7%A5%E7%A8%8B%E5%B8%AB%E5%9C%A81975%E5%B9%B4%E8%A6%AA%E6%89%8B%E7%99%BC%E6%98%8E%E4%BA%86%E6%95%B8%E4%BD%8D%E7%9B%B8%E6%A9%9F%EF%BC%8C%E5%85%AC%E5%8F%B8%E9%AB%98%E5%B1%A4%E7%9C%8B%E5%AE%8C%E4%B9%8B%E5%BE%8C.mp3" type="audio/mpeg" length="14989523"/>
+      <itunes:title>EP001 柯達的工程師在1975年親手發明了數位相機，公司高層看完之後</itunes:title>
+      <itunes:author>阿佑</itunes:author>
+      <itunes:duration>00:10:24</itunes:duration>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:episode>1</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:summary>柯達的工程師在1975年親手發明了數位相機，公司高層看完之後</itunes:summary>
+      <itunes:subtitle>柯達的工程師在1975年親手發明了數位相機，公司高層看完之後</itunes:subtitle>
+      <itunes:keywords>搞笑,蠢事,喜劇,台灣,真實故事</itunes:keywords>
+      <content:encoded><![CDATA[柯達的工程師在1975年親手發明了數位相機，公司高層看完之後]]></content:encoded>
+    </item>
   </channel>
 </rss>
