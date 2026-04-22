@@ -30,262 +30,184 @@
     </image>
     <itunes:category text="Technology"/>
     <item>
-      <title>EP015 最近在科技圈有一個討論度非常高的例子，叫做 Devin AI，它甚至被稱為是世界</title>
-      <description>最近在科技圈有一個討論度非常高的例子，叫做 Devin AI，它甚至被稱為是世界上第一位 AI 軟體工程師。你只需要用自然的語言告訴它一個開發需求，比如說「我想要做一個可以在地圖上標示出附近所有咖啡廳的小工具」，理論上，它就能自己上網查資料、自己編寫程式碼、自己測試並且修復錯誤，最後甚至自己完成部署上線。雖然目前 Devin AI 的實際能力，還需要更多市場的驗證，但它所揭示的未來方向，是極其重要的。那就是，我們人類與 AI 的協作模式，正在從過去那種「一問一答」的指令式互動，逐漸演變成一種「交付目標」的信任式授權。
-
-這對於我們這些資源有限的獨立開發者或是一人創業者來說，簡直是天大的好消息。</description>
+      <title>EP015 擔心工作會被 AI 取代嗎？說真的，先別焦慮！你想想看，如果</title>
+      <description>擔心工作會被 AI 取代嗎？說真的，先別焦慮！你想想看，如果</description>
       <pubDate>Wed, 22 Apr 2026 00:00:00 -0000</pubDate>
       <guid>c820153901bfc49e808fdf241ab2680c</guid>
       <link>https://solobuildtw.github.io/podcast/yuching-tech-daily/ep/015</link>
       <enclosure url="https://podcast-cdn.pick-tw.com/audio/CH1/EP015_%E6%93%94%E5%BF%83%E5%B7%A5%E4%BD%9C%E6%9C%83%E8%A2%AB%20AI%20%E5%8F%96%E4%BB%A3%E5%97%8E%EF%BC%9F%E8%AA%AA%E7%9C%9F%E7%9A%84%EF%BC%8C%E5%85%88%E5%88%A5%E7%84%A6%E6%85%AE%EF%BC%81%E4%BD%A0%E6%83%B3%E6%83%B3%E7%9C%8B%EF%BC%8C%E5%A6%82%E6%9E%9C.mp3" type="audio/mpeg" length="13977017"/>
-      <itunes:title>EP015 最近在科技圈有一個討論度非常高的例子，叫做 Devin AI，它甚至被稱為是世界</itunes:title>
+      <itunes:title>EP015 擔心工作會被 AI 取代嗎？說真的，先別焦慮！你想想看，如果</itunes:title>
       <itunes:author>雨晴</itunes:author>
       <itunes:duration>00:09:42</itunes:duration>
       <itunes:explicit>no</itunes:explicit>
       <itunes:episode>15</itunes:episode>
       <itunes:episodeType>full</itunes:episodeType>
-      <itunes:summary>最近在科技圈有一個討論度非常高的例子，叫做 Devin AI，它甚至被稱為是世界上第一位 AI 軟體工程師。你只需要用自然的語言告訴它一個開發需求，比如說「我想要做一個可以在地圖上標示出附近所有咖啡廳的小工具」，理論上，它就能自己上網查資料、自己編寫程式碼、自己測試並且修復錯誤，最後甚至自己完成部署上線。雖然目前 Devin AI 的實際能力，還需要更多市場的驗證，但它所揭示的未來方向，是極其重要的。那就是，我們人類與 AI 的協作模式，正在從過去那種「一問一答」的指令式互動，逐漸演變成一種「交付目標」的信任式授權。
-
-這對於我們這些資源有限的獨立開發者或是一人創業者來說，簡直是天大的好消息。</itunes:summary>
-      <itunes:subtitle>最近在科技圈有一個討論度非常高的例子，叫做 Devin AI，它甚至被稱為是世界</itunes:subtitle>
+      <itunes:summary>擔心工作會被 AI 取代嗎？說真的，先別焦慮！你想想看，如果</itunes:summary>
+      <itunes:subtitle>擔心工作會被 AI 取代嗎？說真的，先別焦慮！你想想看，如果</itunes:subtitle>
       <itunes:keywords>科技,AI,一人創業,工具,趨勢</itunes:keywords>
-      <content:encoded><![CDATA[最近在科技圈有一個討論度非常高的例子，叫做 Devin AI，它甚至被稱為是世界上第一位 AI 軟體工程師。你只需要用自然的語言告訴它一個開發需求，比如說「我想要做一個可以在地圖上標示出附近所有咖啡廳的小工具」，理論上，它就能自己上網查資料、自己編寫程式碼、自己測試並且修復錯誤，最後甚至自己完成部署上線。雖然目前 Devin AI 的實際能力，還需要更多市場的驗證，但它所揭示的未來方向，是極其重要的。那就是，我們人類與 AI 的協作模式，正在從過去那種「一問一答」的指令式互動，逐漸演變成一種「交付目標」的信任式授權。
-
-這對於我們這些資源有限的獨立開發者或是一人創業者來說，簡直是天大的好消息。]]></content:encoded>
+      <content:encoded><![CDATA[擔心工作會被 AI 取代嗎？說真的，先別焦慮！你想想看，如果]]></content:encoded>
     </item>
     <item>
-      <title>EP014 對於我們軟體開發者來說，像是撰寫那種每個專案都要複製貼上，改幾個變數的樣板程式碼</title>
-      <description>對於我們軟體開發者來說，像是撰寫那種每個專案都要複製貼上，改幾個變數的樣板程式碼，或是按照固定格式產生 API 文件，這些過去非常消耗時間，但不太需要創造力的工作，現在 AI 處理起來的效率，說真的，已經遠遠超過人類了。這也確實意味著一個殘酷的現實，如果一個開發者的核心價值，只體現在這些重複性的基礎勞動上，那麼他的可替代性，的確會隨著 AI 的進步而越來越高。這就是那份威脅感的來源，它非常真實，我們不能也無法假裝它不存在。
-
-不過，聊完了讓人心頭一緊的威脅，我們也該來看看硬幣的另一面，也就是那個充滿潛力的巨大機會。你想想看，歷史上每一次顛覆性的技術革命，從蒸汽機到網際網路，都曾經引發過類似的擔</description>
+      <title>EP014 AI 寫程式越來越強，工程師是不是要失業了？說真的，這份焦慮</title>
+      <description>AI 寫程式越來越強，工程師是不是要失業了？說真的，這份焦慮</description>
       <pubDate>Tue, 21 Apr 2026 00:00:00 -0000</pubDate>
       <guid>9e28b750967fdbd388ea8b10f10a156d</guid>
       <link>https://solobuildtw.github.io/podcast/yuching-tech-daily/ep/014</link>
       <enclosure url="https://podcast-cdn.pick-tw.com/audio/CH1/EP014_AI%20%E5%AF%AB%E7%A8%8B%E5%BC%8F%E8%B6%8A%E4%BE%86%E8%B6%8A%E5%BC%B7%EF%BC%8C%E5%B7%A5%E7%A8%8B%E5%B8%AB%E6%98%AF%E4%B8%8D%E6%98%AF%E8%A6%81%E5%A4%B1%E6%A5%AD%E4%BA%86%EF%BC%9F%E8%AA%AA%E7%9C%9F%E7%9A%84%EF%BC%8C%E9%80%99%E4%BB%BD%E7%84%A6%E6%85%AE.mp3" type="audio/mpeg" length="14494241"/>
-      <itunes:title>EP014 對於我們軟體開發者來說，像是撰寫那種每個專案都要複製貼上，改幾個變數的樣板程式碼</itunes:title>
+      <itunes:title>EP014 AI 寫程式越來越強，工程師是不是要失業了？說真的，這份焦慮</itunes:title>
       <itunes:author>雨晴</itunes:author>
       <itunes:duration>00:10:03</itunes:duration>
       <itunes:explicit>no</itunes:explicit>
       <itunes:episode>14</itunes:episode>
       <itunes:episodeType>full</itunes:episodeType>
-      <itunes:summary>對於我們軟體開發者來說，像是撰寫那種每個專案都要複製貼上，改幾個變數的樣板程式碼，或是按照固定格式產生 API 文件，這些過去非常消耗時間，但不太需要創造力的工作，現在 AI 處理起來的效率，說真的，已經遠遠超過人類了。這也確實意味著一個殘酷的現實，如果一個開發者的核心價值，只體現在這些重複性的基礎勞動上，那麼他的可替代性，的確會隨著 AI 的進步而越來越高。這就是那份威脅感的來源，它非常真實，我們不能也無法假裝它不存在。
-
-不過，聊完了讓人心頭一緊的威脅，我們也該來看看硬幣的另一面，也就是那個充滿潛力的巨大機會。你想想看，歷史上每一次顛覆性的技術革命，從蒸汽機到網際網路，都曾經引發過類似的擔</itunes:summary>
-      <itunes:subtitle>對於我們軟體開發者來說，像是撰寫那種每個專案都要複製貼上，改幾個變數的樣板程式碼</itunes:subtitle>
+      <itunes:summary>AI 寫程式越來越強，工程師是不是要失業了？說真的，這份焦慮</itunes:summary>
+      <itunes:subtitle>AI 寫程式越來越強，工程師是不是要失業了？說真的，這份焦慮</itunes:subtitle>
       <itunes:keywords>科技,AI,一人創業,工具,趨勢</itunes:keywords>
-      <content:encoded><![CDATA[對於我們軟體開發者來說，像是撰寫那種每個專案都要複製貼上，改幾個變數的樣板程式碼，或是按照固定格式產生 API 文件，這些過去非常消耗時間，但不太需要創造力的工作，現在 AI 處理起來的效率，說真的，已經遠遠超過人類了。這也確實意味著一個殘酷的現實，如果一個開發者的核心價值，只體現在這些重複性的基礎勞動上，那麼他的可替代性，的確會隨著 AI 的進步而越來越高。這就是那份威脅感的來源，它非常真實，我們不能也無法假裝它不存在。
-
-不過，聊完了讓人心頭一緊的威脅，我們也該來看看硬幣的另一面，也就是那個充滿潛力的巨大機會。你想想看，歷史上每一次顛覆性的技術革命，從蒸汽機到網際網路，都曾經引發過類似的擔]]></content:encoded>
+      <content:encoded><![CDATA[AI 寫程式越來越強，工程師是不是要失業了？說真的，這份焦慮]]></content:encoded>
     </item>
     <item>
-      <title>EP013 一開始大家當然吃得非常開心，每天都去報到，覺得這真是世界上最美好的事情。但是你想</title>
-      <description>一開始大家當然吃得非常開心，每天都去報到，覺得這真是世界上最美好的事情。但是你想想看，餐廳終究是要賺錢的，它不可能永遠這樣免費下去。AI 公司其實也是一模一樣的道理，在經歷了過去一年多那種瘋狂的用戶增長和市場教育階段之後，他們現在必須要冷靜下來，開始認真思考如何讓這盤生意可以持續地經營下去。這必然會導致他們進行成本優化，為了降低每天都在燃燒的營運成本，他們勢必得在我們這些使用者身上，找到一個新的平衡點。
-
-那麼，這些公司具體是怎麼進行所謂的「成本優化」呢。這就帶到了我們直接感受到的第二個重點，也就是 AI 變笨的兩種可能性。第一種是無意的，我們稱之為「模型漂移」，而另一種則是刻意的，可以稱作「</description>
+      <title>EP013 你是不是也覺得，最近常用的 AI 助理好像變笨了？以前能寫出</title>
+      <description>你是不是也覺得，最近常用的 AI 助理好像變笨了？以前能寫出</description>
       <pubDate>Mon, 20 Apr 2026 00:00:00 -0000</pubDate>
       <guid>6eee57ee79ec8eab5e5cb887075ddafd</guid>
       <link>https://solobuildtw.github.io/podcast/yuching-tech-daily/ep/013</link>
       <enclosure url="https://podcast-cdn.pick-tw.com/audio/CH1/EP013_%E4%BD%A0%E6%98%AF%E4%B8%8D%E6%98%AF%E4%B9%9F%E8%A6%BA%E5%BE%97%EF%BC%8C%E6%9C%80%E8%BF%91%E5%B8%B8%E7%94%A8%E7%9A%84%20AI%20%E5%8A%A9%E7%90%86%E5%A5%BD%E5%83%8F%E8%AE%8A%E7%AC%A8%E4%BA%86%EF%BC%9F%E4%BB%A5%E5%89%8D%E8%83%BD%E5%AF%AB%E5%87%BA.mp3" type="audio/mpeg" length="14083596"/>
-      <itunes:title>EP013 一開始大家當然吃得非常開心，每天都去報到，覺得這真是世界上最美好的事情。但是你想</itunes:title>
+      <itunes:title>EP013 你是不是也覺得，最近常用的 AI 助理好像變笨了？以前能寫出</itunes:title>
       <itunes:author>雨晴</itunes:author>
       <itunes:duration>00:09:46</itunes:duration>
       <itunes:explicit>no</itunes:explicit>
       <itunes:episode>13</itunes:episode>
       <itunes:episodeType>full</itunes:episodeType>
-      <itunes:summary>一開始大家當然吃得非常開心，每天都去報到，覺得這真是世界上最美好的事情。但是你想想看，餐廳終究是要賺錢的，它不可能永遠這樣免費下去。AI 公司其實也是一模一樣的道理，在經歷了過去一年多那種瘋狂的用戶增長和市場教育階段之後，他們現在必須要冷靜下來，開始認真思考如何讓這盤生意可以持續地經營下去。這必然會導致他們進行成本優化，為了降低每天都在燃燒的營運成本，他們勢必得在我們這些使用者身上，找到一個新的平衡點。
-
-那麼，這些公司具體是怎麼進行所謂的「成本優化」呢。這就帶到了我們直接感受到的第二個重點，也就是 AI 變笨的兩種可能性。第一種是無意的，我們稱之為「模型漂移」，而另一種則是刻意的，可以稱作「</itunes:summary>
-      <itunes:subtitle>一開始大家當然吃得非常開心，每天都去報到，覺得這真是世界上最美好的事情。但是你想</itunes:subtitle>
+      <itunes:summary>你是不是也覺得，最近常用的 AI 助理好像變笨了？以前能寫出</itunes:summary>
+      <itunes:subtitle>你是不是也覺得，最近常用的 AI 助理好像變笨了？以前能寫出</itunes:subtitle>
       <itunes:keywords>科技,AI,一人創業,工具,趨勢</itunes:keywords>
-      <content:encoded><![CDATA[一開始大家當然吃得非常開心，每天都去報到，覺得這真是世界上最美好的事情。但是你想想看，餐廳終究是要賺錢的，它不可能永遠這樣免費下去。AI 公司其實也是一模一樣的道理，在經歷了過去一年多那種瘋狂的用戶增長和市場教育階段之後，他們現在必須要冷靜下來，開始認真思考如何讓這盤生意可以持續地經營下去。這必然會導致他們進行成本優化，為了降低每天都在燃燒的營運成本，他們勢必得在我們這些使用者身上，找到一個新的平衡點。
-
-那麼，這些公司具體是怎麼進行所謂的「成本優化」呢。這就帶到了我們直接感受到的第二個重點，也就是 AI 變笨的兩種可能性。第一種是無意的，我們稱之為「模型漂移」，而另一種則是刻意的，可以稱作「]]></content:encoded>
+      <content:encoded><![CDATA[你是不是也覺得，最近常用的 AI 助理好像變笨了？以前能寫出]]></content:encoded>
     </item>
     <item>
-      <title>EP012 這代表你的主要開銷，從一個可能變成無底洞的按次計費模式，轉變成了一筆相對固定的初</title>
-      <description>這代表你的主要開銷，從一個可能變成無底洞的按次計費模式，轉變成了一筆相對固定的初期建置成本和後續的硬體維護費用。這種轉變，讓你的商業模式變得更加健康和可預測，也讓你更有機會在早期就實現盈利，而不是永遠在為API帳單焦慮。
-
-接著我們來談談速度，這直接關係到使用者的體驗。你想想看，你是否有過這樣的經驗，在使用某個AI工具時，每次下達一個指令，螢幕上那個轉圈圈的圖示好像永遠都不會停，等了好幾秒才看到結果。這種延遲感，其實就是因為你的請求需要經過漫長的網路旅程，傳送到遙遠的資料中心，排隊等待大型模型運算，最後再把結果傳回來。
-
-然而，如果模型可以直接在你的電腦或手機上本地運行，那反應速度幾乎就是即時</description>
+      <title>EP012 當大家都在追逐更強大的 AI 巨獸時，我們真正的機會在哪？說</title>
+      <description>當大家都在追逐更強大的 AI 巨獸時，我們真正的機會在哪？說</description>
       <pubDate>Sun, 19 Apr 2026 00:00:00 -0000</pubDate>
       <guid>d3b407949c59f5e730a874e18d3ccc8a</guid>
       <link>https://solobuildtw.github.io/podcast/yuching-tech-daily/ep/012</link>
       <enclosure url="https://podcast-cdn.pick-tw.com/audio/CH1/EP012_%E7%95%B6%E5%A4%A7%E5%AE%B6%E9%83%BD%E5%9C%A8%E8%BF%BD%E9%80%90%E6%9B%B4%E5%BC%B7%E5%A4%A7%E7%9A%84%20AI%20%E5%B7%A8%E7%8D%B8%E6%99%82%EF%BC%8C%E6%88%91%E5%80%91%E7%9C%9F%E6%AD%A3%E7%9A%84%E6%A9%9F%E6%9C%83%E5%9C%A8%E5%93%AA%EF%BC%9F%E8%AA%AA.mp3" type="audio/mpeg" length="15708622"/>
-      <itunes:title>EP012 這代表你的主要開銷，從一個可能變成無底洞的按次計費模式，轉變成了一筆相對固定的初</itunes:title>
+      <itunes:title>EP012 當大家都在追逐更強大的 AI 巨獸時，我們真正的機會在哪？說</itunes:title>
       <itunes:author>雨晴</itunes:author>
       <itunes:duration>00:10:54</itunes:duration>
       <itunes:explicit>no</itunes:explicit>
       <itunes:episode>12</itunes:episode>
       <itunes:episodeType>full</itunes:episodeType>
-      <itunes:summary>這代表你的主要開銷，從一個可能變成無底洞的按次計費模式，轉變成了一筆相對固定的初期建置成本和後續的硬體維護費用。這種轉變，讓你的商業模式變得更加健康和可預測，也讓你更有機會在早期就實現盈利，而不是永遠在為API帳單焦慮。
-
-接著我們來談談速度，這直接關係到使用者的體驗。你想想看，你是否有過這樣的經驗，在使用某個AI工具時，每次下達一個指令，螢幕上那個轉圈圈的圖示好像永遠都不會停，等了好幾秒才看到結果。這種延遲感，其實就是因為你的請求需要經過漫長的網路旅程，傳送到遙遠的資料中心，排隊等待大型模型運算，最後再把結果傳回來。
-
-然而，如果模型可以直接在你的電腦或手機上本地運行，那反應速度幾乎就是即時</itunes:summary>
-      <itunes:subtitle>這代表你的主要開銷，從一個可能變成無底洞的按次計費模式，轉變成了一筆相對固定的初</itunes:subtitle>
+      <itunes:summary>當大家都在追逐更強大的 AI 巨獸時，我們真正的機會在哪？說</itunes:summary>
+      <itunes:subtitle>當大家都在追逐更強大的 AI 巨獸時，我們真正的機會在哪？說</itunes:subtitle>
       <itunes:keywords>科技,AI,一人創業,工具,趨勢</itunes:keywords>
-      <content:encoded><![CDATA[這代表你的主要開銷，從一個可能變成無底洞的按次計費模式，轉變成了一筆相對固定的初期建置成本和後續的硬體維護費用。這種轉變，讓你的商業模式變得更加健康和可預測，也讓你更有機會在早期就實現盈利，而不是永遠在為API帳單焦慮。
-
-接著我們來談談速度，這直接關係到使用者的體驗。你想想看，你是否有過這樣的經驗，在使用某個AI工具時，每次下達一個指令，螢幕上那個轉圈圈的圖示好像永遠都不會停，等了好幾秒才看到結果。這種延遲感，其實就是因為你的請求需要經過漫長的網路旅程，傳送到遙遠的資料中心，排隊等待大型模型運算，最後再把結果傳回來。
-
-然而，如果模型可以直接在你的電腦或手機上本地運行，那反應速度幾乎就是即時]]></content:encoded>
+      <content:encoded><![CDATA[當大家都在追逐更強大的 AI 巨獸時，我們真正的機會在哪？說]]></content:encoded>
     </item>
     <item>
-      <title>EP011 這就是最關鍵的區別，你從一個執行者，變成了一個下達目標、監督進度的管理者。
-
-聽</title>
-      <description>這就是最關鍵的區別，你從一個執行者，變成了一個下達目標、監督進度的管理者。
-
-聽到這裡你可能會好奇，這麼神奇的 AI 代理人，它到底是怎麼運作的呢。老實說，背後的技術很複雜，但我們可以把它簡化成三個核心能力，這樣會比較好理解。
-
-第一個核心能力，是深刻的理解與縝密的規劃。它能看懂你給的那些複雜又有點模糊的目標，例如你跟他說：「幫我分析市面上三個主要競爭對手的最新動態，並且整理成一份容易閱讀的報告」。一個普通的聊天機器人可能會給你一些搜尋結果，但 AI 代理人不一樣。它會把這個大目標，拆解成好幾個可以執行的小步驟，就像一個經驗豐富的市場分析師。它可能會心想，第一步，我得先確定誰是主要競爭對手，我</description>
+      <title>EP011 一個人工作總覺得分身乏術嗎？說真的，如果能擁有一個不用付薪水</title>
+      <description>一個人工作總覺得分身乏術嗎？說真的，如果能擁有一個不用付薪水</description>
       <pubDate>Sat, 18 Apr 2026 00:00:00 -0000</pubDate>
       <guid>af9a93071db2c7f962a4d6af29176c9c</guid>
       <link>https://solobuildtw.github.io/podcast/yuching-tech-daily/ep/011</link>
       <enclosure url="https://podcast-cdn.pick-tw.com/audio/CH1/EP011_%E4%B8%80%E5%80%8B%E4%BA%BA%E5%B7%A5%E4%BD%9C%E7%B8%BD%E8%A6%BA%E5%BE%97%E5%88%86%E8%BA%AB%E4%B9%8F%E8%A1%93%E5%97%8E%EF%BC%9F%E8%AA%AA%E7%9C%9F%E7%9A%84%EF%BC%8C%E5%A6%82%E6%9E%9C%E8%83%BD%E6%93%81%E6%9C%89%E4%B8%80%E5%80%8B%E4%B8%8D%E7%94%A8%E4%BB%98%E8%96%AA%E6%B0%B4.mp3" type="audio/mpeg" length="14988896"/>
-      <itunes:title>EP011 這就是最關鍵的區別，你從一個執行者，變成了一個下達目標、監督進度的管理者。
-
-聽</itunes:title>
+      <itunes:title>EP011 一個人工作總覺得分身乏術嗎？說真的，如果能擁有一個不用付薪水</itunes:title>
       <itunes:author>雨晴</itunes:author>
       <itunes:duration>00:10:24</itunes:duration>
       <itunes:explicit>no</itunes:explicit>
       <itunes:episode>11</itunes:episode>
       <itunes:episodeType>full</itunes:episodeType>
-      <itunes:summary>這就是最關鍵的區別，你從一個執行者，變成了一個下達目標、監督進度的管理者。
-
-聽到這裡你可能會好奇，這麼神奇的 AI 代理人，它到底是怎麼運作的呢。老實說，背後的技術很複雜，但我們可以把它簡化成三個核心能力，這樣會比較好理解。
-
-第一個核心能力，是深刻的理解與縝密的規劃。它能看懂你給的那些複雜又有點模糊的目標，例如你跟他說：「幫我分析市面上三個主要競爭對手的最新動態，並且整理成一份容易閱讀的報告」。一個普通的聊天機器人可能會給你一些搜尋結果，但 AI 代理人不一樣。它會把這個大目標，拆解成好幾個可以執行的小步驟，就像一個經驗豐富的市場分析師。它可能會心想，第一步，我得先確定誰是主要競爭對手，我</itunes:summary>
-      <itunes:subtitle>這就是最關鍵的區別，你從一個執行者，變成了一個下達目標、監督進度的管理者。
-
-聽</itunes:subtitle>
+      <itunes:summary>一個人工作總覺得分身乏術嗎？說真的，如果能擁有一個不用付薪水</itunes:summary>
+      <itunes:subtitle>一個人工作總覺得分身乏術嗎？說真的，如果能擁有一個不用付薪水</itunes:subtitle>
       <itunes:keywords>科技,AI,一人創業,工具,趨勢</itunes:keywords>
-      <content:encoded><![CDATA[這就是最關鍵的區別，你從一個執行者，變成了一個下達目標、監督進度的管理者。
-
-聽到這裡你可能會好奇，這麼神奇的 AI 代理人，它到底是怎麼運作的呢。老實說，背後的技術很複雜，但我們可以把它簡化成三個核心能力，這樣會比較好理解。
-
-第一個核心能力，是深刻的理解與縝密的規劃。它能看懂你給的那些複雜又有點模糊的目標，例如你跟他說：「幫我分析市面上三個主要競爭對手的最新動態，並且整理成一份容易閱讀的報告」。一個普通的聊天機器人可能會給你一些搜尋結果，但 AI 代理人不一樣。它會把這個大目標，拆解成好幾個可以執行的小步驟，就像一個經驗豐富的市場分析師。它可能會心想，第一步，我得先確定誰是主要競爭對手，我]]></content:encoded>
+      <content:encoded><![CDATA[一個人工作總覺得分身乏術嗎？說真的，如果能擁有一個不用付薪水]]></content:encoded>
     </item>
     <item>
-      <title>EP010 而它們最讓人興奮的一點，就是許多小模型已經強大到可以在我們的個人筆記型電腦，甚至</title>
-      <description>而它們最讓人興奮的一點，就是許多小模型已經強大到可以在我們的個人筆記型電腦，甚至是最新款的手機上順暢運行，完全不需要連接到雲端的超級電腦。
-
-這件事情，說真的，它帶來了幾個根本性的改變，徹底顛覆了過去我們使用 AI 的方式。第一個最直接的好處，就是成本的大幅降低。過去我們使用大型模型的 API，每一次呼叫都是在燒錢，雖然單價不高，但長期累積下來，對於一個新創團隊或獨立開發者來說，仍然是一筆不小的負擔。但是，如果模型可以直接在你的裝置上本地運行，那運行的成本幾乎就只剩下硬體本身的折舊了，這讓許多過去因為成本考量而無法實現的點子，現在都變得可行。
-
-第二個巨大的優勢，是我們終於可以掌握自己的數據隱</description>
+      <title>EP010 覺得 AI 都是科技巨頭的遊戲嗎？說真的，最近「小模型」的逆</title>
+      <description>覺得 AI 都是科技巨頭的遊戲嗎？說真的，最近「小模型」的逆</description>
       <pubDate>Fri, 17 Apr 2026 00:00:00 -0000</pubDate>
       <guid>5a0395bdf9d88728540ca42bc87dcea6</guid>
       <link>https://solobuildtw.github.io/podcast/yuching-tech-daily/ep/010</link>
       <enclosure url="https://podcast-cdn.pick-tw.com/audio/CH1/EP010_%E8%A6%BA%E5%BE%97%20AI%20%E9%83%BD%E6%98%AF%E7%A7%91%E6%8A%80%E5%B7%A8%E9%A0%AD%E7%9A%84%E9%81%8A%E6%88%B2%E5%97%8E%EF%BC%9F%E8%AA%AA%E7%9C%9F%E7%9A%84%EF%BC%8C%E6%9C%80%E8%BF%91%E3%80%8C%E5%B0%8F%E6%A8%A1%E5%9E%8B%E3%80%8D%E7%9A%84%E9%80%86.mp3" type="audio/mpeg" length="15303619"/>
-      <itunes:title>EP010 而它們最讓人興奮的一點，就是許多小模型已經強大到可以在我們的個人筆記型電腦，甚至</itunes:title>
+      <itunes:title>EP010 覺得 AI 都是科技巨頭的遊戲嗎？說真的，最近「小模型」的逆</itunes:title>
       <itunes:author>雨晴</itunes:author>
       <itunes:duration>00:10:37</itunes:duration>
       <itunes:explicit>no</itunes:explicit>
       <itunes:episode>10</itunes:episode>
       <itunes:episodeType>full</itunes:episodeType>
-      <itunes:summary>而它們最讓人興奮的一點，就是許多小模型已經強大到可以在我們的個人筆記型電腦，甚至是最新款的手機上順暢運行，完全不需要連接到雲端的超級電腦。
-
-這件事情，說真的，它帶來了幾個根本性的改變，徹底顛覆了過去我們使用 AI 的方式。第一個最直接的好處，就是成本的大幅降低。過去我們使用大型模型的 API，每一次呼叫都是在燒錢，雖然單價不高，但長期累積下來，對於一個新創團隊或獨立開發者來說，仍然是一筆不小的負擔。但是，如果模型可以直接在你的裝置上本地運行，那運行的成本幾乎就只剩下硬體本身的折舊了，這讓許多過去因為成本考量而無法實現的點子，現在都變得可行。
-
-第二個巨大的優勢，是我們終於可以掌握自己的數據隱</itunes:summary>
-      <itunes:subtitle>而它們最讓人興奮的一點，就是許多小模型已經強大到可以在我們的個人筆記型電腦，甚至</itunes:subtitle>
+      <itunes:summary>覺得 AI 都是科技巨頭的遊戲嗎？說真的，最近「小模型」的逆</itunes:summary>
+      <itunes:subtitle>覺得 AI 都是科技巨頭的遊戲嗎？說真的，最近「小模型」的逆</itunes:subtitle>
       <itunes:keywords>科技,AI,一人創業,工具,趨勢</itunes:keywords>
-      <content:encoded><![CDATA[而它們最讓人興奮的一點，就是許多小模型已經強大到可以在我們的個人筆記型電腦，甚至是最新款的手機上順暢運行，完全不需要連接到雲端的超級電腦。
-
-這件事情，說真的，它帶來了幾個根本性的改變，徹底顛覆了過去我們使用 AI 的方式。第一個最直接的好處，就是成本的大幅降低。過去我們使用大型模型的 API，每一次呼叫都是在燒錢，雖然單價不高，但長期累積下來，對於一個新創團隊或獨立開發者來說，仍然是一筆不小的負擔。但是，如果模型可以直接在你的裝置上本地運行，那運行的成本幾乎就只剩下硬體本身的折舊了，這讓許多過去因為成本考量而無法實現的點子，現在都變得可行。
-
-第二個巨大的優勢，是我們終於可以掌握自己的數據隱]]></content:encoded>
+      <content:encoded><![CDATA[覺得 AI 都是科技巨頭的遊戲嗎？說真的，最近「小模型」的逆]]></content:encoded>
     </item>
     <item>
-      <title>EP009 最後一點，也是我個人覺得最重要的一點，就是它帶來了隱私保護和離線運作的可能性。因</title>
-      <description>最後一點，也是我個人覺得最重要的一點，就是它帶來了隱私保護和離線運作的可能性。因為模型本身足夠小，所以它可以被直接安裝在你的手機，你的筆記型電腦，甚至是未來的各種智慧家電上面。這代表什麼呢。這代表你的個人資料，完全不需要上傳到雲端伺服器，就可以在你自己的裝置上完成AI運算。這不僅最大程度地保護了你的個人隱私，也讓AI功能在沒有網路連線的環境下，依然能夠順暢地運作。最近Microsoft發表的Phi-3 Mini模型，就是一個非常好的例子，它的體積小到可以輕鬆地放進一台智慧型手機裡，但是它的能力卻可以媲美那些比它大上好幾倍的模型。說真的，這就像我們過去手上有一把功能超多，但非常笨重的瑞士刀，而現</description>
+      <title>EP009 當科技巨頭都在追求巨大AI模型時，一股「小而美」的趨勢正悄悄</title>
+      <description>當科技巨頭都在追求巨大AI模型時，一股「小而美」的趨勢正悄悄</description>
       <pubDate>Thu, 16 Apr 2026 00:00:00 -0000</pubDate>
       <guid>65d07dacf3a5967cb596c44059d8a6f7</guid>
       <link>https://solobuildtw.github.io/podcast/yuching-tech-daily/ep/009</link>
       <enclosure url="https://podcast-cdn.pick-tw.com/audio/CH1/EP009_%E7%95%B6%E7%A7%91%E6%8A%80%E5%B7%A8%E9%A0%AD%E9%83%BD%E5%9C%A8%E8%BF%BD%E6%B1%82%E5%B7%A8%E5%A4%A7AI%E6%A8%A1%E5%9E%8B%E6%99%82%EF%BC%8C%E4%B8%80%E8%82%A1%E3%80%8C%E5%B0%8F%E8%80%8C%E7%BE%8E%E3%80%8D%E7%9A%84%E8%B6%A8%E5%8B%A2%E6%AD%A3%E6%82%84%E6%82%84.mp3" type="audio/mpeg" length="14400200"/>
-      <itunes:title>EP009 最後一點，也是我個人覺得最重要的一點，就是它帶來了隱私保護和離線運作的可能性。因</itunes:title>
+      <itunes:title>EP009 當科技巨頭都在追求巨大AI模型時，一股「小而美」的趨勢正悄悄</itunes:title>
       <itunes:author>雨晴</itunes:author>
       <itunes:duration>00:09:59</itunes:duration>
       <itunes:explicit>no</itunes:explicit>
       <itunes:episode>9</itunes:episode>
       <itunes:episodeType>full</itunes:episodeType>
-      <itunes:summary>最後一點，也是我個人覺得最重要的一點，就是它帶來了隱私保護和離線運作的可能性。因為模型本身足夠小，所以它可以被直接安裝在你的手機，你的筆記型電腦，甚至是未來的各種智慧家電上面。這代表什麼呢。這代表你的個人資料，完全不需要上傳到雲端伺服器，就可以在你自己的裝置上完成AI運算。這不僅最大程度地保護了你的個人隱私，也讓AI功能在沒有網路連線的環境下，依然能夠順暢地運作。最近Microsoft發表的Phi-3 Mini模型，就是一個非常好的例子，它的體積小到可以輕鬆地放進一台智慧型手機裡，但是它的能力卻可以媲美那些比它大上好幾倍的模型。說真的，這就像我們過去手上有一把功能超多，但非常笨重的瑞士刀，而現</itunes:summary>
-      <itunes:subtitle>最後一點，也是我個人覺得最重要的一點，就是它帶來了隱私保護和離線運作的可能性。因</itunes:subtitle>
+      <itunes:summary>當科技巨頭都在追求巨大AI模型時，一股「小而美」的趨勢正悄悄</itunes:summary>
+      <itunes:subtitle>當科技巨頭都在追求巨大AI模型時，一股「小而美」的趨勢正悄悄</itunes:subtitle>
       <itunes:keywords>科技,AI,一人創業,工具,趨勢</itunes:keywords>
-      <content:encoded><![CDATA[最後一點，也是我個人覺得最重要的一點，就是它帶來了隱私保護和離線運作的可能性。因為模型本身足夠小，所以它可以被直接安裝在你的手機，你的筆記型電腦，甚至是未來的各種智慧家電上面。這代表什麼呢。這代表你的個人資料，完全不需要上傳到雲端伺服器，就可以在你自己的裝置上完成AI運算。這不僅最大程度地保護了你的個人隱私，也讓AI功能在沒有網路連線的環境下，依然能夠順暢地運作。最近Microsoft發表的Phi-3 Mini模型，就是一個非常好的例子，它的體積小到可以輕鬆地放進一台智慧型手機裡，但是它的能力卻可以媲美那些比它大上好幾倍的模型。說真的，這就像我們過去手上有一把功能超多，但非常笨重的瑞士刀，而現]]></content:encoded>
+      <content:encoded><![CDATA[當科技巨頭都在追求巨大AI模型時，一股「小而美」的趨勢正悄悄]]></content:encoded>
     </item>
     <item>
-      <title>EP008 這一整套流程下來，就算他樣樣精通，花上一個禮拜甚至更久的時間，都是家常便飯。</title>
-      <description>這一整套流程下來，就算他樣樣精通，花上一個禮拜甚至更久的時間，都是家常便飯。
-
-但現在呢，整個遊戲規則都變了。他可以先跟 ChatGPT 進行一場深度的腦力激盪，把模糊的點子變成清晰的專案架構和功能列表。接著在寫程式的時候，讓 Copilot 幫他處理掉大量重複性、樣板化的程式碼，讓他可以專注在最核心的創新邏輯上。最後，他甚至可以請 Midjourney 或 Stable Diffusion 這樣的AI繪圖工具，在幾分鐘內就生成數十款 Logo 或 App 圖示讓他挑選。你想想看，整個開發流程被壓縮到什麼程度。原本可能需要一個小團隊合作一個月的工作，現在一個人帶著幾個AI夥伴，可能一個週末就能</description>
+      <title>EP008 當AI能幫你寫程式、做設計，甚至完成八成以上的工作，你還能抬</title>
+      <description>當AI能幫你寫程式、做設計，甚至完成八成以上的工作，你還能抬</description>
       <pubDate>Wed, 15 Apr 2026 00:00:00 -0000</pubDate>
       <guid>b0e12cbf83a22bf1d7f11339a4a0c4f7</guid>
       <link>https://solobuildtw.github.io/podcast/yuching-tech-daily/ep/008</link>
       <enclosure url="https://podcast-cdn.pick-tw.com/audio/CH1/EP008_%E7%95%B6AI%E8%83%BD%E5%B9%AB%E4%BD%A0%E5%AF%AB%E7%A8%8B%E5%BC%8F%E3%80%81%E5%81%9A%E8%A8%AD%E8%A8%88%EF%BC%8C%E7%94%9A%E8%87%B3%E5%AE%8C%E6%88%90%E5%85%AB%E6%88%90%E4%BB%A5%E4%B8%8A%E7%9A%84%E5%B7%A5%E4%BD%9C%EF%BC%8C%E4%BD%A0%E9%82%84%E8%83%BD%E6%8A%AC.mp3" type="audio/mpeg" length="14861627"/>
-      <itunes:title>EP008 這一整套流程下來，就算他樣樣精通，花上一個禮拜甚至更久的時間，都是家常便飯。</itunes:title>
+      <itunes:title>EP008 當AI能幫你寫程式、做設計，甚至完成八成以上的工作，你還能抬</itunes:title>
       <itunes:author>雨晴</itunes:author>
       <itunes:duration>00:10:19</itunes:duration>
       <itunes:explicit>no</itunes:explicit>
       <itunes:episode>8</itunes:episode>
       <itunes:episodeType>full</itunes:episodeType>
-      <itunes:summary>這一整套流程下來，就算他樣樣精通，花上一個禮拜甚至更久的時間，都是家常便飯。
-
-但現在呢，整個遊戲規則都變了。他可以先跟 ChatGPT 進行一場深度的腦力激盪，把模糊的點子變成清晰的專案架構和功能列表。接著在寫程式的時候，讓 Copilot 幫他處理掉大量重複性、樣板化的程式碼，讓他可以專注在最核心的創新邏輯上。最後，他甚至可以請 Midjourney 或 Stable Diffusion 這樣的AI繪圖工具，在幾分鐘內就生成數十款 Logo 或 App 圖示讓他挑選。你想想看，整個開發流程被壓縮到什麼程度。原本可能需要一個小團隊合作一個月的工作，現在一個人帶著幾個AI夥伴，可能一個週末就能</itunes:summary>
-      <itunes:subtitle>這一整套流程下來，就算他樣樣精通，花上一個禮拜甚至更久的時間，都是家常便飯。</itunes:subtitle>
+      <itunes:summary>當AI能幫你寫程式、做設計，甚至完成八成以上的工作，你還能抬</itunes:summary>
+      <itunes:subtitle>當AI能幫你寫程式、做設計，甚至完成八成以上的工作，你還能抬</itunes:subtitle>
       <itunes:keywords>科技,AI,一人創業,工具,趨勢</itunes:keywords>
-      <content:encoded><![CDATA[這一整套流程下來，就算他樣樣精通，花上一個禮拜甚至更久的時間，都是家常便飯。
-
-但現在呢，整個遊戲規則都變了。他可以先跟 ChatGPT 進行一場深度的腦力激盪，把模糊的點子變成清晰的專案架構和功能列表。接著在寫程式的時候，讓 Copilot 幫他處理掉大量重複性、樣板化的程式碼，讓他可以專注在最核心的創新邏輯上。最後，他甚至可以請 Midjourney 或 Stable Diffusion 這樣的AI繪圖工具，在幾分鐘內就生成數十款 Logo 或 App 圖示讓他挑選。你想想看，整個開發流程被壓縮到什麼程度。原本可能需要一個小團隊合作一個月的工作，現在一個人帶著幾個AI夥伴，可能一個週末就能]]></content:encoded>
+      <content:encoded><![CDATA[當AI能幫你寫程式、做設計，甚至完成八成以上的工作，你還能抬]]></content:encoded>
     </item>
     <item>
-      <title>EP007 但我看到的那幾篇文章，完全沒有這些東西。它們就像是把一大堆網路資料重新排列組合，</title>
-      <description>但我看到的那幾篇文章，完全沒有這些東西。它們就像是把一大堆網路資料重新排列組合，再用一種很平淡的語氣寫出來的報告，目的不是真的想教你做出多好吃的雞翅，而是想盡辦法把所有相關的關鍵字都塞進文章裡，好讓自己能排在搜尋結果的最前面，來賺取你的點擊和廣告費。
-
-這種現象，現在在科技圈有個很貼切的詞，叫做「AI slop」，翻成中文大概就是「AI產生的廢料或垃圾」。過去我們常常聽到的「內容農場」，在有了AI這個強大的工具之後，可以說是全面升級到了2.0版本。以前的內容農場，至少還需要雇用一些寫手，花時間一個字一個字地把文章敲出來，品質再差，好歹也是人寫的。現在完全不一樣了，經營者只需要設定好主題和關鍵字</description>
+      <title>EP007 說真的，你是不是也覺得網路世界越來越吵、越來越假？搜尋結果被</title>
+      <description>說真的，你是不是也覺得網路世界越來越吵、越來越假？搜尋結果被</description>
       <pubDate>Tue, 14 Apr 2026 00:00:00 -0000</pubDate>
       <guid>36e419bd101a1a46802967be6b077d65</guid>
       <link>https://solobuildtw.github.io/podcast/yuching-tech-daily/ep/007</link>
       <enclosure url="https://podcast-cdn.pick-tw.com/audio/CH1/EP007_%E8%AA%AA%E7%9C%9F%E7%9A%84%EF%BC%8C%E4%BD%A0%E6%98%AF%E4%B8%8D%E6%98%AF%E4%B9%9F%E8%A6%BA%E5%BE%97%E7%B6%B2%E8%B7%AF%E4%B8%96%E7%95%8C%E8%B6%8A%E4%BE%86%E8%B6%8A%E5%90%B5%E3%80%81%E8%B6%8A%E4%BE%86%E8%B6%8A%E5%81%87%EF%BC%9F%E6%90%9C%E5%B0%8B%E7%B5%90%E6%9E%9C%E8%A2%AB.mp3" type="audio/mpeg" length="15431515"/>
-      <itunes:title>EP007 但我看到的那幾篇文章，完全沒有這些東西。它們就像是把一大堆網路資料重新排列組合，</itunes:title>
+      <itunes:title>EP007 說真的，你是不是也覺得網路世界越來越吵、越來越假？搜尋結果被</itunes:title>
       <itunes:author>雨晴</itunes:author>
       <itunes:duration>00:10:42</itunes:duration>
       <itunes:explicit>no</itunes:explicit>
       <itunes:episode>7</itunes:episode>
       <itunes:episodeType>full</itunes:episodeType>
-      <itunes:summary>但我看到的那幾篇文章，完全沒有這些東西。它們就像是把一大堆網路資料重新排列組合，再用一種很平淡的語氣寫出來的報告，目的不是真的想教你做出多好吃的雞翅，而是想盡辦法把所有相關的關鍵字都塞進文章裡，好讓自己能排在搜尋結果的最前面，來賺取你的點擊和廣告費。
-
-這種現象，現在在科技圈有個很貼切的詞，叫做「AI slop」，翻成中文大概就是「AI產生的廢料或垃圾」。過去我們常常聽到的「內容農場」，在有了AI這個強大的工具之後，可以說是全面升級到了2.0版本。以前的內容農場，至少還需要雇用一些寫手，花時間一個字一個字地把文章敲出來，品質再差，好歹也是人寫的。現在完全不一樣了，經營者只需要設定好主題和關鍵字</itunes:summary>
-      <itunes:subtitle>但我看到的那幾篇文章，完全沒有這些東西。它們就像是把一大堆網路資料重新排列組合，</itunes:subtitle>
+      <itunes:summary>說真的，你是不是也覺得網路世界越來越吵、越來越假？搜尋結果被</itunes:summary>
+      <itunes:subtitle>說真的，你是不是也覺得網路世界越來越吵、越來越假？搜尋結果被</itunes:subtitle>
       <itunes:keywords>科技,AI,一人創業,工具,趨勢</itunes:keywords>
-      <content:encoded><![CDATA[但我看到的那幾篇文章，完全沒有這些東西。它們就像是把一大堆網路資料重新排列組合，再用一種很平淡的語氣寫出來的報告，目的不是真的想教你做出多好吃的雞翅，而是想盡辦法把所有相關的關鍵字都塞進文章裡，好讓自己能排在搜尋結果的最前面，來賺取你的點擊和廣告費。
-
-這種現象，現在在科技圈有個很貼切的詞，叫做「AI slop」，翻成中文大概就是「AI產生的廢料或垃圾」。過去我們常常聽到的「內容農場」，在有了AI這個強大的工具之後，可以說是全面升級到了2.0版本。以前的內容農場，至少還需要雇用一些寫手，花時間一個字一個字地把文章敲出來，品質再差，好歹也是人寫的。現在完全不一樣了，經營者只需要設定好主題和關鍵字]]></content:encoded>
+      <content:encoded><![CDATA[說真的，你是不是也覺得網路世界越來越吵、越來越假？搜尋結果被]]></content:encoded>
     </item>
     <item>
-      <title>EP006 這些巨無霸模型就像一頭頭躲在數據中心的吃電怪獸，每一次的訓練和每一次的推理運算，</title>
-      <description>這些巨無霸模型就像一頭頭躲在數據中心的吃電怪獸，每一次的訓練和每一次的推理運算，都會消耗掉極其驚人的電力，也因此對我們的環境造成了不小的負擔。先前就有學術研究指出，完整訓練一個大型AI模型所產生的碳排放量，可能相當於一架客機橫跨大西洋來回飛行好幾百趟。你想想看，在我們這個越來越重視永續發展和環境保護的時代，這是一個非常嚴肅而且無法迴避的議題。
-
-第三個問題，也是跟我們每個使用者體驗最息息相關的，就是延遲和隱私的疑慮。因為模型實在太龐大了，你幾乎不可能把它完整地放在自己的手機或筆記型電腦上運行。所以每一次當你提出問題，或是下達指令的時候，你的資料都必須先透過網路，送到遙遠雲端的伺服器去進行處理，</description>
+      <title>EP006 大家都在追逐更大更強的AI，但你知道嗎？真正的革命可能來自那</title>
+      <description>大家都在追逐更大更強的AI，但你知道嗎？真正的革命可能來自那</description>
       <pubDate>Mon, 13 Apr 2026 00:00:00 -0000</pubDate>
       <guid>cb4c58f63e089a5719c6c849a333645a</guid>
       <link>https://solobuildtw.github.io/podcast/yuching-tech-daily/ep/006</link>
       <enclosure url="https://podcast-cdn.pick-tw.com/audio/CH1/EP006_%E5%A4%A7%E5%AE%B6%E9%83%BD%E5%9C%A8%E8%BF%BD%E9%80%90%E6%9B%B4%E5%A4%A7%E6%9B%B4%E5%BC%B7%E7%9A%84AI%EF%BC%8C%E4%BD%86%E4%BD%A0%E7%9F%A5%E9%81%93%E5%97%8E%EF%BC%9F%E7%9C%9F%E6%AD%A3%E7%9A%84%E9%9D%A9%E5%91%BD%E5%8F%AF%E8%83%BD%E4%BE%86%E8%87%AA%E9%82%A3.mp3" type="audio/mpeg" length="15267257"/>
-      <itunes:title>EP006 這些巨無霸模型就像一頭頭躲在數據中心的吃電怪獸，每一次的訓練和每一次的推理運算，</itunes:title>
+      <itunes:title>EP006 大家都在追逐更大更強的AI，但你知道嗎？真正的革命可能來自那</itunes:title>
       <itunes:author>雨晴</itunes:author>
       <itunes:duration>00:10:36</itunes:duration>
       <itunes:explicit>no</itunes:explicit>
       <itunes:episode>6</itunes:episode>
       <itunes:episodeType>full</itunes:episodeType>
-      <itunes:summary>這些巨無霸模型就像一頭頭躲在數據中心的吃電怪獸，每一次的訓練和每一次的推理運算，都會消耗掉極其驚人的電力，也因此對我們的環境造成了不小的負擔。先前就有學術研究指出，完整訓練一個大型AI模型所產生的碳排放量，可能相當於一架客機橫跨大西洋來回飛行好幾百趟。你想想看，在我們這個越來越重視永續發展和環境保護的時代，這是一個非常嚴肅而且無法迴避的議題。
-
-第三個問題，也是跟我們每個使用者體驗最息息相關的，就是延遲和隱私的疑慮。因為模型實在太龐大了，你幾乎不可能把它完整地放在自己的手機或筆記型電腦上運行。所以每一次當你提出問題，或是下達指令的時候，你的資料都必須先透過網路，送到遙遠雲端的伺服器去進行處理，</itunes:summary>
-      <itunes:subtitle>這些巨無霸模型就像一頭頭躲在數據中心的吃電怪獸，每一次的訓練和每一次的推理運算，</itunes:subtitle>
+      <itunes:summary>大家都在追逐更大更強的AI，但你知道嗎？真正的革命可能來自那</itunes:summary>
+      <itunes:subtitle>大家都在追逐更大更強的AI，但你知道嗎？真正的革命可能來自那</itunes:subtitle>
       <itunes:keywords>科技,AI,一人創業,工具,趨勢</itunes:keywords>
-      <content:encoded><![CDATA[這些巨無霸模型就像一頭頭躲在數據中心的吃電怪獸，每一次的訓練和每一次的推理運算，都會消耗掉極其驚人的電力，也因此對我們的環境造成了不小的負擔。先前就有學術研究指出，完整訓練一個大型AI模型所產生的碳排放量，可能相當於一架客機橫跨大西洋來回飛行好幾百趟。你想想看，在我們這個越來越重視永續發展和環境保護的時代，這是一個非常嚴肅而且無法迴避的議題。
-
-第三個問題，也是跟我們每個使用者體驗最息息相關的，就是延遲和隱私的疑慮。因為模型實在太龐大了，你幾乎不可能把它完整地放在自己的手機或筆記型電腦上運行。所以每一次當你提出問題，或是下達指令的時候，你的資料都必須先透過網路，送到遙遠雲端的伺服器去進行處理，]]></content:encoded>
+      <content:encoded><![CDATA[大家都在追逐更大更強的AI，但你知道嗎？真正的革命可能來自那]]></content:encoded>
     </item>
   </channel>
 </rss>
