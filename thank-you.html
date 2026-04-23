@@ -9,54 +9,6 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@300;400;500;700&family=Inter:wght@400;600;700&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="style.css" />
-  <!-- Google tag (gtag.js) -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=G-DWXVFMH12H"></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
-    gtag('config', 'G-DWXVFMH12H');
-
-    const params = new URLSearchParams(window.location.search);
-    const orderId = params.get('order_id') || params.get('checkout_id') || params.get('MerchantTradeNo') || ('order_' + Date.now());
-    const product = params.get('product');
-
-    const products = {
-      'teaching': { name: '教學包', price: 499, currency: 'TWD' },
-      'soul':    { name: '靈魂包', price: 649, currency: 'TWD' },
-      'combo':   { name: '組合包', price: 999, currency: 'TWD' },
-      'teaching_en': { name: 'Tutorial Pack', price: 19, currency: 'USD' },
-      'soul_en':    { name: 'Soul Pack', price: 25, currency: 'USD' },
-      'combo_en':   { name: 'Combo Pack', price: 37.50, currency: 'USD' }
-    };
-
-    const item = products[product] || { name: 'Unknown', price: 0, currency: 'TWD' };
-
-    // Collect UTM from URL or sessionStorage
-    const utmKeys = ['utm_source','utm_medium','utm_campaign','utm_term','utm_content'];
-    const utm = {};
-    utmKeys.forEach(k => {
-      const v = params.get(k) || sessionStorage.getItem(k);
-      if (v) utm[k] = v;
-    });
-
-    if (product) {
-      gtag('event', 'purchase', Object.assign({
-        transaction_id: orderId,
-        value: item.price,
-        currency: item.currency,
-        items: [{
-          item_id: product,
-          item_name: item.name,
-          price: item.price,
-          quantity: 1
-        }],
-        campaign_source: utm.utm_source || '',
-        campaign_medium: utm.utm_medium || '',
-        campaign_name: utm.utm_campaign || product
-      }, utm));
-    }
-  </script>
   <style>
     .thank-you-section {
       min-height: 100vh;
@@ -146,6 +98,21 @@
       color: rgba(255,255,255,0.6);
       font-style: italic;
     }
+    .home-link {
+      display: inline-block;
+      margin-top: 24px;
+      padding: 10px 24px;
+      background: #E8804C;
+      color: #fff;
+      text-decoration: none;
+      border-radius: 8px;
+      font-weight: 600;
+      font-size: 0.95rem;
+      transition: background 0.3s ease;
+    }
+    .home-link:hover {
+      background: #d66a3a;
+    }
     @media (max-width: 700px) {
       .thank-you-card {
         padding: 40px 24px;
@@ -159,10 +126,10 @@
   <!-- ========== HEADER / NAV ========== -->
   <header class="site-header">
     <div class="container header-inner">
-      <a href="index.html" class="brand-logo">SoloBuildTW</a>
+      <a href="https://solobuildtw.com" class="brand-logo">SoloBuildTW</a>
       <nav class="header-nav">
         <button class="lang-toggle" data-lang="zh" aria-label="切換語言">中 / EN</button>
-        <a href="index.html" class="btn btn-primary btn-sm" data-zh="回首頁" data-en="Home">回首頁</a>
+        <a href="https://solobuildtw.com" class="btn btn-primary btn-sm" data-zh="回首頁" data-en="Home">回首頁</a>
       </nav>
       <button class="mobile-menu-toggle" aria-label="開啟選單">&#9776;</button>
     </div>
@@ -173,30 +140,28 @@
     <div class="container">
       <div class="thank-you-card">
         <div class="thank-you-icon">🎉</div>
-        <h1 class="thank-you-title" data-zh="感謝購買！" data-en="Thank You for Your Purchase!">感謝購買！</h1>
-        <p class="thank-you-subtitle" data-zh="你的經驗包正在路上。" data-en="Your experience pack is on its way.">你的經驗包正在路上。</p>
+        <h1 class="thank-you-title" data-zh="感謝您的購買！" data-en="Thank You for Your Purchase!">感謝您的購買！</h1>
+        <p class="thank-you-subtitle" data-zh="商品將在幾分鐘內寄送到您的信箱。" data-en="The product will be delivered to your email within a few minutes.">商品將在幾分鐘內寄送到您的信箱。</p>
 
         <ul class="thank-you-steps">
           <li>
             <span class="step-num">1</span>
-            <span data-zh="請查收你的 Email，下載連結將寄送至你購買時填寫的信箱。" data-en="Check your email — the download link will be sent to the address you provided during checkout.">請查收你的 Email，下載連結將寄送至你購買時填寫的信箱。</span>
+            <span data-zh="請檢查您購買時填寫的信箱，下載連結將被寄送過去。" data-en="Check the email address you provided during checkout — the download link will be sent there.">請檢查您購買時填寫的信箱，下載連結將被寄送過去。</span>
           </li>
           <li>
             <span class="step-num">2</span>
-            <span data-zh="如果幾分鐘內沒收到，請檢查垃圾郵件資料夾。" data-en="If you don't receive it within a few minutes, please check your spam folder.">如果幾分鐘內沒收到，請檢查垃圾郵件資料夾。</span>
-          </li>
-          <li>
-            <span class="step-num">3</span>
-            <span data-zh="下載後，依照經驗包內的說明開始部署你的 AI 代理系統！" data-en="After downloading, follow the instructions in the pack to deploy your AI agent system!">下載後，依照經驗包內的說明開始部署你的 AI 代理系統！</span>
+            <span data-zh="如果超過 30 分鐘仍未收到，請檢查垃圾郵件資料夾。" data-en="If you don't receive it after 30 minutes, please check your spam folder.">如果超過 30 分鐘仍未收到，請檢查垃圾郵件資料夾。</span>
           </li>
         </ul>
 
         <div class="thank-you-contact">
           <p data-zh="有任何問題？歡迎聯繫：" data-en="Any questions? Feel free to contact:">有任何問題？歡迎聯繫：</p>
-          <a href="mailto:SoloBuildTW@gmail.com">SoloBuildTW@gmail.com</a>
+          <a href="mailto:harvey3630@gmail.com">harvey3630@gmail.com</a>
         </div>
 
-        <p class="thank-you-sign" data-zh="— 阿凱" data-en="— Kyle">— 阿凱</p>
+        <p class="thank-you-sign" data-zh="— SoloBuildTW 團隊" data-en="— SoloBuildTW Team">— SoloBuildTW 團隊</p>
+
+        <a href="https://solobuildtw.com" class="home-link" data-zh="回首頁" data-en="Back to Home">回首頁</a>
       </div>
     </div>
   </section>
