@@ -32,16 +32,8 @@
 
     const item = products[product] || { name: 'Unknown', price: 0, currency: 'TWD' };
 
-    // Collect UTM from URL or sessionStorage
-    const utmKeys = ['utm_source','utm_medium','utm_campaign','utm_term','utm_content'];
-    const utm = {};
-    utmKeys.forEach(k => {
-      const v = params.get(k) || sessionStorage.getItem(k);
-      if (v) utm[k] = v;
-    });
-
     if (product) {
-      gtag('event', 'purchase', Object.assign({
+      gtag('event', 'purchase', {
         transaction_id: orderId,
         value: item.price,
         currency: item.currency,
@@ -50,11 +42,8 @@
           item_name: item.name,
           price: item.price,
           quantity: 1
-        }],
-        campaign_source: utm.utm_source || '',
-        campaign_medium: utm.utm_medium || '',
-        campaign_name: utm.utm_campaign || product
-      }, utm));
+        }]
+      });
     }
   </script>
   <style>
@@ -213,6 +202,7 @@
   <script>
     document.addEventListener('DOMContentLoaded', () => {
       const langBtn = document.querySelector('.lang-toggle');
+      // 預設中文，優先從 localStorage 讀，不設定則預設 zh
       let currentLang = localStorage.getItem('solobuild-lang') || 'zh';
 
       function setLang(lang) {
@@ -238,7 +228,8 @@
         });
       }
 
-      if (currentLang === 'en') setLang('en');
+      // 預設中文 (currentLang 已經是 'zh'，所以只在非中文時才調用 setLang)
+      if (currentLang !== 'zh') setLang(currentLang);
 
       // Mobile nav toggle
       const mobileToggle = document.querySelector('.mobile-menu-toggle');
