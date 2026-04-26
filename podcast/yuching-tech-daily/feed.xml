@@ -7,7 +7,7 @@
     <description>每週科技生活新知。雨晴帶你輕鬆掌握 AI 工具、科技趨勢與日常科技應用，像跟科技圈朋友聊天，每集聊一個你馬上能用的科技新知。</description>
     <copyright>© 2026 雨晴</copyright>
     <generator>SoloBuildTW Podcast RSS Generator v2</generator>
-    <lastBuildDate>Fri, 24 Apr 2026 00:00:00 -0000</lastBuildDate>
+    <lastBuildDate>Sun, 26 Apr 2026 00:00:00 -0000</lastBuildDate>
     <atom:link href="https://solobuildtw.github.io/podcast/yuching-tech-daily/feed.xml" rel="self" type="application/rss+xml"/>
     <managingEditor>solobuildtw@gmail.com (雨晴)</managingEditor>
     <itunes:title>雨晴的科技日常</itunes:title>
@@ -30,184 +30,364 @@
     </image>
     <itunes:category text="Technology"/>
     <item>
-      <title>EP017 AI 發展好像變成科技巨頭的軍備競賽，讓你覺得焦慮又無力嗎</title>
-      <description>AI 發展好像變成科技巨頭的軍備競賽，讓你覺得焦慮又無力嗎</description>
+      <title>EP019 嗨，歡迎來到雨晴的科技日常，我是雨晴。
+
+最近有個話題，說真的，在我身邊的科技圈</title>
+      <description>嗨，歡迎來到雨晴的科技日常，我是雨晴。
+
+最近有個話題，說真的，在我身邊的科技圈朋友之間，幾乎每天都在熱烈地討論，甚至還帶有一點點的興奮和焦慮。今天就想來跟你好好聊聊這個話題。你想想看，如果你的電腦裡，突然住進了一位全年無休、不用吃飯也不用睡覺、學習能力還強到不可思議的 AI 實習生，會是什麼樣的場景？你只需要交給他一個任務目標，他就能自己上網搜尋資料、自己分析數據、自己編寫程式碼，甚至自己完成一份完整的商業報告。這一切聽起來，是不是很像科幻電影裡才會出現的情節？但我想告訴你，這不是遙遠的未來想像，而是正在我們眼前發生的現在進行式，它的名字就叫做 AI 代理人，也就是 AI Agent。這項技</description>
+      <pubDate>Sun, 26 Apr 2026 00:00:00 -0000</pubDate>
+      <guid>c2f7b224402145c55d2a972ad59b683a</guid>
+      <link>https://solobuildtw.github.io/podcast/yuching-tech-daily/ep/019</link>
+      <enclosure url="https://podcast-cdn.pick-tw.com/audio/CH1/EP019_%E4%BD%A0%E6%83%B3%E6%83%B3%E7%9C%8B%EF%BC%8C%E7%95%B6%20AI%20%E4%B8%8D%E5%8F%AA%E8%83%BD%E8%81%8A%E5%A4%A9%EF%BC%8C%E9%82%84%E6%9C%83%E8%87%AA%E5%B7%B1%E4%B8%8A%E7%B6%B2%E3%80%81%E5%AF%AB%E5%A0%B1%E5%91%8A%E3%80%81%E5%AE%8C%E6%88%90%E4%BB%BB.mp3" type="audio/mpeg" length="14481075"/>
+      <itunes:title>EP019 嗨，歡迎來到雨晴的科技日常，我是雨晴。
+
+最近有個話題，說真的，在我身邊的科技圈</itunes:title>
+      <itunes:author>雨晴</itunes:author>
+      <itunes:duration>00:10:03</itunes:duration>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:episode>19</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:summary>嗨，歡迎來到雨晴的科技日常，我是雨晴。
+
+最近有個話題，說真的，在我身邊的科技圈朋友之間，幾乎每天都在熱烈地討論，甚至還帶有一點點的興奮和焦慮。今天就想來跟你好好聊聊這個話題。你想想看，如果你的電腦裡，突然住進了一位全年無休、不用吃飯也不用睡覺、學習能力還強到不可思議的 AI 實習生，會是什麼樣的場景？你只需要交給他一個任務目標，他就能自己上網搜尋資料、自己分析數據、自己編寫程式碼，甚至自己完成一份完整的商業報告。這一切聽起來，是不是很像科幻電影裡才會出現的情節？但我想告訴你，這不是遙遠的未來想像，而是正在我們眼前發生的現在進行式，它的名字就叫做 AI 代理人，也就是 AI Agent。這項技</itunes:summary>
+      <itunes:subtitle>嗨，歡迎來到雨晴的科技日常，我是雨晴。
+
+最近有個話題，說真的，在我身邊的科技圈</itunes:subtitle>
+      <itunes:keywords>科技,AI,一人創業,工具,趨勢</itunes:keywords>
+      <content:encoded><![CDATA[嗨，歡迎來到雨晴的科技日常，我是雨晴。
+
+最近有個話題，說真的，在我身邊的科技圈朋友之間，幾乎每天都在熱烈地討論，甚至還帶有一點點的興奮和焦慮。今天就想來跟你好好聊聊這個話題。你想想看，如果你的電腦裡，突然住進了一位全年無休、不用吃飯也不用睡覺、學習能力還強到不可思議的 AI 實習生，會是什麼樣的場景？你只需要交給他一個任務目標，他就能自己上網搜尋資料、自己分析數據、自己編寫程式碼，甚至自己完成一份完整的商業報告。這一切聽起來，是不是很像科幻電影裡才會出現的情節？但我想告訴你，這不是遙遠的未來想像，而是正在我們眼前發生的現在進行式，它的名字就叫做 AI 代理人，也就是 AI Agent。這項技]]></content:encoded>
+    </item>
+    <item>
+      <title>EP018 嗨，歡迎來到雨晴的科技日常，我是雨晴。
+
+最近在我的開發者朋友圈裡面，有個話題可</title>
+      <description>嗨，歡迎來到雨晴的科技日常，我是雨晴。
+
+最近在我的開發者朋友圈裡面，有個話題可以說是討論度直接衝上了天際，我想你可能也聽說了。就是那些突然冒出來，功能一個比一個還驚人的 AI 工具，像是那個號稱能夠獨立完成整個軟體開發專案的 Devin，或者是一些你只需要輸入一句簡單的描述，它就能在幾分鐘內幫你生成完整網站的服務。說真的，我第一次看到這些工具的展示影片時，心裡真的咯噔了一下，那種感覺非常複雜。一方面覺得太不可思議了，科技的進步真的好快，另一方面，一個很直接的念頭也冒了出來，那就是我們這些獨立開發者，是不是飯碗真的要不保了。
+
+這到底是意味著，我們即將迎來一位超強的 AI 助手，可以讓我們的工</description>
+      <pubDate>Sat, 25 Apr 2026 00:00:00 -0000</pubDate>
+      <guid>9c24626f628cb93701c14c2b333477c1</guid>
+      <link>https://solobuildtw.github.io/podcast/yuching-tech-daily/ep/018</link>
+      <enclosure url="https://podcast-cdn.pick-tw.com/audio/CH1/EP018_%E6%9C%80%E8%BF%91%E7%9C%8B%E5%88%B0%20Devin%20%E9%80%99%E7%A8%AE%E8%B6%85%E5%BC%B7%20AI%20%E5%B7%A5%E5%85%B7%EF%BC%8C%E6%98%AF%E4%B8%8D%E6%98%AF%E4%B9%9F%E8%AE%93%E4%BD%A0%E5%BF%83%E9%A0%AD.mp3" type="audio/mpeg" length="14279201"/>
+      <itunes:title>EP018 嗨，歡迎來到雨晴的科技日常，我是雨晴。
+
+最近在我的開發者朋友圈裡面，有個話題可</itunes:title>
+      <itunes:author>雨晴</itunes:author>
+      <itunes:duration>00:09:54</itunes:duration>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:episode>18</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:summary>嗨，歡迎來到雨晴的科技日常，我是雨晴。
+
+最近在我的開發者朋友圈裡面，有個話題可以說是討論度直接衝上了天際，我想你可能也聽說了。就是那些突然冒出來，功能一個比一個還驚人的 AI 工具，像是那個號稱能夠獨立完成整個軟體開發專案的 Devin，或者是一些你只需要輸入一句簡單的描述，它就能在幾分鐘內幫你生成完整網站的服務。說真的，我第一次看到這些工具的展示影片時，心裡真的咯噔了一下，那種感覺非常複雜。一方面覺得太不可思議了，科技的進步真的好快，另一方面，一個很直接的念頭也冒了出來，那就是我們這些獨立開發者，是不是飯碗真的要不保了。
+
+這到底是意味著，我們即將迎來一位超強的 AI 助手，可以讓我們的工</itunes:summary>
+      <itunes:subtitle>嗨，歡迎來到雨晴的科技日常，我是雨晴。
+
+最近在我的開發者朋友圈裡面，有個話題可</itunes:subtitle>
+      <itunes:keywords>科技,AI,一人創業,工具,趨勢</itunes:keywords>
+      <content:encoded><![CDATA[嗨，歡迎來到雨晴的科技日常，我是雨晴。
+
+最近在我的開發者朋友圈裡面，有個話題可以說是討論度直接衝上了天際，我想你可能也聽說了。就是那些突然冒出來，功能一個比一個還驚人的 AI 工具，像是那個號稱能夠獨立完成整個軟體開發專案的 Devin，或者是一些你只需要輸入一句簡單的描述，它就能在幾分鐘內幫你生成完整網站的服務。說真的，我第一次看到這些工具的展示影片時，心裡真的咯噔了一下，那種感覺非常複雜。一方面覺得太不可思議了，科技的進步真的好快，另一方面，一個很直接的念頭也冒了出來，那就是我們這些獨立開發者，是不是飯碗真的要不保了。
+
+這到底是意味著，我們即將迎來一位超強的 AI 助手，可以讓我們的工]]></content:encoded>
+    </item>
+    <item>
+      <title>EP017 嗨，歡迎來到雨晴的科技日常，我是雨晴。
+
+不知道你最近滑開科技新聞的時候，是不是</title>
+      <description>嗨，歡迎來到雨晴的科技日常，我是雨晴。
+
+不知道你最近滑開科技新聞的時候，是不是也有一種感覺，就是現在的 AI 發展，好像變成了一場神仙打架，一場跟我們普通人，甚至是跟大部分開發者都無關的軍備競賽。我們每天聽到的新聞，都是誰家的模型參數又突破了幾兆，誰家的模型又在哪個權威評測上拿下了第一名。從 OpenAI 推出的 GPT-4，到 Anthropic 強勢登場的 Claude 3，還有 Google 最近的 Gemini 系列，每一個新模型都像是神話故事裡的泰坦巨獸，它們的強大，強大到讓我們覺得有點遙遠，甚至產生了一種無力感。
+
+說真的，最近我跟一些也在做產品開發的朋友聊天，大家或多或少都有這</description>
       <pubDate>Fri, 24 Apr 2026 00:00:00 -0000</pubDate>
       <guid>630d12d04374ba1215dd0f2ae0514442</guid>
       <link>https://solobuildtw.github.io/podcast/yuching-tech-daily/ep/017</link>
       <enclosure url="https://podcast-cdn.pick-tw.com/audio/CH1/EP017_AI%20%E7%99%BC%E5%B1%95%E5%A5%BD%E5%83%8F%E8%AE%8A%E6%88%90%E7%A7%91%E6%8A%80%E5%B7%A8%E9%A0%AD%E7%9A%84%E8%BB%8D%E5%82%99%E7%AB%B6%E8%B3%BD%EF%BC%8C%E8%AE%93%E4%BD%A0%E8%A6%BA%E5%BE%97%E7%84%A6%E6%85%AE%E5%8F%88%E7%84%A1%E5%8A%9B%E5%97%8E%EF%BC%9F.mp3" type="audio/mpeg" length="14272932"/>
-      <itunes:title>EP017 AI 發展好像變成科技巨頭的軍備競賽，讓你覺得焦慮又無力嗎</itunes:title>
+      <itunes:title>EP017 嗨，歡迎來到雨晴的科技日常，我是雨晴。
+
+不知道你最近滑開科技新聞的時候，是不是</itunes:title>
       <itunes:author>雨晴</itunes:author>
       <itunes:duration>00:09:54</itunes:duration>
       <itunes:explicit>no</itunes:explicit>
       <itunes:episode>17</itunes:episode>
       <itunes:episodeType>full</itunes:episodeType>
-      <itunes:summary>AI 發展好像變成科技巨頭的軍備競賽，讓你覺得焦慮又無力嗎</itunes:summary>
-      <itunes:subtitle>AI 發展好像變成科技巨頭的軍備競賽，讓你覺得焦慮又無力嗎</itunes:subtitle>
+      <itunes:summary>嗨，歡迎來到雨晴的科技日常，我是雨晴。
+
+不知道你最近滑開科技新聞的時候，是不是也有一種感覺，就是現在的 AI 發展，好像變成了一場神仙打架，一場跟我們普通人，甚至是跟大部分開發者都無關的軍備競賽。我們每天聽到的新聞，都是誰家的模型參數又突破了幾兆，誰家的模型又在哪個權威評測上拿下了第一名。從 OpenAI 推出的 GPT-4，到 Anthropic 強勢登場的 Claude 3，還有 Google 最近的 Gemini 系列，每一個新模型都像是神話故事裡的泰坦巨獸，它們的強大，強大到讓我們覺得有點遙遠，甚至產生了一種無力感。
+
+說真的，最近我跟一些也在做產品開發的朋友聊天，大家或多或少都有這</itunes:summary>
+      <itunes:subtitle>嗨，歡迎來到雨晴的科技日常，我是雨晴。
+
+不知道你最近滑開科技新聞的時候，是不是</itunes:subtitle>
       <itunes:keywords>科技,AI,一人創業,工具,趨勢</itunes:keywords>
-      <content:encoded><![CDATA[AI 發展好像變成科技巨頭的軍備競賽，讓你覺得焦慮又無力嗎]]></content:encoded>
+      <content:encoded><![CDATA[嗨，歡迎來到雨晴的科技日常，我是雨晴。
+
+不知道你最近滑開科技新聞的時候，是不是也有一種感覺，就是現在的 AI 發展，好像變成了一場神仙打架，一場跟我們普通人，甚至是跟大部分開發者都無關的軍備競賽。我們每天聽到的新聞，都是誰家的模型參數又突破了幾兆，誰家的模型又在哪個權威評測上拿下了第一名。從 OpenAI 推出的 GPT-4，到 Anthropic 強勢登場的 Claude 3，還有 Google 最近的 Gemini 系列，每一個新模型都像是神話故事裡的泰坦巨獸，它們的強大，強大到讓我們覺得有點遙遠，甚至產生了一種無力感。
+
+說真的，最近我跟一些也在做產品開發的朋友聊天，大家或多或少都有這]]></content:encoded>
     </item>
     <item>
-      <title>EP016 AI 代理人跟 ChatGPT 差在哪？它不只是被動工具，而</title>
-      <description>AI 代理人跟 ChatGPT 差在哪？它不只是被動工具，而</description>
+      <title>EP016 嗨，歡迎來到雨晴的科技日常，我是雨晴。
+
+最近我的朋友圈裡，不管是工程師還是做行</title>
+      <description>嗨，歡迎來到雨晴的科技日常，我是雨晴。
+
+最近我的朋友圈裡，不管是工程師還是做行銷的朋友，大家聊天的話題，好像總會繞回到一個關鍵字上面，那就是 AI 代理人，或者有些人會稱它為 AI Agent。說真的，這個詞聽起來可能有點距離感，好像是科幻電影裡才會出現的東西，但它其實已經悄悄地走進我們的生活了。我們很多人可能都已經習慣了跟 ChatGPT 聊天，把它當成一個超級聰明的搜尋引擎，或是一個文筆很好的小助理，用它來找資料、寫文案、甚至是寫程式。不過，今天我們要聊的 AI 代理人，可以說是把這一切又往前推進了一大步，它跟我們熟悉的 AI 服務是完全不同層次的概念。
+
+你想想看，我們現在用的大部分 </description>
       <pubDate>Thu, 23 Apr 2026 00:00:00 -0000</pubDate>
       <guid>e9cd299531b0ce672915eefaa543f553</guid>
       <link>https://solobuildtw.github.io/podcast/yuching-tech-daily/ep/016</link>
       <enclosure url="https://podcast-cdn.pick-tw.com/audio/CH1/EP016_AI%20%E4%BB%A3%E7%90%86%E4%BA%BA%E8%B7%9F%20ChatGPT%20%E5%B7%AE%E5%9C%A8%E5%93%AA%EF%BC%9F%E5%AE%83%E4%B8%8D%E5%8F%AA%E6%98%AF%E8%A2%AB%E5%8B%95%E5%B7%A5%E5%85%B7%EF%BC%8C%E8%80%8C.mp3" type="audio/mpeg" length="14705520"/>
-      <itunes:title>EP016 AI 代理人跟 ChatGPT 差在哪？它不只是被動工具，而</itunes:title>
+      <itunes:title>EP016 嗨，歡迎來到雨晴的科技日常，我是雨晴。
+
+最近我的朋友圈裡，不管是工程師還是做行</itunes:title>
       <itunes:author>雨晴</itunes:author>
       <itunes:duration>00:10:12</itunes:duration>
       <itunes:explicit>no</itunes:explicit>
       <itunes:episode>16</itunes:episode>
       <itunes:episodeType>full</itunes:episodeType>
-      <itunes:summary>AI 代理人跟 ChatGPT 差在哪？它不只是被動工具，而</itunes:summary>
-      <itunes:subtitle>AI 代理人跟 ChatGPT 差在哪？它不只是被動工具，而</itunes:subtitle>
+      <itunes:summary>嗨，歡迎來到雨晴的科技日常，我是雨晴。
+
+最近我的朋友圈裡，不管是工程師還是做行銷的朋友，大家聊天的話題，好像總會繞回到一個關鍵字上面，那就是 AI 代理人，或者有些人會稱它為 AI Agent。說真的，這個詞聽起來可能有點距離感，好像是科幻電影裡才會出現的東西，但它其實已經悄悄地走進我們的生活了。我們很多人可能都已經習慣了跟 ChatGPT 聊天，把它當成一個超級聰明的搜尋引擎，或是一個文筆很好的小助理，用它來找資料、寫文案、甚至是寫程式。不過，今天我們要聊的 AI 代理人，可以說是把這一切又往前推進了一大步，它跟我們熟悉的 AI 服務是完全不同層次的概念。
+
+你想想看，我們現在用的大部分 </itunes:summary>
+      <itunes:subtitle>嗨，歡迎來到雨晴的科技日常，我是雨晴。
+
+最近我的朋友圈裡，不管是工程師還是做行</itunes:subtitle>
       <itunes:keywords>科技,AI,一人創業,工具,趨勢</itunes:keywords>
-      <content:encoded><![CDATA[AI 代理人跟 ChatGPT 差在哪？它不只是被動工具，而]]></content:encoded>
+      <content:encoded><![CDATA[嗨，歡迎來到雨晴的科技日常，我是雨晴。
+
+最近我的朋友圈裡，不管是工程師還是做行銷的朋友，大家聊天的話題，好像總會繞回到一個關鍵字上面，那就是 AI 代理人，或者有些人會稱它為 AI Agent。說真的，這個詞聽起來可能有點距離感，好像是科幻電影裡才會出現的東西，但它其實已經悄悄地走進我們的生活了。我們很多人可能都已經習慣了跟 ChatGPT 聊天，把它當成一個超級聰明的搜尋引擎，或是一個文筆很好的小助理，用它來找資料、寫文案、甚至是寫程式。不過，今天我們要聊的 AI 代理人，可以說是把這一切又往前推進了一大步，它跟我們熟悉的 AI 服務是完全不同層次的概念。
+
+你想想看，我們現在用的大部分 ]]></content:encoded>
     </item>
     <item>
-      <title>EP015 擔心工作會被 AI 取代嗎？說真的，先別焦慮！你想想看，如果</title>
-      <description>擔心工作會被 AI 取代嗎？說真的，先別焦慮！你想想看，如果</description>
+      <title>EP015 嗨，歡迎來到雨晴的科技日常，我是雨晴。
+
+最近這段時間，無論我們是在滑手機、看新</title>
+      <description>嗨，歡迎來到雨晴的科技日常，我是雨晴。
+
+最近這段時間，無論我們是在滑手機、看新聞，還是跟朋友聊天，好像都離不開一個關鍵字，那就是 AI。說真的，我身邊很多朋友，甚至是包括我自己，有時候心裡都會冒出一個小小的聲音，悄悄地問自己，未來我的工作會不會就這樣被 AI 給取代了？這種感覺有點像是聽到遠方傳來轟隆隆的腳步聲，卻不確定走過來的是夥伴還是猛獸，我想這種對未知的焦慮，其實是非常正常的。
+
+不過，今天我想邀請你跟我一起，試著戴上另一副眼鏡，用一個全新的視角來看待 AI 這件事。與其把它看成一個虎視眈眈，準備搶走我們飯碗的競爭對手，不如我們把它想像成一個你夢寐以求的超級員工。你想想看，這個員工它不</description>
       <pubDate>Wed, 22 Apr 2026 00:00:00 -0000</pubDate>
       <guid>c820153901bfc49e808fdf241ab2680c</guid>
       <link>https://solobuildtw.github.io/podcast/yuching-tech-daily/ep/015</link>
       <enclosure url="https://podcast-cdn.pick-tw.com/audio/CH1/EP015_%E6%93%94%E5%BF%83%E5%B7%A5%E4%BD%9C%E6%9C%83%E8%A2%AB%20AI%20%E5%8F%96%E4%BB%A3%E5%97%8E%EF%BC%9F%E8%AA%AA%E7%9C%9F%E7%9A%84%EF%BC%8C%E5%85%88%E5%88%A5%E7%84%A6%E6%85%AE%EF%BC%81%E4%BD%A0%E6%83%B3%E6%83%B3%E7%9C%8B%EF%BC%8C%E5%A6%82%E6%9E%9C.mp3" type="audio/mpeg" length="13977017"/>
-      <itunes:title>EP015 擔心工作會被 AI 取代嗎？說真的，先別焦慮！你想想看，如果</itunes:title>
+      <itunes:title>EP015 嗨，歡迎來到雨晴的科技日常，我是雨晴。
+
+最近這段時間，無論我們是在滑手機、看新</itunes:title>
       <itunes:author>雨晴</itunes:author>
       <itunes:duration>00:09:42</itunes:duration>
       <itunes:explicit>no</itunes:explicit>
       <itunes:episode>15</itunes:episode>
       <itunes:episodeType>full</itunes:episodeType>
-      <itunes:summary>擔心工作會被 AI 取代嗎？說真的，先別焦慮！你想想看，如果</itunes:summary>
-      <itunes:subtitle>擔心工作會被 AI 取代嗎？說真的，先別焦慮！你想想看，如果</itunes:subtitle>
+      <itunes:summary>嗨，歡迎來到雨晴的科技日常，我是雨晴。
+
+最近這段時間，無論我們是在滑手機、看新聞，還是跟朋友聊天，好像都離不開一個關鍵字，那就是 AI。說真的，我身邊很多朋友，甚至是包括我自己，有時候心裡都會冒出一個小小的聲音，悄悄地問自己，未來我的工作會不會就這樣被 AI 給取代了？這種感覺有點像是聽到遠方傳來轟隆隆的腳步聲，卻不確定走過來的是夥伴還是猛獸，我想這種對未知的焦慮，其實是非常正常的。
+
+不過，今天我想邀請你跟我一起，試著戴上另一副眼鏡，用一個全新的視角來看待 AI 這件事。與其把它看成一個虎視眈眈，準備搶走我們飯碗的競爭對手，不如我們把它想像成一個你夢寐以求的超級員工。你想想看，這個員工它不</itunes:summary>
+      <itunes:subtitle>嗨，歡迎來到雨晴的科技日常，我是雨晴。
+
+最近這段時間，無論我們是在滑手機、看新</itunes:subtitle>
       <itunes:keywords>科技,AI,一人創業,工具,趨勢</itunes:keywords>
-      <content:encoded><![CDATA[擔心工作會被 AI 取代嗎？說真的，先別焦慮！你想想看，如果]]></content:encoded>
+      <content:encoded><![CDATA[嗨，歡迎來到雨晴的科技日常，我是雨晴。
+
+最近這段時間，無論我們是在滑手機、看新聞，還是跟朋友聊天，好像都離不開一個關鍵字，那就是 AI。說真的，我身邊很多朋友，甚至是包括我自己，有時候心裡都會冒出一個小小的聲音，悄悄地問自己，未來我的工作會不會就這樣被 AI 給取代了？這種感覺有點像是聽到遠方傳來轟隆隆的腳步聲，卻不確定走過來的是夥伴還是猛獸，我想這種對未知的焦慮，其實是非常正常的。
+
+不過，今天我想邀請你跟我一起，試著戴上另一副眼鏡，用一個全新的視角來看待 AI 這件事。與其把它看成一個虎視眈眈，準備搶走我們飯碗的競爭對手，不如我們把它想像成一個你夢寐以求的超級員工。你想想看，這個員工它不]]></content:encoded>
     </item>
     <item>
-      <title>EP014 AI 寫程式越來越強，工程師是不是要失業了？說真的，這份焦慮</title>
-      <description>AI 寫程式越來越強，工程師是不是要失業了？說真的，這份焦慮</description>
+      <title>EP014 嗨，歡迎來到雨晴的科技日常，我是雨晴。
+
+最近我跟一些同樣在軟體圈打滾的工程師朋</title>
+      <description>嗨，歡迎來到雨晴的科技日常，我是雨晴。
+
+最近我跟一些同樣在軟體圈打滾的工程師朋友聊天，不管話題是從哪個專案開始的，聊到最後，幾乎都會飄向一個大家心照不宣，又有點焦慮的問題，那就是，AI 真的要來搶我們的工作了嗎？說真的，這個問題幾乎是每個開發者心裡的一根小刺，特別是當你親眼看到 AI 程式碼助理，像是 Github Copilot 這種工具，在你眼前行雲流水地補完程式碼的時候，那種感覺真的非常複雜。今天，我們就來好好地、深入地聊一聊這個話題，我想從我們每天都會接觸的 AI 程式碼助理切入，一起來拆解這份焦慮，看看 AI 究竟是會讓我們失業的終極對手，還是能讓我們能力翻倍的神級隊友。
+
+我想，</description>
       <pubDate>Tue, 21 Apr 2026 00:00:00 -0000</pubDate>
       <guid>9e28b750967fdbd388ea8b10f10a156d</guid>
       <link>https://solobuildtw.github.io/podcast/yuching-tech-daily/ep/014</link>
       <enclosure url="https://podcast-cdn.pick-tw.com/audio/CH1/EP014_AI%20%E5%AF%AB%E7%A8%8B%E5%BC%8F%E8%B6%8A%E4%BE%86%E8%B6%8A%E5%BC%B7%EF%BC%8C%E5%B7%A5%E7%A8%8B%E5%B8%AB%E6%98%AF%E4%B8%8D%E6%98%AF%E8%A6%81%E5%A4%B1%E6%A5%AD%E4%BA%86%EF%BC%9F%E8%AA%AA%E7%9C%9F%E7%9A%84%EF%BC%8C%E9%80%99%E4%BB%BD%E7%84%A6%E6%85%AE.mp3" type="audio/mpeg" length="14494241"/>
-      <itunes:title>EP014 AI 寫程式越來越強，工程師是不是要失業了？說真的，這份焦慮</itunes:title>
+      <itunes:title>EP014 嗨，歡迎來到雨晴的科技日常，我是雨晴。
+
+最近我跟一些同樣在軟體圈打滾的工程師朋</itunes:title>
       <itunes:author>雨晴</itunes:author>
       <itunes:duration>00:10:03</itunes:duration>
       <itunes:explicit>no</itunes:explicit>
       <itunes:episode>14</itunes:episode>
       <itunes:episodeType>full</itunes:episodeType>
-      <itunes:summary>AI 寫程式越來越強，工程師是不是要失業了？說真的，這份焦慮</itunes:summary>
-      <itunes:subtitle>AI 寫程式越來越強，工程師是不是要失業了？說真的，這份焦慮</itunes:subtitle>
+      <itunes:summary>嗨，歡迎來到雨晴的科技日常，我是雨晴。
+
+最近我跟一些同樣在軟體圈打滾的工程師朋友聊天，不管話題是從哪個專案開始的，聊到最後，幾乎都會飄向一個大家心照不宣，又有點焦慮的問題，那就是，AI 真的要來搶我們的工作了嗎？說真的，這個問題幾乎是每個開發者心裡的一根小刺，特別是當你親眼看到 AI 程式碼助理，像是 Github Copilot 這種工具，在你眼前行雲流水地補完程式碼的時候，那種感覺真的非常複雜。今天，我們就來好好地、深入地聊一聊這個話題，我想從我們每天都會接觸的 AI 程式碼助理切入，一起來拆解這份焦慮，看看 AI 究竟是會讓我們失業的終極對手，還是能讓我們能力翻倍的神級隊友。
+
+我想，</itunes:summary>
+      <itunes:subtitle>嗨，歡迎來到雨晴的科技日常，我是雨晴。
+
+最近我跟一些同樣在軟體圈打滾的工程師朋</itunes:subtitle>
       <itunes:keywords>科技,AI,一人創業,工具,趨勢</itunes:keywords>
-      <content:encoded><![CDATA[AI 寫程式越來越強，工程師是不是要失業了？說真的，這份焦慮]]></content:encoded>
+      <content:encoded><![CDATA[嗨，歡迎來到雨晴的科技日常，我是雨晴。
+
+最近我跟一些同樣在軟體圈打滾的工程師朋友聊天，不管話題是從哪個專案開始的，聊到最後，幾乎都會飄向一個大家心照不宣，又有點焦慮的問題，那就是，AI 真的要來搶我們的工作了嗎？說真的，這個問題幾乎是每個開發者心裡的一根小刺，特別是當你親眼看到 AI 程式碼助理，像是 Github Copilot 這種工具，在你眼前行雲流水地補完程式碼的時候，那種感覺真的非常複雜。今天，我們就來好好地、深入地聊一聊這個話題，我想從我們每天都會接觸的 AI 程式碼助理切入，一起來拆解這份焦慮，看看 AI 究竟是會讓我們失業的終極對手，還是能讓我們能力翻倍的神級隊友。
+
+我想，]]></content:encoded>
     </item>
     <item>
-      <title>EP013 你是不是也覺得，最近常用的 AI 助理好像變笨了？以前能寫出</title>
-      <description>你是不是也覺得，最近常用的 AI 助理好像變笨了？以前能寫出</description>
+      <title>EP013 嗨，歡迎來到雨晴的科技日常，我是雨晴。
+
+最近跟幾個在當工程師的朋友聊天，我們聊</title>
+      <description>嗨，歡迎來到雨晴的科技日常，我是雨晴。
+
+最近跟幾個在當工程師的朋友聊天，我們聊到一個大家心照不宣，但又有點無奈的共同感受，那就是我們每天在用的 AI 助理，不管是寫程式還是做報告，好像都沒有幾個月前那麼聰明了。你有沒有過這種感覺呢，幾個月前你丟一個很複雜的程式問題給它，它可能給你一段堪稱完美的程式碼，還附上鉅細靡遺的解說，讓你覺得自己簡直是撿到寶了。但是最近，你可能問了同樣等級的問題，它卻開始有點答非所問，甚至會出現一些讓人哭笑不得的基礎錯誤。這個時候你可能會開始懷疑自己，是不是我的錯覺，還是我的提問技巧退步了呢。
+
+今天我就想跟你聊聊，這很可能不是你的問題。這個 AI 變笨的現象，正在整個</description>
       <pubDate>Mon, 20 Apr 2026 00:00:00 -0000</pubDate>
       <guid>6eee57ee79ec8eab5e5cb887075ddafd</guid>
       <link>https://solobuildtw.github.io/podcast/yuching-tech-daily/ep/013</link>
       <enclosure url="https://podcast-cdn.pick-tw.com/audio/CH1/EP013_%E4%BD%A0%E6%98%AF%E4%B8%8D%E6%98%AF%E4%B9%9F%E8%A6%BA%E5%BE%97%EF%BC%8C%E6%9C%80%E8%BF%91%E5%B8%B8%E7%94%A8%E7%9A%84%20AI%20%E5%8A%A9%E7%90%86%E5%A5%BD%E5%83%8F%E8%AE%8A%E7%AC%A8%E4%BA%86%EF%BC%9F%E4%BB%A5%E5%89%8D%E8%83%BD%E5%AF%AB%E5%87%BA.mp3" type="audio/mpeg" length="14083596"/>
-      <itunes:title>EP013 你是不是也覺得，最近常用的 AI 助理好像變笨了？以前能寫出</itunes:title>
+      <itunes:title>EP013 嗨，歡迎來到雨晴的科技日常，我是雨晴。
+
+最近跟幾個在當工程師的朋友聊天，我們聊</itunes:title>
       <itunes:author>雨晴</itunes:author>
       <itunes:duration>00:09:46</itunes:duration>
       <itunes:explicit>no</itunes:explicit>
       <itunes:episode>13</itunes:episode>
       <itunes:episodeType>full</itunes:episodeType>
-      <itunes:summary>你是不是也覺得，最近常用的 AI 助理好像變笨了？以前能寫出</itunes:summary>
-      <itunes:subtitle>你是不是也覺得，最近常用的 AI 助理好像變笨了？以前能寫出</itunes:subtitle>
+      <itunes:summary>嗨，歡迎來到雨晴的科技日常，我是雨晴。
+
+最近跟幾個在當工程師的朋友聊天，我們聊到一個大家心照不宣，但又有點無奈的共同感受，那就是我們每天在用的 AI 助理，不管是寫程式還是做報告，好像都沒有幾個月前那麼聰明了。你有沒有過這種感覺呢，幾個月前你丟一個很複雜的程式問題給它，它可能給你一段堪稱完美的程式碼，還附上鉅細靡遺的解說，讓你覺得自己簡直是撿到寶了。但是最近，你可能問了同樣等級的問題，它卻開始有點答非所問，甚至會出現一些讓人哭笑不得的基礎錯誤。這個時候你可能會開始懷疑自己，是不是我的錯覺，還是我的提問技巧退步了呢。
+
+今天我就想跟你聊聊，這很可能不是你的問題。這個 AI 變笨的現象，正在整個</itunes:summary>
+      <itunes:subtitle>嗨，歡迎來到雨晴的科技日常，我是雨晴。
+
+最近跟幾個在當工程師的朋友聊天，我們聊</itunes:subtitle>
       <itunes:keywords>科技,AI,一人創業,工具,趨勢</itunes:keywords>
-      <content:encoded><![CDATA[你是不是也覺得，最近常用的 AI 助理好像變笨了？以前能寫出]]></content:encoded>
+      <content:encoded><![CDATA[嗨，歡迎來到雨晴的科技日常，我是雨晴。
+
+最近跟幾個在當工程師的朋友聊天，我們聊到一個大家心照不宣，但又有點無奈的共同感受，那就是我們每天在用的 AI 助理，不管是寫程式還是做報告，好像都沒有幾個月前那麼聰明了。你有沒有過這種感覺呢，幾個月前你丟一個很複雜的程式問題給它，它可能給你一段堪稱完美的程式碼，還附上鉅細靡遺的解說，讓你覺得自己簡直是撿到寶了。但是最近，你可能問了同樣等級的問題，它卻開始有點答非所問，甚至會出現一些讓人哭笑不得的基礎錯誤。這個時候你可能會開始懷疑自己，是不是我的錯覺，還是我的提問技巧退步了呢。
+
+今天我就想跟你聊聊，這很可能不是你的問題。這個 AI 變笨的現象，正在整個]]></content:encoded>
     </item>
     <item>
-      <title>EP012 當大家都在追逐更強大的 AI 巨獸時，我們真正的機會在哪？說</title>
-      <description>當大家都在追逐更強大的 AI 巨獸時，我們真正的機會在哪？說</description>
+      <title>EP012 嗨，歡迎來到雨晴的科技日常，我是雨晴。
+
+今天我想跟你聊一個話題，說真的，我覺得</title>
+      <description>嗨，歡迎來到雨晴的科技日常，我是雨晴。
+
+今天我想跟你聊一個話題，說真的，我覺得它對每一個獨立工作者、創業者，或者只是單純對科技充滿好奇心的朋友來說，都特別重要。最近這段時間，整個科技圈的目光，幾乎都聚焦在那些更大、更強的AI模型上，我們每天都在聽說誰家的模型參數又破了紀錄，或是下一個版本的GPT會有什麼超能力。這種對極致性能的追逐當然很精彩，但你想想看，當所有人都仰望著同一片星空時，我們是不是有可能忽略了腳下正在遍地開花的寶藏呢？
+
+這股正在悄悄崛起，而且可能對我們個人更有意義的力量，就是所謂的「AI小模型」。我認為，對於我們這些資源相對有限的個人或小團隊來說，真正的黃金機會，可能就藏在這些</description>
       <pubDate>Sun, 19 Apr 2026 00:00:00 -0000</pubDate>
       <guid>d3b407949c59f5e730a874e18d3ccc8a</guid>
       <link>https://solobuildtw.github.io/podcast/yuching-tech-daily/ep/012</link>
       <enclosure url="https://podcast-cdn.pick-tw.com/audio/CH1/EP012_%E7%95%B6%E5%A4%A7%E5%AE%B6%E9%83%BD%E5%9C%A8%E8%BF%BD%E9%80%90%E6%9B%B4%E5%BC%B7%E5%A4%A7%E7%9A%84%20AI%20%E5%B7%A8%E7%8D%B8%E6%99%82%EF%BC%8C%E6%88%91%E5%80%91%E7%9C%9F%E6%AD%A3%E7%9A%84%E6%A9%9F%E6%9C%83%E5%9C%A8%E5%93%AA%EF%BC%9F%E8%AA%AA.mp3" type="audio/mpeg" length="15708622"/>
-      <itunes:title>EP012 當大家都在追逐更強大的 AI 巨獸時，我們真正的機會在哪？說</itunes:title>
+      <itunes:title>EP012 嗨，歡迎來到雨晴的科技日常，我是雨晴。
+
+今天我想跟你聊一個話題，說真的，我覺得</itunes:title>
       <itunes:author>雨晴</itunes:author>
       <itunes:duration>00:10:54</itunes:duration>
       <itunes:explicit>no</itunes:explicit>
       <itunes:episode>12</itunes:episode>
       <itunes:episodeType>full</itunes:episodeType>
-      <itunes:summary>當大家都在追逐更強大的 AI 巨獸時，我們真正的機會在哪？說</itunes:summary>
-      <itunes:subtitle>當大家都在追逐更強大的 AI 巨獸時，我們真正的機會在哪？說</itunes:subtitle>
+      <itunes:summary>嗨，歡迎來到雨晴的科技日常，我是雨晴。
+
+今天我想跟你聊一個話題，說真的，我覺得它對每一個獨立工作者、創業者，或者只是單純對科技充滿好奇心的朋友來說，都特別重要。最近這段時間，整個科技圈的目光，幾乎都聚焦在那些更大、更強的AI模型上，我們每天都在聽說誰家的模型參數又破了紀錄，或是下一個版本的GPT會有什麼超能力。這種對極致性能的追逐當然很精彩，但你想想看，當所有人都仰望著同一片星空時，我們是不是有可能忽略了腳下正在遍地開花的寶藏呢？
+
+這股正在悄悄崛起，而且可能對我們個人更有意義的力量，就是所謂的「AI小模型」。我認為，對於我們這些資源相對有限的個人或小團隊來說，真正的黃金機會，可能就藏在這些</itunes:summary>
+      <itunes:subtitle>嗨，歡迎來到雨晴的科技日常，我是雨晴。
+
+今天我想跟你聊一個話題，說真的，我覺得</itunes:subtitle>
       <itunes:keywords>科技,AI,一人創業,工具,趨勢</itunes:keywords>
-      <content:encoded><![CDATA[當大家都在追逐更強大的 AI 巨獸時，我們真正的機會在哪？說]]></content:encoded>
+      <content:encoded><![CDATA[嗨，歡迎來到雨晴的科技日常，我是雨晴。
+
+今天我想跟你聊一個話題，說真的，我覺得它對每一個獨立工作者、創業者，或者只是單純對科技充滿好奇心的朋友來說，都特別重要。最近這段時間，整個科技圈的目光，幾乎都聚焦在那些更大、更強的AI模型上，我們每天都在聽說誰家的模型參數又破了紀錄，或是下一個版本的GPT會有什麼超能力。這種對極致性能的追逐當然很精彩，但你想想看，當所有人都仰望著同一片星空時，我們是不是有可能忽略了腳下正在遍地開花的寶藏呢？
+
+這股正在悄悄崛起，而且可能對我們個人更有意義的力量，就是所謂的「AI小模型」。我認為，對於我們這些資源相對有限的個人或小團隊來說，真正的黃金機會，可能就藏在這些]]></content:encoded>
     </item>
     <item>
-      <title>EP011 一個人工作總覺得分身乏術嗎？說真的，如果能擁有一個不用付薪水</title>
-      <description>一個人工作總覺得分身乏術嗎？說真的，如果能擁有一個不用付薪水</description>
+      <title>EP011 嗨，歡迎來到雨晴的科技日常，我是雨晴。
+
+你是不是也常常覺得，自己一個人工作，就</title>
+      <description>嗨，歡迎來到雨晴的科技日常，我是雨晴。
+
+你是不是也常常覺得，自己一個人工作，就算有三頭六臂也還是不夠用呢？一下子要規劃產品，一下子要埋頭寫程式，轉個身又要處理行銷跟客服，每天的時間好像都被切成了無數個碎片。說真的，這種身兼數職的狀態，幾乎是每個獨立開發者或是一人公司的日常寫照。如果我告訴你，未來你或許不再需要這樣孤軍奮戰，你可以擁有一整個團隊來幫你，而且這個團隊還不用付薪水、不會抱怨加班，聽起來是不是很像科幻電影的情節？
+
+但這件事，正在以我們意想不到的速度變成現實。今天，我們就要來聊一個超級熱門，也可能徹底改變未來工作模式的話題，那就是 AI 代理人，或者我們可以稱它為 AI Agent。</description>
       <pubDate>Sat, 18 Apr 2026 00:00:00 -0000</pubDate>
       <guid>af9a93071db2c7f962a4d6af29176c9c</guid>
       <link>https://solobuildtw.github.io/podcast/yuching-tech-daily/ep/011</link>
       <enclosure url="https://podcast-cdn.pick-tw.com/audio/CH1/EP011_%E4%B8%80%E5%80%8B%E4%BA%BA%E5%B7%A5%E4%BD%9C%E7%B8%BD%E8%A6%BA%E5%BE%97%E5%88%86%E8%BA%AB%E4%B9%8F%E8%A1%93%E5%97%8E%EF%BC%9F%E8%AA%AA%E7%9C%9F%E7%9A%84%EF%BC%8C%E5%A6%82%E6%9E%9C%E8%83%BD%E6%93%81%E6%9C%89%E4%B8%80%E5%80%8B%E4%B8%8D%E7%94%A8%E4%BB%98%E8%96%AA%E6%B0%B4.mp3" type="audio/mpeg" length="14988896"/>
-      <itunes:title>EP011 一個人工作總覺得分身乏術嗎？說真的，如果能擁有一個不用付薪水</itunes:title>
+      <itunes:title>EP011 嗨，歡迎來到雨晴的科技日常，我是雨晴。
+
+你是不是也常常覺得，自己一個人工作，就</itunes:title>
       <itunes:author>雨晴</itunes:author>
       <itunes:duration>00:10:24</itunes:duration>
       <itunes:explicit>no</itunes:explicit>
       <itunes:episode>11</itunes:episode>
       <itunes:episodeType>full</itunes:episodeType>
-      <itunes:summary>一個人工作總覺得分身乏術嗎？說真的，如果能擁有一個不用付薪水</itunes:summary>
-      <itunes:subtitle>一個人工作總覺得分身乏術嗎？說真的，如果能擁有一個不用付薪水</itunes:subtitle>
+      <itunes:summary>嗨，歡迎來到雨晴的科技日常，我是雨晴。
+
+你是不是也常常覺得，自己一個人工作，就算有三頭六臂也還是不夠用呢？一下子要規劃產品，一下子要埋頭寫程式，轉個身又要處理行銷跟客服，每天的時間好像都被切成了無數個碎片。說真的，這種身兼數職的狀態，幾乎是每個獨立開發者或是一人公司的日常寫照。如果我告訴你，未來你或許不再需要這樣孤軍奮戰，你可以擁有一整個團隊來幫你，而且這個團隊還不用付薪水、不會抱怨加班，聽起來是不是很像科幻電影的情節？
+
+但這件事，正在以我們意想不到的速度變成現實。今天，我們就要來聊一個超級熱門，也可能徹底改變未來工作模式的話題，那就是 AI 代理人，或者我們可以稱它為 AI Agent。</itunes:summary>
+      <itunes:subtitle>嗨，歡迎來到雨晴的科技日常，我是雨晴。
+
+你是不是也常常覺得，自己一個人工作，就</itunes:subtitle>
       <itunes:keywords>科技,AI,一人創業,工具,趨勢</itunes:keywords>
-      <content:encoded><![CDATA[一個人工作總覺得分身乏術嗎？說真的，如果能擁有一個不用付薪水]]></content:encoded>
+      <content:encoded><![CDATA[嗨，歡迎來到雨晴的科技日常，我是雨晴。
+
+你是不是也常常覺得，自己一個人工作，就算有三頭六臂也還是不夠用呢？一下子要規劃產品，一下子要埋頭寫程式，轉個身又要處理行銷跟客服，每天的時間好像都被切成了無數個碎片。說真的，這種身兼數職的狀態，幾乎是每個獨立開發者或是一人公司的日常寫照。如果我告訴你，未來你或許不再需要這樣孤軍奮戰，你可以擁有一整個團隊來幫你，而且這個團隊還不用付薪水、不會抱怨加班，聽起來是不是很像科幻電影的情節？
+
+但這件事，正在以我們意想不到的速度變成現實。今天，我們就要來聊一個超級熱門，也可能徹底改變未來工作模式的話題，那就是 AI 代理人，或者我們可以稱它為 AI Agent。]]></content:encoded>
     </item>
     <item>
-      <title>EP010 覺得 AI 都是科技巨頭的遊戲嗎？說真的，最近「小模型」的逆</title>
-      <description>覺得 AI 都是科技巨頭的遊戲嗎？說真的，最近「小模型」的逆</description>
+      <title>EP010 AI發展的另一條路，小模型的崛起為創作者帶來全新機會。
+
+你是不是也覺得，每天打</title>
+      <description>AI發展的另一條路，小模型的崛起為創作者帶來全新機會。
+
+你是不是也覺得，每天打開新聞，都快要得「AI焦慮症」了呢？
+
+嗨，歡迎來到雨晴的科技日常，我是雨晴。
+
+說真的，最近這一年多，你是不是也跟我有同樣的感覺，好像每天一睜開眼睛，就會被各種關於大型 AI 模型的新聞給淹沒。一下子是 OpenAI 又發表了更驚人的模型，一下子是 Google 秀出了他們最新的多模態能力，然後市場上又殺出一個新的挑戰者，宣稱他們的模型在哪個項目上超越了所有人。這感覺就像是一場永無止境的軍備競賽，每一家科技巨頭都在瘋狂地堆高參數數量，展示他們無與倫比的運算能力。這一切都非常厲害，也確實推動了科技的邊界，但同時也給</description>
       <pubDate>Fri, 17 Apr 2026 00:00:00 -0000</pubDate>
       <guid>5a0395bdf9d88728540ca42bc87dcea6</guid>
       <link>https://solobuildtw.github.io/podcast/yuching-tech-daily/ep/010</link>
       <enclosure url="https://podcast-cdn.pick-tw.com/audio/CH1/EP010_%E8%A6%BA%E5%BE%97%20AI%20%E9%83%BD%E6%98%AF%E7%A7%91%E6%8A%80%E5%B7%A8%E9%A0%AD%E7%9A%84%E9%81%8A%E6%88%B2%E5%97%8E%EF%BC%9F%E8%AA%AA%E7%9C%9F%E7%9A%84%EF%BC%8C%E6%9C%80%E8%BF%91%E3%80%8C%E5%B0%8F%E6%A8%A1%E5%9E%8B%E3%80%8D%E7%9A%84%E9%80%86.mp3" type="audio/mpeg" length="15303619"/>
-      <itunes:title>EP010 覺得 AI 都是科技巨頭的遊戲嗎？說真的，最近「小模型」的逆</itunes:title>
+      <itunes:title>EP010 AI發展的另一條路，小模型的崛起為創作者帶來全新機會。
+
+你是不是也覺得，每天打</itunes:title>
       <itunes:author>雨晴</itunes:author>
       <itunes:duration>00:10:37</itunes:duration>
       <itunes:explicit>no</itunes:explicit>
       <itunes:episode>10</itunes:episode>
       <itunes:episodeType>full</itunes:episodeType>
-      <itunes:summary>覺得 AI 都是科技巨頭的遊戲嗎？說真的，最近「小模型」的逆</itunes:summary>
-      <itunes:subtitle>覺得 AI 都是科技巨頭的遊戲嗎？說真的，最近「小模型」的逆</itunes:subtitle>
+      <itunes:summary>AI發展的另一條路，小模型的崛起為創作者帶來全新機會。
+
+你是不是也覺得，每天打開新聞，都快要得「AI焦慮症」了呢？
+
+嗨，歡迎來到雨晴的科技日常，我是雨晴。
+
+說真的，最近這一年多，你是不是也跟我有同樣的感覺，好像每天一睜開眼睛，就會被各種關於大型 AI 模型的新聞給淹沒。一下子是 OpenAI 又發表了更驚人的模型，一下子是 Google 秀出了他們最新的多模態能力，然後市場上又殺出一個新的挑戰者，宣稱他們的模型在哪個項目上超越了所有人。這感覺就像是一場永無止境的軍備競賽，每一家科技巨頭都在瘋狂地堆高參數數量，展示他們無與倫比的運算能力。這一切都非常厲害，也確實推動了科技的邊界，但同時也給</itunes:summary>
+      <itunes:subtitle>AI發展的另一條路，小模型的崛起為創作者帶來全新機會。
+
+你是不是也覺得，每天打</itunes:subtitle>
       <itunes:keywords>科技,AI,一人創業,工具,趨勢</itunes:keywords>
-      <content:encoded><![CDATA[覺得 AI 都是科技巨頭的遊戲嗎？說真的，最近「小模型」的逆]]></content:encoded>
-    </item>
-    <item>
-      <title>EP009 當科技巨頭都在追求巨大AI模型時，一股「小而美」的趨勢正悄悄</title>
-      <description>當科技巨頭都在追求巨大AI模型時，一股「小而美」的趨勢正悄悄</description>
-      <pubDate>Thu, 16 Apr 2026 00:00:00 -0000</pubDate>
-      <guid>65d07dacf3a5967cb596c44059d8a6f7</guid>
-      <link>https://solobuildtw.github.io/podcast/yuching-tech-daily/ep/009</link>
-      <enclosure url="https://podcast-cdn.pick-tw.com/audio/CH1/EP009_%E7%95%B6%E7%A7%91%E6%8A%80%E5%B7%A8%E9%A0%AD%E9%83%BD%E5%9C%A8%E8%BF%BD%E6%B1%82%E5%B7%A8%E5%A4%A7AI%E6%A8%A1%E5%9E%8B%E6%99%82%EF%BC%8C%E4%B8%80%E8%82%A1%E3%80%8C%E5%B0%8F%E8%80%8C%E7%BE%8E%E3%80%8D%E7%9A%84%E8%B6%A8%E5%8B%A2%E6%AD%A3%E6%82%84%E6%82%84.mp3" type="audio/mpeg" length="14400200"/>
-      <itunes:title>EP009 當科技巨頭都在追求巨大AI模型時，一股「小而美」的趨勢正悄悄</itunes:title>
-      <itunes:author>雨晴</itunes:author>
-      <itunes:duration>00:09:59</itunes:duration>
-      <itunes:explicit>no</itunes:explicit>
-      <itunes:episode>9</itunes:episode>
-      <itunes:episodeType>full</itunes:episodeType>
-      <itunes:summary>當科技巨頭都在追求巨大AI模型時，一股「小而美」的趨勢正悄悄</itunes:summary>
-      <itunes:subtitle>當科技巨頭都在追求巨大AI模型時，一股「小而美」的趨勢正悄悄</itunes:subtitle>
-      <itunes:keywords>科技,AI,一人創業,工具,趨勢</itunes:keywords>
-      <content:encoded><![CDATA[當科技巨頭都在追求巨大AI模型時，一股「小而美」的趨勢正悄悄]]></content:encoded>
-    </item>
-    <item>
-      <title>EP008 當AI能幫你寫程式、做設計，甚至完成八成以上的工作，你還能抬</title>
-      <description>當AI能幫你寫程式、做設計，甚至完成八成以上的工作，你還能抬</description>
-      <pubDate>Wed, 15 Apr 2026 00:00:00 -0000</pubDate>
-      <guid>b0e12cbf83a22bf1d7f11339a4a0c4f7</guid>
-      <link>https://solobuildtw.github.io/podcast/yuching-tech-daily/ep/008</link>
-      <enclosure url="https://podcast-cdn.pick-tw.com/audio/CH1/EP008_%E7%95%B6AI%E8%83%BD%E5%B9%AB%E4%BD%A0%E5%AF%AB%E7%A8%8B%E5%BC%8F%E3%80%81%E5%81%9A%E8%A8%AD%E8%A8%88%EF%BC%8C%E7%94%9A%E8%87%B3%E5%AE%8C%E6%88%90%E5%85%AB%E6%88%90%E4%BB%A5%E4%B8%8A%E7%9A%84%E5%B7%A5%E4%BD%9C%EF%BC%8C%E4%BD%A0%E9%82%84%E8%83%BD%E6%8A%AC.mp3" type="audio/mpeg" length="14861627"/>
-      <itunes:title>EP008 當AI能幫你寫程式、做設計，甚至完成八成以上的工作，你還能抬</itunes:title>
-      <itunes:author>雨晴</itunes:author>
-      <itunes:duration>00:10:19</itunes:duration>
-      <itunes:explicit>no</itunes:explicit>
-      <itunes:episode>8</itunes:episode>
-      <itunes:episodeType>full</itunes:episodeType>
-      <itunes:summary>當AI能幫你寫程式、做設計，甚至完成八成以上的工作，你還能抬</itunes:summary>
-      <itunes:subtitle>當AI能幫你寫程式、做設計，甚至完成八成以上的工作，你還能抬</itunes:subtitle>
-      <itunes:keywords>科技,AI,一人創業,工具,趨勢</itunes:keywords>
-      <content:encoded><![CDATA[當AI能幫你寫程式、做設計，甚至完成八成以上的工作，你還能抬]]></content:encoded>
+      <content:encoded><![CDATA[AI發展的另一條路，小模型的崛起為創作者帶來全新機會。
+
+你是不是也覺得，每天打開新聞，都快要得「AI焦慮症」了呢？
+
+嗨，歡迎來到雨晴的科技日常，我是雨晴。
+
+說真的，最近這一年多，你是不是也跟我有同樣的感覺，好像每天一睜開眼睛，就會被各種關於大型 AI 模型的新聞給淹沒。一下子是 OpenAI 又發表了更驚人的模型，一下子是 Google 秀出了他們最新的多模態能力，然後市場上又殺出一個新的挑戰者，宣稱他們的模型在哪個項目上超越了所有人。這感覺就像是一場永無止境的軍備競賽，每一家科技巨頭都在瘋狂地堆高參數數量，展示他們無與倫比的運算能力。這一切都非常厲害，也確實推動了科技的邊界，但同時也給]]></content:encoded>
     </item>
   </channel>
 </rss>
