@@ -1,0 +1,539 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>台灣公開數據 API — SoloBuildTW</title>
+  <meta name="description" content="台灣股票/法人/實價登錄/氣象/匯率/AQI/地址 API，一站式整合，月費 NT$300 起。Cloudflare Workers 部署，全球低延遲，繁中文件，台灣開發者友善。" />
+  <meta property="og:title" content="台灣公開數據 API — SoloBuildTW" />
+  <meta property="og:description" content="台灣股票/法人/實價登錄/氣象/匯率 API，一站式整合，月費 NT$300 起。" />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://solobuildtw.github.io/api/" />
+  <meta property="og:locale" content="zh_TW" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <link rel="canonical" href="https://solobuildtw.github.io/api/" />
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🇹🇼</text></svg>" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;500;700&family=Inter:wght@400;600;700&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet" />
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-DWXVFMH12H"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-DWXVFMH12H');
+  </script>
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Product",
+    "name": "Taiwan Open Data API Platform",
+    "description": "Unified REST API for Taiwan government open data: stocks, weather, exchange rates, AQI, addresses, institutional investors, real estate.",
+    "brand": { "@type": "Brand", "name": "SoloBuildTW" },
+    "offers": {
+      "@type": "AggregateOffer",
+      "priceCurrency": "TWD",
+      "lowPrice": "300",
+      "highPrice": "29999",
+      "offerCount": "12"
+    }
+  }
+  </script>
+  <style>
+    :root {
+      --bg: #0b1020;
+      --surface: #131a30;
+      --surface-2: #1a2342;
+      --border: #2a3656;
+      --text: #e8ecf5;
+      --text-dim: #9aa4be;
+      --accent: #4ade80;
+      --accent-2: #60a5fa;
+      --warn: #fbbf24;
+      --danger: #f87171;
+    }
+    * { box-sizing: border-box; }
+    html, body { margin: 0; padding: 0; }
+    body {
+      background: var(--bg);
+      color: var(--text);
+      font-family: 'Noto Sans TC', 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+      line-height: 1.6;
+      font-size: 16px;
+    }
+    code, pre { font-family: 'JetBrains Mono', Consolas, monospace; }
+    a { color: var(--accent-2); text-decoration: none; }
+    a:hover { text-decoration: underline; }
+
+    .container { max-width: 1100px; margin: 0 auto; padding: 0 20px; }
+
+    /* Header */
+    header.nav {
+      background: rgba(11,16,32,0.85);
+      backdrop-filter: blur(8px);
+      border-bottom: 1px solid var(--border);
+      position: sticky; top: 0; z-index: 100;
+    }
+    header.nav .container { display: flex; align-items: center; justify-content: space-between; padding-top: 14px; padding-bottom: 14px; }
+    header.nav .brand { font-weight: 700; font-size: 18px; }
+    header.nav .brand .flag { font-size: 22px; margin-right: 6px; }
+    header.nav nav a { color: var(--text-dim); margin-left: 22px; font-size: 14px; }
+    header.nav nav a:hover { color: var(--text); }
+
+    /* Hero */
+    .hero { padding: 80px 0 60px; text-align: center; }
+    .hero h1 { font-size: 44px; line-height: 1.2; margin: 0 0 18px; font-weight: 700; }
+    .hero .accent { color: var(--accent); }
+    .hero p.lead { font-size: 18px; color: var(--text-dim); max-width: 720px; margin: 0 auto 32px; }
+    .hero .cta-row { display: flex; gap: 14px; justify-content: center; flex-wrap: wrap; }
+    .btn { display: inline-block; padding: 12px 24px; border-radius: 8px; font-weight: 600; font-size: 15px; transition: all 0.15s; cursor: pointer; border: none; }
+    .btn-primary { background: var(--accent); color: var(--bg); }
+    .btn-primary:hover { background: #22c55e; transform: translateY(-1px); text-decoration: none; }
+    .btn-secondary { background: transparent; color: var(--text); border: 1px solid var(--border); }
+    .btn-secondary:hover { background: var(--surface); text-decoration: none; }
+    .hero .stat-row { display: flex; gap: 40px; justify-content: center; margin-top: 50px; flex-wrap: wrap; }
+    .stat { text-align: center; }
+    .stat .num { font-size: 32px; font-weight: 700; color: var(--accent); }
+    .stat .label { font-size: 13px; color: var(--text-dim); }
+
+    /* Sections */
+    section { padding: 70px 0; border-top: 1px solid var(--border); }
+    section h2 { font-size: 32px; margin: 0 0 12px; font-weight: 700; }
+    section .sub { color: var(--text-dim); font-size: 16px; margin-bottom: 36px; }
+
+    /* API Grid */
+    .api-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 18px; }
+    .api-card {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      padding: 22px;
+      transition: all 0.2s;
+    }
+    .api-card:hover { border-color: var(--accent-2); transform: translateY(-2px); }
+    .api-card .head { display: flex; align-items: center; justify-content: space-between; margin-bottom: 12px; }
+    .api-card .name { font-size: 17px; font-weight: 700; }
+    .api-card .name-en { font-size: 13px; color: var(--text-dim); font-family: 'Inter', sans-serif; margin-top: 2px; }
+    .api-card .badge { font-size: 11px; padding: 3px 8px; border-radius: 4px; font-weight: 600; }
+    .badge-live { background: rgba(74,222,128,0.15); color: var(--accent); }
+    .badge-soon { background: rgba(251,191,36,0.15); color: var(--warn); }
+    .api-card .desc { color: var(--text-dim); font-size: 14px; margin: 8px 0 14px; line-height: 1.5; }
+    .api-card code.path { font-size: 12px; background: var(--surface-2); padding: 4px 8px; border-radius: 4px; color: var(--accent-2); }
+    .api-card .data-info { display: flex; gap: 14px; margin-top: 12px; font-size: 12px; color: var(--text-dim); }
+
+    /* Pricing */
+    .pricing-toggle { display: flex; gap: 8px; justify-content: center; margin-bottom: 32px; }
+    .pricing-toggle button { padding: 8px 18px; border-radius: 6px; border: 1px solid var(--border); background: transparent; color: var(--text-dim); cursor: pointer; font-weight: 600; }
+    .pricing-toggle button.active { background: var(--accent); color: var(--bg); border-color: var(--accent); }
+    .pricing-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 18px; }
+    .price-card {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      padding: 28px 22px;
+      text-align: center;
+      position: relative;
+    }
+    .price-card.featured { border-color: var(--accent); background: linear-gradient(180deg, rgba(74,222,128,0.06), transparent); }
+    .price-card.featured::before { content: '推薦'; position: absolute; top: -10px; left: 50%; transform: translateX(-50%); background: var(--accent); color: var(--bg); font-size: 11px; font-weight: 700; padding: 4px 10px; border-radius: 4px; }
+    .price-card .tier-name { font-size: 18px; font-weight: 700; margin-bottom: 8px; }
+    .price-card .price { font-size: 36px; font-weight: 700; margin: 8px 0; }
+    .price-card .price .currency { font-size: 16px; color: var(--text-dim); font-weight: 400; vertical-align: super; }
+    .price-card .price .period { font-size: 13px; color: var(--text-dim); font-weight: 400; }
+    .price-card .save { font-size: 12px; color: var(--accent); font-weight: 600; margin-bottom: 14px; min-height: 18px; }
+    .price-card .quota { font-size: 14px; color: var(--text-dim); margin-bottom: 18px; }
+    .price-card ul { list-style: none; padding: 0; margin: 0 0 22px; text-align: left; font-size: 14px; }
+    .price-card ul li { padding: 4px 0; color: var(--text-dim); }
+    .price-card ul li::before { content: '✓ '; color: var(--accent); font-weight: 700; }
+
+    /* Code samples */
+    .code-tabs { display: flex; gap: 4px; margin-bottom: 12px; }
+    .code-tabs button { padding: 8px 14px; background: transparent; border: 1px solid var(--border); color: var(--text-dim); cursor: pointer; border-radius: 6px 6px 0 0; font-family: inherit; font-size: 13px; }
+    .code-tabs button.active { background: var(--surface); color: var(--text); border-bottom-color: var(--surface); }
+    .code-block { background: var(--surface); border: 1px solid var(--border); border-radius: 0 8px 8px 8px; padding: 18px; overflow-x: auto; }
+    .code-block pre { margin: 0; font-size: 13px; line-height: 1.6; color: var(--text); }
+    .code-block .hide { display: none; }
+
+    /* FAQ */
+    .faq-list details {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      padding: 16px 20px;
+      margin-bottom: 10px;
+    }
+    .faq-list summary { font-weight: 600; cursor: pointer; outline: none; }
+    .faq-list details[open] summary { color: var(--accent); margin-bottom: 10px; }
+    .faq-list .answer { color: var(--text-dim); font-size: 15px; padding-top: 4px; }
+
+    /* Footer */
+    footer { padding: 40px 0; border-top: 1px solid var(--border); text-align: center; color: var(--text-dim); font-size: 13px; }
+    footer a { color: var(--text-dim); margin: 0 12px; }
+
+    @media (max-width: 640px) {
+      .hero h1 { font-size: 32px; }
+      .hero .stat-row { gap: 24px; }
+      header.nav nav a { margin-left: 12px; font-size: 13px; }
+    }
+  </style>
+</head>
+<body>
+  <header class="nav">
+    <div class="container">
+      <div class="brand"><span class="flag">🇹🇼</span>Taiwan Data API <span style="color:var(--text-dim); font-size:14px; font-weight:400; margin-left:6px;">by SoloBuildTW</span></div>
+      <nav>
+        <a href="#apis">8 個 API</a>
+        <a href="#pricing">定價</a>
+        <a href="#docs">文件</a>
+        <a href="#faq">FAQ</a>
+        <a href="https://solobuildtw.github.io/" style="color:var(--accent-2);">← 主站</a>
+      </nav>
+    </div>
+  </header>
+
+  <section class="hero">
+    <div class="container">
+      <h1>把台灣政府公開資料<br>包成<span class="accent">乾淨 REST API</span></h1>
+      <p class="lead">
+        台股、氣象、匯率、AQI、地址、法人籌碼、實價登錄 — 一個 API key 通吃。<br>
+        Cloudflare Workers 全球低延遲，繁中文件，月費 NT$300 起。
+      </p>
+      <div class="cta-row">
+        <a href="#pricing" class="btn btn-primary">看訂閱方案</a>
+        <a href="https://taiwan-data-api.harvey3630.workers.dev/api/v1/health" class="btn btn-secondary" target="_blank">即時健康檢查</a>
+      </div>
+      <div class="stat-row">
+        <div class="stat"><div class="num">8</div><div class="label">個 API endpoints</div></div>
+        <div class="stat"><div class="num">12,167+</div><div class="label">筆實價登錄</div></div>
+        <div class="stat"><div class="num">1,308</div><div class="label">支台股法人籌碼</div></div>
+        <div class="stat"><div class="num">99.9%</div><div class="label">SLA（CF Workers）</div></div>
+      </div>
+    </div>
+  </section>
+
+  <section id="apis">
+    <div class="container">
+      <h2>8 個 API（持續擴充中）</h2>
+      <div class="sub">資料源全部是台灣政府開放 API，OGDL 1.0 / CC BY 4.0 商業可用。</div>
+
+      <div class="api-grid">
+        <div class="api-card">
+          <div class="head">
+            <div><div class="name">📈 台灣股票 API</div><div class="name-en">Taiwan Stock API</div></div>
+            <span class="badge badge-live">已上線</span>
+          </div>
+          <div class="desc">TWSE 全部上市股票，每小時刷新，含成交量/開高低收/漲跌。</div>
+          <code class="path">GET /api/v1/stock</code>
+          <div class="data-info"><span>1,354 支</span><span>每小時更新</span></div>
+        </div>
+
+        <div class="api-card">
+          <div class="head">
+            <div><div class="name">🌤️ 台灣氣象 API</div><div class="name-en">Taiwan Weather API</div></div>
+            <span class="badge badge-live">已上線</span>
+          </div>
+          <div class="desc">中央氣象署 50 站即時溫濕度、風速、UV、雨量、氣壓。</div>
+          <code class="path">GET /api/v1/weather</code>
+          <div class="data-info"><span>50 站</span><span>每小時更新</span></div>
+        </div>
+
+        <div class="api-card">
+          <div class="head">
+            <div><div class="name">💱 台灣匯率 API</div><div class="name-en">Taiwan Exchange Rate API</div></div>
+            <span class="badge badge-live">已上線</span>
+          </div>
+          <div class="desc">台銀 19 幣別買賣即/現匯，每日刷新。</div>
+          <code class="path">GET /api/v1/exchange</code>
+          <div class="data-info"><span>19 幣別</span><span>每日更新</span></div>
+        </div>
+
+        <div class="api-card">
+          <div class="head">
+            <div><div class="name">🌫️ 台灣空氣品質 API</div><div class="name-en">Taiwan AQI API</div></div>
+            <span class="badge badge-live">已上線</span>
+          </div>
+          <div class="desc">環保署 80 站即時 PM2.5 / PM10 / O3 / CO / SO2 / NO2。</div>
+          <code class="path">GET /api/v1/aqi</code>
+          <div class="data-info"><span>80 站</span><span>每小時更新</span></div>
+        </div>
+
+        <div class="api-card">
+          <div class="head">
+            <div><div class="name">📍 台灣地址 API</div><div class="name-en">Taiwan Address API</div></div>
+            <span class="badge badge-live">已上線</span>
+          </div>
+          <div class="desc">經緯度反查行政區（NLSC）+ 台灣地址 parser，正反查雙模式。</div>
+          <code class="path">GET /api/v1/address</code>
+          <div class="data-info"><span>NLSC 官方</span><span>即時</span></div>
+        </div>
+
+        <div class="api-card">
+          <div class="head">
+            <div><div class="name">📊 台灣三大法人 API</div><div class="name-en">Taiwan Institutional Investors API</div></div>
+            <span class="badge badge-live">已上線</span>
+          </div>
+          <div class="desc">TWSE T86 個股三大法人買賣超（外資/投信/自營），量化交易剛需。</div>
+          <code class="path">GET /api/v1/institutional</code>
+          <div class="data-info"><span>1,308 個股</span><span>每交易日</span></div>
+        </div>
+
+        <div class="api-card">
+          <div class="head">
+            <div><div class="name">🏠 台灣實價登錄 API</div><div class="name-en">Taiwan Real Estate API</div></div>
+            <span class="badge badge-live">已上線</span>
+          </div>
+          <div class="desc">內政部 22 縣市買賣/預售/租賃實價登錄，PropTech 剛需。</div>
+          <code class="path">GET /api/v1/realestate</code>
+          <div class="data-info"><span>12,167+ 筆</span><span>每 10 天</span></div>
+        </div>
+
+        <div class="api-card">
+          <div class="head">
+            <div><div class="name">📋 台灣招標公告 API</div><div class="name-en">Taiwan Tender API</div></div>
+            <span class="badge badge-soon">即將上線</span>
+          </div>
+          <div class="desc">政府電子採購網標案，工程顧問 / B2B 剛需。</div>
+          <code class="path">GET /api/v1/tender</code>
+          <div class="data-info"><span>政府採購網</span><span>每 4 小時</span></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="pricing">
+    <div class="container">
+      <h2>訂閱方案</h2>
+      <div class="sub">年費 17% 折扣（省 2 個月）。台灣藍新付款，海外可走 RapidAPI。</div>
+
+      <div class="pricing-toggle">
+        <button id="btn-monthly" class="active" onclick="setBillingMode('monthly')">月費</button>
+        <button id="btn-yearly" onclick="setBillingMode('yearly')">年費 <span style="color:var(--accent); margin-left:4px;">-17%</span></button>
+      </div>
+
+      <div class="pricing-grid">
+        <div class="price-card">
+          <div class="tier-name">Free</div>
+          <div class="price"><span class="currency">NT$</span>0</div>
+          <div class="save">永久免費</div>
+          <div class="quota">100 req / 日</div>
+          <ul>
+            <li>所有 8 個 API</li>
+            <li>10 req/min 速率限制</li>
+            <li>社群支援</li>
+            <li>免信用卡註冊</li>
+          </ul>
+          <a href="#signup" class="btn btn-secondary" style="width:100%; box-sizing:border-box;">免費註冊</a>
+        </div>
+
+        <div class="price-card featured">
+          <div class="tier-name">Pro</div>
+          <div class="price">
+            <span class="currency">NT$</span><span data-monthly="300" data-yearly="2999">300</span>
+            <span class="period" data-monthly="/月" data-yearly="/年">/月</span>
+          </div>
+          <div class="save" data-monthly="" data-yearly="省 NT$601 (17% off)"></div>
+          <div class="quota">5,000 req / 日</div>
+          <ul>
+            <li>所有 8 個 API</li>
+            <li>60 req/min 速率限制</li>
+            <li>Email 客服</li>
+            <li>API key 用量統計</li>
+          </ul>
+          <a href="https://pay.solobuildtw.com/api/pay?product=api-pro-monthly" class="btn btn-primary" data-monthly-href="https://pay.solobuildtw.com/api/pay?product=api-pro-monthly" data-yearly-href="https://pay.solobuildtw.com/api/pay?product=api-pro-yearly" style="width:100%; box-sizing:border-box;">立即訂閱</a>
+        </div>
+
+        <div class="price-card">
+          <div class="tier-name">Ultra</div>
+          <div class="price">
+            <span class="currency">NT$</span><span data-monthly="899" data-yearly="8999">899</span>
+            <span class="period" data-monthly="/月" data-yearly="/年">/月</span>
+          </div>
+          <div class="save" data-monthly="" data-yearly="省 NT$1,789 (17% off)"></div>
+          <div class="quota">無限 req / 日</div>
+          <ul>
+            <li>所有 8 個 API</li>
+            <li>600 req/min 速率限制</li>
+            <li>優先客服</li>
+            <li>商業用途授權</li>
+          </ul>
+          <a href="https://pay.solobuildtw.com/api/pay?product=api-ultra-monthly" class="btn btn-secondary" data-monthly-href="https://pay.solobuildtw.com/api/pay?product=api-ultra-monthly" data-yearly-href="https://pay.solobuildtw.com/api/pay?product=api-ultra-yearly" style="width:100%; box-sizing:border-box;">立即訂閱</a>
+        </div>
+
+        <div class="price-card">
+          <div class="tier-name">Mega（企業）</div>
+          <div class="price">
+            <span class="currency">NT$</span><span data-monthly="2999" data-yearly="29999">2,999</span>
+            <span class="period" data-monthly="/月" data-yearly="/年">/月</span>
+          </div>
+          <div class="save" data-monthly="" data-yearly="省 NT$5,989 (17% off)"></div>
+          <div class="quota">無限 req</div>
+          <ul>
+            <li>所有 8 個 API</li>
+            <li>6,000 req/min 速率限制</li>
+            <li>SLA 99.9%</li>
+            <li>專屬客服 + 客製欄位</li>
+          </ul>
+          <a href="mailto:solobuildtw@gmail.com?subject=Mega%20Plan%20enquiry" class="btn btn-secondary" style="width:100%; box-sizing:border-box;">聯繫業務</a>
+        </div>
+      </div>
+
+      <div style="margin-top: 50px;">
+        <h3 style="font-size:22px; margin-bottom:12px;">套餐方案（推薦）</h3>
+        <div class="pricing-grid">
+          <div class="price-card">
+            <div class="tier-name">Finance Pack</div>
+            <div class="desc" style="font-size:13px; color:var(--text-dim); margin-bottom:12px;">Stock + Institutional + Exchange</div>
+            <div class="price">
+              <span class="currency">NT$</span><span data-monthly="869" data-yearly="8699">869</span>
+              <span class="period" data-monthly="/月" data-yearly="/年">/月</span>
+            </div>
+            <div class="save" data-monthly="3 in 1 套餐" data-yearly="3 in 1 套餐 + 17% off">3 in 1 套餐</div>
+            <a href="https://pay.solobuildtw.com/api/pay?product=api-finance-pack-monthly" class="btn btn-secondary" data-monthly-href="https://pay.solobuildtw.com/api/pay?product=api-finance-pack-monthly" data-yearly-href="https://pay.solobuildtw.com/api/pay?product=api-finance-pack-yearly" style="width:100%; box-sizing:border-box;">訂閱套餐</a>
+          </div>
+
+          <div class="price-card">
+            <div class="tier-name">PropTech Pack</div>
+            <div class="desc" style="font-size:13px; color:var(--text-dim); margin-bottom:12px;">Real Estate + Address + Tender</div>
+            <div class="price">
+              <span class="currency">NT$</span><span data-monthly="1169" data-yearly="11699">1,169</span>
+              <span class="period" data-monthly="/月" data-yearly="/年">/月</span>
+            </div>
+            <div class="save" data-monthly="3 in 1 套餐" data-yearly="3 in 1 套餐 + 17% off">3 in 1 套餐</div>
+            <a href="https://pay.solobuildtw.com/api/pay?product=api-proptech-pack-monthly" class="btn btn-secondary" data-monthly-href="https://pay.solobuildtw.com/api/pay?product=api-proptech-pack-monthly" data-yearly-href="https://pay.solobuildtw.com/api/pay?product=api-proptech-pack-yearly" style="width:100%; box-sizing:border-box;">訂閱套餐</a>
+          </div>
+
+          <div class="price-card featured">
+            <div class="tier-name">Suite 全包</div>
+            <div class="desc" style="font-size:13px; color:var(--text-dim); margin-bottom:12px;">8 個 API 全部 + 套餐專屬支援</div>
+            <div class="price">
+              <span class="currency">NT$</span><span data-monthly="2399" data-yearly="23990">2,399</span>
+              <span class="period" data-monthly="/月" data-yearly="/年">/月</span>
+            </div>
+            <div class="save" data-monthly="最划算" data-yearly="最划算 + 17% off">最划算</div>
+            <a href="https://pay.solobuildtw.com/api/pay?product=api-suite-monthly" class="btn btn-primary" data-monthly-href="https://pay.solobuildtw.com/api/pay?product=api-suite-monthly" data-yearly-href="https://pay.solobuildtw.com/api/pay?product=api-suite-yearly" style="width:100%; box-sizing:border-box;">訂閱 Suite</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="docs">
+    <div class="container">
+      <h2>30 秒上手</h2>
+      <div class="sub">付款後 email 收到 API key，貼到 X-API-Key header 就能用。</div>
+
+      <div class="code-tabs">
+        <button class="active" onclick="setLang('curl')" id="tab-curl">curl</button>
+        <button onclick="setLang('python')" id="tab-python">Python</button>
+        <button onclick="setLang('javascript')" id="tab-javascript">JavaScript</button>
+      </div>
+      <div class="code-block">
+        <pre id="code-curl"># 拿 5 個成交量最大的台股
+curl -H "X-API-Key: YOUR_API_KEY" \
+  https://taiwan-data-api.harvey3630.workers.dev/api/v1/stock | jq '.data.records[0:5]'
+
+# 反查台北 101 在哪一行政區
+curl -H "X-API-Key: YOUR_API_KEY" \
+  "https://taiwan-data-api.harvey3630.workers.dev/api/v1/address?lat=25.033964&lon=121.565418"</pre>
+        <pre id="code-python" class="hide">import requests
+
+API_KEY = "YOUR_API_KEY"
+BASE = "https://taiwan-data-api.harvey3630.workers.dev"
+headers = {"X-API-Key": API_KEY}
+
+# 拿台北市實價登錄
+r = requests.get(f"{BASE}/api/v1/realestate", params={"county": "臺北市"}, headers=headers)
+data = r.json()["data"]
+print(f"{data['count']} 筆，第一筆：{data['records'][0]}")</pre>
+        <pre id="code-javascript" class="hide">const API_KEY = 'YOUR_API_KEY';
+const BASE = 'https://taiwan-data-api.harvey3630.workers.dev';
+
+// 拿三大法人買賣超
+const r = await fetch(`${BASE}/api/v1/institutional`, {
+  headers: { 'X-API-Key': API_KEY }
+});
+const { data } = await r.json();
+console.log(`${data.total_records} 個股法人籌碼，日期 ${data.date}`);</pre>
+      </div>
+
+      <div style="margin-top: 24px; display:flex; gap:12px; flex-wrap:wrap;">
+        <a href="https://taiwan-data-api.harvey3630.workers.dev/" class="btn btn-secondary" target="_blank">完整 endpoint 列表</a>
+        <a href="#" class="btn btn-secondary" onclick="alert('OpenAPI 規格將提供：openapi.yaml');return false;">下載 OpenAPI</a>
+      </div>
+    </div>
+  </section>
+
+  <section id="faq">
+    <div class="container">
+      <h2>常見問題</h2>
+      <div class="faq-list">
+        <details>
+          <summary>資料來源是什麼？商用合法嗎？</summary>
+          <div class="answer">全部來自台灣政府開放 API（TWSE、CWA、EPA、BOT、NLSC、內政部），授權為 OGDL 1.0 / CC BY 4.0，商業使用合法，建議標示來源。</div>
+        </details>
+        <details>
+          <summary>跟 FinMind / Fugle 差在哪？</summary>
+          <div class="answer">FinMind 強在台股深度，但不在 RapidAPI 生態圈、英文文件少；Fugle 即時 tick 但月費 NT$2,500 起。我們強在「一站式」整合 8 個 API，台股 + 氣象 + 地址 + 實價登錄 + 招標 + 法人，月費 NT$300 起，繁中文件給台灣開發者。</div>
+        </details>
+        <details>
+          <summary>付款方式？台灣或海外？</summary>
+          <div class="answer">台灣用戶：藍新金流（pay.solobuildtw.com），支援信用卡 / Apple Pay / Google Pay。海外用戶：RapidAPI Marketplace（解信用卡）。</div>
+        </details>
+        <details>
+          <summary>年費跟月費差多少？</summary>
+          <div class="answer">年費 17% 折扣（等於買 10 個月送 2 個月）。Pro 年費 NT$2,999（折合月費 NT$250）。</div>
+        </details>
+        <details>
+          <summary>怎麼取消訂閱？</summary>
+          <div class="answer">月費：到期不續即可（不會自動扣款）。年費：寫信至 solobuildtw@gmail.com，當期未用完部分按比例退費。</div>
+        </details>
+        <details>
+          <summary>quota 用完會怎樣？</summary>
+          <div class="answer">回 429 錯誤。Free / Pro 每日 0:00 UTC 重置。Ultra / Mega 無 quota 限制。</div>
+        </details>
+        <details>
+          <summary>政府 API 改版了 API 還能用嗎？</summary>
+          <div class="answer">我們有監控告警，政府 API 改版會在 24 小時內修復。改版期間 KV 緩存有 stale fallback，最壞回上一小時的資料。</div>
+        </details>
+        <details>
+          <summary>支援自訂部署？私有雲？</summary>
+          <div class="answer">Mega 方案以上提供，請聯繫 solobuildtw@gmail.com 客製方案。</div>
+        </details>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container">
+      <div style="margin-bottom: 12px;">
+        <a href="https://solobuildtw.github.io/">← 主站</a>
+        <a href="https://solobuildtw.github.io/privacy.html">隱私政策</a>
+        <a href="https://solobuildtw.github.io/terms.html">服務條款</a>
+        <a href="https://solobuildtw.github.io/refund.html">退款政策</a>
+        <a href="mailto:solobuildtw@gmail.com">聯繫我們</a>
+      </div>
+      <div>© 2026 SoloBuildTW · 資料來源：台灣政府公開 API · OGDL 1.0 / CC BY 4.0</div>
+    </div>
+  </footer>
+
+  <script>
+    function setLang(lang) {
+      ['curl', 'python', 'javascript'].forEach(l => {
+        document.getElementById('code-' + l).classList.toggle('hide', l !== lang);
+        document.getElementById('tab-' + l).classList.toggle('active', l === lang);
+      });
+    }
+    function setBillingMode(mode) {
+      document.getElementById('btn-monthly').classList.toggle('active', mode === 'monthly');
+      document.getElementById('btn-yearly').classList.toggle('active', mode === 'yearly');
+      document.querySelectorAll('[data-monthly]').forEach(el => {
+        const val = el.getAttribute('data-' + mode);
+        if (val !== null && val !== undefined) el.textContent = val;
+      });
+      document.querySelectorAll('[data-monthly-href]').forEach(el => {
+        el.setAttribute('href', el.getAttribute('data-' + mode + '-href'));
+      });
+    }
+  </script>
+</body>
+</html>
