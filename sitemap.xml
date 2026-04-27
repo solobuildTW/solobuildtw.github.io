@@ -11,12 +11,42 @@
     <priority>0.3</priority>
   </url>
   <url>
+    <loc>https://solobuildtw.github.io/privacy.en.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  <url>
+    <loc>https://solobuildtw.github.io/privacy.ja.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  <url>
     <loc>https://solobuildtw.github.io/terms.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.3</priority>
   </url>
   <url>
+    <loc>https://solobuildtw.github.io/terms.en.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  <url>
+    <loc>https://solobuildtw.github.io/terms.ja.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  <url>
     <loc>https://solobuildtw.github.io/refund.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  <url>
+    <loc>https://solobuildtw.github.io/refund.en.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  <url>
+    <loc>https://solobuildtw.github.io/refund.ja.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.3</priority>
   </url>
