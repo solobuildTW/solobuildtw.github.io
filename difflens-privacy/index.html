@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>DiffLens — Privacy Policy</title>
+  <style>
+    body { max-width: 700px; margin: 40px auto; padding: 0 20px; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; color: #e6edf3; background: #0d1117; line-height: 1.7; }
+    h1 { font-size: 24px; border-bottom: 1px solid #30363d; padding-bottom: 12px; }
+    h2 { font-size: 18px; margin-top: 28px; color: #58a6ff; }
+    p, li { font-size: 14px; color: #c9d1d9; }
+    a { color: #58a6ff; }
+    .updated { font-size: 12px; color: #8b949e; }
+  </style>
+</head>
+<body>
+  <h1>DiffLens Privacy Policy</h1>
+  <p class="updated">Last updated: April 28, 2026</p>
+
+  <h2>What DiffLens Does</h2>
+  <p>DiffLens is a browser extension that provides AI-powered code review for GitHub Pull Requests. It reads diff content from GitHub PR pages and sends it to an AI service for analysis.</p>
+
+  <h2>Data We Collect</h2>
+  <p>DiffLens collects and processes the following data:</p>
+  <ul>
+    <li><strong>Diff content from GitHub PRs</strong> — Sent to the AI backend for review. Not stored after processing.</li>
+    <li><strong>API key</strong> — Stored locally in your browser using <code>chrome.storage.local</code>. Never transmitted to our servers.</li>
+    <li><strong>License key</strong> — Sent to Lemon Squeezy for validation only. Not stored on our servers.</li>
+    <li><strong>Daily usage count</strong> — Stored locally to enforce free tier limits. Not transmitted anywhere.</li>
+  </ul>
+
+  <h2>Data We Do NOT Collect</h2>
+  <ul>
+    <li>No personal information (name, email, location)</li>
+    <li>No browsing history</li>
+    <li>No GitHub credentials or tokens</li>
+    <li>No analytics or tracking (no Google Analytics, no Sentry)</li>
+    <li>No cookies</li>
+  </ul>
+
+  <h2>How Data Is Processed</h2>
+  <p>When you click "Review", "Describe", or "Explain":</p>
+  <ol>
+    <li>The extension extracts diff text from the current GitHub PR page</li>
+    <li>The diff is sent to our Cloudflare Worker backend (or directly to the AI API if you use your own key)</li>
+    <li>The AI generates a review and returns it to the extension</li>
+    <li>No diff content is stored after the response is returned</li>
+  </ol>
+
+  <h2>Third-Party Services</h2>
+  <ul>
+    <li><strong>Anthropic (Claude API)</strong> — Processes code review requests. Subject to <a href="https://www.anthropic.com/privacy" target="_blank">Anthropic's Privacy Policy</a>.</li>
+    <li><strong>Lemon Squeezy</strong> — Handles payment and license validation. Subject to <a href="https://www.lemonsqueezy.com/privacy" target="_blank">Lemon Squeezy's Privacy Policy</a>.</li>
+    <li><strong>Cloudflare Workers</strong> — Proxies API requests. No data is logged or stored.</li>
+  </ul>
+
+  <h2>Data Storage</h2>
+  <p>All user settings (API key, license key, usage count) are stored locally in your browser using <code>chrome.storage.local</code>. No data is stored on our servers.</p>
+
+  <h2>Permissions</h2>
+  <ul>
+    <li><code>storage</code> — Save your settings locally</li>
+    <li><code>activeTab</code> — Access the current tab to inject the review UI</li>
+    <li><code>https://github.com/*</code> — Only activate on GitHub pages</li>
+  </ul>
+
+  <h2>Your Rights</h2>
+  <p>You can delete all locally stored data at any time by removing the extension from Chrome. No server-side data exists to delete.</p>
+
+  <h2>Changes to This Policy</h2>
+  <p>We may update this policy as the extension evolves. Changes will be posted on this page with an updated date.</p>
+
+  <h2>Contact</h2>
+  <p>Questions about this privacy policy: <a href="mailto:harvey3630@gmail.com">harvey3630@gmail.com</a></p>
+</body>
+</html>
