@@ -7,7 +7,7 @@
     <description>每週科技生活新知。雨晴帶你輕鬆掌握 AI 工具、科技趨勢與日常科技應用，像跟科技圈朋友聊天，每集聊一個你馬上能用的科技新知。</description>
     <copyright>© 2026 雨晴</copyright>
     <generator>SoloBuildTW Podcast RSS Generator v2</generator>
-    <lastBuildDate>Mon, 27 Apr 2026 00:00:00 -0000</lastBuildDate>
+    <lastBuildDate>Tue, 28 Apr 2026 00:00:00 -0000</lastBuildDate>
     <atom:link href="https://solobuildtw.github.io/podcast/yuching-tech-daily/feed.xml" rel="self" type="application/rss+xml"/>
     <managingEditor>solobuildtw@gmail.com (雨晴)</managingEditor>
     <itunes:title>雨晴的科技日常</itunes:title>
@@ -29,6 +29,24 @@
       <link>https://solobuildtw.github.io/podcast/yuching-tech-daily/</link>
     </image>
     <itunes:category text="Technology"/>
+    <item>
+      <title>EP021 你的手機正在變成真正的助理，而這場 AI 戰爭已經開始了</title>
+      <description>說真的，你手機裡的 Siri 或 Google 助理，是不是常常讓你哭笑不得？但這一切都在改變！從 Apple、Google 到 OpenAI，AI 助理正在進行一場世紀大對決，學會了「察言觀色」，甚</description>
+      <pubDate>Tue, 28 Apr 2026 00:00:00 -0000</pubDate>
+      <guid>57c9b4f88a20491ddc6d4e546f76247c</guid>
+      <link>https://solobuildtw.github.io/podcast/yuching-tech-daily/ep/021</link>
+      <enclosure url="https://podcast-cdn.pick-tw.com/audio/CH1/EP021_%E8%AA%AA%E7%9C%9F%E7%9A%84%EF%BC%8C%E4%BD%A0%E6%89%8B%E6%A9%9F%E8%A3%A1%E7%9A%84%20Siri%20%E6%88%96%20Google%20%E5%8A%A9%E7%90%86%EF%BC%8C%E6%98%AF%E4%B8%8D%E6%98%AF.mp3" type="audio/mpeg" length="13723106"/>
+      <itunes:title>EP021 你的手機正在變成真正的助理，而這場 AI 戰爭已經開始了</itunes:title>
+      <itunes:author>雨晴</itunes:author>
+      <itunes:duration>00:09:31</itunes:duration>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:episode>21</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:summary>說真的，你手機裡的 Siri 或 Google 助理，是不是常常讓你哭笑不得？但這一切都在改變！從 Apple、Google 到 OpenAI，AI 助理正在進行一場世紀大對決，學會了「察言觀色」，甚</itunes:summary>
+      <itunes:subtitle>你的手機正在變成真正的助理，而這場 AI 戰爭已經開始了</itunes:subtitle>
+      <itunes:keywords>科技,AI,一人創業,工具,趨勢</itunes:keywords>
+      <content:encoded><![CDATA[說真的，你手機裡的 Siri 或 Google 助理，是不是常常讓你哭笑不得？但這一切都在改變！從 Apple、Google 到 OpenAI，AI 助理正在進行一場世紀大對決，學會了「察言觀色」，甚]]></content:encoded>
+    </item>
     <item>
       <title>EP020 你的 AI 助手最近變笨了嗎？來聊聊 AI 吃掉自己的真相</title>
       <description>你是不是也覺得 AI 助理最近好像變笨了，回答越來越像罐頭訊息？說真的，這不是你的錯覺！這背後可能是整個 AI 領域的巨大挑戰：「模型崩潰」，也就是 AI 正在吃掉自己。</description>
@@ -190,24 +208,6 @@
       <itunes:subtitle>為什麼AI小模型，反而是個人創業者通往成功的捷徑？</itunes:subtitle>
       <itunes:keywords>科技,AI,一人創業,工具,趨勢</itunes:keywords>
       <content:encoded><![CDATA[當大家都在追逐更強大的 AI 巨獸時，我們真正的機會在哪？說真的，答案可能藏在那些被忽略的「小模型」裡。這集雨晴要跟你聊聊，為什麼小巧靈活的 AI，才是獨立工作者最該關注的秘密武器。]]></content:encoded>
-    </item>
-    <item>
-      <title>EP011 你的虛擬團隊已上線！AI 代理人如何讓一人公司起死回生？</title>
-      <description>一個人工作總覺得分身乏術嗎？說真的，如果能擁有一個不用付薪水、不會抱怨的 AI 團隊幫你打理一切，聽起來是不是很夢幻？</description>
-      <pubDate>Sat, 18 Apr 2026 00:00:00 -0000</pubDate>
-      <guid>af9a93071db2c7f962a4d6af29176c9c</guid>
-      <link>https://solobuildtw.github.io/podcast/yuching-tech-daily/ep/011</link>
-      <enclosure url="https://podcast-cdn.pick-tw.com/audio/CH1/EP011_%E4%B8%80%E5%80%8B%E4%BA%BA%E5%B7%A5%E4%BD%9C%E7%B8%BD%E8%A6%BA%E5%BE%97%E5%88%86%E8%BA%AB%E4%B9%8F%E8%A1%93%E5%97%8E%EF%BC%9F%E8%AA%AA%E7%9C%9F%E7%9A%84%EF%BC%8C%E5%A6%82%E6%9E%9C%E8%83%BD%E6%93%81%E6%9C%89%E4%B8%80%E5%80%8B%E4%B8%8D%E7%94%A8%E4%BB%98%E8%96%AA%E6%B0%B4.mp3" type="audio/mpeg" length="14988896"/>
-      <itunes:title>EP011 你的虛擬團隊已上線！AI 代理人如何讓一人公司起死回生？</itunes:title>
-      <itunes:author>雨晴</itunes:author>
-      <itunes:duration>00:10:24</itunes:duration>
-      <itunes:explicit>no</itunes:explicit>
-      <itunes:episode>11</itunes:episode>
-      <itunes:episodeType>full</itunes:episodeType>
-      <itunes:summary>一個人工作總覺得分身乏術嗎？說真的，如果能擁有一個不用付薪水、不會抱怨的 AI 團隊幫你打理一切，聽起來是不是很夢幻？</itunes:summary>
-      <itunes:subtitle>你的虛擬團隊已上線！AI 代理人如何讓一人公司起死回生？</itunes:subtitle>
-      <itunes:keywords>科技,AI,一人創業,工具,趨勢</itunes:keywords>
-      <content:encoded><![CDATA[一個人工作總覺得分身乏術嗎？說真的，如果能擁有一個不用付薪水、不會抱怨的 AI 團隊幫你打理一切，聽起來是不是很夢幻？]]></content:encoded>
     </item>
   </channel>
 </rss>
