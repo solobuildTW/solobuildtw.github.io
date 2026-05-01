@@ -7,7 +7,7 @@
     <description>每週科技生活新知。雨晴帶你輕鬆掌握 AI 工具、科技趨勢與日常科技應用，像跟科技圈朋友聊天，每集聊一個你馬上能用的科技新知。</description>
     <copyright>© 2026 雨晴</copyright>
     <generator>SoloBuildTW Podcast RSS Generator v2</generator>
-    <lastBuildDate>Thu, 30 Apr 2026 00:00:00 -0000</lastBuildDate>
+    <lastBuildDate>Fri, 01 May 2026 00:00:00 -0000</lastBuildDate>
     <atom:link href="https://solobuildtw.github.io/podcast/yuching-tech-daily/feed.xml" rel="self" type="application/rss+xml"/>
     <managingEditor>solobuildtw@gmail.com (雨晴)</managingEditor>
     <itunes:title>雨晴的科技日常</itunes:title>
@@ -29,6 +29,24 @@
       <link>https://solobuildtw.github.io/podcast/yuching-tech-daily/</link>
     </image>
     <itunes:category text="Technology"/>
+    <item>
+      <title>EP024 你知道小而美的開源 AI，正在悄悄改變遊戲規則嗎？</title>
+      <description>AI 發展好像都是科技巨頭的軍備競賽？說真的，還有一條小而美的路正在崛起！這集雨晴要來聊聊，為什麼開源小模型，可能是我們這些獨立開發者和創作者的真正機會。</description>
+      <pubDate>Fri, 01 May 2026 00:00:00 -0000</pubDate>
+      <guid>f05608228536f75390158987302cd907</guid>
+      <link>https://solobuildtw.github.io/podcast/yuching-tech-daily/ep/024</link>
+      <enclosure url="https://podcast-cdn.pick-tw.com/audio/CH1/EP024_AI%20%E7%99%BC%E5%B1%95%E5%A5%BD%E5%83%8F%E9%83%BD%E6%98%AF%E7%A7%91%E6%8A%80%E5%B7%A8%E9%A0%AD%E7%9A%84%E8%BB%8D%E5%82%99%E7%AB%B6%E8%B3%BD%EF%BC%9F%E8%AA%AA%E7%9C%9F%E7%9A%84%EF%BC%8C%E9%82%84%E6%9C%89%E4%B8%80%E6%A2%9D%E5%B0%8F%E8%80%8C%E7%BE%8E.mp3" type="audio/mpeg" length="14831534"/>
+      <itunes:title>EP024 你知道小而美的開源 AI，正在悄悄改變遊戲規則嗎？</itunes:title>
+      <itunes:author>雨晴</itunes:author>
+      <itunes:duration>00:10:17</itunes:duration>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:episode>24</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:summary>AI 發展好像都是科技巨頭的軍備競賽？說真的，還有一條小而美的路正在崛起！這集雨晴要來聊聊，為什麼開源小模型，可能是我們這些獨立開發者和創作者的真正機會。</itunes:summary>
+      <itunes:subtitle>你知道小而美的開源 AI，正在悄悄改變遊戲規則嗎？</itunes:subtitle>
+      <itunes:keywords>科技,AI,一人創業,工具,趨勢</itunes:keywords>
+      <content:encoded><![CDATA[AI 發展好像都是科技巨頭的軍備競賽？說真的，還有一條小而美的路正在崛起！這集雨晴要來聊聊，為什麼開源小模型，可能是我們這些獨立開發者和創作者的真正機會。]]></content:encoded>
+    </item>
     <item>
       <title>EP023 你有想過嗎？跟 AI 聊天比跟人聊天還自然的時代，真的來了</title>
       <description>OpenAI 的 ChatGPT-4o 讓 AI 對話快得像真人，甚至還能讀懂你的情緒！說真的，這不只是技術升級，而是我們與科技互動方式的徹底革命。</description>
@@ -370,24 +388,6 @@
       <itunes:subtitle>Notion AI 來了，你的筆記會替你思考，但你還會自己想嗎？</itunes:subtitle>
       <itunes:keywords>科技,AI,一人創業,工具,趨勢</itunes:keywords>
       <content:encoded><![CDATA[說真的，筆記軟體的戰爭從來沒停過，但 Notion AI 好像要來改寫遊戲規則了！它不只能儲存，還能幫你腦力激盪、寫摘要，就像個超強助理。]]></content:encoded>
-    </item>
-    <item>
-      <title>EP004 2026年最搶手的工程師，到底該學什麼？</title>
-      <description>AI 每天都在進步，現在學的技術兩年後還夠用嗎？雨晴和你聊聊，如果我們穿越到 2026 年，最搶手的工程師履歷上該寫些什麼。</description>
-      <pubDate>Sat, 11 Apr 2026 00:00:00 -0000</pubDate>
-      <guid>8536fa3f2b7ee0aa5999649746b4d8aa</guid>
-      <link>https://solobuildtw.github.io/podcast/yuching-tech-daily/ep/004</link>
-      <enclosure url="https://podcast-cdn.pick-tw.com/audio/CH1/EP004_AI%20%E6%AF%8F%E5%A4%A9%E9%83%BD%E5%9C%A8%E9%80%B2%E6%AD%A5%EF%BC%8C%E7%8F%BE%E5%9C%A8%E5%AD%B8%E7%9A%84%E6%8A%80%E8%A1%93%E5%85%A9%E5%B9%B4%E5%BE%8C%E9%82%84%E5%A4%A0%E7%94%A8%E5%97%8E%EF%BC%9F%E9%9B%A8%E6%99%B4%E5%92%8C%E4%BD%A0%E8%81%8A%E8%81%8A.mp3" type="audio/mpeg" length="14393931"/>
-      <itunes:title>EP004 2026年最搶手的工程師，到底該學什麼？</itunes:title>
-      <itunes:author>雨晴</itunes:author>
-      <itunes:duration>00:09:59</itunes:duration>
-      <itunes:explicit>no</itunes:explicit>
-      <itunes:episode>4</itunes:episode>
-      <itunes:episodeType>full</itunes:episodeType>
-      <itunes:summary>AI 每天都在進步，現在學的技術兩年後還夠用嗎？雨晴和你聊聊，如果我們穿越到 2026 年，最搶手的工程師履歷上該寫些什麼。</itunes:summary>
-      <itunes:subtitle>2026年最搶手的工程師，到底該學什麼？</itunes:subtitle>
-      <itunes:keywords>科技,AI,一人創業,工具,趨勢</itunes:keywords>
-      <content:encoded><![CDATA[AI 每天都在進步，現在學的技術兩年後還夠用嗎？雨晴和你聊聊，如果我們穿越到 2026 年，最搶手的工程師履歷上該寫些什麼。]]></content:encoded>
     </item>
   </channel>
 </rss>
