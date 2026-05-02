@@ -7,7 +7,7 @@
     <description>每週科技生活新知。雨晴帶你輕鬆掌握 AI 工具、科技趨勢與日常科技應用，像跟科技圈朋友聊天，每集聊一個你馬上能用的科技新知。</description>
     <copyright>© 2026 雨晴</copyright>
     <generator>SoloBuildTW Podcast RSS Generator v2</generator>
-    <lastBuildDate>Fri, 01 May 2026 00:00:00 -0000</lastBuildDate>
+    <lastBuildDate>Sat, 02 May 2026 00:00:00 -0000</lastBuildDate>
     <atom:link href="https://solobuildtw.github.io/podcast/yuching-tech-daily/feed.xml" rel="self" type="application/rss+xml"/>
     <managingEditor>solobuildtw@gmail.com (雨晴)</managingEditor>
     <itunes:title>雨晴的科技日常</itunes:title>
@@ -29,6 +29,24 @@
       <link>https://solobuildtw.github.io/podcast/yuching-tech-daily/</link>
     </image>
     <itunes:category text="Technology"/>
+    <item>
+      <title>EP025 你準備好讓 AI 幫你動手做事了嗎？</title>
+      <description>最近大家都在說 AI 代理人，好像請個 AI 實習生就能搞定所有事。但你想想看，這到底是科技圈的行銷噱頭，還是真的會改變我們工作方式的革命？</description>
+      <pubDate>Sat, 02 May 2026 00:00:00 -0000</pubDate>
+      <guid>dfb50bae79208938de665a00cbc2dd55</guid>
+      <link>https://solobuildtw.github.io/podcast/yuching-tech-daily/ep/025</link>
+      <enclosure url="https://podcast-cdn.pick-tw.com/audio/CH1/EP025_%E6%9C%80%E8%BF%91%E5%A4%A7%E5%AE%B6%E9%83%BD%E5%9C%A8%E8%AA%AA%20AI%20%E4%BB%A3%E7%90%86%E4%BA%BA%EF%BC%8C%E5%A5%BD%E5%83%8F%E8%AB%8B%E5%80%8B%20AI%20%E5%AF%A6%E7%BF%92%E7%94%9F%E5%B0%B1%E8%83%BD%E6%90%9E%E5%AE%9A.mp3" type="audio/mpeg" length="14666022"/>
+      <itunes:title>EP025 你準備好讓 AI 幫你動手做事了嗎？</itunes:title>
+      <itunes:author>雨晴</itunes:author>
+      <itunes:duration>00:10:11</itunes:duration>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:episode>25</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:summary>最近大家都在說 AI 代理人，好像請個 AI 實習生就能搞定所有事。但你想想看，這到底是科技圈的行銷噱頭，還是真的會改變我們工作方式的革命？</itunes:summary>
+      <itunes:subtitle>你準備好讓 AI 幫你動手做事了嗎？</itunes:subtitle>
+      <itunes:keywords>科技,AI,一人創業,工具,趨勢</itunes:keywords>
+      <content:encoded><![CDATA[最近大家都在說 AI 代理人，好像請個 AI 實習生就能搞定所有事。但你想想看，這到底是科技圈的行銷噱頭，還是真的會改變我們工作方式的革命？]]></content:encoded>
+    </item>
     <item>
       <title>EP024 你知道小而美的開源 AI，正在悄悄改變遊戲規則嗎？</title>
       <description>AI 發展好像都是科技巨頭的軍備競賽？說真的，還有一條小而美的路正在崛起！這集雨晴要來聊聊，為什麼開源小模型，可能是我們這些獨立開發者和創作者的真正機會。</description>
@@ -370,24 +388,6 @@
       <itunes:subtitle>大模型軍備賽玩累了？小模型才是 AI 真正的未來</itunes:subtitle>
       <itunes:keywords>科技,AI,一人創業,工具,趨勢</itunes:keywords>
       <content:encoded><![CDATA[大家都在追逐更大更強的AI，但你知道嗎？真正的革命可能來自那些「小而美」的模型！這集雨晴要跟你聊聊，為什麼AI的未來不只是軍備競賽，小模型如何能把AI帶進我們每個人的生活，這股趨勢又會帶來什麼改變？]]></content:encoded>
-    </item>
-    <item>
-      <title>EP005 Notion AI 來了，你的筆記會替你思考，但你還會自己想嗎？</title>
-      <description>說真的，筆記軟體的戰爭從來沒停過，但 Notion AI 好像要來改寫遊戲規則了！它不只能儲存，還能幫你腦力激盪、寫摘要，就像個超強助理。</description>
-      <pubDate>Sun, 12 Apr 2026 00:00:00 -0000</pubDate>
-      <guid>babcfe6a16d98b1d8db02d0949bc8e07</guid>
-      <link>https://solobuildtw.github.io/podcast/yuching-tech-daily/ep/005</link>
-      <enclosure url="https://podcast-cdn.pick-tw.com/audio/CH1/EP005_%E8%AA%AA%E7%9C%9F%E7%9A%84%EF%BC%8C%E7%AD%86%E8%A8%98%E8%BB%9F%E9%AB%94%E7%9A%84%E6%88%B0%E7%88%AD%E5%BE%9E%E4%BE%86%E6%B2%92%E5%81%9C%E9%81%8E%EF%BC%8C%E4%BD%86%20Notion%20AI%20%E5%A5%BD.mp3" type="audio/mpeg" length="13923727"/>
-      <itunes:title>EP005 Notion AI 來了，你的筆記會替你思考，但你還會自己想嗎？</itunes:title>
-      <itunes:author>雨晴</itunes:author>
-      <itunes:duration>00:09:40</itunes:duration>
-      <itunes:explicit>no</itunes:explicit>
-      <itunes:episode>5</itunes:episode>
-      <itunes:episodeType>full</itunes:episodeType>
-      <itunes:summary>說真的，筆記軟體的戰爭從來沒停過，但 Notion AI 好像要來改寫遊戲規則了！它不只能儲存，還能幫你腦力激盪、寫摘要，就像個超強助理。</itunes:summary>
-      <itunes:subtitle>Notion AI 來了，你的筆記會替你思考，但你還會自己想嗎？</itunes:subtitle>
-      <itunes:keywords>科技,AI,一人創業,工具,趨勢</itunes:keywords>
-      <content:encoded><![CDATA[說真的，筆記軟體的戰爭從來沒停過，但 Notion AI 好像要來改寫遊戲規則了！它不只能儲存，還能幫你腦力激盪、寫摘要，就像個超強助理。]]></content:encoded>
     </item>
   </channel>
 </rss>

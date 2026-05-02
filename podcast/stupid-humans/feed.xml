@@ -7,7 +7,7 @@
     <description>人類到底有多蠢？阿佑翻遍歷史與新聞，每集挖出一個讓你又笑又傻眼的真實蠢事。</description>
     <copyright>© 2026 阿佑</copyright>
     <generator>SoloBuildTW Podcast RSS Generator v2</generator>
-    <lastBuildDate>Sat, 25 Apr 2026 00:00:00 -0000</lastBuildDate>
+    <lastBuildDate>Mon, 27 Apr 2026 00:00:00 -0000</lastBuildDate>
     <atom:link href="https://solobuildtw.github.io/podcast/stupid-humans/feed.xml" rel="self" type="application/rss+xml"/>
     <managingEditor>harvey3630@gmail.com (阿佑)</managingEditor>
     <itunes:title>史上最蠢人類</itunes:title>
@@ -29,6 +29,24 @@
       <link>https://solobuildtw.github.io/podcast/stupid-humans/</link>
     </image>
     <itunes:category text="Comedy"/>
+    <item>
+      <title>EP020 這個傻瓜公司為了跟通用較勁，燒錢造出最虧錢的汽車</title>
+      <description>福特艾德索汽車：花十年砸下兩億五千萬美元打造夢幻中高階車，卻用了毫無用處的市場調查、老闆心血來潮定名、趕工導致品質爛到不行，加上車頭設計被嘲像馬桶，上市即失敗，成商學院永恆負面教材。</description>
+      <pubDate>Mon, 27 Apr 2026 00:00:00 -0000</pubDate>
+      <guid>4fdf05b676a9ed89f2e9f889efaf8533</guid>
+      <link>https://solobuildtw.github.io/podcast/stupid-humans/ep/020</link>
+      <enclosure url="https://podcast-cdn.pick-tw.com/audio/CH3/EP020_%E9%80%99%E5%80%8B%E5%82%BB%E7%93%9C%E5%85%AC%E5%8F%B8%E7%82%BA%E4%BA%86%E8%B7%9F%E9%80%9A%E7%94%A8%E8%BC%83%E5%8B%81%EF%BC%8C%E7%87%92%E9%8C%A2%E9%80%A0%E5%87%BA%E6%9C%80%E8%99%A7%E9%8C%A2%E7%9A%84%E6%B1%BD%E8%BB%8A.mp3" type="audio/mpeg" length="14855985"/>
+      <itunes:title>EP020 這個傻瓜公司為了跟通用較勁，燒錢造出最虧錢的汽車</itunes:title>
+      <itunes:author>阿佑</itunes:author>
+      <itunes:duration>00:10:18</itunes:duration>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:episode>20</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:summary>福特艾德索汽車：花十年砸下兩億五千萬美元打造夢幻中高階車，卻用了毫無用處的市場調查、老闆心血來潮定名、趕工導致品質爛到不行，加上車頭設計被嘲像馬桶，上市即失敗，成商學院永恆負面教材。</itunes:summary>
+      <itunes:subtitle>這個傻瓜公司為了跟通用較勁，燒錢造出最虧錢的汽車</itunes:subtitle>
+      <itunes:keywords>搞笑,蠢事,喜劇,台灣,真實故事</itunes:keywords>
+      <content:encoded><![CDATA[福特艾德索汽車：花十年砸下兩億五千萬美元打造夢幻中高階車，卻用了毫無用處的市場調查、老闆心血來潮定名、趕工導致品質爛到不行，加上車頭設計被嘲像馬桶，上市即失敗，成商學院永恆負面教材。]]></content:encoded>
+    </item>
     <item>
       <title>EP018 這個傻瓜決定消滅麻雀拯救糧食，卻親手製造了人類歷史上最荒謬的災難</title>
       <description>毛澤東除四害殺光麻雀，加上全民大煉鋼鐵把農具都燒了，共同導致長達三年、餓死數千萬人的大饑荒。阿佑說，每一場大規模的人為災難，背後都有一個聽不進反對意見的人在做決定。</description>

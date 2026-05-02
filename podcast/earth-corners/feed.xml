@@ -7,7 +7,7 @@
     <description>地球上有些角落你一輩子不會去，但故事精彩到值得聽完。熙熙帶你走訪冷門國家、邊境小鎮與被遺忘的文明。</description>
     <copyright>© 2026 熙熙</copyright>
     <generator>SoloBuildTW Podcast RSS Generator v2</generator>
-    <lastBuildDate>Thu, 30 Apr 2026 00:00:00 -0000</lastBuildDate>
+    <lastBuildDate>Sat, 02 May 2026 00:00:00 -0000</lastBuildDate>
     <atom:link href="https://solobuildtw.github.io/podcast/earth-corners/feed.xml" rel="self" type="application/rss+xml"/>
     <managingEditor>viviank889@gmail.com (熙熙)</managingEditor>
     <itunes:title>地球的角落</itunes:title>
@@ -31,6 +31,24 @@
     <itunes:category text="Society &amp; Culture">
       <itunes:category text="Places &amp; Travel"/>
     </itunes:category>
+    <item>
+      <title>EP025 在麥西河兩岸發生的故事，一個只活在當下的古老部落</title>
+      <description>亞馬遜雨林的皮拉罕人沒有數字與歷史敘事，只活在純粹當下，語言學家埃弗雷特深入研究後發現，他們的「當下經驗原則」反映出一種令現代人嚮往卻難以企及的純粹快樂。</description>
+      <pubDate>Sat, 02 May 2026 00:00:00 -0000</pubDate>
+      <guid>bd389c243f036dd8670db33823ab3be8</guid>
+      <link>https://solobuildtw.github.io/podcast/earth-corners/ep/025</link>
+      <enclosure url="https://podcast-cdn.pick-tw.com/audio/CH4/EP025_%E4%BA%9E%E9%A6%AC%E9%81%9C%E9%9B%A8%E6%9E%97%E7%9A%84%E7%9A%AE%E6%8B%89%E7%BD%95%E4%BA%BA%E6%B2%92%E6%9C%89%E6%95%B8%E5%AD%97%E8%88%87%E6%AD%B7%E5%8F%B2%E6%95%98%E4%BA%8B%EF%BC%8C%E5%8F%AA%E6%B4%BB%E5%9C%A8%E7%B4%94%E7%B2%B9%E7%95%B6%E4%B8%8B%EF%BC%8C%E8%AA%9E%E8%A8%80.mp3" type="audio/mpeg" length="16021464"/>
+      <itunes:title>EP025 在麥西河兩岸發生的故事，一個只活在當下的古老部落</itunes:title>
+      <itunes:author>熙熙</itunes:author>
+      <itunes:duration>00:11:07</itunes:duration>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:episode>25</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:summary>亞馬遜雨林的皮拉罕人沒有數字與歷史敘事，只活在純粹當下，語言學家埃弗雷特深入研究後發現，他們的「當下經驗原則」反映出一種令現代人嚮往卻難以企及的純粹快樂。</itunes:summary>
+      <itunes:subtitle>在麥西河兩岸發生的故事，一個只活在當下的古老部落</itunes:subtitle>
+      <itunes:keywords>旅遊,地理,冷門國家,文化,探索</itunes:keywords>
+      <content:encoded><![CDATA[亞馬遜雨林的皮拉罕人沒有數字與歷史敘事，只活在純粹當下，語言學家埃弗雷特深入研究後發現，他們的「當下經驗原則」反映出一種令現代人嚮往卻難以企及的純粹快樂。]]></content:encoded>
+    </item>
     <item>
       <title>EP023 在這片會呼吸的土地上，聽烏魯族人與水共生的古老詩歌</title>
       <description>在安地斯山脈近四千公尺的的的喀喀湖上，烏魯族人用托托拉蘆葦親手編織漂浮島嶼，世代與水共生。熙熙帶你划船駛入這片傳說之湖，探索這首古老的蘆葦詩歌如何在湖水的韻律中代代相傳。</description>
@@ -372,24 +390,6 @@
       <itunes:subtitle>探索蒙古草原上流動的家：游牧民族如何將整個世界裝進蒙古包</itunes:subtitle>
       <itunes:keywords>旅遊,地理,冷門國家,文化,探索</itunes:keywords>
       <content:encoded><![CDATA[蒙古草原上，家是一個可以移動的圓。熙熙邀你跟著游牧民族的腳步，感受那種以天地為座標的生命節奏，以及那份隨時都能安頓下來的從容與自由。]]></content:encoded>
-    </item>
-    <item>
-      <title>EP002 在駱駝商隊的駝鈴聲中，一個古老蘇丹王國的興衰故事</title>
-      <description>在撒哈拉沙漠的風沙之中，曾有一個輝煌的蘇丹王國靜靜地繁榮著。熙熙帶你走進外德霍的故事，聆聽那些被時間遺忘、卻仍在口耳間傳遞的史詩。</description>
-      <pubDate>Thu, 09 Apr 2026 00:00:00 -0000</pubDate>
-      <guid>879d2b4035dde3f470b6d6accd7ace3a</guid>
-      <link>https://solobuildtw.github.io/podcast/earth-corners/ep/002</link>
-      <enclosure url="https://podcast-cdn.pick-tw.com/audio/CH4/EP002_%E5%9C%A8%E6%92%92%E5%93%88%E6%8B%89%E6%B2%99%E6%BC%A0%E7%9A%84%E9%A2%A8%E6%B2%99%E4%B9%8B%E4%B8%AD%EF%BC%8C%E6%9B%BE%E6%9C%89%E4%B8%80%E5%80%8B%E8%BC%9D%E7%85%8C%E7%9A%84%E8%98%87%E4%B8%B9%E7%8E%8B%E5%9C%8B%E9%9D%9C%E9%9D%9C%E5%9C%B0%E7%B9%81%E6%A6%AE%E8%91%97%E3%80%82.mp3" type="audio/mpeg" length="18433924"/>
-      <itunes:title>EP002 在駱駝商隊的駝鈴聲中，一個古老蘇丹王國的興衰故事</itunes:title>
-      <itunes:author>熙熙</itunes:author>
-      <itunes:duration>00:12:48</itunes:duration>
-      <itunes:explicit>no</itunes:explicit>
-      <itunes:episode>2</itunes:episode>
-      <itunes:episodeType>full</itunes:episodeType>
-      <itunes:summary>在撒哈拉沙漠的風沙之中，曾有一個輝煌的蘇丹王國靜靜地繁榮著。熙熙帶你走進外德霍的故事，聆聽那些被時間遺忘、卻仍在口耳間傳遞的史詩。</itunes:summary>
-      <itunes:subtitle>在駱駝商隊的駝鈴聲中，一個古老蘇丹王國的興衰故事</itunes:subtitle>
-      <itunes:keywords>旅遊,地理,冷門國家,文化,探索</itunes:keywords>
-      <content:encoded><![CDATA[在撒哈拉沙漠的風沙之中，曾有一個輝煌的蘇丹王國靜靜地繁榮著。熙熙帶你走進外德霍的故事，聆聽那些被時間遺忘、卻仍在口耳間傳遞的史詩。]]></content:encoded>
     </item>
   </channel>
 </rss>
