@@ -7,7 +7,7 @@
     <description>每週科技生活新知。雨晴帶你輕鬆掌握 AI 工具、科技趨勢與日常科技應用，像跟科技圈朋友聊天，每集聊一個你馬上能用的科技新知。</description>
     <copyright>© 2026 雨晴</copyright>
     <generator>SoloBuildTW Podcast RSS Generator v2</generator>
-    <lastBuildDate>Sat, 02 May 2026 00:00:00 -0000</lastBuildDate>
+    <lastBuildDate>Sat, 02 May 2026 11:27:51 +0000</lastBuildDate>
     <atom:link href="https://solobuildtw.github.io/podcast/yuching-tech-daily/feed.xml" rel="self" type="application/rss+xml"/>
     <managingEditor>solobuildtw@gmail.com (雨晴)</managingEditor>
     <itunes:title>雨晴的科技日常</itunes:title>
@@ -22,9 +22,9 @@
       <itunes:name>雨晴</itunes:name>
       <itunes:email>solobuildtw@gmail.com</itunes:email>
     </itunes:owner>
-    <itunes:image href="https://solobuildtw.github.io/podcast/yuching-tech-daily/cover.jpg"/>
+    <itunes:image href="https://solobuildtw.github.io/podcast/yuching-tech-daily/cover-v2.jpg"/>
     <image>
-      <url>https://solobuildtw.github.io/podcast/yuching-tech-daily/cover.jpg</url>
+      <url>https://solobuildtw.github.io/podcast/yuching-tech-daily/cover-v2.jpg</url>
       <title>雨晴的科技日常</title>
       <link>https://solobuildtw.github.io/podcast/yuching-tech-daily/</link>
     </image>

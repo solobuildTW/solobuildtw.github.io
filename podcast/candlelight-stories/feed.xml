@@ -7,7 +7,7 @@
     <description>深夜，一根蠟燭，一個故事。燭先生在黑暗中細語，帶你走進那些不能見光的怪談。</description>
     <copyright>© 2026 燭先生</copyright>
     <generator>SoloBuildTW Podcast RSS Generator v2</generator>
-    <lastBuildDate>Tue, 28 Apr 2026 00:00:00 -0000</lastBuildDate>
+    <lastBuildDate>Sat, 02 May 2026 11:27:51 +0000</lastBuildDate>
     <atom:link href="https://solobuildtw.github.io/podcast/candlelight-stories/feed.xml" rel="self" type="application/rss+xml"/>
     <managingEditor>solobuildtw@gmail.com (燭先生)</managingEditor>
     <itunes:title>燭光怪譚</itunes:title>
@@ -22,9 +22,9 @@
       <itunes:name>燭先生</itunes:name>
       <itunes:email>solobuildtw@gmail.com</itunes:email>
     </itunes:owner>
-    <itunes:image href="https://solobuildtw.github.io/podcast/candlelight-stories/cover.jpg"/>
+    <itunes:image href="https://solobuildtw.github.io/podcast/candlelight-stories/cover-v2.jpg"/>
     <image>
-      <url>https://solobuildtw.github.io/podcast/candlelight-stories/cover.jpg</url>
+      <url>https://solobuildtw.github.io/podcast/candlelight-stories/cover-v2.jpg</url>
       <title>燭光怪譚</title>
       <link>https://solobuildtw.github.io/podcast/candlelight-stories/</link>
     </image>

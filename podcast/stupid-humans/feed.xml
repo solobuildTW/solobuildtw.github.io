@@ -7,7 +7,7 @@
     <description>人類到底有多蠢？阿佑翻遍歷史與新聞，每集挖出一個讓你又笑又傻眼的真實蠢事。</description>
     <copyright>© 2026 阿佑</copyright>
     <generator>SoloBuildTW Podcast RSS Generator v2</generator>
-    <lastBuildDate>Mon, 27 Apr 2026 00:00:00 -0000</lastBuildDate>
+    <lastBuildDate>Sat, 02 May 2026 11:27:51 +0000</lastBuildDate>
     <atom:link href="https://solobuildtw.github.io/podcast/stupid-humans/feed.xml" rel="self" type="application/rss+xml"/>
     <managingEditor>harvey3630@gmail.com (阿佑)</managingEditor>
     <itunes:title>史上最蠢人類</itunes:title>
@@ -22,9 +22,9 @@
       <itunes:name>阿佑</itunes:name>
       <itunes:email>harvey3630@gmail.com</itunes:email>
     </itunes:owner>
-    <itunes:image href="https://solobuildtw.github.io/podcast/stupid-humans/cover.jpg"/>
+    <itunes:image href="https://solobuildtw.github.io/podcast/stupid-humans/cover-v2.jpg"/>
     <image>
-      <url>https://solobuildtw.github.io/podcast/stupid-humans/cover.jpg</url>
+      <url>https://solobuildtw.github.io/podcast/stupid-humans/cover-v2.jpg</url>
       <title>史上最蠢人類</title>
       <link>https://solobuildtw.github.io/podcast/stupid-humans/</link>
     </image>
