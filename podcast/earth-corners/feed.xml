@@ -7,7 +7,7 @@
     <description>地球上有些角落你一輩子不會去，但故事精彩到值得聽完。熙熙帶你走訪冷門國家、邊境小鎮與被遺忘的文明。</description>
     <copyright>© 2026 熙熙</copyright>
     <generator>SoloBuildTW Podcast RSS Generator v2</generator>
-    <lastBuildDate>Sat, 02 May 2026 11:27:51 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 02 May 2026 00:00:00 -0000</lastBuildDate>
     <atom:link href="https://solobuildtw.github.io/podcast/earth-corners/feed.xml" rel="self" type="application/rss+xml"/>
     <managingEditor>viviank889@gmail.com (熙熙)</managingEditor>
     <itunes:title>地球的角落</itunes:title>
@@ -22,9 +22,9 @@
       <itunes:name>熙熙</itunes:name>
       <itunes:email>viviank889@gmail.com</itunes:email>
     </itunes:owner>
-    <itunes:image href="https://solobuildtw.github.io/podcast/earth-corners/cover-v2.jpg"/>
+    <itunes:image href="https://solobuildtw.github.io/podcast/earth-corners/cover.jpg"/>
     <image>
-      <url>https://solobuildtw.github.io/podcast/earth-corners/cover-v2.jpg</url>
+      <url>https://solobuildtw.github.io/podcast/earth-corners/cover.jpg</url>
       <title>地球的角落</title>
       <link>https://solobuildtw.github.io/podcast/earth-corners/</link>
     </image>

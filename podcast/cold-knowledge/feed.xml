@@ -7,7 +7,7 @@
     <description>你知道嗎？世界上有些知識冷到讓人噴飯！芸芸每集帶來一個你從沒想過會想知道的冷知識，三分鐘讓你多一個嚇到朋友的話題。</description>
     <copyright>© 2026 芸芸</copyright>
     <generator>SoloBuildTW Podcast RSS Generator v2</generator>
-    <lastBuildDate>Sat, 02 May 2026 11:27:51 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 26 Apr 2026 00:00:00 -0000</lastBuildDate>
     <atom:link href="https://solobuildtw.github.io/podcast/cold-knowledge/feed.xml" rel="self" type="application/rss+xml"/>
     <managingEditor>harvey36309@hotmail.com (芸芸)</managingEditor>
     <itunes:title>冷知識電波</itunes:title>
@@ -22,9 +22,9 @@
       <itunes:name>芸芸</itunes:name>
       <itunes:email>harvey36309@hotmail.com</itunes:email>
     </itunes:owner>
-    <itunes:image href="https://solobuildtw.github.io/podcast/cold-knowledge/cover-v2.jpg"/>
+    <itunes:image href="https://solobuildtw.github.io/podcast/cold-knowledge/cover.jpg"/>
     <image>
-      <url>https://solobuildtw.github.io/podcast/cold-knowledge/cover-v2.jpg</url>
+      <url>https://solobuildtw.github.io/podcast/cold-knowledge/cover.jpg</url>
       <title>冷知識電波</title>
       <link>https://solobuildtw.github.io/podcast/cold-knowledge/</link>
     </image>

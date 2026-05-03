@@ -7,7 +7,7 @@
     <description>每週科技生活新知。雨晴帶你輕鬆掌握 AI 工具、科技趨勢與日常科技應用，像跟科技圈朋友聊天，每集聊一個你馬上能用的科技新知。</description>
     <copyright>© 2026 雨晴</copyright>
     <generator>SoloBuildTW Podcast RSS Generator v2</generator>
-    <lastBuildDate>Sat, 02 May 2026 11:27:51 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 03 May 2026 00:00:00 -0000</lastBuildDate>
     <atom:link href="https://solobuildtw.github.io/podcast/yuching-tech-daily/feed.xml" rel="self" type="application/rss+xml"/>
     <managingEditor>solobuildtw@gmail.com (雨晴)</managingEditor>
     <itunes:title>雨晴的科技日常</itunes:title>
@@ -22,13 +22,31 @@
       <itunes:name>雨晴</itunes:name>
       <itunes:email>solobuildtw@gmail.com</itunes:email>
     </itunes:owner>
-    <itunes:image href="https://solobuildtw.github.io/podcast/yuching-tech-daily/cover-v2.jpg"/>
+    <itunes:image href="https://solobuildtw.github.io/podcast/yuching-tech-daily/cover.jpg"/>
     <image>
-      <url>https://solobuildtw.github.io/podcast/yuching-tech-daily/cover-v2.jpg</url>
+      <url>https://solobuildtw.github.io/podcast/yuching-tech-daily/cover.jpg</url>
       <title>雨晴的科技日常</title>
       <link>https://solobuildtw.github.io/podcast/yuching-tech-daily/</link>
     </image>
     <itunes:category text="Technology"/>
+    <item>
+      <title>EP026 從副駕駛到代理人，AI 真的要升官了嗎？</title>
+      <description>你想想看，我們跟 AI 的關係是不是正在改變？過去 AI 像個聽話的副駕駛，但現在它即將升官成能獨立思考的「代理人」AI Agent！這不只是換個名字而已喔。</description>
+      <pubDate>Sun, 03 May 2026 00:00:00 -0000</pubDate>
+      <guid>dcabd7c15522a76142177512dec27a76</guid>
+      <link>https://solobuildtw.github.io/podcast/yuching-tech-daily/ep/026</link>
+      <enclosure url="https://podcast-cdn.pick-tw.com/audio/CH1/EP026_%E4%BD%A0%E6%83%B3%E6%83%B3%E7%9C%8B%EF%BC%8C%E6%88%91%E5%80%91%E8%B7%9F%20AI%20%E7%9A%84%E9%97%9C%E4%BF%82%E6%98%AF%E4%B8%8D%E6%98%AF%E6%AD%A3%E5%9C%A8%E6%94%B9%E8%AE%8A%EF%BC%9F%E9%81%8E%E5%8E%BB%20AI%20%E5%83%8F.mp3" type="audio/mpeg" length="13956955"/>
+      <itunes:title>EP026 從副駕駛到代理人，AI 真的要升官了嗎？</itunes:title>
+      <itunes:author>雨晴</itunes:author>
+      <itunes:duration>00:09:41</itunes:duration>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:episode>26</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:summary>你想想看，我們跟 AI 的關係是不是正在改變？過去 AI 像個聽話的副駕駛，但現在它即將升官成能獨立思考的「代理人」AI Agent！這不只是換個名字而已喔。</itunes:summary>
+      <itunes:subtitle>從副駕駛到代理人，AI 真的要升官了嗎？</itunes:subtitle>
+      <itunes:keywords>科技,AI,一人創業,工具,趨勢</itunes:keywords>
+      <content:encoded><![CDATA[你想想看，我們跟 AI 的關係是不是正在改變？過去 AI 像個聽話的副駕駛，但現在它即將升官成能獨立思考的「代理人」AI Agent！這不只是換個名字而已喔。]]></content:encoded>
+    </item>
     <item>
       <title>EP025 你準備好讓 AI 幫你動手做事了嗎？</title>
       <description>最近大家都在說 AI 代理人，好像請個 AI 實習生就能搞定所有事。但你想想看，這到底是科技圈的行銷噱頭，還是真的會改變我們工作方式的革命？</description>
@@ -370,24 +388,6 @@
       <itunes:subtitle>你最常用的搜尋引擎，正在被 AI 內容悄悄謀殺？</itunes:subtitle>
       <itunes:keywords>科技,AI,一人創業,工具,趨勢</itunes:keywords>
       <content:encoded><![CDATA[說真的，你是不是也覺得網路世界越來越吵、越來越假？搜尋結果被AI農場文佔據，社群上的美圖也分不清真偽。這集雨晴就來跟你聊聊，AI正在如何改變我們的網路日常，以及我們還能不能找到那些真實的資訊。]]></content:encoded>
-    </item>
-    <item>
-      <title>EP006 大模型軍備賽玩累了？小模型才是 AI 真正的未來</title>
-      <description>大家都在追逐更大更強的AI，但你知道嗎？真正的革命可能來自那些「小而美」的模型！這集雨晴要跟你聊聊，為什麼AI的未來不只是軍備競賽，小模型如何能把AI帶進我們每個人的生活，這股趨勢又會帶來什麼改變？</description>
-      <pubDate>Mon, 13 Apr 2026 00:00:00 -0000</pubDate>
-      <guid>cb4c58f63e089a5719c6c849a333645a</guid>
-      <link>https://solobuildtw.github.io/podcast/yuching-tech-daily/ep/006</link>
-      <enclosure url="https://podcast-cdn.pick-tw.com/audio/CH1/EP006_%E5%A4%A7%E5%AE%B6%E9%83%BD%E5%9C%A8%E8%BF%BD%E9%80%90%E6%9B%B4%E5%A4%A7%E6%9B%B4%E5%BC%B7%E7%9A%84AI%EF%BC%8C%E4%BD%86%E4%BD%A0%E7%9F%A5%E9%81%93%E5%97%8E%EF%BC%9F%E7%9C%9F%E6%AD%A3%E7%9A%84%E9%9D%A9%E5%91%BD%E5%8F%AF%E8%83%BD%E4%BE%86%E8%87%AA%E9%82%A3.mp3" type="audio/mpeg" length="15267257"/>
-      <itunes:title>EP006 大模型軍備賽玩累了？小模型才是 AI 真正的未來</itunes:title>
-      <itunes:author>雨晴</itunes:author>
-      <itunes:duration>00:10:36</itunes:duration>
-      <itunes:explicit>no</itunes:explicit>
-      <itunes:episode>6</itunes:episode>
-      <itunes:episodeType>full</itunes:episodeType>
-      <itunes:summary>大家都在追逐更大更強的AI，但你知道嗎？真正的革命可能來自那些「小而美」的模型！這集雨晴要跟你聊聊，為什麼AI的未來不只是軍備競賽，小模型如何能把AI帶進我們每個人的生活，這股趨勢又會帶來什麼改變？</itunes:summary>
-      <itunes:subtitle>大模型軍備賽玩累了？小模型才是 AI 真正的未來</itunes:subtitle>
-      <itunes:keywords>科技,AI,一人創業,工具,趨勢</itunes:keywords>
-      <content:encoded><![CDATA[大家都在追逐更大更強的AI，但你知道嗎？真正的革命可能來自那些「小而美」的模型！這集雨晴要跟你聊聊，為什麼AI的未來不只是軍備競賽，小模型如何能把AI帶進我們每個人的生活，這股趨勢又會帶來什麼改變？]]></content:encoded>
     </item>
   </channel>
 </rss>
