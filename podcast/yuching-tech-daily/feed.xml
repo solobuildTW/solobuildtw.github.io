@@ -7,7 +7,7 @@
     <description>每週科技生活新知。雨晴帶你輕鬆掌握 AI 工具、科技趨勢與日常科技應用，像跟科技圈朋友聊天，每集聊一個你馬上能用的科技新知。</description>
     <copyright>© 2026 雨晴</copyright>
     <generator>SoloBuildTW Podcast RSS Generator v2</generator>
-    <lastBuildDate>Sun, 03 May 2026 00:00:00 -0000</lastBuildDate>
+    <lastBuildDate>Mon, 04 May 2026 00:00:00 -0000</lastBuildDate>
     <atom:link href="https://solobuildtw.github.io/podcast/yuching-tech-daily/feed.xml" rel="self" type="application/rss+xml"/>
     <managingEditor>solobuildtw@gmail.com (雨晴)</managingEditor>
     <itunes:title>雨晴的科技日常</itunes:title>
@@ -29,6 +29,24 @@
       <link>https://solobuildtw.github.io/podcast/yuching-tech-daily/</link>
     </image>
     <itunes:category text="Technology"/>
+    <item>
+      <title>EP027 你的產品再完美也沒人看？先有粉絲，才能真正成功</title>
+      <description>耗盡心力打造的完美產品，上市後卻乏人問津？說真的，這可能是每個開發者的惡夢。但你想想看，問題會不會是你做生意的順序錯了？這集雨晴要來聊聊，為什麼「先有粉絲，再有產品」這個策略，能讓你不再孤軍奮戰。</description>
+      <pubDate>Mon, 04 May 2026 00:00:00 -0000</pubDate>
+      <guid>3ce9bdb2b6a6b50a2769ffc9f671efd8</guid>
+      <link>https://solobuildtw.github.io/podcast/yuching-tech-daily/ep/027</link>
+      <enclosure url="https://podcast-cdn.pick-tw.com/audio/CH1/EP027_%E4%BD%A0%E7%9A%84%E7%94%A2%E5%93%81%E5%86%8D%E5%AE%8C%E7%BE%8E%E4%B9%9F%E6%B2%92%E4%BA%BA%E7%9C%8B%EF%BC%9F%E5%85%88%E6%9C%89%E7%B2%89%E7%B5%B2%EF%BC%8C%E6%89%8D%E8%83%BD%E7%9C%9F%E6%AD%A3%E6%88%90%E5%8A%9F.mp3" type="audio/mpeg" length="14853477"/>
+      <itunes:title>EP027 你的產品再完美也沒人看？先有粉絲，才能真正成功</itunes:title>
+      <itunes:author>雨晴</itunes:author>
+      <itunes:duration>00:10:18</itunes:duration>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:episode>27</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:summary>耗盡心力打造的完美產品，上市後卻乏人問津？說真的，這可能是每個開發者的惡夢。但你想想看，問題會不會是你做生意的順序錯了？這集雨晴要來聊聊，為什麼「先有粉絲，再有產品」這個策略，能讓你不再孤軍奮戰。</itunes:summary>
+      <itunes:subtitle>你的產品再完美也沒人看？先有粉絲，才能真正成功</itunes:subtitle>
+      <itunes:keywords>科技,AI,一人創業,工具,趨勢</itunes:keywords>
+      <content:encoded><![CDATA[耗盡心力打造的完美產品，上市後卻乏人問津？說真的，這可能是每個開發者的惡夢。但你想想看，問題會不會是你做生意的順序錯了？這集雨晴要來聊聊，為什麼「先有粉絲，再有產品」這個策略，能讓你不再孤軍奮戰。]]></content:encoded>
+    </item>
     <item>
       <title>EP026 從副駕駛到代理人，AI 真的要升官了嗎？</title>
       <description>你想想看，我們跟 AI 的關係是不是正在改變？過去 AI 像個聽話的副駕駛，但現在它即將升官成能獨立思考的「代理人」AI Agent！這不只是換個名字而已喔。</description>
@@ -370,24 +388,6 @@
       <itunes:subtitle>AI幫你寫了八成的程式，這個產品還算是你『獨立』完成的嗎？</itunes:subtitle>
       <itunes:keywords>科技,AI,一人創業,工具,趨勢</itunes:keywords>
       <content:encoded><![CDATA[當AI能幫你寫程式、做設計，甚至完成八成以上的工作，你還能抬頭挺胸地說，這個作品是你「獨立」完成的嗎？這份成就感還算數嗎？說真的，這已經不只是技術問題，更關乎我們的自我認同。]]></content:encoded>
-    </item>
-    <item>
-      <title>EP007 你最常用的搜尋引擎，正在被 AI 內容悄悄謀殺？</title>
-      <description>說真的，你是不是也覺得網路世界越來越吵、越來越假？搜尋結果被AI農場文佔據，社群上的美圖也分不清真偽。這集雨晴就來跟你聊聊，AI正在如何改變我們的網路日常，以及我們還能不能找到那些真實的資訊。</description>
-      <pubDate>Tue, 14 Apr 2026 00:00:00 -0000</pubDate>
-      <guid>36e419bd101a1a46802967be6b077d65</guid>
-      <link>https://solobuildtw.github.io/podcast/yuching-tech-daily/ep/007</link>
-      <enclosure url="https://podcast-cdn.pick-tw.com/audio/CH1/EP007_%E8%AA%AA%E7%9C%9F%E7%9A%84%EF%BC%8C%E4%BD%A0%E6%98%AF%E4%B8%8D%E6%98%AF%E4%B9%9F%E8%A6%BA%E5%BE%97%E7%B6%B2%E8%B7%AF%E4%B8%96%E7%95%8C%E8%B6%8A%E4%BE%86%E8%B6%8A%E5%90%B5%E3%80%81%E8%B6%8A%E4%BE%86%E8%B6%8A%E5%81%87%EF%BC%9F%E6%90%9C%E5%B0%8B%E7%B5%90%E6%9E%9C%E8%A2%AB.mp3" type="audio/mpeg" length="15431515"/>
-      <itunes:title>EP007 你最常用的搜尋引擎，正在被 AI 內容悄悄謀殺？</itunes:title>
-      <itunes:author>雨晴</itunes:author>
-      <itunes:duration>00:10:42</itunes:duration>
-      <itunes:explicit>no</itunes:explicit>
-      <itunes:episode>7</itunes:episode>
-      <itunes:episodeType>full</itunes:episodeType>
-      <itunes:summary>說真的，你是不是也覺得網路世界越來越吵、越來越假？搜尋結果被AI農場文佔據，社群上的美圖也分不清真偽。這集雨晴就來跟你聊聊，AI正在如何改變我們的網路日常，以及我們還能不能找到那些真實的資訊。</itunes:summary>
-      <itunes:subtitle>你最常用的搜尋引擎，正在被 AI 內容悄悄謀殺？</itunes:subtitle>
-      <itunes:keywords>科技,AI,一人創業,工具,趨勢</itunes:keywords>
-      <content:encoded><![CDATA[說真的，你是不是也覺得網路世界越來越吵、越來越假？搜尋結果被AI農場文佔據，社群上的美圖也分不清真偽。這集雨晴就來跟你聊聊，AI正在如何改變我們的網路日常，以及我們還能不能找到那些真實的資訊。]]></content:encoded>
     </item>
   </channel>
 </rss>

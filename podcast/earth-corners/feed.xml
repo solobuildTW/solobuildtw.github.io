@@ -7,7 +7,7 @@
     <description>地球上有些角落你一輩子不會去，但故事精彩到值得聽完。熙熙帶你走訪冷門國家、邊境小鎮與被遺忘的文明。</description>
     <copyright>© 2026 熙熙</copyright>
     <generator>SoloBuildTW Podcast RSS Generator v2</generator>
-    <lastBuildDate>Sat, 02 May 2026 00:00:00 -0000</lastBuildDate>
+    <lastBuildDate>Mon, 04 May 2026 00:00:00 -0000</lastBuildDate>
     <atom:link href="https://solobuildtw.github.io/podcast/earth-corners/feed.xml" rel="self" type="application/rss+xml"/>
     <managingEditor>viviank889@gmail.com (熙熙)</managingEditor>
     <itunes:title>地球的角落</itunes:title>
@@ -31,6 +31,24 @@
     <itunes:category text="Society &amp; Culture">
       <itunes:category text="Places &amp; Travel"/>
     </itunes:category>
+    <item>
+      <title>EP027 探索印尼山區托拉雅人的告別儀式：在這裡，死亡是一場溫暖而漫長的家族旅程</title>
+      <description>印尼蘇拉威西島的托拉雅人，對死亡有著截然不同的詮釋：亡者是「生病的人」，葬禮是延續的陪伴。熙熙帶你走進這個與亡者共生的山中世界，感受那場名為Rambu Solo'的盛大告別，如何成為生命的禮讚。</description>
+      <pubDate>Mon, 04 May 2026 00:00:00 -0000</pubDate>
+      <guid>b56817cbc8ceb789fb70d32a222c6aaa</guid>
+      <link>https://solobuildtw.github.io/podcast/earth-corners/ep/027</link>
+      <enclosure url="https://podcast-cdn.pick-tw.com/audio/CH4/EP027_%E5%8D%B0%E5%B0%BC%E8%98%87%E6%8B%89%E5%A8%81%E8%A5%BF%E5%B3%B6%E7%9A%84%E6%89%98%E6%8B%89%E9%9B%85%E4%BA%BA%EF%BC%8C%E5%B0%8D%E6%AD%BB%E4%BA%A1%E6%9C%89%E8%91%97%E6%88%AA%E7%84%B6%E4%B8%8D%E5%90%8C%E7%9A%84%E8%A9%AE%E9%87%8B%EF%BC%9A%E4%BA%A1%E8%80%85%E6%98%AF%E3%80%8C.mp3" type="audio/mpeg" length="15944351"/>
+      <itunes:title>EP027 探索印尼山區托拉雅人的告別儀式：在這裡，死亡是一場溫暖而漫長的家族旅程</itunes:title>
+      <itunes:author>熙熙</itunes:author>
+      <itunes:duration>00:11:04</itunes:duration>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:episode>27</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:summary>印尼蘇拉威西島的托拉雅人，對死亡有著截然不同的詮釋：亡者是「生病的人」，葬禮是延續的陪伴。熙熙帶你走進這個與亡者共生的山中世界，感受那場名為Rambu Solo'的盛大告別，如何成為生命的禮讚。</itunes:summary>
+      <itunes:subtitle>探索印尼山區托拉雅人的告別儀式：在這裡，死亡是一場溫暖而漫長的家族旅程</itunes:subtitle>
+      <itunes:keywords>旅遊,地理,冷門國家,文化,探索</itunes:keywords>
+      <content:encoded><![CDATA[印尼蘇拉威西島的托拉雅人，對死亡有著截然不同的詮釋：亡者是「生病的人」，葬禮是延續的陪伴。熙熙帶你走進這個與亡者共生的山中世界，感受那場名為Rambu Solo'的盛大告別，如何成為生命的禮讚。]]></content:encoded>
+    </item>
     <item>
       <title>EP025 在麥西河兩岸發生的故事，一個只活在當下的古老部落</title>
       <description>亞馬遜雨林的皮拉罕人沒有數字與歷史敘事，只活在純粹當下，語言學家埃弗雷特深入研究後發現，他們的「當下經驗原則」反映出一種令現代人嚮往卻難以企及的純粹快樂。</description>
@@ -372,24 +390,6 @@
       <itunes:subtitle>探索沙漠深處的微型國度，一個被守護四十年的夢想</itunes:subtitle>
       <itunes:keywords>旅遊,地理,冷門國家,文化,探索</itunes:keywords>
       <content:encoded><![CDATA[美國沙漠裡，有一個只有一戶人家的奇幻共和國。熙熙帶你拜訪莫洛西亞，這個用幽默和四十年堅持打造的夢想王國，溫柔挑戰你對國家的所有想像。]]></content:encoded>
-    </item>
-    <item>
-      <title>EP003 探索蒙古草原上流動的家：游牧民族如何將整個世界裝進蒙古包</title>
-      <description>蒙古草原上，家是一個可以移動的圓。熙熙邀你跟著游牧民族的腳步，感受那種以天地為座標的生命節奏，以及那份隨時都能安頓下來的從容與自由。</description>
-      <pubDate>Fri, 10 Apr 2026 00:00:00 -0000</pubDate>
-      <guid>f76362b37d0ba6ccb684c48da798f2e1</guid>
-      <link>https://solobuildtw.github.io/podcast/earth-corners/ep/003</link>
-      <enclosure url="https://podcast-cdn.pick-tw.com/audio/CH4/EP003_%E8%92%99%E5%8F%A4%E8%8D%89%E5%8E%9F%E4%B8%8A%EF%BC%8C%E5%AE%B6%E6%98%AF%E4%B8%80%E5%80%8B%E5%8F%AF%E4%BB%A5%E7%A7%BB%E5%8B%95%E7%9A%84%E5%9C%93%E3%80%82%E7%86%99%E7%86%99%E9%82%80%E4%BD%A0%E8%B7%9F%E8%91%97%E6%B8%B8%E7%89%A7%E6%B0%91%E6%97%8F%E7%9A%84%E8%85%B3%E6%AD%A5.mp3" type="audio/mpeg" length="18718555"/>
-      <itunes:title>EP003 探索蒙古草原上流動的家：游牧民族如何將整個世界裝進蒙古包</itunes:title>
-      <itunes:author>熙熙</itunes:author>
-      <itunes:duration>00:12:59</itunes:duration>
-      <itunes:explicit>no</itunes:explicit>
-      <itunes:episode>3</itunes:episode>
-      <itunes:episodeType>full</itunes:episodeType>
-      <itunes:summary>蒙古草原上，家是一個可以移動的圓。熙熙邀你跟著游牧民族的腳步，感受那種以天地為座標的生命節奏，以及那份隨時都能安頓下來的從容與自由。</itunes:summary>
-      <itunes:subtitle>探索蒙古草原上流動的家：游牧民族如何將整個世界裝進蒙古包</itunes:subtitle>
-      <itunes:keywords>旅遊,地理,冷門國家,文化,探索</itunes:keywords>
-      <content:encoded><![CDATA[蒙古草原上，家是一個可以移動的圓。熙熙邀你跟著游牧民族的腳步，感受那種以天地為座標的生命節奏，以及那份隨時都能安頓下來的從容與自由。]]></content:encoded>
     </item>
   </channel>
 </rss>

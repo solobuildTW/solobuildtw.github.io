@@ -7,7 +7,7 @@
     <description>人類到底有多蠢？阿佑翻遍歷史與新聞，每集挖出一個讓你又笑又傻眼的真實蠢事。</description>
     <copyright>© 2026 阿佑</copyright>
     <generator>SoloBuildTW Podcast RSS Generator v2</generator>
-    <lastBuildDate>Sun, 03 May 2026 00:00:00 -0000</lastBuildDate>
+    <lastBuildDate>Mon, 04 May 2026 00:00:00 -0000</lastBuildDate>
     <atom:link href="https://solobuildtw.github.io/podcast/stupid-humans/feed.xml" rel="self" type="application/rss+xml"/>
     <managingEditor>harvey3630@gmail.com (阿佑)</managingEditor>
     <itunes:title>史上最蠢人類</itunes:title>
@@ -29,6 +29,24 @@
       <link>https://solobuildtw.github.io/podcast/stupid-humans/</link>
     </image>
     <itunes:category text="Comedy"/>
+    <item>
+      <title>EP027 人類做過最蠢的事：為了幾粒穀物，舉國獵殺麻雀引發大饑荒</title>
+      <description>毛澤東親眼看到麻雀吃穀物，大手一揮宣布消滅麻雀。全民殺了二十億隻，卻忘了麻雀是蝗蟲天敵。蝗災加饑荒，數千萬人因此死去。</description>
+      <pubDate>Mon, 04 May 2026 00:00:00 -0000</pubDate>
+      <guid>539ff5b5ece4fe4bd27b997fd69a51bd</guid>
+      <link>https://solobuildtw.github.io/podcast/stupid-humans/ep/027</link>
+      <enclosure url="https://podcast-cdn.pick-tw.com/audio/CH3/EP027_%E4%BA%BA%E9%A1%9E%E5%81%9A%E9%81%8E%E6%9C%80%E8%A0%A2%E7%9A%84%E4%BA%8B%EF%BC%9A%E7%82%BA%E4%BA%86%E5%B9%BE%E7%B2%92%E7%A9%80%E7%89%A9%EF%BC%8C%E8%88%89%E5%9C%8B%E7%8D%B5%E6%AE%BA%E9%BA%BB%E9%9B%80%E5%BC%95%E7%99%BC%E5%A4%A7%E9%A5%91%E8%8D%92.mp3" type="audio/mpeg" length="14444086"/>
+      <itunes:title>EP027 人類做過最蠢的事：為了幾粒穀物，舉國獵殺麻雀引發大饑荒</itunes:title>
+      <itunes:author>阿佑</itunes:author>
+      <itunes:duration>00:10:01</itunes:duration>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:episode>27</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:summary>毛澤東親眼看到麻雀吃穀物，大手一揮宣布消滅麻雀。全民殺了二十億隻，卻忘了麻雀是蝗蟲天敵。蝗災加饑荒，數千萬人因此死去。</itunes:summary>
+      <itunes:subtitle>人類做過最蠢的事：為了幾粒穀物，舉國獵殺麻雀引發大饑荒</itunes:subtitle>
+      <itunes:keywords>搞笑,蠢事,喜劇,台灣,真實故事</itunes:keywords>
+      <content:encoded><![CDATA[毛澤東親眼看到麻雀吃穀物，大手一揮宣布消滅麻雀。全民殺了二十億隻，卻忘了麻雀是蝗蟲天敵。蝗災加饑荒，數千萬人因此死去。]]></content:encoded>
+    </item>
     <item>
       <title>EP026 這個天才傻瓜為了消除汽車噪音，結果毒害了整個地球一百年</title>
       <description>化學家湯瑪斯·米基利一生發明含鉛汽油和氟氯碳化物CFC，解決了引擎爆震和冰箱冷媒問題，卻分別毒害全球兒童腦部發育並破壞臭氧層，堪稱歷史上單憑一己之力對地球造成最深遠傷害的個體生物。</description>
@@ -370,24 +388,6 @@
       <itunes:subtitle>這個傻瓜竟然為了多吃幾粒米，下令全國獵殺幾億隻麻雀</itunes:subtitle>
       <itunes:keywords>搞笑,蠢事,喜劇,台灣,真實故事</itunes:keywords>
       <content:encoded><![CDATA[大躍進時期，中國動員全國人民消滅麻雀，導致生態係崩潰，飢荒死了數千萬人。幾年後有人把麻雀從蘇聯進口回來。阿佑說，這不是黑色幽默，這是真實的歷史，比任何荒誕劇都還要荒誕。]]></content:encoded>
-    </item>
-    <item>
-      <title>EP006 這個傻瓜用六億人殺麻雀，反而餓死了幾千萬人</title>
-      <description>毛澤東宣布全民向麻雀宣戰，數億人花了數天把麻雀趕盡殺絕，結果害蟲爆發、糧食崩潰，最後餓死了數千萬人。這場戰爭的對象是一隻小鳥。阿佑說，有些決定從根本就是錯的，還執行得特別徹底。</description>
-      <pubDate>Mon, 13 Apr 2026 00:00:00 -0000</pubDate>
-      <guid>ac82cdfb37fb4750cd241b29a8cf03be</guid>
-      <link>https://solobuildtw.github.io/podcast/stupid-humans/ep/006</link>
-      <enclosure url="https://podcast-cdn.pick-tw.com/audio/CH3/EP006_%E6%AF%9B%E6%BE%A4%E6%9D%B1%E5%AE%A3%E5%B8%83%E5%85%A8%E6%B0%91%E5%90%91%E9%BA%BB%E9%9B%80%E5%AE%A3%E6%88%B0%EF%BC%8C%E6%95%B8%E5%84%84%E4%BA%BA%E8%8A%B1%E4%BA%86%E6%95%B8%E5%A4%A9%E6%8A%8A%E9%BA%BB%E9%9B%80%E8%B6%95%E7%9B%A1%E6%AE%BA%E7%B5%95%EF%BC%8C%E7%B5%90%E6%9E%9C.mp3" type="audio/mpeg" length="14449102"/>
-      <itunes:title>EP006 這個傻瓜用六億人殺麻雀，反而餓死了幾千萬人</itunes:title>
-      <itunes:author>阿佑</itunes:author>
-      <itunes:duration>00:10:02</itunes:duration>
-      <itunes:explicit>no</itunes:explicit>
-      <itunes:episode>6</itunes:episode>
-      <itunes:episodeType>full</itunes:episodeType>
-      <itunes:summary>毛澤東宣布全民向麻雀宣戰，數億人花了數天把麻雀趕盡殺絕，結果害蟲爆發、糧食崩潰，最後餓死了數千萬人。這場戰爭的對象是一隻小鳥。阿佑說，有些決定從根本就是錯的，還執行得特別徹底。</itunes:summary>
-      <itunes:subtitle>這個傻瓜用六億人殺麻雀，反而餓死了幾千萬人</itunes:subtitle>
-      <itunes:keywords>搞笑,蠢事,喜劇,台灣,真實故事</itunes:keywords>
-      <content:encoded><![CDATA[毛澤東宣布全民向麻雀宣戰，數億人花了數天把麻雀趕盡殺絕，結果害蟲爆發、糧食崩潰，最後餓死了數千萬人。這場戰爭的對象是一隻小鳥。阿佑說，有些決定從根本就是錯的，還執行得特別徹底。]]></content:encoded>
     </item>
   </channel>
 </rss>
