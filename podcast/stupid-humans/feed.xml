@@ -7,7 +7,7 @@
     <description>人類到底有多蠢？阿佑翻遍歷史與新聞，每集挖出一個讓你又笑又傻眼的真實蠢事。</description>
     <copyright>© 2026 阿佑</copyright>
     <generator>SoloBuildTW Podcast RSS Generator v2</generator>
-    <lastBuildDate>Mon, 04 May 2026 00:00:00 -0000</lastBuildDate>
+    <lastBuildDate>Tue, 05 May 2026 00:00:00 -0000</lastBuildDate>
     <atom:link href="https://solobuildtw.github.io/podcast/stupid-humans/feed.xml" rel="self" type="application/rss+xml"/>
     <managingEditor>harvey3630@gmail.com (阿佑)</managingEditor>
     <itunes:title>史上最蠢人類</itunes:title>
@@ -29,6 +29,24 @@
       <link>https://solobuildtw.github.io/podcast/stupid-humans/</link>
     </image>
     <itunes:category text="Comedy"/>
+    <item>
+      <title>EP028 人類做過最蠢的事：花幾百億蓋防線卻忘了關後門</title>
+      <description>法國砸下五十億法郎蓋馬其諾防線，以為德國人攻不進來。結果人家從你沒蓋的那段繞過去，防線成了觀光景點。就這智商還能管一個國家。</description>
+      <pubDate>Tue, 05 May 2026 00:00:00 -0000</pubDate>
+      <guid>6f57155b352f6e07095526e31a40bc5c</guid>
+      <link>https://solobuildtw.github.io/podcast/stupid-humans/ep/028</link>
+      <enclosure url="https://podcast-cdn.pick-tw.com/audio/CH3/EP028_%E4%BA%BA%E9%A1%9E%E5%81%9A%E9%81%8E%E6%9C%80%E8%A0%A2%E7%9A%84%E4%BA%8B%EF%BC%9A%E8%8A%B1%E5%B9%BE%E7%99%BE%E5%84%84%E8%93%8B%E9%98%B2%E7%B7%9A%E5%8D%BB%E5%BF%98%E4%BA%86%E9%97%9C%E5%BE%8C%E9%96%80.mp3" type="audio/mpeg" length="13671697"/>
+      <itunes:title>EP028 人類做過最蠢的事：花幾百億蓋防線卻忘了關後門</itunes:title>
+      <itunes:author>阿佑</itunes:author>
+      <itunes:duration>00:09:29</itunes:duration>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:episode>28</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:summary>法國砸下五十億法郎蓋馬其諾防線，以為德國人攻不進來。結果人家從你沒蓋的那段繞過去，防線成了觀光景點。就這智商還能管一個國家。</itunes:summary>
+      <itunes:subtitle>人類做過最蠢的事：花幾百億蓋防線卻忘了關後門</itunes:subtitle>
+      <itunes:keywords>搞笑,蠢事,喜劇,台灣,真實故事</itunes:keywords>
+      <content:encoded><![CDATA[法國砸下五十億法郎蓋馬其諾防線，以為德國人攻不進來。結果人家從你沒蓋的那段繞過去，防線成了觀光景點。就這智商還能管一個國家。]]></content:encoded>
+    </item>
     <item>
       <title>EP027 人類做過最蠢的事：為了幾粒穀物，舉國獵殺麻雀引發大饑荒</title>
       <description>毛澤東親眼看到麻雀吃穀物，大手一揮宣布消滅麻雀。全民殺了二十億隻，卻忘了麻雀是蝗蟲天敵。蝗災加饑荒，數千萬人因此死去。</description>
@@ -370,24 +388,6 @@
       <itunes:subtitle>這個傻瓜...竟然派軍隊去打鳥，結果被兩萬隻鴯鶓打到投降</itunes:subtitle>
       <itunes:keywords>搞笑,蠢事,喜劇,台灣,真實故事</itunes:keywords>
       <content:encoded><![CDATA[1932年澳洲軍隊帶著機關槍討伐鴯鶓，結果被鳥打敗，全面撤退。牠們的鳥羽毛甚至擋得住機槍子彈。這場「鴯鶓戰爭」是真實發生的，澳洲官方記錄在案，沒有人為這件事感到驕傲。]]></content:encoded>
-    </item>
-    <item>
-      <title>EP007 這個傻瓜竟然為了多吃幾粒米，下令全國獵殺幾億隻麻雀</title>
-      <description>大躍進時期，中國動員全國人民消滅麻雀，導致生態係崩潰，飢荒死了數千萬人。幾年後有人把麻雀從蘇聯進口回來。阿佑說，這不是黑色幽默，這是真實的歷史，比任何荒誕劇都還要荒誕。</description>
-      <pubDate>Tue, 14 Apr 2026 00:00:00 -0000</pubDate>
-      <guid>fe9af18756b7067f94928f7eea993ec1</guid>
-      <link>https://solobuildtw.github.io/podcast/stupid-humans/ep/007</link>
-      <enclosure url="https://podcast-cdn.pick-tw.com/audio/CH3/EP007_%E5%A4%A7%E8%BA%8D%E9%80%B2%E6%99%82%E6%9C%9F%EF%BC%8C%E4%B8%AD%E5%9C%8B%E5%8B%95%E5%93%A1%E5%85%A8%E5%9C%8B%E4%BA%BA%E6%B0%91%E6%B6%88%E6%BB%85%E9%BA%BB%E9%9B%80%EF%BC%8C%E5%B0%8E%E8%87%B4%E7%94%9F%E6%85%8B%E4%BF%82%E5%B4%A9%E6%BD%B0%EF%BC%8C%E9%A3%A2%E8%8D%92%E6%AD%BB.mp3" type="audio/mpeg" length="13896142"/>
-      <itunes:title>EP007 這個傻瓜竟然為了多吃幾粒米，下令全國獵殺幾億隻麻雀</itunes:title>
-      <itunes:author>阿佑</itunes:author>
-      <itunes:duration>00:09:38</itunes:duration>
-      <itunes:explicit>no</itunes:explicit>
-      <itunes:episode>7</itunes:episode>
-      <itunes:episodeType>full</itunes:episodeType>
-      <itunes:summary>大躍進時期，中國動員全國人民消滅麻雀，導致生態係崩潰，飢荒死了數千萬人。幾年後有人把麻雀從蘇聯進口回來。阿佑說，這不是黑色幽默，這是真實的歷史，比任何荒誕劇都還要荒誕。</itunes:summary>
-      <itunes:subtitle>這個傻瓜竟然為了多吃幾粒米，下令全國獵殺幾億隻麻雀</itunes:subtitle>
-      <itunes:keywords>搞笑,蠢事,喜劇,台灣,真實故事</itunes:keywords>
-      <content:encoded><![CDATA[大躍進時期，中國動員全國人民消滅麻雀，導致生態係崩潰，飢荒死了數千萬人。幾年後有人把麻雀從蘇聯進口回來。阿佑說，這不是黑色幽默，這是真實的歷史，比任何荒誕劇都還要荒誕。]]></content:encoded>
     </item>
   </channel>
 </rss>
