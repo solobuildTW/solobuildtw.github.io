@@ -24,8 +24,9 @@ body::before{content:'';position:fixed;inset:0;pointer-events:none;z-index:0;bac
 img{max-width:100%;display:block}
 .nav{padding:24px 0;position:sticky;top:0;backdrop-filter:blur(12px);background:rgba(247,244,237,0.9);z-index:50;border-bottom:1px solid var(--border)}
 .nav .container{display:flex;justify-content:space-between;align-items:center}
-.brand{display:flex;align-items:center;gap:10px;font-weight:800;font-size:18px;text-decoration:none;color:var(--text)}
-.brand-mark{width:32px;height:32px;border-radius:8px;background:linear-gradient(135deg,var(--mint),var(--mint-deep));display:flex;align-items:center;justify-content:center;color:#FFF;font-size:14px;font-weight:800}
+.brand{font-weight:800;font-size:1.3rem;letter-spacing:-0.03em;text-decoration:none;color:#1E3A5F;display:inline-flex;align-items:baseline}
+.brand::after{content:'.';color:#E8804C;font-weight:800}
+
 .nav nav{display:flex;align-items:center;gap:28px}
 .nav nav a{color:var(--text);text-decoration:none;font-size:15px;font-weight:500}
 .nav nav a:hover{color:var(--accent)}
@@ -89,14 +90,14 @@ img{max-width:100%;display:block}
 </style></head><body>
 
 <header class="nav"><div class="container">
-  <a href="/" class="brand"><span class="brand-mark">S</span>SoloBuildTW</a>
+  <a href="https://solobuildtw.com/" class="brand">SoloBuildTW</a>
   <nav>
-    <a href="/">製品</a>
-    <a href="/api/">Data API</a>
-    <a href="/podcast/">Podcast</a>
-    <a href="https://solobuildtw.com/" target="_blank" rel="noopener">メイン</a>
-    <span class="lang-sw"><a href="/about/">中</a><a href="/about/index.en.html">EN</a><strong class="cur">日</strong></span>
-    <a href="#consult" class="btn-outline">相談予約</a>
+    <a href="https://solobuildtw.github.io/ja/">経験パック</a>
+    <a href="https://solobuildtw.github.io/api/">Data API</a>
+    <a href="https://solobuildtw.github.io/weekly/">週報</a>
+    <a href="https://solobuildtw.github.io/podcast/">Podcast</a>
+    <a href="https://solobuildtw.github.io/about/index.ja.html">概要</a>
+    <a href="https://solobuildtw.github.io/pricing/" class="btn-outline">相談予約</a>
   </nav>
 </div></header>
 
@@ -156,13 +157,13 @@ img{max-width:100%;display:block}
 
 <footer class="site-footer"><div class="container">
   <div class="footer-brand">
-    <a href="/" class="brand"><span class="brand-mark">S</span>SoloBuildTW</a>
-    <p>独立スタジオ、台北から AI 自動化の複数製品ラインを展開。Harvey 一人で。</p>
+    <a href="/" class="brand">SoloBuildTW</a>
+    <p>独立スタジオ、AI 自動化の複数製品ラインを展開。Harvey 一人で。</p>
   </div>
   <div class="footer-col"><h4>產品</h4><a href="/">経験パック</a><a href="/api/">Data API</a><a href="https://taiwandataweekly.substack.com" target="_blank">週報</a><a href="/podcast/">Podcast</a></div>
   <div class="footer-col"><h4>關於</h4><a href="/about/">スタジオ</a><a href="#consult">相談</a></div>
   <div class="footer-col"><h4>連絡</h4><a href="mailto:solobuildtw@gmail.com">solobuildtw@gmail.com</a></div>
   <div class="footer-col"><h4>法務</h4><a href="/legal/privacy.html">プライバシー</a><a href="/legal/terms.html">利用規約</a></div>
-</div><div class="container"><div class="copyright">© 2026 SoloBuildTW · 台北から · Harvey</div></div></footer>
+</div><div class="container"><div class="copyright">© 2026 SoloBuildTW · Harvey</div></div></footer>
 
 </body></html>
