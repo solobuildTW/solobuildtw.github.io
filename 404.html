@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="zh-Hant"><head><meta charset="UTF-8"/><meta name="viewport" content="width=device-width,initial-scale=1.0"/>
+<title>404 找不到頁面 — SoloBuildTW</title>
+<meta name="robots" content="noindex"/>
+<link rel="icon" type="image/svg+xml" href="/favicon.svg"/>
+<link rel="preconnect" href="https://fonts.googleapis.com"/>
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;600;700;800&family=Noto+Sans+TC:wght@400;500;700&display=swap" rel="stylesheet"/>
+<style>
+:root{--bg:#F7F4ED;--text:#1F3A36;--muted:#5F706C;--accent:#F4A582;--accent-hover:#E08966;--mint:#A3D9C5;--mint-deep:#5FA88D;--card:#FFFCF6;--border:rgba(31,58,54,0.08);--brand-navy:#1E3A5F}
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+body{font-family:'Manrope','Noto Sans TC',sans-serif;background:var(--bg);color:var(--text);line-height:1.6;min-height:100vh;display:flex;flex-direction:column}
+body::before{content:'';position:fixed;inset:0;pointer-events:none;background:radial-gradient(ellipse 800px 500px at 50% 30%,rgba(163,217,197,0.3),transparent 60%),radial-gradient(ellipse 600px 400px at 50% 80%,rgba(244,165,130,0.15),transparent 60%)}
+.container{max-width:1240px;margin:0 auto;padding:0 40px;width:100%;position:relative}
+.nav{padding:24px 0}
+.nav .container{display:flex;justify-content:space-between;align-items:center}
+.brand{font-weight:800;font-size:1.3rem;letter-spacing:-0.03em;text-decoration:none;color:var(--brand-navy);display:inline-flex;align-items:baseline}
+.brand::after{content:'.';color:var(--accent);font-weight:800}
+.nav nav{display:flex;gap:24px;font-size:14px}
+.nav nav a{color:var(--muted);text-decoration:none}
+.nav nav a:hover{color:var(--accent)}
+main{flex:1;display:flex;align-items:center;justify-content:center;padding:48px 0;text-align:center}
+.code{font-size:clamp(8rem,20vw,16rem);font-weight:800;line-height:1;letter-spacing:-8px;background:linear-gradient(135deg,var(--accent),var(--mint-deep));-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text;margin-bottom:8px}
+h1{font-size:clamp(1.6rem,3.5vw,2.4rem);font-weight:800;letter-spacing:-1px;margin-bottom:16px}
+p{color:var(--muted);font-size:1.05rem;max-width:480px;margin:0 auto 36px;line-height:1.7}
+.actions{display:flex;gap:12px;justify-content:center;flex-wrap:wrap}
+.btn-primary{display:inline-block;background:var(--accent);color:#FFF;padding:14px 32px;border-radius:8px;text-decoration:none;font-weight:600;box-shadow:0 4px 0 var(--accent-hover);transition:transform 0.15s,box-shadow 0.15s}
+.btn-primary:hover{transform:translateY(2px);box-shadow:0 2px 0 var(--accent-hover)}
+.btn-ghost{display:inline-block;padding:14px 28px;border:1.5px solid var(--text);border-radius:8px;text-decoration:none;font-weight:600;color:var(--text)}
+.btn-ghost:hover{background:var(--text);color:var(--bg)}
+.suggestions{margin-top:48px;padding-top:32px;border-top:1px solid var(--border)}
+.suggestions h3{font-size:0.85rem;color:var(--muted);text-transform:uppercase;letter-spacing:2px;font-weight:600;margin-bottom:18px}
+.suggestions ul{list-style:none;display:flex;gap:16px;flex-wrap:wrap;justify-content:center}
+.suggestions a{color:var(--accent);font-weight:600;text-decoration:none;font-size:0.95rem;padding:6px 14px;border-radius:100px;border:1px solid var(--border)}
+.suggestions a:hover{background:var(--accent);color:#FFF;border-color:var(--accent)}
+footer{padding:32px 0;text-align:center;color:var(--muted);font-size:0.85rem;border-top:1px solid var(--border)}
+@media(max-width:640px){.container{padding:0 24px}.nav nav{gap:14px;font-size:13px}.actions{flex-direction:column}.actions a{width:100%}}
+</style></head><body>
+<header class="nav"><div class="container">
+  <a href="https://solobuildtw.com/" class="brand">SoloBuildTW</a>
+  <nav>
+    <a href="https://solobuildtw.github.io/">經驗包</a>
+    <a href="https://solobuildtw.github.io/about/">關於</a>
+  </nav>
+</div></header>
+<main><div class="container">
+  <div class="code">404</div>
+  <h1>這頁面不見了</h1>
+  <p>可能你輸入的網址有錯，或這頁已經移除。試試下方的連結，或直接回首頁。</p>
+  <div class="actions">
+    <a href="https://solobuildtw.com/" class="btn-primary">回主站首頁</a>
+    <a href="https://solobuildtw.github.io/" class="btn-ghost">看經驗包</a>
+  </div>
+  <div class="suggestions">
+    <h3>你可能想看</h3>
+    <ul>
+      <li><a href="/api/">Data API</a></li>
+      <li><a href="/weekly/">數據週報</a></li>
+      <li><a href="/podcast/">Podcast</a></li>
+      <li><a href="/about/">工作室</a></li>
+      <li><a href="/pricing/">企業合作</a></li>
+    </ul>
+  </div>
+</div></main>
+<footer><div class="container">© 2026 SoloBuildTW · Harvey</div></footer>
+</body></html>
