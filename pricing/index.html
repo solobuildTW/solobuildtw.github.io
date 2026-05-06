@@ -1,0 +1,771 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>SoloBuildtw — 公司合作價目表</title>
+  <meta name="description" content="SoloBuildtw 工作室 B2B 服務項目與價目表。AI 自動化、API 串接、Podcast 全鏈、AI Agent 系統設計。首次諮詢 30 分鐘免費。" />
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>&#x1F3E2;</text></svg>" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@300;400;500;700&family=Inter:wght@400;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="../style.css" />
+
+  <style>
+    /* ── Pricing page specific styles (M Solarpunk) ── */
+
+    .pricing-hero {
+      padding: 80px 0 48px;
+      text-align: center;
+    }
+    .pricing-hero h1 {
+      font-size: clamp(2rem, 4vw, 3rem);
+      font-weight: 700;
+      letter-spacing: -0.04em;
+      color: #1F4733;
+      margin-bottom: 16px;
+    }
+    .pricing-hero p {
+      color: #3D6B53;
+      font-size: 1.05rem;
+      max-width: 560px;
+      margin: 0 auto 32px;
+    }
+    .pricing-badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      padding: 8px 18px;
+      background: rgba(135,169,107,0.15);
+      border: 1px solid rgba(135,169,107,0.40);
+      border-radius: 999px;
+      color: #1F4733;
+      font-size: 0.875rem;
+      font-weight: 600;
+      margin-bottom: 12px;
+    }
+
+    /* ── Category sections ── */
+    .pricing-section {
+      margin-bottom: 64px;
+    }
+    .pricing-section-header {
+      display: flex;
+      align-items: center;
+      gap: 14px;
+      margin-bottom: 28px;
+      padding-bottom: 16px;
+      border-bottom: 1px solid rgba(135,169,107,0.30);
+    }
+    .pricing-section-icon {
+      width: 44px;
+      height: 44px;
+      border-radius: 12px;
+      background: rgba(244,162,97,0.15);
+      border: 1px solid rgba(244,162,97,0.40);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 1.2rem;
+      flex-shrink: 0;
+    }
+    .pricing-section-title {
+      font-size: 1.3rem;
+      font-weight: 700;
+      color: #1F4733;
+      letter-spacing: -0.02em;
+    }
+    .pricing-section-desc {
+      font-size: 0.875rem;
+      color: #87A96B;
+      margin-top: 2px;
+    }
+
+    /* ── Tier cards grid ── */
+    .tier-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 20px;
+    }
+    @media (max-width: 900px) {
+      .tier-grid { grid-template-columns: 1fr; }
+    }
+
+    .tier-card {
+      background: #FFFFFF;
+      border: 2px solid rgba(135,169,107,0.35);
+      border-radius: 16px;
+      padding: 28px 24px;
+      display: flex;
+      flex-direction: column;
+      gap: 0;
+      transition: border-color 200ms ease, box-shadow 200ms ease;
+      position: relative;
+      box-shadow: 0 4px 16px rgba(31,71,51,0.08);
+    }
+    .tier-card:hover {
+      border-color: #87A96B;
+      box-shadow: 0 8px 28px rgba(31,71,51,0.15);
+    }
+    .tier-card.featured {
+      border-color: #87A96B;
+      background: rgba(135,169,107,0.05);
+    }
+    .tier-badge {
+      position: absolute;
+      top: -12px;
+      left: 50%;
+      transform: translateX(-50%);
+      background: #F4A261;
+      color: #1F4733;
+      border: 1px solid #1F4733;
+      font-size: 0.7rem;
+      font-weight: 700;
+      padding: 4px 14px;
+      border-radius: 999px;
+      letter-spacing: 0.04em;
+      white-space: nowrap;
+    }
+
+    .tier-label {
+      font-size: 0.75rem;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+      color: #87A96B;
+      margin-bottom: 8px;
+    }
+    .tier-price {
+      font-size: 1.6rem;
+      font-weight: 700;
+      color: #1F4733;
+      letter-spacing: -0.03em;
+      line-height: 1.2;
+      margin-bottom: 4px;
+    }
+    .tier-price-note {
+      font-size: 0.78rem;
+      color: #87A96B;
+      margin-bottom: 20px;
+    }
+    .tier-suitable {
+      font-size: 0.82rem;
+      color: #3D6B53;
+      margin-bottom: 16px;
+      padding: 10px 12px;
+      background: rgba(135,169,107,0.08);
+      border-radius: 8px;
+      border-left: 2px solid #F4A261;
+    }
+    .tier-includes {
+      font-size: 0.8rem;
+      font-weight: 600;
+      color: #87A96B;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+      margin-bottom: 8px;
+    }
+    .tier-list {
+      list-style: none;
+      padding: 0;
+      margin: 0 0 16px;
+      display: flex;
+      flex-direction: column;
+      gap: 7px;
+    }
+    .tier-list li {
+      font-size: 0.84rem;
+      color: #3D6B53;
+      padding-left: 18px;
+      position: relative;
+    }
+    .tier-list li::before {
+      content: '';
+      position: absolute;
+      left: 0;
+      top: 8px;
+      width: 7px;
+      height: 7px;
+      border-radius: 50%;
+      background: #87A96B;
+    }
+    .tier-excludes {
+      font-size: 0.78rem;
+      color: #87A96B;
+      margin-top: auto;
+      padding-top: 12px;
+      border-top: 1px solid rgba(135,169,107,0.25);
+    }
+    .tier-excludes strong {
+      color: #3D6B53;
+    }
+
+    /* ── Notes section ── */
+    .pricing-notes {
+      background: #FFFFFF;
+      border: 2px solid rgba(135,169,107,0.35);
+      border-radius: 16px;
+      padding: 32px;
+      margin-bottom: 64px;
+      box-shadow: 0 4px 16px rgba(31,71,51,0.08);
+    }
+    .notes-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 24px;
+      margin-top: 20px;
+    }
+    @media (max-width: 768px) {
+      .notes-grid { grid-template-columns: 1fr; }
+    }
+    .note-item h4 {
+      font-size: 0.9rem;
+      font-weight: 700;
+      color: #1F4733;
+      margin-bottom: 8px;
+    }
+    .note-item p {
+      font-size: 0.82rem;
+      color: #3D6B53;
+      line-height: 1.6;
+    }
+
+    /* ── Quick selector table ── */
+    .quick-table {
+      width: 100%;
+      border-collapse: collapse;
+      font-size: 0.875rem;
+      margin-bottom: 64px;
+    }
+    .quick-table th {
+      text-align: left;
+      padding: 12px 16px;
+      color: #87A96B;
+      font-weight: 600;
+      font-size: 0.78rem;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+      border-bottom: 1px solid rgba(135,169,107,0.30);
+    }
+    .quick-table td {
+      padding: 14px 16px;
+      color: #3D6B53;
+      border-bottom: 1px solid rgba(135,169,107,0.15);
+    }
+    .quick-table td:first-child { color: #1F4733; }
+    .quick-table td:last-child {
+      color: #E08A4A;
+      font-weight: 600;
+    }
+    .quick-table tr:hover td {
+      background: rgba(135,169,107,0.05);
+    }
+
+    /* ── CTA section ── */
+    .pricing-cta {
+      text-align: center;
+      padding: 64px 24px;
+      background: rgba(135,169,107,0.08);
+      border: 2px solid rgba(135,169,107,0.35);
+      border-radius: 24px;
+      margin-bottom: 80px;
+    }
+    .pricing-cta h2 {
+      font-size: clamp(1.5rem, 3vw, 2rem);
+      font-weight: 700;
+      color: #1F4733;
+      letter-spacing: -0.03em;
+      margin-bottom: 12px;
+    }
+    .pricing-cta p {
+      color: #3D6B53;
+      margin-bottom: 32px;
+      font-size: 0.95rem;
+    }
+    .cta-btn {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      padding: 14px 36px;
+      background: #F4A261;
+      color: #1F4733;
+      font-weight: 700;
+      font-size: 1rem;
+      border-radius: 32px;
+      border: 2px solid #1F4733;
+      cursor: pointer;
+      transition: background 200ms ease, transform 200ms ease, box-shadow 200ms ease;
+      text-decoration: none;
+    }
+    .cta-btn:hover {
+      background: #E08A4A;
+      transform: translateY(-2px);
+      box-shadow: 0 8px 24px rgba(31,71,51,0.20);
+    }
+    .cta-note {
+      margin-top: 16px;
+      font-size: 0.8rem;
+      color: #87A96B;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="container">
+    <div style="display:flex;align-items:center;justify-content:space-between;padding:12px 0;border-bottom:1px solid #e0e0e0;margin-bottom:24px;">
+      <a href="/" style="font-weight:700;font-size:18px;text-decoration:none;color:#333;">SoloBuildTW</a>
+      <nav style="display:flex;gap:16px;align-items:center;font-size:14px;">
+        <a href="/" style="color:#666;text-decoration:none;">產品</a>
+        <a href="/api/" style="color:#666;text-decoration:none;">Data API</a>
+        <a href="/podcast/" style="color:#666;text-decoration:none;">Podcast</a>
+        <a href="/about/" style="color:#666;text-decoration:none;">關於</a>
+        <strong style="color:#333;">企業合作</strong>
+      </nav>
+    </div>
+
+    <!-- Hero -->
+    <section class="pricing-hero">
+      <div class="pricing-badge">B2B 企業合作</div>
+      <h1>公司合作項目 & 價目表</h1>
+      <p>SoloBuildtw 工作室提供 AI 自動化建置、API 串接、Podcast 全鏈、資料自動化、AI Agent 系統設計及技術顧問服務。固定報價，文件交付，30 天免費調整。</p>
+    </section>
+
+    <!-- ──────────────────────────────────────────── -->
+    <!-- 1. AI 自動化建置 -->
+    <!-- ──────────────────────────────────────────── -->
+    <div class="pricing-section">
+      <div class="pricing-section-header">
+        <div class="pricing-section-icon">&#x26A1;</div>
+        <div>
+          <div class="pricing-section-title">AI 自動化建置</div>
+          <div class="pricing-section-desc">N8N 工作流設計、LLM API 串接（Claude / GPT / Gemini）、多步驟流程自動化</div>
+        </div>
+      </div>
+      <div class="tier-grid">
+
+        <div class="tier-card">
+          <div class="tier-label">起步</div>
+          <div class="tier-price">NT$8,000</div>
+          <div class="tier-price-note">一次性專案</div>
+          <div class="tier-suitable">適合：小公司、單一重複性作業自動化</div>
+          <div class="tier-includes">包含</div>
+          <ul class="tier-list">
+            <li>1–2 個 N8N 工作流設計</li>
+            <li>串接 1 個 API（Sheets / Discord / Email）</li>
+            <li>測試驗收確認</li>
+            <li>操作文件交付</li>
+          </ul>
+          <div class="tier-excludes"><strong>不含：</strong>後續維護、LLM API 月費、N8N 主機</div>
+        </div>
+
+        <div class="tier-card featured">
+          <div class="tier-badge">最熱門</div>
+          <div class="tier-label">進階</div>
+          <div class="tier-price">NT$35,000</div>
+          <div class="tier-price-note">一次性專案</div>
+          <div class="tier-suitable">適合：中型業務、多步驟流程、跨系統整合</div>
+          <div class="tier-includes">包含</div>
+          <ul class="tier-list">
+            <li>5–10 個工作流完整設計</li>
+            <li>LLM 整合（Claude / GPT / Gemini）</li>
+            <li>Webhook 雙向串接</li>
+            <li>錯誤告警 + 重試機制</li>
+            <li>30 天免費調整</li>
+          </ul>
+          <div class="tier-excludes"><strong>不含：</strong>N8N 主機、API Key 費用</div>
+        </div>
+
+        <div class="tier-card">
+          <div class="tier-label">企業</div>
+          <div class="tier-price">NT$80,000+</div>
+          <div class="tier-price-note">一次性 + NT$5,000/月維護</div>
+          <div class="tier-suitable">適合：大型自動化堆疊、多部門流程整合</div>
+          <div class="tier-includes">包含</div>
+          <ul class="tier-list">
+            <li>完整架構設計文件</li>
+            <li>不限工作流數量</li>
+            <li>多 LLM 整合與模型分工</li>
+            <li>主機建置協助</li>
+            <li>月度巡查報告</li>
+          </ul>
+          <div class="tier-excludes"><strong>不含：</strong>主機月費、API Key 費用</div>
+        </div>
+
+      </div>
+    </div>
+
+    <!-- ──────────────────────────────────────────── -->
+    <!-- 2. API 串接 / 客製開發 -->
+    <!-- ──────────────────────────────────────────── -->
+    <div class="pricing-section">
+      <div class="pricing-section-header">
+        <div class="pricing-section-icon">&#x1F517;</div>
+        <div>
+          <div class="pricing-section-title">API 串接 / 客製開發</div>
+          <div class="pricing-section-desc">第三方 API 串接（金流 / 物流 / 廣告）、Webhook 雙向通訊、Plugin 開發</div>
+        </div>
+      </div>
+      <div class="tier-grid">
+
+        <div class="tier-card">
+          <div class="tier-label">起步</div>
+          <div class="tier-price">NT$5,000</div>
+          <div class="tier-price-note">一次性專案</div>
+          <div class="tier-suitable">適合：單一 API 串接，如金流通知、物流追蹤</div>
+          <div class="tier-includes">包含</div>
+          <ul class="tier-list">
+            <li>API 串接實作</li>
+            <li>基礎錯誤處理</li>
+            <li>測試驗收</li>
+            <li>技術文件</li>
+          </ul>
+          <div class="tier-excludes"><strong>不含：</strong>API 帳號申請、月費</div>
+        </div>
+
+        <div class="tier-card featured">
+          <div class="tier-badge">最熱門</div>
+          <div class="tier-label">進階</div>
+          <div class="tier-price">NT$30,000</div>
+          <div class="tier-price-note">一次性專案</div>
+          <div class="tier-suitable">適合：多 API 整合、Webhook 雙向、Plugin 開發</div>
+          <div class="tier-includes">包含</div>
+          <ul class="tier-list">
+            <li>多 API 串接設計</li>
+            <li>Webhook 雙向通訊</li>
+            <li>Chrome Extension / WP Plugin</li>
+            <li>Staging 環境整合測試</li>
+            <li>30 天免費調整</li>
+          </ul>
+          <div class="tier-excludes"><strong>不含：</strong>平台授權費</div>
+        </div>
+
+        <div class="tier-card">
+          <div class="tier-label">企業</div>
+          <div class="tier-price">NT$70,000+</div>
+          <div class="tier-price-note">一次性專案</div>
+          <div class="tier-suitable">適合：金流全鏈（藍新 / 綠界）、Meta / Google 廣告 API、ERP 串接</div>
+          <div class="tier-includes">包含</div>
+          <ul class="tier-list">
+            <li>完整串接架構設計</li>
+            <li>安全審查</li>
+            <li>壓力測試</li>
+            <li>完整文件 + 維護 SOP</li>
+          </ul>
+          <div class="tier-excludes"><strong>不含：</strong>金流月費、商務帳號費</div>
+        </div>
+
+      </div>
+    </div>
+
+    <!-- ──────────────────────────────────────────── -->
+    <!-- 3. Podcast / 內容全鏈自動化 -->
+    <!-- ──────────────────────────────────────────── -->
+    <div class="pricing-section">
+      <div class="pricing-section-header">
+        <div class="pricing-section-icon">&#x1F3A7;</div>
+        <div>
+          <div class="pricing-section-title">Podcast / 內容全鏈自動化</div>
+          <div class="pricing-section-desc">TTS 配音、音檔後製、Apple / Spotify / KKBOX 多平台自動上架</div>
+        </div>
+      </div>
+      <div class="tier-grid">
+
+        <div class="tier-card">
+          <div class="tier-label">起步</div>
+          <div class="tier-price">NT$12,000</div>
+          <div class="tier-price-note">一次性 / 套</div>
+          <div class="tier-suitable">適合：單一頻道、半自動出集流程</div>
+          <div class="tier-includes">包含</div>
+          <ul class="tier-list">
+            <li>腳本模板設計</li>
+            <li>TTS 合成串接（VoAI）</li>
+            <li>單平台上架（Apple 或 Spotify）</li>
+            <li>操作文件</li>
+          </ul>
+          <div class="tier-excludes"><strong>不含：</strong>TTS API 月費、音檔素材</div>
+        </div>
+
+        <div class="tier-card featured">
+          <div class="tier-badge">最熱門</div>
+          <div class="tier-label">進階</div>
+          <div class="tier-price">NT$40,000</div>
+          <div class="tier-price-note">一次性 / 套</div>
+          <div class="tier-suitable">適合：每週固定出集、多語言版本（中 / 英 / 日）</div>
+          <div class="tier-includes">包含</div>
+          <ul class="tier-list">
+            <li>LLM 自動選題 + 腳本生成</li>
+            <li>TTS 合成 + 音檔後製合併</li>
+            <li>多平台上架（Apple / Spotify / KKBOX）</li>
+            <li>排程自動化（無需手動）</li>
+          </ul>
+          <div class="tier-excludes"><strong>不含：</strong>TTS 月費、平台帳號</div>
+        </div>
+
+        <div class="tier-card">
+          <div class="tier-label">企業</div>
+          <div class="tier-price">NT$100,000+</div>
+          <div class="tier-price-note">一次性 + 月維護</div>
+          <div class="tier-suitable">適合：多頻道、多語言、與品牌 CMS 整合</div>
+          <div class="tier-includes">包含</div>
+          <ul class="tier-list">
+            <li>選題→腳本→合成→後製→上架全鏈</li>
+            <li>多頻道管理架構</li>
+            <li>數據回收（收聽數 / 訂閱數）</li>
+            <li>月度維護</li>
+          </ul>
+          <div class="tier-excludes"><strong>不含：</strong>TTS API 月費、平台帳號費</div>
+        </div>
+
+      </div>
+    </div>
+
+    <!-- ──────────────────────────────────────────── -->
+    <!-- 4. 資料 / 報表自動化 -->
+    <!-- ──────────────────────────────────────────── -->
+    <div class="pricing-section">
+      <div class="pricing-section-header">
+        <div class="pricing-section-icon">&#x1F4CA;</div>
+        <div>
+          <div class="pricing-section-title">資料 / 報表自動化</div>
+          <div class="pricing-section-desc">爬蟲、Google Sheets 自動化、定時排程、週報月報自動產出</div>
+        </div>
+      </div>
+      <div class="tier-grid">
+
+        <div class="tier-card">
+          <div class="tier-label">起步</div>
+          <div class="tier-price">NT$5,000</div>
+          <div class="tier-price-note">一次性 / 個任務</div>
+          <div class="tier-suitable">適合：固定來源、固定格式的資料收集任務</div>
+          <div class="tier-includes">包含</div>
+          <ul class="tier-list">
+            <li>單一排程任務（爬蟲 / 競品監控）</li>
+            <li>Google Sheets 自動寫入</li>
+            <li>錯誤告警機制</li>
+          </ul>
+          <div class="tier-excludes"><strong>不含：</strong>目標網站 API 帳號、主機費</div>
+        </div>
+
+        <div class="tier-card featured">
+          <div class="tier-badge">最熱門</div>
+          <div class="tier-label">進階</div>
+          <div class="tier-price">NT$25,000</div>
+          <div class="tier-price-note">一次性專案</div>
+          <div class="tier-suitable">適合：業務數據追蹤、競品情報、銷售報表自動化</div>
+          <div class="tier-includes">包含</div>
+          <ul class="tier-list">
+            <li>多來源資料整合</li>
+            <li>自動清洗與格式轉換</li>
+            <li>Sheets / Supabase 寫入</li>
+            <li>週報 / 月報自動產出（PDF / Email）</li>
+          </ul>
+          <div class="tier-excludes"><strong>不含：</strong>Supabase 月費</div>
+        </div>
+
+        <div class="tier-card">
+          <div class="tier-label">企業</div>
+          <div class="tier-price">NT$60,000+</div>
+          <div class="tier-price-note">一次性專案</div>
+          <div class="tier-suitable">適合：需要即時數據視覺化的中大型企業</div>
+          <div class="tier-includes">包含</div>
+          <ul class="tier-list">
+            <li>Dashboard 設計（Looker Studio）</li>
+            <li>多部門資料管線</li>
+            <li>歷史資料回填</li>
+            <li>維護合約</li>
+          </ul>
+          <div class="tier-excludes"><strong>不含：</strong>Looker Studio / 雲端月費</div>
+        </div>
+
+      </div>
+    </div>
+
+    <!-- ──────────────────────────────────────────── -->
+    <!-- 5. AI Agent 系統設計 -->
+    <!-- ──────────────────────────────────────────── -->
+    <div class="pricing-section">
+      <div class="pricing-section-header">
+        <div class="pricing-section-icon">&#x1F916;</div>
+        <div>
+          <div class="pricing-section-title">AI Agent 系統設計</div>
+          <div class="pricing-section-desc">Multi-Agent 架構、客服 Bot、自動派單系統、內容審查代理</div>
+        </div>
+      </div>
+      <div class="tier-grid">
+
+        <div class="tier-card">
+          <div class="tier-label">起步</div>
+          <div class="tier-price">NT$15,000</div>
+          <div class="tier-price-note">一次性專案</div>
+          <div class="tier-suitable">適合：單一 AI 代理，如客服問答 Bot、FAQ 自動回覆</div>
+          <div class="tier-includes">包含</div>
+          <ul class="tier-list">
+            <li>LLM 整合（Claude / GPT）</li>
+            <li>基礎對話流程設計</li>
+            <li>串接一個通訊平台（LINE / Discord / Email）</li>
+          </ul>
+          <div class="tier-excludes"><strong>不含：</strong>API 月費</div>
+        </div>
+
+        <div class="tier-card featured">
+          <div class="tier-badge">最熱門</div>
+          <div class="tier-label">進階</div>
+          <div class="tier-price">NT$55,000</div>
+          <div class="tier-price-note">一次性專案</div>
+          <div class="tier-suitable">適合：多代理協作、自動派單、任務分工系統</div>
+          <div class="tier-includes">包含</div>
+          <ul class="tier-list">
+            <li>架構設計文件</li>
+            <li>Agent 角色分工設計</li>
+            <li>任務佇列建置</li>
+            <li>錯誤處理 + 告警</li>
+            <li>30 天免費調整</li>
+          </ul>
+          <div class="tier-excludes"><strong>不含：</strong>LLM API 費用</div>
+        </div>
+
+        <div class="tier-card">
+          <div class="tier-label">企業</div>
+          <div class="tier-price">NT$150,000+</div>
+          <div class="tier-price-note">一次性 + 月維護</div>
+          <div class="tier-suitable">適合：完整 AI 自動化堆疊，選案→執行→回報→優化全鏈</div>
+          <div class="tier-includes">包含</div>
+          <ul class="tier-list">
+            <li>完整 Multi-Agent 架構</li>
+            <li>模型分工（Haiku / Sonnet / Opus）</li>
+            <li>監控儀表板</li>
+            <li>月度維護 + 優化</li>
+          </ul>
+          <div class="tier-excludes"><strong>不含：</strong>LLM API 費用、主機費</div>
+        </div>
+
+      </div>
+    </div>
+
+    <!-- ──────────────────────────────────────────── -->
+    <!-- 6. 顧問 / Code Review -->
+    <!-- ──────────────────────────────────────────── -->
+    <div class="pricing-section">
+      <div class="pricing-section-header">
+        <div class="pricing-section-icon">&#x1F9E0;</div>
+        <div>
+          <div class="pricing-section-title">顧問 / Code Review</div>
+          <div class="pricing-section-desc">一次性諮詢、月費 Retainer、架構審查</div>
+        </div>
+      </div>
+      <div class="tier-grid">
+
+        <div class="tier-card">
+          <div class="tier-label">時薪顧問</div>
+          <div class="tier-price">NT$3,000</div>
+          <div class="tier-price-note">/ 小時</div>
+          <div class="tier-suitable">適合：技術可行性評估、LLM 選型、API 架構討論</div>
+          <div class="tier-includes">包含</div>
+          <ul class="tier-list">
+            <li>視訊 / 文字非同步諮詢</li>
+            <li>技術評估摘要（書面）</li>
+            <li>首次 30 分鐘免費</li>
+          </ul>
+          <div class="tier-excludes"><strong>不含：</strong>後續開發費用</div>
+        </div>
+
+        <div class="tier-card featured">
+          <div class="tier-badge">推薦</div>
+          <div class="tier-label">月費 Retainer</div>
+          <div class="tier-price">NT$15,000</div>
+          <div class="tier-price-note">/ 月</div>
+          <div class="tier-suitable">適合：有內部工程師、需要 AI 自動化領域外部顧問</div>
+          <div class="tier-includes">包含</div>
+          <ul class="tier-list">
+            <li>每月 4 小時顧問時間</li>
+            <li>Code Review（不限次）</li>
+            <li>技術問題優先回覆（24 小時內）</li>
+          </ul>
+          <div class="tier-excludes"><strong>不含：</strong>超過 4 小時的開發工時</div>
+        </div>
+
+        <div class="tier-card">
+          <div class="tier-label">企業顧問</div>
+          <div class="tier-price">NT$30,000</div>
+          <div class="tier-price-note">/ 月</div>
+          <div class="tier-suitable">適合：AI 導入、內部自動化升級的中型企業</div>
+          <div class="tier-includes">包含</div>
+          <ul class="tier-list">
+            <li>每月 10 小時顧問時間</li>
+            <li>架構審查報告</li>
+            <li>技術決策文件</li>
+            <li>優先排程（可插隊）</li>
+          </ul>
+          <div class="tier-excludes"><strong>不含：</strong>超過 10 小時的開發工時</div>
+        </div>
+
+      </div>
+    </div>
+
+    <!-- ──────────────────────────────────────────── -->
+    <!-- 配套說明 -->
+    <!-- ──────────────────────────────────────────── -->
+    <div class="pricing-notes">
+      <div style="font-size:1rem;font-weight:700;color:#1F4733;margin-bottom:4px;">報價說明</div>
+      <div style="font-size:0.82rem;color:#3D6B53;">所有方案為起價估算，複雜需求以實際訪談後報價為準。</div>
+      <div class="notes-grid">
+        <div class="note-item">
+          <h4>所有方案包含</h4>
+          <p>需求訪談（免費）<br>開發文件（流程圖 / 操作說明）<br>測試驗收確認<br>交付後 30 天免費調整</p>
+        </div>
+        <div class="note-item">
+          <h4>所有方案不含</h4>
+          <p>第三方 API Key / 帳號申請<br>主機 / 雲端費用（AWS / GCP / Cloudflare）<br>月費型 SaaS（N8N Cloud / VoAI / Supabase Pro）<br>超出原始需求的新功能（另報）</p>
+        </div>
+        <div class="note-item">
+          <h4>急件加收</h4>
+          <p>需求到交付 &lt; 5 工作日：+30%<br>需求到交付 &lt; 2 工作日：+60%<br><br>月費維護合約：NT$3,000–8,000/月</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- ──────────────────────────────────────────── -->
+    <!-- 快速選型 -->
+    <!-- ──────────────────────────────────────────── -->
+    <div style="margin-bottom:40px;">
+      <div style="font-size:1.1rem;font-weight:700;color:#1F4733;margin-bottom:20px;letter-spacing:-0.02em;">快速選型</div>
+      <table class="quick-table">
+        <thead>
+          <tr>
+            <th>需求類型</th>
+            <th>建議方案</th>
+            <th>起價</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr><td>想自動化一個重複性流程</td><td>AI 自動化建置 起步</td><td>NT$8,000</td></tr>
+          <tr><td>金流或物流 API 串接</td><td>API 串接 進階</td><td>NT$30,000</td></tr>
+          <tr><td>建立 Podcast 頻道自動出集</td><td>Podcast 全鏈 起步</td><td>NT$12,000</td></tr>
+          <tr><td>業務數據自動報表</td><td>資料自動化 進階</td><td>NT$25,000</td></tr>
+          <tr><td>建立 AI 客服 Bot</td><td>AI Agent 起步</td><td>NT$15,000</td></tr>
+          <tr><td>評估技術可行性（一次性）</td><td>時薪顧問</td><td>NT$3,000/hr</td></tr>
+          <tr><td>長期技術合作夥伴</td><td>月費 Retainer</td><td>NT$15,000/月</td></tr>
+        </tbody>
+      </table>
+    </div>
+
+    <!-- ──────────────────────────────────────────── -->
+    <!-- CTA -->
+    <!-- ──────────────────────────────────────────── -->
+    <div class="pricing-cta">
+      <h2>免費諮詢 30 分鐘</h2>
+      <p>確認需求範圍、技術可行性、時程，再決定是否合作。工作日 24 小時內回覆。</p>
+      <a href="mailto:harvey3630@gmail.com?subject=SoloBuildtw%20合作詢問&body=您好，我想詢問以下服務：%0A%0A服務類型：%0A需求描述：%0A預計時程：" class="cta-btn">
+        預約免費諮詢
+      </a>
+      <div class="cta-note">回信至 harvey3630@gmail.com｜工作日 24 小時內回覆</div>
+    </div>
+
+  </div>
+
+  <footer class="page-footer" style="margin-top:0;">
+    <p>&#169; 2026 SoloBuildtw. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
