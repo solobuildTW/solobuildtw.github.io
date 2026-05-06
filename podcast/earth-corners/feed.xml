@@ -7,7 +7,7 @@
     <description>地球上有些角落你一輩子不會去，但故事精彩到值得聽完。熙熙帶你走訪冷門國家、邊境小鎮與被遺忘的文明。</description>
     <copyright>© 2026 熙熙</copyright>
     <generator>SoloBuildTW Podcast RSS Generator v2</generator>
-    <lastBuildDate>Mon, 04 May 2026 00:00:00 -0000</lastBuildDate>
+    <lastBuildDate>Wed, 06 May 2026 00:00:00 -0000</lastBuildDate>
     <atom:link href="https://solobuildtw.github.io/podcast/earth-corners/feed.xml" rel="self" type="application/rss+xml"/>
     <managingEditor>viviank889@gmail.com (熙熙)</managingEditor>
     <itunes:title>地球的角落</itunes:title>
@@ -31,6 +31,24 @@
     <itunes:category text="Society &amp; Culture">
       <itunes:category text="Places &amp; Travel"/>
     </itunes:category>
+    <item>
+      <title>EP029 在戈梅拉島發生的故事：一種古老的口哨語言如何串連孤立的村莊</title>
+      <description>西班牙戈梅拉島發展出以口哨傳遞西班牙語的溝通係統「希爾波語」，可穿越數公裡峽谷。瀕臨失傳後，島嶼政府將其列為中小學必修課，成功復甦這門獨特的聲音詩語。</description>
+      <pubDate>Wed, 06 May 2026 00:00:00 -0000</pubDate>
+      <guid>6f02d9240c684e37b733f33808c9a32c</guid>
+      <link>https://solobuildtw.github.io/podcast/earth-corners/ep/029</link>
+      <enclosure url="https://podcast-cdn.pick-tw.com/audio/CH4/EP029_%E8%A5%BF%E7%8F%AD%E7%89%99%E6%88%88%E6%A2%85%E6%8B%89%E5%B3%B6%E7%99%BC%E5%B1%95%E5%87%BA%E4%BB%A5%E5%8F%A3%E5%93%A8%E5%82%B3%E9%81%9E%E8%A5%BF%E7%8F%AD%E7%89%99%E8%AA%9E%E7%9A%84%E6%BA%9D%E9%80%9A%E4%BF%82%E7%B5%B1%E3%80%8C%E5%B8%8C%E7%88%BE%E6%B3%A2%E8%AA%9E%E3%80%8D.mp3" type="audio/mpeg" length="15852817"/>
+      <itunes:title>EP029 在戈梅拉島發生的故事：一種古老的口哨語言如何串連孤立的村莊</itunes:title>
+      <itunes:author>熙熙</itunes:author>
+      <itunes:duration>00:11:00</itunes:duration>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:episode>29</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:summary>西班牙戈梅拉島發展出以口哨傳遞西班牙語的溝通係統「希爾波語」，可穿越數公裡峽谷。瀕臨失傳後，島嶼政府將其列為中小學必修課，成功復甦這門獨特的聲音詩語。</itunes:summary>
+      <itunes:subtitle>在戈梅拉島發生的故事：一種古老的口哨語言如何串連孤立的村莊</itunes:subtitle>
+      <itunes:keywords>旅遊,地理,冷門國家,文化,探索</itunes:keywords>
+      <content:encoded><![CDATA[西班牙戈梅拉島發展出以口哨傳遞西班牙語的溝通係統「希爾波語」，可穿越數公裡峽谷。瀕臨失傳後，島嶼政府將其列為中小學必修課，成功復甦這門獨特的聲音詩語。]]></content:encoded>
+    </item>
     <item>
       <title>EP027 探索印尼山區托拉雅人的告別儀式：在這裡，死亡是一場溫暖而漫長的家族旅程</title>
       <description>印尼蘇拉威西島的托拉雅人，對死亡有著截然不同的詮釋：亡者是「生病的人」，葬禮是延續的陪伴。熙熙帶你走進這個與亡者共生的山中世界，感受那場名為Rambu Solo'的盛大告別，如何成為生命的禮讚。</description>
@@ -372,24 +390,6 @@
       <itunes:subtitle>在這片白色王國，五萬六千人如何活出自己的溫度</itunes:subtitle>
       <itunes:keywords>旅遊,地理,冷門國家,文化,探索</itunes:keywords>
       <content:encoded><![CDATA[格陵蘭，名字是綠地，八成土地卻被冰雪覆蓋。熙熙帶你走進世界最大島嶼，探索五萬六千人如何在永夜與永晝之間，活出有色彩又有溫度的真實人生。]]></content:encoded>
-    </item>
-    <item>
-      <title>EP004 探索沙漠深處的微型國度，一個被守護四十年的夢想</title>
-      <description>美國沙漠裡，有一個只有一戶人家的奇幻共和國。熙熙帶你拜訪莫洛西亞，這個用幽默和四十年堅持打造的夢想王國，溫柔挑戰你對國家的所有想像。</description>
-      <pubDate>Sat, 11 Apr 2026 00:00:00 -0000</pubDate>
-      <guid>bc2886466b617d0d4a873c7a27cf3dac</guid>
-      <link>https://solobuildtw.github.io/podcast/earth-corners/ep/004</link>
-      <enclosure url="https://podcast-cdn.pick-tw.com/audio/CH4/EP004_%E7%BE%8E%E5%9C%8B%E6%B2%99%E6%BC%A0%E8%A3%A1%EF%BC%8C%E6%9C%89%E4%B8%80%E5%80%8B%E5%8F%AA%E6%9C%89%E4%B8%80%E6%88%B6%E4%BA%BA%E5%AE%B6%E7%9A%84%E5%A5%87%E5%B9%BB%E5%85%B1%E5%92%8C%E5%9C%8B%E3%80%82%E7%86%99%E7%86%99%E5%B8%B6%E4%BD%A0%E6%8B%9C%E8%A8%AA%E8%8E%AB%E6%B4%9B.mp3" type="audio/mpeg" length="17840840"/>
-      <itunes:title>EP004 探索沙漠深處的微型國度，一個被守護四十年的夢想</itunes:title>
-      <itunes:author>熙熙</itunes:author>
-      <itunes:duration>00:12:23</itunes:duration>
-      <itunes:explicit>no</itunes:explicit>
-      <itunes:episode>4</itunes:episode>
-      <itunes:episodeType>full</itunes:episodeType>
-      <itunes:summary>美國沙漠裡，有一個只有一戶人家的奇幻共和國。熙熙帶你拜訪莫洛西亞，這個用幽默和四十年堅持打造的夢想王國，溫柔挑戰你對國家的所有想像。</itunes:summary>
-      <itunes:subtitle>探索沙漠深處的微型國度，一個被守護四十年的夢想</itunes:subtitle>
-      <itunes:keywords>旅遊,地理,冷門國家,文化,探索</itunes:keywords>
-      <content:encoded><![CDATA[美國沙漠裡，有一個只有一戶人家的奇幻共和國。熙熙帶你拜訪莫洛西亞，這個用幽默和四十年堅持打造的夢想王國，溫柔挑戰你對國家的所有想像。]]></content:encoded>
     </item>
   </channel>
 </rss>
