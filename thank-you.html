@@ -1,231 +1,91 @@
 <!DOCTYPE html>
-<html lang="zh-Hant">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>感謝購買 — SoloBuildTW</title>
-  <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🧠</text></svg>" />
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@300;400;500;700&family=Inter:wght@400;600;700&display=swap" rel="stylesheet" />
-  <link rel="stylesheet" href="style.css" />
-  <style>
-    .thank-you-section {
-      min-height: 100vh;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      background: linear-gradient(135deg, #1E3A5F 0%, #162d4a 100%);
-      color: #fff;
-      padding: 80px 0;
-      text-align: center;
-    }
-    .thank-you-card {
-      background: rgba(255,255,255,0.06);
-      border: 1px solid rgba(255,255,255,0.12);
-      border-radius: 20px;
-      padding: 56px 40px;
-      max-width: 600px;
-      margin: 0 auto;
-    }
-    .thank-you-icon {
-      font-size: 4rem;
-      margin-bottom: 24px;
-    }
-    .thank-you-title {
-      font-size: clamp(1.8rem, 4vw, 2.5rem);
-      font-weight: 700;
-      margin-bottom: 16px;
-    }
-    .thank-you-subtitle {
-      font-size: 1.15rem;
-      color: rgba(255,255,255,0.85);
-      margin-bottom: 32px;
-      font-weight: 500;
-    }
-    .thank-you-steps {
-      text-align: left;
-      list-style: none;
-      display: flex;
-      flex-direction: column;
-      gap: 16px;
-      margin-bottom: 36px;
-    }
-    .thank-you-steps li {
-      display: flex;
-      align-items: flex-start;
-      gap: 12px;
-      font-size: 1rem;
-      color: rgba(255,255,255,0.85);
-      line-height: 1.6;
-    }
-    .step-num {
-      background: #E8804C;
-      color: #fff;
-      font-weight: 700;
-      font-size: 0.85rem;
-      min-width: 28px;
-      height: 28px;
-      border-radius: 50%;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      flex-shrink: 0;
-      margin-top: 2px;
-    }
-    .thank-you-contact {
-      background: rgba(255,255,255,0.08);
-      border: 1px solid rgba(255,255,255,0.15);
-      border-radius: 12px;
-      padding: 20px 24px;
-      margin-bottom: 32px;
-    }
-    .thank-you-contact p {
-      font-size: 0.95rem;
-      color: rgba(255,255,255,0.7);
-      margin-bottom: 4px;
-    }
-    .thank-you-contact a {
-      color: #E8804C;
-      font-weight: 600;
-      font-size: 1rem;
-    }
-    .thank-you-contact a:hover {
-      text-decoration: underline;
-    }
-    .thank-you-sign {
-      font-size: 1rem;
-      color: rgba(255,255,255,0.6);
-      font-style: italic;
-    }
-    .home-link {
-      display: inline-block;
-      margin-top: 24px;
-      padding: 10px 24px;
-      background: #E8804C;
-      color: #fff;
-      text-decoration: none;
-      border-radius: 8px;
-      font-weight: 600;
-      font-size: 0.95rem;
-      transition: background 0.3s ease;
-    }
-    .home-link:hover {
-      background: #d66a3a;
-    }
-    @media (max-width: 700px) {
-      .thank-you-card {
-        padding: 40px 24px;
-        margin: 0 16px;
-      }
-    }
-  </style>
-</head>
-<body>
+<html lang="zh-Hant"><head><meta charset="UTF-8"/><meta name="viewport" content="width=device-width,initial-scale=1.0"/>
+<title>感謝購買 — SoloBuildTW</title>
+<meta name="robots" content="noindex"/>
+<link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🎉</text></svg>"/>
+<link rel="preconnect" href="https://fonts.googleapis.com"/>
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;500;600;700;800&family=Noto+Sans+TC:wght@400;500;700&display=swap" rel="stylesheet"/>
+<style>
+:root{--bg:#F7F4ED;--bg-soft:#EFEAE0;--text:#1F3A36;--muted:#5F706C;--accent:#F4A582;--accent-hover:#E08966;--mint:#A3D9C5;--mint-deep:#5FA88D;--card:#FFFCF6;--border:rgba(31,58,54,0.08);--brand-navy:#1E3A5F}
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+body{font-family:'Manrope','Noto Sans TC',sans-serif;background:var(--bg);color:var(--text);line-height:1.6;min-height:100vh;display:flex;flex-direction:column}
+body::before{content:'';position:fixed;inset:0;pointer-events:none;z-index:0;background:radial-gradient(ellipse 800px 500px at 50% -10%,rgba(163,217,197,0.35),transparent 60%),radial-gradient(ellipse 600px 400px at 50% 100%,rgba(244,165,130,0.15),transparent 60%)}
+.container{max-width:1240px;margin:0 auto;padding:0 40px;position:relative;z-index:1;width:100%}
+img{max-width:100%;display:block}
 
-  <!-- ========== HEADER / NAV ========== -->
-  <header class="site-header">
-    <div class="container header-inner">
-      <a href="https://solobuildtw.com" class="brand-logo">SoloBuildTW</a>
-      <nav class="header-nav">
-        <button class="lang-toggle" data-lang="zh" aria-label="切換語言">中 / EN</button>
-        <a href="https://solobuildtw.com" class="btn btn-primary btn-sm" data-zh="回首頁" data-en="Home">回首頁</a>
-      </nav>
-      <button class="mobile-menu-toggle" aria-label="開啟選單">&#9776;</button>
+.nav{padding:24px 0}
+.nav .container{display:flex;justify-content:space-between;align-items:center}
+.brand{font-weight:800;font-size:1.3rem;letter-spacing:-0.03em;text-decoration:none;color:var(--brand-navy);display:inline-flex;align-items:baseline}
+.brand::after{content:'.';color:var(--accent);font-weight:800}
+.nav nav{display:flex;align-items:center;gap:24px;font-size:14px}
+.nav nav a{color:var(--muted);text-decoration:none}
+.nav nav a:hover{color:var(--accent)}
+
+main{flex:1;display:flex;align-items:center;padding:48px 0}
+.thanks{max-width:720px;margin:0 auto;text-align:center}
+.icon-circle{width:120px;height:120px;border-radius:50%;background:linear-gradient(135deg,var(--mint),var(--mint-deep));display:flex;align-items:center;justify-content:center;font-size:60px;margin:0 auto 32px;box-shadow:0 16px 32px -8px rgba(95,168,141,0.4);animation:bounceIn 0.6s ease-out}
+@keyframes bounceIn{0%{transform:scale(0);opacity:0}60%{transform:scale(1.1);opacity:1}100%{transform:scale(1)}}
+h1{font-size:clamp(2.5rem,5.5vw,4rem);font-weight:800;line-height:1.1;letter-spacing:-2px;margin-bottom:20px}
+h1 .accent{background:linear-gradient(135deg,var(--accent),var(--mint-deep));-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text}
+.lead{font-size:1.2rem;color:var(--muted);max-width:520px;margin:0 auto 40px;line-height:1.7}
+
+.next-steps{background:var(--card);border:1px solid var(--border);border-radius:24px;padding:40px;text-align:left;margin-bottom:32px}
+.next-steps h2{font-size:1.2rem;font-weight:700;margin-bottom:20px;text-align:center}
+.steps-list{list-style:none;display:flex;flex-direction:column;gap:18px}
+.steps-list li{display:flex;gap:16px;align-items:flex-start}
+.step-num{flex-shrink:0;width:32px;height:32px;border-radius:50%;background:linear-gradient(135deg,var(--mint),var(--mint-deep));color:#FFF;display:flex;align-items:center;justify-content:center;font-weight:800;font-size:0.9rem}
+.step-content strong{display:block;font-weight:700;margin-bottom:2px}
+.step-content span{color:var(--muted);font-size:0.92rem;line-height:1.6}
+
+.actions{display:flex;gap:14px;justify-content:center;flex-wrap:wrap;margin-bottom:48px}
+.btn-primary{display:inline-block;background:var(--accent);color:#FFF;padding:14px 32px;border-radius:8px;text-decoration:none;font-weight:600;font-size:0.95rem;box-shadow:0 4px 0 var(--accent-hover);transition:transform 0.15s,box-shadow 0.15s}
+.btn-primary:hover{transform:translateY(2px);box-shadow:0 2px 0 var(--accent-hover)}
+.btn-ghost{display:inline-block;padding:14px 28px;border:1.5px solid var(--text);border-radius:8px;text-decoration:none;font-weight:600;font-size:0.95rem;color:var(--text)}
+.btn-ghost:hover{background:var(--text);color:var(--bg)}
+
+.support{font-size:0.92rem;color:var(--muted);padding:20px;border-top:1px solid var(--border)}
+.support a{color:var(--accent);font-weight:600;text-decoration:none}
+
+.site-footer{padding:32px 0;border-top:1px solid var(--border);text-align:center;color:var(--muted);font-size:0.85rem}
+
+@media(max-width:640px){.container{padding:0 24px}.next-steps{padding:28px 20px}.actions{flex-direction:column}.actions a{width:100%;text-align:center}}
+</style></head><body>
+
+<header class="nav"><div class="container">
+  <a href="https://solobuildtw.com/" class="brand">SoloBuildTW</a>
+  <nav>
+    <a href="https://solobuildtw.github.io/">經驗包</a>
+    <a href="https://solobuildtw.github.io/about/">關於</a>
+    <a href="mailto:solobuildtw@gmail.com">客服</a>
+  </nav>
+</div></header>
+
+<main><div class="container">
+  <div class="thanks">
+    <div class="icon-circle">✓</div>
+    <h1>付款成功，<br><span class="accent">感謝購買！</span></h1>
+    <p class="lead">交易已完成。我們已寄送商品下載連結到你的 Email，10 分鐘內請查收。</p>
+
+    <div class="next-steps">
+      <h2>接下來怎麼做</h2>
+      <ol class="steps-list">
+        <li><span class="step-num">1</span><div class="step-content"><strong>檢查 Email 收件匣</strong><span class="step-content">10 分鐘內會收到下載連結。沒收到的話請看垃圾信件夾。</span></div></li>
+        <li><span class="step-num">2</span><div class="step-content"><strong>下載商品檔案</strong><span class="step-content">點 Email 內的下載連結，會直接下載 PDF 或 ZIP 檔到你電腦。</span></div></li>
+        <li><span class="step-num">3</span><div class="step-content"><strong>跟著教學一步步做</strong><span class="step-content">經驗包設計成「邊做邊學」，照著做今晚就能讓 AI 開始幫你做事。</span></div></li>
+        <li><span class="step-num">4</span><div class="step-content"><strong>有問題隨時聯絡</strong><span class="step-content">卡住任何地方，寫信到 <a href="mailto:solobuildtw@gmail.com">solobuildtw@gmail.com</a>，Harvey 24 小時內回覆。</span></div></li>
+      </ol>
     </div>
-  </header>
 
-  <!-- ========== THANK YOU ========== -->
-  <section class="thank-you-section">
-    <div class="container">
-      <div class="thank-you-card">
-        <div class="thank-you-icon">🎉</div>
-        <h1 class="thank-you-title" data-zh="感謝您的購買！" data-en="Thank You for Your Purchase!">感謝您的購買！</h1>
-        <p class="thank-you-subtitle" data-zh="商品將在幾分鐘內寄送到您的信箱。" data-en="The product will be delivered to your email within a few minutes.">商品將在幾分鐘內寄送到您的信箱。</p>
-
-        <ul class="thank-you-steps">
-          <li>
-            <span class="step-num">1</span>
-            <span data-zh="請檢查您購買時填寫的信箱，下載連結將被寄送過去。" data-en="Check the email address you provided during checkout — the download link will be sent there.">請檢查您購買時填寫的信箱，下載連結將被寄送過去。</span>
-          </li>
-          <li>
-            <span class="step-num">2</span>
-            <span data-zh="如果超過 30 分鐘仍未收到，請檢查垃圾郵件資料夾。" data-en="If you don't receive it after 30 minutes, please check your spam folder.">如果超過 30 分鐘仍未收到，請檢查垃圾郵件資料夾。</span>
-          </li>
-        </ul>
-
-        <div class="thank-you-contact">
-          <p data-zh="有任何問題？歡迎聯繫：" data-en="Any questions? Feel free to contact:">有任何問題？歡迎聯繫：</p>
-          <a href="mailto:harvey3630@gmail.com">harvey3630@gmail.com</a>
-        </div>
-
-        <p class="thank-you-sign" data-zh="— SoloBuildTW 團隊" data-en="— SoloBuildTW Team">— SoloBuildTW 團隊</p>
-
-        <a href="https://solobuildtw.com" class="home-link" data-zh="回首頁" data-en="Back to Home">回首頁</a>
-      </div>
+    <div class="actions">
+      <a href="https://solobuildtw.github.io/" class="btn-primary">回到經驗包首頁</a>
+      <a href="https://solobuildtw.com/" class="btn-ghost">看其他產品</a>
     </div>
-  </section>
 
-  <!-- ========== FOOTER ========== -->
-  <footer class="site-footer">
-    <div class="footer-bottom">
-      <div class="container">
-        <p>© 2026 SoloBuildTW. All rights reserved.</p>
-      </div>
-    </div>
-  </footer>
+    <div class="support">沒收到 Email？來信 <a href="mailto:solobuildtw@gmail.com">solobuildtw@gmail.com</a>，附上你的訂單編號，會立刻補寄。</div>
+  </div>
+</div></main>
 
-  <script>
-    document.addEventListener('DOMContentLoaded', () => {
-      const langBtn = document.querySelector('.lang-toggle');
-      let currentLang = localStorage.getItem('solobuild-lang') || 'zh';
+<footer class="site-footer"><div class="container">© 2026 SoloBuildTW · Harvey</div></footer>
 
-      function setLang(lang) {
-        currentLang = lang;
-        localStorage.setItem('solobuild-lang', lang);
-        document.querySelectorAll('[data-zh]').forEach(el => {
-          const val = el.getAttribute('data-' + lang);
-          if (val) el.textContent = val;
-        });
-        document.querySelectorAll('[data-zh-html]').forEach(el => {
-          const val = el.getAttribute('data-' + lang + '-html');
-          if (val) el.innerHTML = val;
-        });
-        if (langBtn) {
-          langBtn.textContent = lang === 'zh' ? '中 / EN' : 'EN / 中';
-          langBtn.classList.toggle('active-en', lang === 'en');
-        }
-      }
-
-      if (langBtn) {
-        langBtn.addEventListener('click', () => {
-          setLang(currentLang === 'zh' ? 'en' : 'zh');
-        });
-      }
-
-      // 預設中文 (currentLang 已經是 'zh'，所以只在非中文時才調用 setLang)
-      if (currentLang !== 'zh') setLang(currentLang);
-
-      // Mobile nav toggle
-      const mobileToggle = document.querySelector('.mobile-menu-toggle');
-      const headerNav = document.querySelector('.header-nav');
-      if (mobileToggle && headerNav) {
-        mobileToggle.addEventListener('click', () => {
-          const isOpen = headerNav.style.display === 'flex';
-          headerNav.style.display = isOpen ? '' : 'flex';
-          headerNav.style.flexDirection = 'column';
-          headerNav.style.position = 'absolute';
-          headerNav.style.top = '64px';
-          headerNav.style.left = '0';
-          headerNav.style.right = '0';
-          headerNav.style.background = 'rgba(250,247,242,0.98)';
-          headerNav.style.padding = '16px 24px 24px';
-          headerNav.style.gap = '16px';
-          headerNav.style.borderBottom = '1px solid rgba(30,58,95,0.1)';
-          if (isOpen) headerNav.removeAttribute('style');
-        });
-      }
-    });
-  </script>
-</body>
-</html>
+</body></html>
