@@ -106,7 +106,7 @@ img{max-width:100%;display:block}
     <span class="coming-soon-tag">COMING SOON</span>
     <h1>看 GitHub PR，<br><span class="accent">AI 幫你讀 code</span></h1>
     <p class="lead">瀏覽器外掛，一鍵讓 AI 看懂 GitHub Pull Request 的 diff，自動寫摘要、解釋邏輯、找潛在問題。</p>
-    <form class="subscribe-form" action="mailto:solobuildtw@gmail.com" method="get">
+    <form class="subscribe-form" data-product="difflens">
       <input type="email" name="email" placeholder="搶先預約 — Email" required/>
       <button type="submit">加入等候名單</button>
     </form>
@@ -151,7 +151,7 @@ img{max-width:100%;display:block}
 <section class="consult"><div class="container"><div class="consult-inner">
   <h2>搶先預約，<br>上線通知 + 早鳥免費。</h2>
   <p>留下 Email，第一時間收到 Chrome Web Store 上架通知。早鳥用戶享 Pro 方案 3 個月免費。</p>
-  <form class="subscribe-form" action="mailto:solobuildtw@gmail.com" method="get">
+  <form class="subscribe-form" data-product="difflens">
     <input type="email" name="email" placeholder="你的 Email" required/>
     <button type="submit">加入等候名單</button>
   </form>
@@ -213,4 +213,41 @@ document.addEventListener('DOMContentLoaded', function() {
 @media(max-width:768px){.sticky-cta{display:block}}
 </style>
 <a href="https://solobuildtw.github.io/pricing/" class="sticky-cta">📞 預約 30 分鐘免費諮詢</a>
+
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+  document.querySelectorAll('form.subscribe-form').forEach(function(form) {
+    form.addEventListener('submit', async function(e) {
+      e.preventDefault();
+      var btn = form.querySelector('button[type="submit"]');
+      var input = form.querySelector('input[type="email"]');
+      if (!input || !btn) return;
+      var origText = btn.textContent;
+      btn.textContent = '送出中...';
+      btn.disabled = true;
+      try {
+        var product = form.dataset.product || 'general';
+        var r = await fetch('https://solobuild-waitlist.harvey3630.workers.dev/api/waitlist', {
+          method: 'POST',
+          headers: {'Content-Type': 'application/json'},
+          body: JSON.stringify({email: input.value, product: product})
+        });
+        var j = await r.json();
+        if (j.ok) {
+          form.innerHTML = '<div style="text-align:center;padding:14px 18px;font-weight:600;color:#5FA88D;">✓ ' + (j.status === 'already_subscribed' ? 'Email 已在等候名單' : '加入成功！上線通知') + '</div>';
+          if (typeof gtag === 'function') gtag('event', 'waitlist_signup', {product: product});
+        } else {
+          btn.textContent = origText;
+          btn.disabled = false;
+          alert('送出失敗: ' + (j.error || 'unknown'));
+        }
+      } catch (err) {
+        btn.textContent = origText;
+        btn.disabled = false;
+        alert('網路錯誤，請稍後再試');
+      }
+    });
+  });
+});
+</script>
 </body></html>

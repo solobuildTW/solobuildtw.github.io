@@ -93,7 +93,7 @@ img{max-width:100%;display:block}
     <span class="coming-soon-tag">COMING SOON · SHOPIFY APP STORE</span>
     <h1>AI auto-tags<br><span class="accent">your products</span></h1>
     <p class="lead">Shopify AI Tagger. Reads product images + descriptions, generates precise tags and categories. Best for 100-2000 SKU mid-size stores.</p>
-    <form class="subscribe-form" action="mailto:solobuildtw@gmail.com" method="get">
+    <form class="subscribe-form" data-product="shopify">
       <input type="email" name="email" placeholder="Get Early Access" required/>
       <button type="submit">加入等候名單</button>
     </form>
@@ -118,7 +118,7 @@ img{max-width:100%;display:block}
 <section class="consult"><div class="container"><div class="consult-inner">
   <h2>Get Early Access，<br>Launch Notice + 早鳥優惠。</h2>
   <p>留下 Email，第一時間收到 Shopify App Store Launch Notice。早鳥用戶享 7 折優惠 + 免費 onboarding。</p>
-  <form class="subscribe-form" action="mailto:solobuildtw@gmail.com" method="get">
+  <form class="subscribe-form" data-product="shopify">
     <input type="email" name="email" placeholder="你的 Email" required/>
     <button type="submit">加入等候名單</button>
   </form>
@@ -180,4 +180,41 @@ document.addEventListener('DOMContentLoaded', function() {
 @media(max-width:768px){.sticky-cta{display:block}}
 </style>
 <a href="https://solobuildtw.github.io/pricing/" class="sticky-cta">📞 Book 30-min Free Call</a>
+
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+  document.querySelectorAll('form.subscribe-form').forEach(function(form) {
+    form.addEventListener('submit', async function(e) {
+      e.preventDefault();
+      var btn = form.querySelector('button[type="submit"]');
+      var input = form.querySelector('input[type="email"]');
+      if (!input || !btn) return;
+      var origText = btn.textContent;
+      btn.textContent = '送出中...';
+      btn.disabled = true;
+      try {
+        var product = form.dataset.product || 'general';
+        var r = await fetch('https://solobuild-waitlist.harvey3630.workers.dev/api/waitlist', {
+          method: 'POST',
+          headers: {'Content-Type': 'application/json'},
+          body: JSON.stringify({email: input.value, product: product})
+        });
+        var j = await r.json();
+        if (j.ok) {
+          form.innerHTML = '<div style="text-align:center;padding:14px 18px;font-weight:600;color:#5FA88D;">✓ ' + (j.status === 'already_subscribed' ? 'Email 已在等候名單' : '加入成功！上線通知') + '</div>';
+          if (typeof gtag === 'function') gtag('event', 'waitlist_signup', {product: product});
+        } else {
+          btn.textContent = origText;
+          btn.disabled = false;
+          alert('送出失敗: ' + (j.error || 'unknown'));
+        }
+      } catch (err) {
+        btn.textContent = origText;
+        btn.disabled = false;
+        alert('網路錯誤，請稍後再試');
+      }
+    });
+  });
+});
+</script>
 </body></html>

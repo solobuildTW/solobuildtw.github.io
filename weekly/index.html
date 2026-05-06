@@ -121,7 +121,7 @@ img{max-width:100%;display:block}
   <div>
     <h1>每週五，<br><span class="accent">數據送到信箱</span></h1>
     <p class="lead">自動彙整台灣股市、匯率、天氣、空品、實價登錄等政府公開資料，AI 生成市場摘要。免費訂閱。</p>
-    <form class="subscribe-form" action="https://taiwandataweekly.substack.com/subscribe" method="get" target="_blank">
+    <form class="subscribe-form" data-product="weekly">
       <input type="email" name="email" placeholder="你的 Email" required/>
       <button type="submit">免費訂閱</button>
     </form>
@@ -195,7 +195,7 @@ img{max-width:100%;display:block}
 <section class="consult" id="consult"><div class="container"><div class="consult-inner">
   <h2>3 秒訂閱，<br>每週五見。</h2>
   <p>數據自動彙整、AI 摘要、直送信箱。完全免費，隨時取消。</p>
-  <form class="subscribe-form" action="https://taiwandataweekly.substack.com/subscribe" method="get" target="_blank">
+  <form class="subscribe-form" data-product="weekly">
     <input type="email" name="email" placeholder="你的 Email" required/>
     <button type="submit">免費訂閱</button>
   </form>
@@ -260,4 +260,41 @@ document.addEventListener('DOMContentLoaded', function() {
 @media(max-width:768px){.sticky-cta{display:block}}
 </style>
 <a href="https://solobuildtw.github.io/pricing/" class="sticky-cta">📞 預約 30 分鐘免費諮詢</a>
+
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+  document.querySelectorAll('form.subscribe-form').forEach(function(form) {
+    form.addEventListener('submit', async function(e) {
+      e.preventDefault();
+      var btn = form.querySelector('button[type="submit"]');
+      var input = form.querySelector('input[type="email"]');
+      if (!input || !btn) return;
+      var origText = btn.textContent;
+      btn.textContent = '送出中...';
+      btn.disabled = true;
+      try {
+        var product = form.dataset.product || 'general';
+        var r = await fetch('https://solobuild-waitlist.harvey3630.workers.dev/api/waitlist', {
+          method: 'POST',
+          headers: {'Content-Type': 'application/json'},
+          body: JSON.stringify({email: input.value, product: product})
+        });
+        var j = await r.json();
+        if (j.ok) {
+          form.innerHTML = '<div style="text-align:center;padding:14px 18px;font-weight:600;color:#5FA88D;">✓ ' + (j.status === 'already_subscribed' ? 'Email 已在等候名單' : '加入成功！上線通知') + '</div>';
+          if (typeof gtag === 'function') gtag('event', 'waitlist_signup', {product: product});
+        } else {
+          btn.textContent = origText;
+          btn.disabled = false;
+          alert('送出失敗: ' + (j.error || 'unknown'));
+        }
+      } catch (err) {
+        btn.textContent = origText;
+        btn.disabled = false;
+        alert('網路錯誤，請稍後再試');
+      }
+    });
+  });
+});
+</script>
 </body></html>
