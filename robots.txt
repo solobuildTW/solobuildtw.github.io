@@ -1,7 +1,11 @@
 User-agent: *
 Allow: /
 Disallow: /checkout/
-Disallow: /thank-you/
+Disallow: /thank-you.html
 Disallow: /test-pay.html
+Disallow: /index_C路線_*
+Disallow: /index_經驗包備份_*
+Disallow: /_color_demo.html
+Disallow: /_*
 
 Sitemap: https://solobuildtw.github.io/sitemap.xml

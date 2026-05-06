@@ -131,4 +131,52 @@ img{max-width:100%;display:block}
   <div class="footer-col"><h4>法律</h4><a href="/legal/privacy.html">隱私權政策</a><a href="/legal/terms.html">服務條款</a></div>
 </div><div class="container"><div class="copyright">© 2026 SoloBuildTW · Harvey</div></div></footer>
 
+
+<!-- GA4 Enhanced CTA Tracking -->
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+  function track(name, params) {
+    if (typeof gtag === 'function') gtag('event', name, params);
+  }
+  // Track all primary buttons
+  document.querySelectorAll('.btn-primary, .btn-outline').forEach(function(btn) {
+    btn.addEventListener('click', function() {
+      track('cta_click', {
+        category: 'engagement',
+        label: this.textContent.trim().slice(0, 50),
+        page: window.location.pathname
+      });
+    });
+  });
+  // Track form submissions
+  document.querySelectorAll('form').forEach(function(form) {
+    form.addEventListener('submit', function() {
+      track('form_submit', {
+        category: 'conversion',
+        page: window.location.pathname
+      });
+    });
+  });
+  // Scroll depth
+  var depths = [25, 50, 75, 100];
+  var hit = {};
+  window.addEventListener('scroll', function() {
+    var p = Math.round((window.scrollY + window.innerHeight) / document.documentElement.scrollHeight * 100);
+    depths.forEach(function(d) {
+      if (p >= d && !hit[d]) {
+        hit[d] = true;
+        track('scroll_depth', {value: d, page: window.location.pathname});
+      }
+    });
+  });
+});
+</script>
+
+<!-- Mobile Sticky CTA -->
+<style>
+.sticky-cta{display:none;position:fixed;bottom:16px;left:16px;right:16px;z-index:200;background:#F4A582;color:#FFF;padding:14px 20px;border-radius:12px;text-align:center;font-weight:700;font-size:15px;text-decoration:none;box-shadow:0 8px 20px rgba(31,58,54,0.25)}
+.sticky-cta:hover{background:#E08966}
+@media(max-width:768px){.sticky-cta{display:block}}
+</style>
+<a href="https://solobuildtw.github.io/pricing/" class="sticky-cta">📞 預約 30 分鐘免費諮詢</a>
 </body></html>
