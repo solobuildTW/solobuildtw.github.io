@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html lang="zh-Hant"><head><meta charset="UTF-8"/><meta name="viewport" content="width=device-width,initial-scale=1.0"/>
 <title>Taiwan Data API — SoloBuildTW</title>
-<meta name="description" content="台灣政府公開資料 REST API。股票、天氣、空品、匯率、實價登錄、地震、防災等 26 個 endpoint 一把 key 搞定免費試用。"/>
-<meta property="og:title" content="Taiwan Data API — 26 endpoints"/>
+<meta name="description" content="台灣政府公開資料 REST API。股票、天氣、空品、匯率、實價登錄、地震、防災等 26 個資料接口 一把 key 搞定免費試用。"/>
+<meta property="og:title" content="Taiwan Data API — 26 資料接口"/>
 <meta property="og:description" content="台灣政府公開資料一站式 REST API"/>
 <meta property="og:type" content="website"/>
 <meta property="og:url" content="https://solobuildtw.github.io/api/"/>
@@ -125,9 +125,9 @@ img{max-width:100%;display:block}
 <section class="hero"><div class="container" style="display:contents">
   <div>
     <h1>台灣政府公開資料 <br><span class="accent">乾淨 REST API</span></h1>
-    <p class="lead">股票、天氣、空品、匯率、實價登錄、地震、防災等 26 個 endpoint。Cloudflare Workers 全球低延遲，繁中文件，台灣開發者友善。</p>
+    <p class="lead">股票、天氣、空品、匯率、實價登錄、地震、防災等 26 個資料接口Cloudflare Workers 全球低延遲，繁中文件，台灣開發者友善。</p>
     <div class="hero-ctas">
-      <a href="#endpoints" class="btn-primary">查看 26 個 endpoint</a>
+      <a href="#endpoints" class="btn-primary">查看 26 個資料接口</a>
       <a href="https://api.solobuildtw.com/api/v1/health" target="_blank" rel="noopener" class="btn-ghost">健康檢查</a>
     </div>
   </div>
@@ -135,7 +135,7 @@ img{max-width:100%;display:block}
 </div></section>
 
 <div class="container"><div class="stats">
-  <div class="stat"><div class="stat-num">26</div><div class="stat-label">Endpoints</div></div>
+  <div class="stat"><div class="stat-num">26</div><div class="stat-label">資料接口</div></div>
   <div class="stat"><div class="stat-num alt">1,354</div><div class="stat-label">支股票即時</div></div>
   <div class="stat"><div class="stat-num">12k+</div><div class="stat-label">實價登錄</div></div>
   <div class="stat"><div class="stat-num alt">50+80</div><div class="stat-label">氣象/空品站</div></div>
@@ -143,16 +143,16 @@ img{max-width:100%;display:block}
 </div></div>
 
 <section class="block" id="endpoints"><div class="container">
-  <div class="section-eyebrow">Endpoints</div>
-  <h2>26 個 endpoint，<br>一把 key 搞定。</h2>
+  <div class="section-eyebrow">資料接口</div>
+  <h2>26 個資料接口<br>一把 Key 搞定</h2>
   <div class="endpoints">
-    <div class="ep"><span class="ep-method">GET</span><div class="ep-path">/api/v1/stock</div><div class="ep-desc">TWSE 全部上市股票（1,354 支即時）</div></div>
-    <div class="ep"><span class="ep-method">GET</span><div class="ep-path">/api/v1/weather</div><div class="ep-desc">CWA 氣象局 50 站即時天氣</div></div>
-    <div class="ep"><span class="ep-method">GET</span><div class="ep-path">/api/v1/aqi</div><div class="ep-desc">環保署 AQI 80 站空品數據</div></div>
-    <div class="ep"><span class="ep-method">GET</span><div class="ep-path">/api/v1/exchange</div><div class="ep-desc">BOT 19 幣別匯率</div></div>
+    <div class="ep"><span class="ep-method">GET</span><div class="ep-path">/api/v1/stock</div><div class="ep-desc">TWSE 上市股票 <strong style="color:var(--mint-deep)">1,354 支即時報價</strong></div></div>
+    <div class="ep"><span class="ep-method">GET</span><div class="ep-path">/api/v1/weather</div><div class="ep-desc">CWA 氣象局 <strong style="color:var(--mint-deep)">50 站即時天氣</strong></div></div>
+    <div class="ep"><span class="ep-method">GET</span><div class="ep-path">/api/v1/aqi</div><div class="ep-desc">環保署 AQI <strong style="color:var(--mint-deep)">80 站空品數據</strong></div></div>
+    <div class="ep"><span class="ep-method">GET</span><div class="ep-path">/api/v1/exchange</div><div class="ep-desc">BOT 台銀 <strong style="color:var(--mint-deep)">19 幣別即時匯率</strong></div></div>
     <div class="ep"><span class="ep-method">GET</span><div class="ep-path">/api/v1/address</div><div class="ep-desc">NLSC 反查 + 地址 parser</div></div>
     <div class="ep"><span class="ep-method">GET</span><div class="ep-path">/api/v1/institutional</div><div class="ep-desc">TWSE T86 三大法人個股買賣超</div></div>
-    <div class="ep"><span class="ep-method">GET</span><div class="ep-path">/api/v1/realestate</div><div class="ep-desc">內政部實價登錄（12k+ 筆）</div></div>
+    <div class="ep"><span class="ep-method">GET</span><div class="ep-path">/api/v1/realestate</div><div class="ep-desc">內政部實價登錄 <strong style="color:var(--mint-deep)">12,000+ 筆</strong></div></div>
     <div class="ep"><span class="ep-method">GET</span><div class="ep-path">/api/v1/tender</div><div class="ep-desc">PCC 政府電子採購網招標公告</div></div>
     <div class="ep"><span class="ep-method">GET</span><div class="ep-path">/api/v1/sentiment</div><div class="ep-desc">繁中情緒分析（CF Workers AI）</div></div>
     <div class="ep"><span class="ep-method">GET</span><div class="ep-path">/api/v1/judicial</div><div class="ep-desc">司法院判決全文 FTS5 搜尋</div></div>
@@ -189,29 +189,29 @@ r = requests.get(
 
 <section class="block"><div class="container">
   <div class="section-eyebrow" id="pricing">Pricing</div>
-  <h2 style="text-align:center;margin:0 auto 48px">4 個方案，<br>都有免費試用。</h2>
+  <h2 style="text-align:center;margin:0 auto 48px">4 個方案<br>都有免費試用</h2>
   <div class="pricing-grid">
     <div class="tier"><h3>Basic</h3><div class="tier-price"><span class="currency">$</span>0</div><div class="tier-period">永久免費</div>
-      <ul class="tier-features"><li>100 req/day</li><li>10 req/min</li><li>無信用卡</li><li>所有 endpoints</li></ul>
+      <ul class="tier-features"><li>100 req/day</li><li>10 req/min</li><li>無信用卡</li><li>所有資料接口</li></ul>
       <a href="https://rapidapi.com/solobuildtw/api/taiwan-data-api" target="_blank" class="btn-ghost" style="display:block;text-align:center;padding:12px">免費試用</a>
     </div>
     <div class="tier featured"><h3>Pro</h3><div class="tier-price"><span class="currency">$</span>9.99</div><div class="tier-period">每月</div>
       <ul class="tier-features"><li>5,000 req/day</li><li>60 req/min</li><li>$0.005 over quota</li><li>優先支援</li></ul>
-      <a href="https://rapidapi.com/solobuildtw/api/taiwan-data-api" target="_blank" class="btn-primary" style="display:block;text-align:center">訂閱 Pro</a>
+      <a href="https://rapidapi.com/solobuildtw/api/financeradar-tw-taiwan-finance-api" target="_blank" class="btn-primary" style="display:block;text-align:center">訂閱 Pro — 金融雷達</a>
     </div>
     <div class="tier"><h3>Ultra</h3><div class="tier-price"><span class="currency">$</span>29.99</div><div class="tier-period">每月</div>
       <ul class="tier-features"><li>無限制 req/day</li><li>600 req/min</li><li>無 overage</li><li>SLA</li></ul>
-      <a href="https://rapidapi.com/solobuildtw/api/taiwan-data-api" target="_blank" class="btn-ghost" style="display:block;text-align:center;padding:12px">訂閱 Ultra</a>
+      <a href="https://rapidapi.com/solobuildtw/api/climatewatch-tw-taiwan-environment-api" target="_blank" class="btn-ghost" style="display:block;text-align:center;padding:12px">訂閱 Ultra — 氣候監測</a>
     </div>
     <div class="tier"><h3>Mega</h3><div class="tier-price"><span class="currency">$</span>99.99</div><div class="tier-period">每月</div>
       <ul class="tier-features"><li>無限制 req/day</li><li>6,000 req/min</li><li>專屬 IP（可選）</li><li>客製化</li></ul>
-      <a href="https://rapidapi.com/solobuildtw/api/taiwan-data-api" target="_blank" class="btn-ghost" style="display:block;text-align:center;padding:12px">訂閱 Mega</a>
+      <a href="https://rapidapi.com/solobuildtw/api/taiwan-data-complete-1646-datasets-bundle" target="_blank" class="btn-ghost" style="display:block;text-align:center;padding:12px">訂閱 Mega — 全包 1,646</a>
     </div>
   </div>
 </div></section>
 
 <section class="cta-banner"><div class="container"><div class="cta-inner">
-  <h2>馬上試用，<br>免信用卡。</h2>
+  <h2>馬上試用<br>免信用卡</h2>
   <p>100 req/day 完全免費。先試後付，需要更多再升級。</p>
   <a href="https://rapidapi.com/solobuildtw/api/taiwan-data-api" target="_blank" rel="noopener" class="btn-primary">前往 RapidAPI 試用</a>
 </div></div></section>
