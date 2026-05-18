@@ -1,251 +1,507 @@
 <!DOCTYPE html>
-<html lang="zh-Hant"><head><meta charset="UTF-8"/><meta name="viewport" content="width=device-width,initial-scale=1.0"/>
-<title>LINE OA 自動化 — Coming Soon · SoloBuildTW</title>
-<meta name="description" content="通用 LINE 官方帳號自動化平台。客服自動回覆、預約提醒、收款催繳、會員管理、群發通知。各行各業都能用。"/>
-<meta property="og:title" content="LINE OA 自動化平台 — Coming Soon"/>
-<meta property="og:description" content="通用 LINE 官方帳號自動化，搶先預約"/>
-<meta property="og:type" content="website"/>
-<meta property="og:url" content="https://solobuildtw.github.io/lineoa/"/>
-<meta property="og:image" content="https://solobuildtw.github.io/images/lineoa_hero.png"/>
-<link rel="canonical" href="https://solobuildtw.github.io/lineoa/"/>
-<link rel="icon" type="image/svg+xml" href="/favicon.svg"/>
-<link rel="preconnect" href="https://fonts.googleapis.com"/>
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
-<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;500;600;700;800&family=Noto+Sans+TC:wght@400;500;700&display=swap" rel="stylesheet"/>
+<html lang="zh-Hant">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>本地商家 Line 自動回覆機器人 SoloBuildTW</title>
+<meta name="description" content="本地商家 AI Line 自動回覆機器人 商家不寫提示詞 AI 自動回 60 升 90% 月費 NT$1,000 起 14 天免費試用">
+<meta property="og:title" content="本地商家 AI Line 自動回覆機器人">
+<meta property="og:description" content="商家不寫提示詞 AI 自動回 60 升 90% 月費 NT$1,000 起 14 天免費試用">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://solobuildtw.github.io/lbk/">
+<link rel="canonical" href="https://solobuildtw.github.io/lbk/">
+<link rel="icon" type="image/svg+xml" href="/favicon.svg">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;500;600;700;800&family=Noto+Sans+TC:wght@400;500;700&display=swap" rel="stylesheet">
 <style>
-:root{--bg:#F7F4ED;--bg-soft:#EFEAE0;--text:#1F3A36;--muted:#5F706C;--accent:#F4A582;--accent-hover:#E08966;--mint:#A3D9C5;--mint-deep:#5FA88D;--card:#FFFCF6;--border:rgba(31,58,54,0.08);--brand-navy:#1E3A5F}
-*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
-html{scroll-behavior:smooth}
-body{font-family:'Manrope','Noto Sans TC',sans-serif;background:var(--bg);color:var(--text);line-height:1.6}
-body::before{content:'';position:fixed;inset:0;pointer-events:none;z-index:0;background:radial-gradient(ellipse 800px 500px at 80% -10%,rgba(163,217,197,0.28),transparent 60%),radial-gradient(ellipse 600px 400px at -10% 30%,rgba(244,165,130,0.1),transparent 60%)}
-.container{max-width:1240px;margin:0 auto;padding:0 40px;position:relative;z-index:1}
-img{max-width:100%;display:block}
-.nav{padding:24px 0;position:sticky;top:0;backdrop-filter:blur(12px);background:rgba(247,244,237,0.9);z-index:50;border-bottom:1px solid var(--border)}
-.nav .container{display:flex;justify-content:space-between;align-items:center}
-.brand{font-weight:800;font-size:1.3rem;letter-spacing:-0.03em;text-decoration:none;color:var(--brand-navy);display:inline-flex;align-items:baseline}
-.brand::after{content:'.';color:var(--accent);font-weight:800}
-.nav nav{display:flex;align-items:center;gap:28px}
-.nav nav a{color:var(--text);text-decoration:none;font-size:15px;font-weight:500}
-.nav nav a:hover{color:var(--accent)}
-.btn-outline{padding:9px 22px;border:1.5px solid var(--text);border-radius:100px;font-size:14px;font-weight:600;text-decoration:none;color:var(--text)}
-.btn-outline:hover{background:var(--text);color:var(--bg)}
+:root {
+  --bg: #F7F4ED;
+  --bg-soft: #EFEAE0;
+  --text: #1F3A36;
+  --muted: #5F706C;
+  --accent: #F4A582;
+  --accent-hover: #E08966;
+  --mint: #A3D9C5;
+  --mint-deep: #5FA88D;
+  --card: #FFFCF6;
+  --border: rgba(31,58,54,0.08);
+  --brand-navy: #1E3A5F;
+  --line-green: #00B900;
+}
+*,*::before,*::after { box-sizing: border-box; margin: 0; padding: 0; }
+html { scroll-behavior: smooth; }
+body {
+  font-family: 'Manrope','Noto Sans TC',sans-serif;
+  background: var(--bg); color: var(--text); line-height: 1.6;
+}
+.container { max-width: 1240px; margin: 0 auto; padding: 0 40px; }
+img { max-width: 100%; display: block; }
 
-.hero{padding:72px 0 96px;display:grid;grid-template-columns:1fr 1fr;gap:64px;align-items:center}
-.hero-text{padding-left:80px}
-.coming-soon-tag{display:inline-block;background:rgba(244,165,130,0.15);color:var(--accent);padding:6px 16px;border-radius:100px;font-size:13px;font-weight:700;letter-spacing:1.5px;margin-bottom:20px;border:1px solid rgba(244,165,130,0.3)}
-.hero h1{font-size:clamp(2.6rem,5.5vw,4.4rem);font-weight:800;line-height:1.05;letter-spacing:-2px;margin-bottom:24px}
-.hero h1 .accent{background:linear-gradient(135deg,var(--accent),var(--mint-deep));-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text}
-.hero .lead{font-size:1.2rem;color:var(--muted);max-width:480px;line-height:1.7;margin-bottom:32px}
-.hero-img{border-radius:24px;overflow:hidden;box-shadow:0 24px 48px -12px rgba(31,58,54,0.15)}
-.subscribe-form{display:flex;gap:8px;max-width:480px;background:#FFF;padding:6px;border:1px solid var(--border);border-radius:12px;margin-bottom:14px;box-shadow:0 4px 12px rgba(31,58,54,0.05)}
-.subscribe-form input{flex:1;border:0;outline:0;padding:14px 18px;font-size:15px;background:transparent;font-family:inherit}
-.subscribe-form button{background:var(--accent);color:#FFF;border:0;padding:14px 28px;border-radius:8px;font-weight:600;font-size:14px;cursor:pointer;font-family:inherit}
-.subscribe-form button:hover{background:var(--accent-hover)}
-.hero-meta{font-size:13px;color:var(--muted)}
-.hero-meta span{color:var(--mint-deep);font-weight:600}
+/* Nav */
+.nav {
+  padding: 20px 0;
+  position: sticky; top: 0;
+  backdrop-filter: blur(12px);
+  background: rgba(247,244,237,0.9);
+  z-index: 50; border-bottom: 1px solid var(--border);
+}
+.nav .container { display: flex; justify-content: space-between; align-items: center; }
+.brand {
+  font-weight: 800; font-size: 1.3rem; letter-spacing: -0.03em;
+  text-decoration: none; color: var(--brand-navy);
+  display: inline-flex; align-items: baseline;
+}
+.brand::after { content: '.'; color: var(--accent); font-weight: 800; }
+.nav nav { display: flex; align-items: center; gap: 24px; }
+.nav nav a { color: var(--text); text-decoration: none; font-size: 14px; font-weight: 500; }
+.nav nav a:hover { color: var(--accent); }
+.btn { padding: 10px 22px; border-radius: 100px; font-size: 14px; font-weight: 600; cursor: pointer; text-decoration: none; display: inline-block; transition: all 0.15s; }
+.btn-primary { background: var(--accent); color: white; border: 1.5px solid var(--accent); }
+.btn-primary:hover { background: var(--accent-hover); border-color: var(--accent-hover); }
+.btn-outline { background: transparent; color: var(--text); border: 1.5px solid var(--text); }
+.btn-outline:hover { background: var(--text); color: var(--bg); }
 
-.block{padding:80px 0}
-.section-eyebrow{font-size:13px;font-weight:600;color:var(--accent);letter-spacing:2px;text-transform:uppercase;margin-bottom:14px;display:flex;align-items:center;gap:12px}
-.section-eyebrow::before{content:'';width:32px;height:2px;background:var(--accent)}
-.block h2{font-size:clamp(2rem,4vw,3rem);font-weight:800;letter-spacing:-1.5px;margin-bottom:48px;line-height:1.1;max-width:700px}
+/* Hero */
+.hero { padding: 72px 0 80px; display: grid; grid-template-columns: 1fr 1fr; gap: 56px; align-items: center; }
+.hero-text { padding-left: 20px; }
+.tag {
+  display: inline-block; background: rgba(0,185,0,0.12); color: var(--line-green);
+  padding: 6px 14px; border-radius: 100px; font-size: 13px; font-weight: 700;
+  letter-spacing: 1px; margin-bottom: 18px; border: 1px solid rgba(0,185,0,0.25);
+}
+.hero h1 {
+  font-size: clamp(2.4rem, 5vw, 4rem);
+  font-weight: 800; line-height: 1.08; letter-spacing: -2px; margin-bottom: 22px;
+}
+.hero h1 .accent {
+  background: linear-gradient(135deg, var(--accent), var(--mint-deep));
+  -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text;
+}
+.hero .lead { font-size: 1.15rem; color: var(--muted); max-width: 480px; line-height: 1.7; margin-bottom: 26px; }
+.hero-cta { display: flex; gap: 12px; flex-wrap: wrap; margin-bottom: 18px; }
+.hero-meta { font-size: 13px; color: var(--muted); }
+.hero-meta strong { color: var(--mint-deep); }
+.hero-bot-frame {
+  border-radius: 18px; overflow: hidden;
+  box-shadow: 0 20px 48px -12px rgba(31,58,54,0.18);
+  height: 540px; background: white;
+  border: 1px solid var(--border);
+}
+.hero-bot-frame iframe { width: 100%; height: 100%; border: 0; }
+.hero-bot-hint { font-size: 13px; color: var(--muted); text-align: center; margin-top: 10px; }
 
-.features{display:grid;grid-template-columns:repeat(3,1fr);gap:24px}
-.feature-card{background:var(--card);border:1px solid var(--border);border-radius:20px;padding:32px 28px;transition:transform 0.3s,box-shadow 0.3s}
-.feature-card:hover{transform:translateY(-4px);box-shadow:0 24px 48px -16px rgba(31,58,54,0.12)}
-.feature-icon{width:48px;height:48px;border-radius:12px;background:linear-gradient(135deg,var(--bg-soft),var(--card));border:1px solid var(--border);display:flex;align-items:center;justify-content:center;font-size:24px;margin-bottom:18px}
-.feature-card h3{font-size:1.15rem;font-weight:700;margin-bottom:10px}
-.feature-card p{color:var(--muted);font-size:0.93rem;line-height:1.7}
+/* Section */
+.block { padding: 80px 0; }
+.section-eyebrow {
+  font-size: 13px; font-weight: 600; color: var(--accent);
+  letter-spacing: 2px; text-transform: uppercase; margin-bottom: 14px;
+  display: flex; align-items: center; gap: 12px;
+}
+.section-eyebrow::before { content: ''; width: 32px; height: 2px; background: var(--accent); }
+.block h2 { font-size: clamp(1.8rem, 3.6vw, 2.6rem); font-weight: 800; letter-spacing: -1.2px; margin-bottom: 36px; line-height: 1.15; max-width: 720px; }
 
-/* Use cases industries */
-.industries{display:grid;grid-template-columns:repeat(auto-fill,minmax(180px,1fr));gap:14px}
-.industry{background:var(--card);border:1px solid var(--border);border-radius:14px;padding:20px 18px;text-align:center;transition:transform 0.2s,border-color 0.2s}
-.industry:hover{transform:translateY(-3px);border-color:var(--mint-deep)}
-.industry-icon{font-size:32px;margin-bottom:10px}
-.industry h4{font-size:0.95rem;font-weight:700}
-.industry p{font-size:0.82rem;color:var(--muted);margin-top:4px}
+/* Features 4 頁籤 */
+.features-4 { display: grid; grid-template-columns: repeat(2, 1fr); gap: 20px; }
+.feature {
+  background: var(--card); border: 1px solid var(--border); border-radius: 18px;
+  padding: 28px; transition: transform 0.2s;
+}
+.feature:hover { transform: translateY(-3px); }
+.feature .num {
+  display: inline-block; background: var(--mint); color: var(--mint-deep);
+  font-weight: 800; padding: 4px 10px; border-radius: 8px; font-size: 0.9em; margin-bottom: 10px;
+}
+.feature h3 { font-size: 1.2rem; font-weight: 700; margin-bottom: 8px; }
+.feature p { color: var(--muted); font-size: 0.95rem; line-height: 1.7; }
 
-.consult{padding:64px 0}
-.consult-inner{background:linear-gradient(135deg,var(--mint-deep),var(--mint));border-radius:32px;padding:32px 40px;color:#FFF;text-align:center;position:relative;overflow:hidden}
-.consult-inner::after{content:'';position:absolute;top:-100px;right:-100px;width:400px;height:400px;border-radius:50%;background:rgba(255,255,255,0.08)}
-.consult-inner::before{content:'';position:absolute;bottom:-80px;left:-80px;width:280px;height:280px;border-radius:50%;background:rgba(244,165,130,0.15)}
-.consult h2{font-size:clamp(1.8rem,3.2vw,2.4rem);font-weight:800;letter-spacing:-1px;margin-bottom:14px;position:relative;z-index:1}
-.consult p{color:rgba(255,255,255,0.9);font-size:1.05rem;margin-bottom:28px;position:relative;z-index:1;max-width:560px;margin-left:auto;margin-right:auto}
-.consult .subscribe-form{margin:0 auto}
+/* Pricing */
+.pricing-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 20px; align-items: stretch; }
+.pricing-card {
+  background: var(--card); border: 1px solid var(--border); border-radius: 22px;
+  padding: 32px 28px; display: flex; flex-direction: column;
+}
+.pricing-card.featured {
+  border: 2px solid var(--accent); transform: scale(1.03);
+  box-shadow: 0 20px 40px -12px rgba(244,165,130,0.25);
+}
+.pricing-tag { display: inline-block; background: var(--accent); color: white; padding: 4px 12px; border-radius: 100px; font-size: 0.75em; font-weight: 700; margin-bottom: 12px; }
+.pricing-card h3 { font-size: 1.3rem; font-weight: 700; margin-bottom: 6px; }
+.pricing-period { color: var(--muted); font-size: 0.9em; }
+.pricing-price { font-size: 2.4rem; font-weight: 800; color: var(--brand-navy); margin: 14px 0 4px; }
+.pricing-price small { font-size: 0.45em; color: var(--muted); font-weight: 500; }
+.pricing-orig { color: var(--muted); text-decoration: line-through; font-size: 0.9em; }
+.pricing-saving { color: #d97706; font-size: 0.9em; font-weight: 600; }
+.pricing-features { list-style: none; margin: 18px 0; flex: 1; }
+.pricing-features li { padding: 6px 0; font-size: 0.95em; color: var(--text); }
+.pricing-features li::before { content: '✓ '; color: var(--mint-deep); font-weight: 700; }
 
-.site-footer{padding:80px 0 32px;border-top:1px solid var(--border)}
-.site-footer .container{display:grid;grid-template-columns:2fr 1fr 1fr 1fr 1fr;gap:48px}
-.footer-brand p{color:var(--muted);font-size:0.95rem;line-height:1.7;margin-top:14px;max-width:280px}
-.footer-col h4{font-size:0.85rem;font-weight:700;margin-bottom:18px}
-.footer-col a{display:block;color:var(--muted);text-decoration:none;font-size:0.92rem;padding:5px 0}
-.footer-col a:hover{color:var(--accent)}
-.copyright{text-align:center;color:var(--muted);font-size:0.85rem;margin-top:48px;padding-top:32px;border-top:1px solid var(--border)}
+/* Comparison */
+.compare-table { width: 100%; border-collapse: collapse; background: var(--card); border-radius: 18px; overflow: hidden; }
+.compare-table th, .compare-table td { padding: 14px; text-align: left; border-bottom: 1px solid var(--border); font-size: 0.95em; }
+.compare-table th { background: var(--bg-soft); font-weight: 700; }
+.compare-table tr:last-child td { border-bottom: none; }
+.compare-table .lbk-row { background: rgba(0,185,0,0.05); font-weight: 600; }
+.compare-table .lbk-row td:first-child::before { content: '★ '; color: var(--accent); }
 
-@media(max-width:980px){.hero{grid-template-columns:1fr;gap:48px}.hero-text{padding-left:0}.hero-img{order:-1}.features{grid-template-columns:repeat(2,1fr)}.site-footer .container{grid-template-columns:1fr 1fr}}
-@media(max-width:640px){.container{padding:0 24px}.nav nav a:not(.btn-outline){display:none}.features,.industries{grid-template-columns:1fr 1fr}.consult-inner{padding:40px 24px}.subscribe-form{flex-direction:column;padding:8px}.subscribe-form button{width:100%}}
-</style><script type="text/javascript">
-    (function(c,l,a,r,i,t,y){
-        c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
-        t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
-        y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
-    })(window, document, "clarity", "script", "wn45mr6qde");
-</script>
-</head><body>
+/* Path */
+.path { display: grid; grid-template-columns: repeat(4, 1fr); gap: 16px; }
+.path-stage {
+  background: var(--card); border: 1px solid var(--border); border-radius: 16px;
+  padding: 20px; text-align: center;
+}
+.path-stage .stage-rate { font-size: 2.2rem; font-weight: 800; color: var(--mint-deep); margin: 6px 0; }
+.path-stage .stage-time { font-size: 0.85em; color: var(--muted); }
+.path-stage .stage-how { font-size: 0.85em; color: var(--text); margin-top: 8px; }
 
-<header class="nav"><div class="container">
-  <a href="https://solobuildtw.com/" class="brand">SoloBuildTW</a>
-  <nav>
-    <a href="https://solobuildtw.github.io/">經驗包</a>
-    <a href="https://solobuildtw.github.io/api/">Data API</a>
-    <a href="https://solobuildtw.github.io/weekly/">週報</a>
-    <a href="https://solobuildtw.github.io/podcast/">Podcast</a>
-    <a href="https://solobuildtw.github.io/about/">關於</a>
-    <a href="https://solobuildtw.github.io/pricing/" class="btn-outline">預約諮詢</a>
-    <span style="margin-left:8px;padding-left:12px;border-left:1px solid var(--border);font-size:13px;color:var(--muted);"><strong style="color:var(--text);">中</strong> · <a href="index.en.html" style="color:var(--muted);text-decoration:none;">EN</a></span>
-  </nav>
-</div></header>
+/* FAQ */
+.faq-item {
+  background: var(--card); border: 1px solid var(--border); border-radius: 12px;
+  padding: 18px 22px; margin-bottom: 10px; cursor: pointer;
+}
+.faq-item summary { font-weight: 700; font-size: 1rem; outline: none; }
+.faq-item p { color: var(--muted); margin-top: 10px; line-height: 1.7; }
 
-<section class="hero"><div class="container" style="display:contents">
-  <div class="hero-text">
-    <span class="coming-soon-tag">COMING SOON</span>
-    <h1>讓你的 LINE 官方帳號<br><span class="accent">自己回客戶</span></h1>
-    <p class="lead">通用 LINE OA 自動化平台。客服自動回覆、預約提醒、收款催繳、會員管理、群發通知。各行各業都能用。</p>
-    <form class="subscribe-form" data-product="lineoa">
-      <input type="email" name="email" placeholder="搶先預約 — Email" required/>
-      <button type="submit">加入等候名單</button>
-    </form>
-    <p class="hero-meta"><span>上線通知</span> · 早鳥 8 折優惠</p>
-  </div>
-  <div class="hero-img"><img src="../images/lineoa_hero.webp" alt="LINE OA Automation"/></div>
-</div></section>
+/* CTA bottom */
+.cta-bottom {
+  background: linear-gradient(135deg, var(--mint-deep), var(--line-green));
+  border-radius: 32px; padding: 56px 40px; text-align: center; color: white;
+  margin: 40px 0;
+}
+.cta-bottom h2 { color: white; max-width: none; margin-bottom: 14px; }
+.cta-bottom p { color: rgba(255,255,255,0.92); max-width: 560px; margin: 0 auto 28px; }
+.cta-bottom .btn { background: white; color: var(--line-green); border-color: white; padding: 14px 28px; }
 
-<section class="block"><div class="container">
-  <div class="section-eyebrow">核心功能</div>
-  <h2>把 LINE 官方帳號<br>變成自動化客服中心</h2>
-  <div class="features">
-    <div class="feature-card"><div class="feature-icon">🤖</div><h3>AI 客服自動回覆</h3><p>常見問答自動回，營業時間、價目、地址、預約一秒搞定。複雜問題自動轉真人。</p></div>
-    <div class="feature-card"><div class="feature-icon">📅</div><h3>預約提醒</h3><p>客戶預約自動進系統，前 24 小時自動發提醒，降低 No-show 率。</p></div>
-    <div class="feature-card"><div class="feature-icon">💳</div><h3>收款催繳</h3><p>未付款訂單自動發催繳訊息，連結到藍新金流付款頁面。</p></div>
-    <div class="feature-card"><div class="feature-icon">👥</div><h3>會員管理</h3><p>客戶資料、消費紀錄、生日提醒、VIP 標籤，全部一站式管理。</p></div>
-    <div class="feature-card"><div class="feature-icon">📢</div><h3>群發通知</h3><p>新品上架、活動資訊、節日問候，分眾群發不亂槍打鳥。</p></div>
-    <div class="feature-card"><div class="feature-icon">📊</div><h3>數據儀表板</h3><p>對話量、回覆率、轉換率、客戶 LTV 一目了然。</p></div>
-  </div>
-</div></section>
+/* Footer */
+footer { padding: 60px 0 30px; border-top: 1px solid var(--border); margin-top: 60px; color: var(--muted); font-size: 0.9em; }
+footer .container { display: flex; justify-content: space-between; flex-wrap: wrap; gap: 20px; }
+footer a { color: var(--muted); text-decoration: none; }
+footer a:hover { color: var(--accent); }
 
-<section class="block"><div class="container">
-  <div class="section-eyebrow">適用行業</div>
-  <h2>誰可以用？</h2>
-  <div class="industries">
-    <div class="industry"><div class="industry-icon">📚</div><h4>補習班</h4><p>繳費提醒 / 點名</p></div>
-    <div class="industry"><div class="industry-icon">💄</div><h4>美業</h4><p>預約 / 會員</p></div>
-    <div class="industry"><div class="industry-icon">🛒</div><h4>電商</h4><p>訂單 / 物流通知</p></div>
-    <div class="industry"><div class="industry-icon">💪</div><h4>健身房</h4><p>排課 / 續約</p></div>
-    <div class="industry"><div class="industry-icon">🍱</div><h4>餐飲</h4><p>訂位 / 外帶</p></div>
-    <div class="industry"><div class="industry-icon">🏠</div><h4>房仲</h4><p>看屋 / 議價</p></div>
-    <div class="industry"><div class="industry-icon">⚖️</div><h4>律師</h4><p>諮詢 / 案件</p></div>
-    <div class="industry"><div class="industry-icon">🎓</div><h4>各行業</h4><p>客製化模板</p></div>
-  </div>
-</div></section>
+/* Floating BOT widget (mobile) */
+.fab-bot {
+  position: fixed; bottom: 20px; right: 20px;
+  width: 56px; height: 56px; border-radius: 50%;
+  background: var(--line-green); color: white;
+  display: flex; align-items: center; justify-content: center;
+  font-size: 1.4em; box-shadow: 0 8px 24px rgba(0,185,0,0.4);
+  cursor: pointer; z-index: 999; border: none;
+}
+.fab-bot:hover { background: #009900; }
 
-<section class="consult"><div class="container"><div class="consult-inner">
-  <h2>搶先預約<br>上線通知 + 早鳥優惠。</h2>
-  <p>留下 Email，第一時間收到上線通知。早鳥用戶享 8 折優惠 + 免費 onboarding。</p>
-  <form class="subscribe-form" data-product="lineoa">
-    <input type="email" name="email" placeholder="你的 Email" required/>
-    <button type="submit">加入等候名單</button>
-  </form>
-</div></div></section>
-
-<footer class="site-footer"><div class="container">
-  <div class="footer-brand"><a href="/" class="brand">SoloBuildTW</a><p>獨立工作者。Harvey 一人團隊，做 AI 自動化的多條產品線。</p></div>
-  <div class="footer-col"><h4>產品</h4><a href="/">經驗包</a><a href="/api/">Data API</a><a href="/weekly/">數據週報</a><a href="/podcast/">Podcast</a></div>
-  <div class="footer-col"><h4>關於</h4><a href="/about/">工作室</a><a href="/pricing/">合作諮詢</a></div>
-  <div class="footer-col"><h4>聯絡</h4><a href="mailto:solobuildtw@gmail.com">solobuildtw@gmail.com</a></div>
-  <div class="footer-col"><h4>法律</h4><a href="/legal/privacy.html">隱私權政策</a><a href="/legal/terms.html">服務條款</a></div>
-</div><div class="container"><div class="copyright">© 2026 SoloBuildTW · Harvey</div></div></footer>
-
-
-<!-- GA4 Enhanced CTA Tracking -->
-<script>
-document.addEventListener('DOMContentLoaded', function() {
-  function track(name, params) {
-    if (typeof gtag === 'function') gtag('event', name, params);
-  }
-  // Track all primary buttons
-  document.querySelectorAll('.btn-primary, .btn-outline').forEach(function(btn) {
-    btn.addEventListener('click', function() {
-      track('cta_click', {
-        category: 'engagement',
-        label: this.textContent.trim().slice(0, 50),
-        page: window.location.pathname
-      });
-    });
-  });
-  // Track form submissions
-  document.querySelectorAll('form').forEach(function(form) {
-    form.addEventListener('submit', function() {
-      track('form_submit', {
-        category: 'conversion',
-        page: window.location.pathname
-      });
-    });
-  });
-  // Scroll depth
-  var depths = [25, 50, 75, 100];
-  var hit = {};
-  window.addEventListener('scroll', function() {
-    var p = Math.round((window.scrollY + window.innerHeight) / document.documentElement.scrollHeight * 100);
-    depths.forEach(function(d) {
-      if (p >= d && !hit[d]) {
-        hit[d] = true;
-        track('scroll_depth', {value: d, page: window.location.pathname});
-      }
-    });
-  });
-});
-</script>
-
-<!-- Mobile Sticky CTA -->
-<style>
-.sticky-cta{display:none;position:fixed;bottom:16px;left:16px;right:16px;z-index:200;background:#F4A582;color:#FFF;padding:14px 20px;border-radius:12px;text-align:center;font-weight:700;font-size:15px;text-decoration:none;box-shadow:0 8px 20px rgba(31,58,54,0.25)}
-.sticky-cta:hover{background:#E08966}
-@media(max-width:768px){.sticky-cta{display:block}}
+@media (max-width: 900px) {
+  .hero { grid-template-columns: 1fr; }
+  .hero-text { padding-left: 0; }
+  .hero-bot-frame { height: 480px; }
+  .features-4 { grid-template-columns: 1fr; }
+  .pricing-grid { grid-template-columns: 1fr; }
+  .pricing-card.featured { transform: none; }
+  .path { grid-template-columns: repeat(2, 1fr); }
+  .compare-table { font-size: 0.85em; }
+}
 </style>
-<a href="https://solobuildtw.github.io/pricing/" class="sticky-cta">📞 預約 30 分鐘免費諮詢</a>
+</head>
+<body>
+
+<header class="nav">
+  <div class="container">
+    <a href="/" class="brand">SoloBuildTW</a>
+    <nav>
+      <a href="#features">功能</a>
+      <a href="#pricing">方案</a>
+      <a href="#compare">比較</a>
+      <a href="#cases">案例</a>
+      <a href="#faq">FAQ</a>
+      <a href="#cta" class="btn btn-primary">14 天免費試用</a>
+    </nav>
+  </div>
+</header>
+
+<!-- ───── Hero ───── -->
+<section class="hero container">
+  <div class="hero-text">
+    <span class="tag">📱 Line 自動回覆機器人</span>
+    <h1>商家的 <span class="accent">AI Line 客服</span><br>24 小時自動回<br>不會的轉真人</h1>
+    <p class="lead">
+      商家不用寫程式、不用寫 prompt。倒對話資料 + 中文口頭教，AI 第 1 個月自動回 60%，第 6 個月達 90%。
+    </p>
+    <div class="hero-cta">
+      <a href="#cta" class="btn btn-primary">🆓 14 天免費試用</a>
+      <a href="#pricing" class="btn btn-outline">看方案</a>
+    </div>
+    <p class="hero-meta">
+      <strong>右邊就是 Line 自動回覆機器人本人</strong> — 您看到的，就是商家裝完客人會收到的 🤖
+    </p>
+  </div>
+  <div>
+    <div class="hero-bot-frame">
+      <iframe id="lbkBotFrame" src="/lineoa/widget/" loading="lazy" title="Line 自動回覆機器人 demo"></iframe>
+    </div>
+    <p class="hero-bot-hint">↑ 跟 Line 自動回覆機器人本人聊聊看（試用樣本）</p>
+  </div>
+</section>
+
+<!-- ───── 4 頁籤後台 ───── -->
+<section id="features" class="block container">
+  <div class="section-eyebrow">商家後台 — 不需技術</div>
+  <h2>4 頁籤訓練 AI 不寫程式 不寫提示詞</h2>
+  <div class="features-4">
+    <div class="feature">
+      <span class="num">1</span>
+      <h3>📂 倒對話資料</h3>
+      <p>把過去 LINE / FB 對話 export 檔丟進來，AI 自動歸納 5-15 條 FAQ。商家勾選想存的就完成。</p>
+    </div>
+    <div class="feature">
+      <span class="num">2</span>
+      <h3>🗣 口頭教 AI</h3>
+      <p>用中文跟 BOT 講話，「客人問營業時間就回週一到五 9-21 點」AI 自動轉成規則存進 KB。跟員工說話一樣。</p>
+    </div>
+    <div class="feature">
+      <span class="num">3</span>
+      <h3>🎭 模擬對話</h3>
+      <p>商家假裝客人問問題，看 BOT 回什麼。不滿意 → 告訴 BOT「應該這樣回」→ BOT 學起來。</p>
+    </div>
+    <div class="feature">
+      <span class="num">4</span>
+      <h3>📊 真實對話監控</h3>
+      <p>看 BOT 跟真客人對話。BOT 答錯標一下，自動進反例池學習。下次同樣問題用新答案。</p>
+    </div>
+  </div>
+</section>
+
+<!-- ───── 自動化路徑 ───── -->
+<section class="block container">
+  <div class="section-eyebrow">自動化路徑</div>
+  <h2>60% 升 90% 自動化 4 階段升級</h2>
+  <div class="path">
+    <div class="path-stage">
+      <div class="stage-time">第 1 個月</div>
+      <div class="stage-rate">60%</div>
+      <div class="stage-how">基礎 FAQ + 規則回答</div>
+    </div>
+    <div class="path-stage">
+      <div class="stage-time">第 2 個月</div>
+      <div class="stage-rate">70%</div>
+      <div class="stage-how">商家標答錯自動學</div>
+    </div>
+    <div class="path-stage">
+      <div class="stage-time">第 3 個月</div>
+      <div class="stage-rate">80%</div>
+      <div class="stage-how">累積 1000+ 對話訓練</div>
+    </div>
+    <div class="path-stage">
+      <div class="stage-time">第 6 個月</div>
+      <div class="stage-rate">90%</div>
+      <div class="stage-how">客製 fine-tune（看 ROI）</div>
+    </div>
+  </div>
+</section>
+
+<!-- ───── 方案 ───── -->
+<section id="pricing" class="block container">
+  <div class="section-eyebrow">方案</div>
+  <h2>月費 NT$1,000 起 14 天免費試用</h2>
+  <div class="pricing-grid">
+    <div class="pricing-card">
+      <h3>月費方案</h3>
+      <span class="pricing-period">每月扣</span>
+      <div class="pricing-price">NT$1,000<small> / 月</small></div>
+      <ul class="pricing-features">
+        <li>對話量遠超過小店年用量</li>
+        <li>4 頁籤後台全功能</li>
+        <li>Line Bot 24 小時</li>
+        <li>商家月報自動推</li>
+      </ul>
+      <a href="#cta" class="btn btn-outline">14 天試用</a>
+    </div>
+
+    <div class="pricing-card">
+      <h3>半年方案</h3>
+      <span class="pricing-period">等於 NT$833 月</span>
+      <div class="pricing-price">NT$5,000<small> / 半年</small></div>
+      <div class="pricing-orig">原價 NT$6,000</div>
+      <div class="pricing-saving">省 17%</div>
+      <ul class="pricing-features">
+        <li>同月費全功能</li>
+        <li>優先客服</li>
+        <li>30 天內可退剩餘</li>
+      </ul>
+      <a href="#cta" class="btn btn-outline">14 天試用</a>
+    </div>
+
+    <div class="pricing-card featured">
+      <span class="pricing-tag">最划算</span>
+      <h3>年方案</h3>
+      <span class="pricing-period">等於 NT$667 月</span>
+      <div class="pricing-price">NT$8,000<small> / 年</small></div>
+      <div class="pricing-orig">原價 NT$12,000</div>
+      <div class="pricing-saving">省 33%</div>
+      <ul class="pricing-features">
+        <li>同月費全功能</li>
+        <li>進階加值 Q3 上線</li>
+        <li>專屬顧問 1 對 1</li>
+        <li>30 天內可退剩餘</li>
+      </ul>
+      <a href="#cta" class="btn btn-primary">立即訂閱</a>
+    </div>
+  </div>
+</section>
+
+<!-- ───── 比較 ───── -->
+<section id="compare" class="block container">
+  <div class="section-eyebrow">比較</div>
+  <h2>跟競品比 為什麼適合個體商家</h2>
+  <table class="compare-table">
+    <thead>
+      <tr>
+        <th>產品</th>
+        <th>月費</th>
+        <th>定位</th>
+        <th>缺點 / 優勢</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr class="lbk-row">
+        <td>Line 自動回覆機器人（我們）</td>
+        <td>NT$1,000 起</td>
+        <td>個體商家 AI Line 客服</td>
+        <td>真 AI + 中文最強 + 不綁 POS + 月費最便宜</td>
+      </tr>
+      <tr>
+        <td>ezPretty</td>
+        <td>NT$1,500-5,000</td>
+        <td>美業預約 + POS</td>
+        <td>AI 是「營運顧問」非 LINE 客服</td>
+      </tr>
+      <tr>
+        <td>iCHEF</td>
+        <td>NT$1,950+</td>
+        <td>POS + LINE 整合</td>
+        <td>適合有規模餐廳，個體店不划算</td>
+      </tr>
+      <tr>
+        <td>Chatisfy / BotBonnie</td>
+        <td>萬元級</td>
+        <td>多渠道 Bot</td>
+        <td>打企業客戶，不打小商家</td>
+      </tr>
+      <tr>
+        <td>LINE SmartChat（免費）</td>
+        <td>NT$0</td>
+        <td>關鍵字配對</td>
+        <td>只是關鍵字，不是真 AI</td>
+      </tr>
+    </tbody>
+  </table>
+</section>
+
+<!-- ───── 案例展示（待真實案例 placeholder） ───── -->
+<section id="cases" class="block container">
+  <div class="section-eyebrow">案例</div>
+  <h2>正在驗收的商家</h2>
+  <div class="features-4">
+    <div class="feature">
+      <span class="num">🍢</span>
+      <h3>燒烤攤 示範店</h3>
+      <p>客人最常問「幾點開」「外帶嗎」「停車哪」這類問題，AI 自動回。每天回 80+ 通對話 店家專心烤就好。<br><small style="color:#9ca3af">驗收中（2026-05-22 預計上線）</small></p>
+    </div>
+    <div class="feature">
+      <span class="num">💇</span>
+      <h3>美甲工作室</h3>
+      <p>「明天 6 點還有位嗎」自動建預約 推給設計師個人 Line。客人 30 秒內收到確認 不用等下班再回。<br><small style="color:#9ca3af">規劃中</small></p>
+    </div>
+    <div class="feature">
+      <span class="num">🥟</span>
+      <h3>小吃店</h3>
+      <p>菜單 / 價格 / 外送平台 / 公休日 AI 全包。客人爆量檔期不會錯過任何詢問。<br><small style="color:#9ca3af">規劃中</small></p>
+    </div>
+    <div class="feature">
+      <span class="num">🐶</span>
+      <h3>寵物美容</h3>
+      <p>預約間距 / 毛孩體重 / 洗澡時長 規則複雜 → 用「口頭教 AI」5 分鐘訓練完成。<br><small style="color:#9ca3af">規劃中</small></p>
+    </div>
+  </div>
+  <p style="text-align:center; color:var(--muted); margin-top:20px; font-size:0.9em">您的店也想成為示範案例？14 天免費試用期間我們會錄影記錄成果，案例上線後您額外獲得 3 個月免費</p>
+</section>
+
+<!-- ───── FAQ ───── -->
+<section id="faq" class="block container">
+  <div class="section-eyebrow">FAQ</div>
+  <h2>商家常問</h2>
+
+  <details class="faq-item">
+    <summary>我不會技術可以用嗎？</summary>
+    <p>完全可以！全程不需要寫程式 / 不需要寫 prompt。後台 4 頁籤就是給沒技術背景的店家設計的 — 上傳檔案 + 用中文口頭教，就跟員工說話一樣。30 分鐘可上手。</p>
+  </details>
+  <details class="faq-item">
+    <summary>我自己的 LINE OA 怎麼接？</summary>
+    <p>商家給我們 LINE OA 的 Channel Secret 跟 Access Token（在 LINE Developers 後台 5 分鐘可拿），我們 30 分鐘內接好。或我們有線上/視訊 onboarding 服務（首月免費）。</p>
+  </details>
+  <details class="faq-item">
+    <summary>我的店適合嗎？</summary>
+    <p>所有的店都適合：餐廳 / 飲料店 / 燒烤攤 / 美容美甲 / 寵物美容 / 補習班 / 診所 / 工作室 / 零售小店 / 民宿 / 健身房 / 攝影工作室 / 服飾店 / 烘焙坊 / B2B 廠商等。只要您的店有客人會在 LINE 問問題，就值得裝一個 24 小時不下班的 AI 客服。客人少的店更划算——每筆對話都不會錯過。</p>
+  </details>
+  <details class="faq-item">
+    <summary>客人會知道是 AI 嗎？</summary>
+    <p>預設立場：不偽裝真人。被客人問「你是 AI 嗎」會直接說明自己是 Line 自動回覆機器人。回覆口語化自然，但不假裝真人接洽。</p>
+  </details>
+  <details class="faq-item">
+    <summary>客人投訴會怎麼處理？</summary>
+    <p>BOT 偵測到「投訴」「退費」「我要找真人」「敏感詞」自動立刻轉商家自己的 LINE，BOT 不會擅自處理。</p>
+  </details>
+  <details class="faq-item">
+    <summary>可以做預約嗎？</summary>
+    <p>可以。客人在 LINE 說「我要訂位 明天 6 點 4 人」→ BOT 自動建預約 → 通知商家 LINE → 商家確認後 BOT 回客人。進階版（T1）串 Google Calendar / Cal.com。</p>
+  </details>
+  <details class="faq-item">
+    <summary>對話有上限嗎？</summary>
+    <p>月費方案的對話量額度遠超過絕大多數小店一年用得到的量，正常店家完全用不完。萬一接到爆量檔期（連假/節慶/活動），會自動通知商家、提供加值方案，不會中斷服務。</p>
+  </details>
+  <details class="faq-item">
+    <summary>用什麼 AI 模型？</summary>
+    <p>DeepSeek V3，中文最強、台灣商家最划算。商家也可升級企業客製方案接 GPT-4 / Claude。</p>
+  </details>
+  <details class="faq-item">
+    <summary>我的客戶資料安全嗎？</summary>
+    <p>Supabase PostgreSQL + Row Level Security，每商家資料完全隔離。資料儲存在 ap-southeast-1（新加坡）。GDPR / 個資法相容。</p>
+  </details>
+  <details class="faq-item">
+    <summary>退費政策？</summary>
+    <p>月費 7 天內、半年費 / 年費 30 天內可退剩餘金額。14 天免費試用期不滿意直接停，不扣款。</p>
+  </details>
+  <details class="faq-item">
+    <summary>FB / IG 也能用嗎？</summary>
+    <p>FB Messenger Bot 規劃中（Roadmap Q3 上線）。IG 規劃中，預計在 Meta DM API 政策明朗化後第二波支援。目前先把 Line 體驗做到 100% 完整。</p>
+  </details>
+</section>
+
+<!-- ───── CTA bottom ───── -->
+<section id="cta" class="container">
+  <div class="cta-bottom">
+    <h2>14 天免費試用 不滿意不扣款</h2>
+    <p>右上角加 Line 自動回覆機器人本人的 LINE，跟它聊聊看；或直接點下方訂閱。</p>
+    <a href="https://pay.solobuildtw.com/api/lbk-subscribe?plan=monthly" class="btn">立即訂閱 NT$1,000/月</a>
+    &nbsp;
+    <a href="javascript:openBot()" class="btn">先跟機器人聊聊</a>
+  </div>
+</section>
+
+<footer class="container">
+  <div>© 2026 SoloBuildTW · 本地商家 AI Line 自動回覆機器人</div>
+  <div>
+    <a href="/legal/terms.html">使用條款</a>
+    <a href="/legal/privacy.html">隱私政策</a>
+    <a href="/legal/refund.html">退費政策</a>
+  </div>
+</footer>
+
+<button class="fab-bot" onclick="openBot()" title="跟機器人聊聊">💬</button>
 
 <script>
-document.addEventListener('DOMContentLoaded', function() {
-  document.querySelectorAll('form.subscribe-form').forEach(function(form) {
-    form.addEventListener('submit', async function(e) {
-      e.preventDefault();
-      var btn = form.querySelector('button[type="submit"]');
-      var input = form.querySelector('input[type="email"]');
-      if (!input || !btn) return;
-      var origText = btn.textContent;
-      btn.textContent = '送出中...';
-      btn.disabled = true;
-      try {
-        var product = form.dataset.product || 'general';
-        var r = await fetch('https://solobuild-waitlist.harvey3630.workers.dev/api/waitlist', {
-          method: 'POST',
-          headers: {'Content-Type': 'application/json'},
-          body: JSON.stringify({email: input.value, product: product})
-        });
-        var j = await r.json();
-        if (j.ok) {
-          form.innerHTML = '<div style="text-align:center;padding:14px 18px;font-weight:600;color:#5FA88D;">✓ ' + (j.status === 'already_subscribed' ? 'Email 已在等候名單' : '加入成功！上線通知') + '</div>';
-          if (typeof gtag === 'function') gtag('event', 'waitlist_signup', {product: product});
-        } else {
-          btn.textContent = origText;
-          btn.disabled = false;
-          alert('送出失敗: ' + (j.error || 'unknown'));
-        }
-      } catch (err) {
-        btn.textContent = origText;
-        btn.disabled = false;
-        alert('網路錯誤，請稍後再試');
-      }
-    });
-  });
-});
+function openBot() {
+  document.getElementById('lbkBotFrame').scrollIntoView({ behavior: 'smooth' });
+}
 </script>
-</body></html>
+
+</body>
+</html>
