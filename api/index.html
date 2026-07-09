@@ -125,7 +125,7 @@ img{max-width:100%;display:block}
 <section class="hero"><div class="container" style="display:contents">
   <div>
     <h1>台灣政府公開資料 <br><span class="accent">乾淨 REST API</span></h1>
-    <p class="lead">股票、天氣、空品、匯率、實價登錄、地震、防災等 26 個資料接口Cloudflare Workers 全球低延遲，繁中文件，台灣開發者友善。</p>
+    <p class="lead">股票、天氣、空品、匯率、實價登錄、地震、防災等 26 個資料接口。Cloudflare Workers 全球低延遲，繁中文件，台灣開發者友善。</p>
     <div class="hero-ctas">
       <a href="#endpoints" class="btn-primary">查看 26 個資料接口</a>
       <a href="https://api.solobuildtw.com/api/v1/health" target="_blank" rel="noopener" class="btn-ghost">健康檢查</a>
@@ -161,6 +161,16 @@ img{max-width:100%;display:block}
     <div class="ep"><span class="ep-method">GET</span><div class="ep-path">/api/v1/company</div><div class="ep-desc">g0v 公司登記查詢</div></div>
     <div class="ep"><span class="ep-method">GET</span><div class="ep-path">/api/v1/agriculture</div><div class="ep-desc">農委會批發價</div></div>
     <div class="ep"><span class="ep-method">GET</span><div class="ep-path">/api/v1/transport</div><div class="ep-desc">TDX 交通（待 credentials）</div></div>
+    <div class="ep"><span class="ep-method">GET</span><div class="ep-path">/api/v1/pharmacy</div><div class="ep-desc">全台藥局據點查詢</div></div>
+    <div class="ep"><span class="ep-method">GET</span><div class="ep-path">/api/v1/clinic</div><div class="ep-desc">全台診所據點查詢</div></div>
+    <div class="ep"><span class="ep-method">GET</span><div class="ep-path">/api/v1/bus-route/{city}</div><div class="ep-desc">各縣市公車路線查詢（待 credentials）</div></div>
+    <div class="ep"><span class="ep-method">GET</span><div class="ep-path">/api/v1/parking/{city}</div><div class="ep-desc">各縣市停車場資訊（待 credentials）</div></div>
+    <div class="ep"><span class="ep-method">GET</span><div class="ep-path">/api/v1/traffic-accident</div><div class="ep-desc">道路交通事故統計資料</div></div>
+    <div class="ep"><span class="ep-method">GET</span><div class="ep-path">/api/v1/labor-violation</div><div class="ep-desc">勞動法令違規裁罰查詢</div></div>
+    <div class="ep"><span class="ep-method">GET</span><div class="ep-path">/api/v1/business-violation</div><div class="ep-desc">商業法令違規裁罰查詢</div></div>
+    <div class="ep"><span class="ep-method">GET</span><div class="ep-path">/api/v1/population/{county}</div><div class="ep-desc">各縣市人口統計數據</div></div>
+    <div class="ep"><span class="ep-method">GET</span><div class="ep-path">/api/v1/schools/{type}</div><div class="ep-desc">全台各級學校名錄查詢</div></div>
+    <div class="ep"><span class="ep-method">GET</span><div class="ep-path">/api/v1/cram-school/{county}</div><div class="ep-desc">各縣市補習班登記資料</div></div>
     <div class="ep"><span class="ep-method">GET</span><div class="ep-path">/api/v1/health</div><div class="ep-desc">服務健康檢查（公開無需 auth）</div></div>
   </div>
 </div></section>
@@ -189,51 +199,51 @@ r = requests.get(
 
 <section class="block"><div class="container">
   <div class="section-eyebrow" id="pricing">Pricing</div>
-  <h2 style="text-align:center;margin:0 auto 48px">9 個方案 + 3 種全包優惠<br>1,646 個資料集盡在其中</h2>
+  <h2 style="text-align:center;margin:0 auto 48px">9 個方案 + 3 種全包優惠<br>26 個資料集盡在其中</h2>
   <div class="pricing-grid">
     <div class="tier"><h3>方案 A 免費版</h3><div class="tier-price"><span class="currency">$</span>0</div><div class="tier-period">永久免費</div>
       <ul class="tier-features"><li>20 req/day</li><li>社群支援</li><li>金融+法律+地產資料</li><li>無信用卡</li></ul>
-      <a href="#" class="btn-ghost" style="display:block;text-align:center;padding:12px">開始免費使用</a>
+      <a href="mailto:solobuildtw@gmail.com?subject=API 詢問" class="btn-ghost" style="display:block;text-align:center;padding:12px">開始免費使用</a>
     </div>
     <div class="tier"><h3>方案 A 基礎版</h3><div class="tier-price"><span class="currency">$</span>14.99</div><div class="tier-period">每月</div>
       <ul class="tier-features"><li>1,000 req/day</li><li>優先支援</li><li>372 金融+244 法律+121 地產</li><li>用量統計</li></ul>
-      <a href="#" class="btn-ghost" style="display:block;text-align:center;padding:12px">立即訂閱</a>
+      <a href="mailto:solobuildtw@gmail.com?subject=API 詢問" class="btn-ghost" style="display:block;text-align:center;padding:12px">立即訂閱</a>
     </div>
     <div class="tier"><h3>方案 A 專業版</h3><div class="tier-price"><span class="currency">$</span>39.99</div><div class="tier-period">每月</div>
       <ul class="tier-features"><li>5,000 req/day</li><li>優先支援</li><li>所有 ECO+LAW+EST</li><li>高級分析</li></ul>
-      <a href="#" class="btn-ghost" style="display:block;text-align:center;padding:12px">立即訂閱</a>
+      <a href="mailto:solobuildtw@gmail.com?subject=API 詢問" class="btn-ghost" style="display:block;text-align:center;padding:12px">立即訂閱</a>
     </div>
     <div class="tier"><h3>方案 A 企業版</h3><div class="tier-price"><span class="currency">$</span>99.99</div><div class="tier-period">每月</div>
       <ul class="tier-features"><li>無限 req/day</li><li>1,000 req/min</li><li>企業級 SLA</li><li>客製化方案</li></ul>
-      <a href="#" class="btn-ghost" style="display:block;text-align:center;padding:12px">聯絡銷售</a>
+      <a href="mailto:solobuildtw@gmail.com?subject=API 詢問" class="btn-ghost" style="display:block;text-align:center;padding:12px">聯絡銷售</a>
     </div>
     <div class="tier"><h3>方案 B 免費版</h3><div class="tier-price"><span class="currency">$</span>0</div><div class="tier-period">永久免費</div>
       <ul class="tier-features"><li>50 req/day</li><li>社群支援</li><li>環境+醫療+交通資料</li><li>無信用卡</li></ul>
-      <a href="#" class="btn-ghost" style="display:block;text-align:center;padding:12px">開始免費使用</a>
+      <a href="mailto:solobuildtw@gmail.com?subject=API 詢問" class="btn-ghost" style="display:block;text-align:center;padding:12px">開始免費使用</a>
     </div>
     <div class="tier"><h3>方案 B 基礎版</h3><div class="tier-price"><span class="currency">$</span>6.99</div><div class="tier-period">每月</div>
       <ul class="tier-features"><li>2,000 req/day</li><li>優先支援</li><li>所有 9 個標準分類</li><li>用量統計</li></ul>
-      <a href="#" class="btn-ghost" style="display:block;text-align:center;padding:12px">立即訂閱</a>
+      <a href="mailto:solobuildtw@gmail.com?subject=API 詢問" class="btn-ghost" style="display:block;text-align:center;padding:12px">立即訂閱</a>
     </div>
     <div class="tier"><h3>方案 B 專業版</h3><div class="tier-price"><span class="currency">$</span>19.99</div><div class="tier-period">每月</div>
       <ul class="tier-features"><li>10,000 req/day</li><li>優先支援</li><li>所有 9 個標準分類</li><li>高級分析</li></ul>
-      <a href="#" class="btn-ghost" style="display:block;text-align:center;padding:12px">立即訂閱</a>
+      <a href="mailto:solobuildtw@gmail.com?subject=API 詢問" class="btn-ghost" style="display:block;text-align:center;padding:12px">立即訂閱</a>
     </div>
     <div class="tier"><h3>方案 B 企業版</h3><div class="tier-price"><span class="currency">$</span>49.99</div><div class="tier-period">每月</div>
       <ul class="tier-features"><li>無限 req/day</li><li>500 req/min</li><li>企業級 SLA</li><li>客製化方案</li></ul>
-      <a href="#" class="btn-ghost" style="display:block;text-align:center;padding:12px">聯絡銷售</a>
+      <a href="mailto:solobuildtw@gmail.com?subject=API 詢問" class="btn-ghost" style="display:block;text-align:center;padding:12px">聯絡銷售</a>
     </div>
     <div class="tier featured"><h3>全包方案 ★</h3><div class="tier-price"><span class="currency">$</span>10.99</div><div class="tier-period">每月 (50% 折扣)</div>
-      <ul class="tier-features"><li>50 req/day</li><li>優先支援</li><li>全部 1,646 個 API</li><li>用量統計</li></ul>
-      <a href="#" class="btn-primary" style="display:block;text-align:center">立即訂閱</a>
+      <ul class="tier-features"><li>50 req/day</li><li>優先支援</li><li>全部 26 個 API</li><li>用量統計</li></ul>
+      <a href="mailto:solobuildtw@gmail.com?subject=API 詢問" class="btn-primary" style="display:block;text-align:center">立即訂閱</a>
     </div>
     <div class="tier featured"><h3>全包方案 PRO</h3><div class="tier-price"><span class="currency">$</span>29.99</div><div class="tier-period">每月 (50% 折扣)</div>
-      <ul class="tier-features"><li>10,000 req/day</li><li>優先支援</li><li>全部 1,646 個 API</li><li>高級分析</li></ul>
-      <a href="#" class="btn-primary" style="display:block;text-align:center">立即訂閱</a>
+      <ul class="tier-features"><li>10,000 req/day</li><li>優先支援</li><li>全部 26 個 API</li><li>高級分析</li></ul>
+      <a href="mailto:solobuildtw@gmail.com?subject=API 詢問" class="btn-primary" style="display:block;text-align:center">立即訂閱</a>
     </div>
     <div class="tier featured"><h3>全包方案 ULTRA</h3><div class="tier-price"><span class="currency">$</span>74.99</div><div class="tier-period">每月 (50% 折扣)</div>
-      <ul class="tier-features"><li>無限 req/day</li><li>企業級 SLA</li><li>全部 1,646 個 API</li><li>客製化方案</li></ul>
-      <a href="#" class="btn-ghost" style="display:block;text-align:center;padding:12px">聯絡銷售</a>
+      <ul class="tier-features"><li>無限 req/day</li><li>企業級 SLA</li><li>全部 26 個 API</li><li>客製化方案</li></ul>
+      <a href="mailto:solobuildtw@gmail.com?subject=API 詢問" class="btn-ghost" style="display:block;text-align:center;padding:12px">聯絡銷售</a>
     </div>
   </div>
 </div></section>
@@ -252,7 +262,7 @@ r = requests.get(
   <div class="footer-col"><h4>產品</h4><a href="https://solobuildtw.com">經驗包</a><a href="https://solobuildtw.github.io/api/">Data API</a><a href="https://solobuildtw.github.io/weekly/">數據週報</a><a href="https://solobuildtw.com/podcast/">Podcast</a></div>
   <div class="footer-col"><h4>關於</h4><a href="https://solobuildtw.com">工作室</a><a href="#pricing">合作諮詢</a></div>
   <div class="footer-col"><h4>聯絡</h4><a href="mailto:solobuildtw@gmail.com">solobuildtw@gmail.com</a></div>
-  <div class="footer-col"><h4>法律</h4><a href="https://solobuildtw.com/privacy">隱私權政策</a><a href="https://solobuildtw.com/terms">服務條款</a></div>
+  <div class="footer-col"><h4>法律</h4><a href="https://solobuildtw.github.io/legal/privacy.html">隱私權政策</a><a href="https://solobuildtw.github.io/legal/terms.html">服務條款</a></div>
 </div><div class="container"><div class="copyright">© 2026 SoloBuildTW · Harvey</div></div></footer>
 
 

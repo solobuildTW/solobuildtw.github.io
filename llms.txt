@@ -5,13 +5,13 @@
 ## 主要產品
 
 - [Claude Code 經驗包](https://solobuildtw.github.io/): 不用寫程式，今晚就能讓 AI 開始幫你做事。教學包 NT$499 / 靈魂包 NT$649 / 組合包 NT$999
-- [Taiwan Data API](https://solobuildtw.github.io/api/): 台灣政府公開資料 REST API。26 endpoints（股票、天氣、AQI、匯率、實價登錄、地震、防災等）。Cloudflare Workers 部署，全球低延遲
+- [Taiwan Data API](https://solobuildtw.github.io/api/): 台灣政府公開資料 REST API。26 endpoints（股票、天氣、AQI、匯率、實價登錄、地震、醫療、交通、教育等）。Cloudflare Workers 部署，全球低延遲
 - [台灣數據週報](https://solobuildtw.github.io/weekly/): 每週五自動彙整台股、匯率、天氣、空品、實價登錄等政府公開資料，AI 生成市場摘要直送信箱。免費訂閱
 - [Podcast 5 頻道](https://solobuildtw.github.io/podcast/): 每日更新。雨晴的科技日常 / 冷知識電波 / 史上最蠢人類 / 地球的角落 / 燭光怪譚
 
 ## 即將推出
 
-- [LINE OA 自動化](https://solobuildtw.github.io/lineoa/): 通用 LINE 官方帳號自動化平台
+- [LINE OA 自動化（LBK，Beta 測試中）](https://solobuildtw.github.io/lineoa/): LINE 官方帳號自動回覆 bot，開放測試中
 - [DiffLens](https://solobuildtw.github.io/difflens/): 瀏覽器外掛，AI 解讀 GitHub PR diff
 - [Shopify AI Tagger](https://solobuildtw.github.io/shopify/): Shopify 商店 AI 自動標籤 App
 
