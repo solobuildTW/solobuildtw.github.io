@@ -148,15 +148,6 @@ footer a:hover { color:var(--accent); }
       <a href="#cta" class="btn btn-primary">🆓 Free Trial 14 days</a>
       <a href="#pricing" class="btn btn-outline">See Plans</a>
     </div>
-    <p class="hero-meta">
-      <strong>That's the bot on the right</strong> the exact thing your customers will get
-    </p>
-  </div>
-  <div>
-    <div class="hero-bot-frame">
-      <iframe id="lbkBotFrame" src="/lineoa/widget/" loading="lazy" title="Line Auto-Reply Bot demo"></iframe>
-    </div>
-    <p class="hero-bot-hint">↑ Try talking to the bot yourself</p>
   </div>
 </section>
 
@@ -337,7 +328,7 @@ footer a:hover { color:var(--accent); }
     <p>Add the bot to your Line above try it out. Or subscribe directly with the button below.</p>
     <a href="https://pay.solobuildtw.com/api/lbk-subscribe?plan=monthly" class="btn">Subscribe NT$1,000/mo</a>
     &nbsp;
-    <a href="javascript:openBot()" class="btn">Talk to the bot first</a>
+    <a href="#cta" class="btn">Start the free trial</a>
   </div>
 </section>
 
@@ -351,10 +342,5 @@ footer a:hover { color:var(--accent); }
   </div>
 </footer>
 
-<button class="fab-bot" onclick="openBot()" title="Talk to the bot">💬</button>
-
-<script>
-function openBot() { document.getElementById('lbkBotFrame').scrollIntoView({ behavior:'smooth' }); }
-</script>
 </body>
 </html>
