@@ -1,9 +1,9 @@
 <!DOCTYPE html>
 <html lang="zh-Hant"><head><meta charset="UTF-8"/><meta name="viewport" content="width=device-width,initial-scale=1.0"/>
 <title>Taiwan Data API — SoloBuildTW</title>
-<meta name="description" content="台灣政府公開資料 REST API。26 個精選高頻資料接口即開即用，完整目錄涵蓋 72 個 endpoint，並透過泛型介面架構支援 1,600+ 個政府資料集，一把 key 搞定免費試用"/>
-<meta property="og:title" content="Taiwan Data API — 26 精選接口・72 個目錄・1,600+ 資料集"/>
-<meta property="og:description" content="台灣政府公開資料一站式 REST API，26 個精選接口起步，完整目錄達 72 個 endpoint、架構支援 1,600+ 個資料集"/>
+<meta name="description" content="台灣政府公開資料 REST API。25 個精選高頻資料接口即開即用，完整目錄涵蓋 72 個 endpoint，並透過泛型介面架構支援 1,600+ 個政府資料集，一把 key 搞定免費試用"/>
+<meta property="og:title" content="Taiwan Data API — 25 精選接口・72 個目錄・1,600+ 資料集"/>
+<meta property="og:description" content="台灣政府公開資料一站式 REST API，25 個精選接口起步，完整目錄達 72 個 endpoint、架構支援 1,600+ 個資料集"/>
 <meta property="og:type" content="website"/>
 <meta property="og:url" content="https://solobuildtw.github.io/api/"/>
 <meta property="og:image" content="https://solobuildtw.github.io/images/api_hero.png"/>
@@ -125,9 +125,9 @@ img{max-width:100%;display:block}
 <section class="hero"><div class="container" style="display:contents">
   <div>
     <h1>台灣政府公開資料 <br><span class="accent">乾淨 REST API</span></h1>
-    <p class="lead">股票、天氣、空品、匯率、實價登錄、地震、防災等 26 個精選高頻資料接口，背後完整目錄涵蓋 72 個 endpoint，並透過泛型介面架構支援 1,600+ 個政府資料集。Cloudflare Workers 全球低延遲，繁中文件，台灣開發者友善。</p>
+    <p class="lead">股票、天氣、空品、匯率、實價登錄、地震、防災等 25 個精選高頻資料接口，背後完整目錄涵蓋 72 個 endpoint，並透過泛型介面架構支援 1,600+ 個政府資料集。Cloudflare Workers 全球低延遲，繁中文件，台灣開發者友善。</p>
     <div class="hero-ctas">
-      <a href="#endpoints" class="btn-primary">查看 26 個精選接口</a>
+      <a href="#endpoints" class="btn-primary">查看 25 個精選接口</a>
       <a href="https://api.solobuildtw.com/api/v1/health" target="_blank" rel="noopener" class="btn-ghost">健康檢查</a>
     </div>
   </div>
@@ -135,7 +135,7 @@ img{max-width:100%;display:block}
 </div></section>
 
 <div class="container"><div class="stats">
-  <div class="stat"><div class="stat-num">26</div><div class="stat-label">精選接口</div></div>
+  <div class="stat"><div class="stat-num">25</div><div class="stat-label">精選接口</div></div>
   <div class="stat"><div class="stat-num alt">1,354</div><div class="stat-label">支股票即時</div></div>
   <div class="stat"><div class="stat-num">12k+</div><div class="stat-label">實價登錄</div></div>
   <div class="stat"><div class="stat-num alt">50+80</div><div class="stat-label">氣象/空品站</div></div>
@@ -144,7 +144,7 @@ img{max-width:100%;display:block}
 
 <section class="block" id="endpoints"><div class="container">
   <div class="section-eyebrow">資料接口</div>
-  <h2>26 個精選接口<br>完整目錄 72 個 Endpoint</h2>
+  <h2>25 個精選接口<br>完整目錄 72 個 Endpoint</h2>
   <div class="endpoints">
     <div class="ep"><span class="ep-method">GET</span><div class="ep-path">/api/v1/stock</div><div class="ep-desc">TWSE 上市股票 <strong style="color:var(--mint-deep)">1,354 支即時報價</strong></div></div>
     <div class="ep"><span class="ep-method">GET</span><div class="ep-path">/api/v1/weather</div><div class="ep-desc">CWA 氣象局 <strong style="color:var(--mint-deep)">50 站即時天氣</strong></div></div>
@@ -154,13 +154,12 @@ img{max-width:100%;display:block}
     <div class="ep"><span class="ep-method">GET</span><div class="ep-path">/api/v1/institutional</div><div class="ep-desc">TWSE T86 三大法人個股買賣超</div></div>
     <div class="ep"><span class="ep-method">GET</span><div class="ep-path">/api/v1/realestate</div><div class="ep-desc">內政部實價登錄 <strong style="color:var(--mint-deep)">12,000+ 筆</strong></div></div>
     <div class="ep"><span class="ep-method">GET</span><div class="ep-path">/api/v1/tender</div><div class="ep-desc">PCC 政府電子採購網招標公告</div></div>
-    <div class="ep"><span class="ep-method">GET</span><div class="ep-path">/api/v1/sentiment</div><div class="ep-desc">繁中情緒分析（CF Workers AI）</div></div>
-    <div class="ep"><span class="ep-method">GET</span><div class="ep-path">/api/v1/judicial</div><div class="ep-desc">司法院判決全文 FTS5 搜尋</div></div>
+    <div class="ep"><span class="ep-method">GET</span><div class="ep-path">/api/v1/sentiment</div><div class="ep-desc">繁中情緒分析（CF Workers AI）· 🔧 維護中</div></div>
+    <div class="ep"><span class="ep-method">GET</span><div class="ep-path">/api/v1/judicial</div><div class="ep-desc">司法院判決全文 FTS5 搜尋 · 🔧 維護中</div></div>
     <div class="ep"><span class="ep-method">GET</span><div class="ep-path">/api/v1/earthquake</div><div class="ep-desc">CWA 地震速報（5 分鐘 TTL）</div></div>
     <div class="ep"><span class="ep-method">GET</span><div class="ep-path">/api/v1/disaster</div><div class="ep-desc">NCDR 防災告警（1 分鐘 TTL）</div></div>
     <div class="ep"><span class="ep-method">GET</span><div class="ep-path">/api/v1/company</div><div class="ep-desc">g0v 公司登記查詢</div></div>
     <div class="ep"><span class="ep-method">GET</span><div class="ep-path">/api/v1/agriculture</div><div class="ep-desc">農委會批發價</div></div>
-    <div class="ep"><span class="ep-method">GET</span><div class="ep-path">/api/v1/transport</div><div class="ep-desc">TDX 交通（待 credentials）</div></div>
     <div class="ep"><span class="ep-method">GET</span><div class="ep-path">/api/v1/pharmacy</div><div class="ep-desc">全台藥局據點查詢</div></div>
     <div class="ep"><span class="ep-method">GET</span><div class="ep-path">/api/v1/clinic</div><div class="ep-desc">全台診所據點查詢</div></div>
     <div class="ep"><span class="ep-method">GET</span><div class="ep-path">/api/v1/bus-route/{city}</div><div class="ep-desc">各縣市公車路線查詢（待 credentials）</div></div>
@@ -199,7 +198,7 @@ r = requests.get(
 
 <section class="block"><div class="container">
   <div class="section-eyebrow" id="pricing">Pricing</div>
-  <h2 style="text-align:center;margin:0 auto 48px">9 個方案 + 3 種全包優惠<br>26 個精選接口全數涵蓋</h2>
+  <h2 style="text-align:center;margin:0 auto 48px">9 個方案 + 3 種全包優惠<br>25 個精選接口全數涵蓋</h2>
   <div class="pricing-grid">
     <div class="tier"><h3>方案 A 免費版</h3><div class="tier-price"><span class="currency">$</span>0</div><div class="tier-period">永久免費</div>
       <ul class="tier-features"><li>20 req/day</li><li>社群支援</li><li>金融+法律+地產資料</li><li>無信用卡</li></ul>
@@ -234,15 +233,15 @@ r = requests.get(
       <a href="mailto:solobuildtw@gmail.com?subject=API 詢問" class="btn-ghost" style="display:block;text-align:center;padding:12px">聯絡銷售</a>
     </div>
     <div class="tier featured"><h3>全包方案 ★</h3><div class="tier-price"><span class="currency">$</span>10.99</div><div class="tier-period">每月 (50% 折扣)</div>
-      <ul class="tier-features"><li>50 req/day</li><li>優先支援</li><li>全部 26 個精選接口</li><li>用量統計</li></ul>
+      <ul class="tier-features"><li>50 req/day</li><li>優先支援</li><li>全部 25 個精選接口</li><li>用量統計</li></ul>
       <a href="mailto:solobuildtw@gmail.com?subject=API 詢問" class="btn-primary" style="display:block;text-align:center">立即訂閱</a>
     </div>
     <div class="tier featured"><h3>全包方案 PRO</h3><div class="tier-price"><span class="currency">$</span>29.99</div><div class="tier-period">每月 (50% 折扣)</div>
-      <ul class="tier-features"><li>10,000 req/day</li><li>優先支援</li><li>全部 26 個精選接口</li><li>高級分析</li></ul>
+      <ul class="tier-features"><li>10,000 req/day</li><li>優先支援</li><li>全部 25 個精選接口</li><li>高級分析</li></ul>
       <a href="mailto:solobuildtw@gmail.com?subject=API 詢問" class="btn-primary" style="display:block;text-align:center">立即訂閱</a>
     </div>
     <div class="tier featured"><h3>全包方案 ULTRA</h3><div class="tier-price"><span class="currency">$</span>74.99</div><div class="tier-period">每月 (50% 折扣)</div>
-      <ul class="tier-features"><li>無限 req/day</li><li>企業級 SLA</li><li>全部 26 個精選接口</li><li>客製化方案</li></ul>
+      <ul class="tier-features"><li>無限 req/day</li><li>企業級 SLA</li><li>全部 25 個精選接口</li><li>客製化方案</li></ul>
       <a href="mailto:solobuildtw@gmail.com?subject=API 詢問" class="btn-ghost" style="display:block;text-align:center;padding:12px">聯絡銷售</a>
     </div>
   </div>

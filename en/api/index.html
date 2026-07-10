@@ -1,9 +1,9 @@
 <!DOCTYPE html>
 <html lang="en"><head><meta charset="UTF-8"/><meta name="viewport" content="width=device-width,initial-scale=1.0"/>
 <title>Taiwan Data API — SoloBuildTW</title>
-<meta name="description" content="Taiwan Government Open Data REST API. 26 curated, high-traffic endpoints covering stocks, weather, air quality, exchange rates, real estate records, earthquakes, disaster alerts, and more — plus a full catalog of 72 endpoints, with a generic dataset interface architected to reach 1,600+ government datasets. One API key, free tier included."/>
-<meta property="og:title" content="Taiwan Data API — 26 Curated Endpoints · 72-Endpoint Catalog · 1,600+ Datasets"/>
-<meta property="og:description" content="One-stop REST API for Taiwan government open data — 26 curated endpoints to start, full catalog spans 72 endpoints and 1,600+ datasets."/>
+<meta name="description" content="Taiwan Government Open Data REST API. 25 curated, high-traffic endpoints covering stocks, weather, air quality, exchange rates, real estate records, earthquakes, disaster alerts, and more — plus a full catalog of 72 endpoints, with a generic dataset interface architected to reach 1,600+ government datasets. One API key, free tier included."/>
+<meta property="og:title" content="Taiwan Data API — 25 Curated Endpoints · 72-Endpoint Catalog · 1,600+ Datasets"/>
+<meta property="og:description" content="One-stop REST API for Taiwan government open data — 25 curated endpoints to start, full catalog spans 72 endpoints and 1,600+ datasets."/>
 <meta property="og:type" content="website"/>
 <meta property="og:url" content="https://solobuildtw.github.io/api/"/>
 <meta property="og:image" content="https://solobuildtw.github.io/images/api_hero.png"/>
@@ -125,9 +125,9 @@ img{max-width:100%;display:block}
 <section class="hero"><div class="container" style="display:contents">
   <div>
     <h1>Taiwan Government Open Data <br><span class="accent">Clean REST API</span></h1>
-    <p class="lead">26 curated, high-traffic endpoints — stocks, weather, air quality, exchange rates, real estate records, earthquakes, disaster alerts, and more. Behind them, a full catalog of 72 endpoints, with a generic dataset interface architected to reach 1,600+ government datasets. Built on Cloudflare Workers for low latency worldwide, with Traditional Chinese docs for developers building in the Taiwan market.</p>
+    <p class="lead">25 curated, high-traffic endpoints — stocks, weather, air quality, exchange rates, real estate records, earthquakes, disaster alerts, and more. Behind them, a full catalog of 72 endpoints, with a generic dataset interface architected to reach 1,600+ government datasets. Built on Cloudflare Workers for low latency worldwide, with Traditional Chinese docs for developers building in the Taiwan market.</p>
     <div class="hero-ctas">
-      <a href="#endpoints" class="btn-primary">Browse the 26 curated endpoints</a>
+      <a href="#endpoints" class="btn-primary">Browse the 25 curated endpoints</a>
       <a href="https://api.solobuildtw.com/api/v1/health" target="_blank" rel="noopener" class="btn-ghost">Health Check</a>
     </div>
   </div>
@@ -135,7 +135,7 @@ img{max-width:100%;display:block}
 </div></section>
 
 <div class="container"><div class="stats">
-  <div class="stat"><div class="stat-num">26</div><div class="stat-label">Curated Endpoints</div></div>
+  <div class="stat"><div class="stat-num">25</div><div class="stat-label">Curated Endpoints</div></div>
   <div class="stat"><div class="stat-num alt">1,354</div><div class="stat-label">Live Stock Tickers</div></div>
   <div class="stat"><div class="stat-num">12k+</div><div class="stat-label">Real Estate Records</div></div>
   <div class="stat"><div class="stat-num alt">50+80</div><div class="stat-label">Weather / AQI Stations</div></div>
@@ -144,7 +144,7 @@ img{max-width:100%;display:block}
 
 <section class="block" id="endpoints"><div class="container">
   <div class="section-eyebrow">Data Endpoints</div>
-  <h2>26 curated endpoints<br>72-endpoint full catalog</h2>
+  <h2>25 curated endpoints<br>72-endpoint full catalog</h2>
   <div class="endpoints">
     <div class="ep"><span class="ep-method">GET</span><div class="ep-path">/api/v1/stock</div><div class="ep-desc">TWSE listed stocks <strong style="color:var(--mint-deep)">1,354 live quotes</strong></div></div>
     <div class="ep"><span class="ep-method">GET</span><div class="ep-path">/api/v1/weather</div><div class="ep-desc">CWA weather bureau <strong style="color:var(--mint-deep)">50 live stations</strong></div></div>
@@ -154,13 +154,12 @@ img{max-width:100%;display:block}
     <div class="ep"><span class="ep-method">GET</span><div class="ep-path">/api/v1/institutional</div><div class="ep-desc">TWSE T86 institutional investor trading data</div></div>
     <div class="ep"><span class="ep-method">GET</span><div class="ep-path">/api/v1/realestate</div><div class="ep-desc">MOI real estate transactions <strong style="color:var(--mint-deep)">12,000+ records</strong></div></div>
     <div class="ep"><span class="ep-method">GET</span><div class="ep-path">/api/v1/tender</div><div class="ep-desc">PCC government e-procurement tender notices</div></div>
-    <div class="ep"><span class="ep-method">GET</span><div class="ep-path">/api/v1/sentiment</div><div class="ep-desc">Traditional Chinese sentiment analysis (CF Workers AI)</div></div>
-    <div class="ep"><span class="ep-method">GET</span><div class="ep-path">/api/v1/judicial</div><div class="ep-desc">Judicial Yuan full-text verdict search (FTS5)</div></div>
+    <div class="ep"><span class="ep-method">GET</span><div class="ep-path">/api/v1/sentiment</div><div class="ep-desc">Traditional Chinese sentiment analysis (CF Workers AI) · 🔧 Under maintenance</div></div>
+    <div class="ep"><span class="ep-method">GET</span><div class="ep-path">/api/v1/judicial</div><div class="ep-desc">Judicial Yuan full-text verdict search (FTS5) · 🔧 Under maintenance</div></div>
     <div class="ep"><span class="ep-method">GET</span><div class="ep-path">/api/v1/earthquake</div><div class="ep-desc">CWA earthquake alerts (5-min TTL)</div></div>
     <div class="ep"><span class="ep-method">GET</span><div class="ep-path">/api/v1/disaster</div><div class="ep-desc">NCDR disaster alerts (1-min TTL)</div></div>
     <div class="ep"><span class="ep-method">GET</span><div class="ep-path">/api/v1/company</div><div class="ep-desc">g0v company registration lookup</div></div>
     <div class="ep"><span class="ep-method">GET</span><div class="ep-path">/api/v1/agriculture</div><div class="ep-desc">COA wholesale market prices</div></div>
-    <div class="ep"><span class="ep-method">GET</span><div class="ep-path">/api/v1/transport</div><div class="ep-desc">TDX transit data (credentials pending)</div></div>
     <div class="ep"><span class="ep-method">GET</span><div class="ep-path">/api/v1/pharmacy</div><div class="ep-desc">Nationwide pharmacy locator</div></div>
     <div class="ep"><span class="ep-method">GET</span><div class="ep-path">/api/v1/clinic</div><div class="ep-desc">Nationwide clinic locator</div></div>
     <div class="ep"><span class="ep-method">GET</span><div class="ep-path">/api/v1/bus-route/{city}</div><div class="ep-desc">Bus routes by county/city (credentials pending)</div></div>
@@ -199,7 +198,7 @@ r = requests.get(
 
 <section class="block"><div class="container">
   <div class="section-eyebrow" id="pricing">Pricing</div>
-  <h2 style="text-align:center;margin:0 auto 48px">9 plans + 3 bundle deals<br>all 26 curated endpoints included</h2>
+  <h2 style="text-align:center;margin:0 auto 48px">9 plans + 3 bundle deals<br>all 25 curated endpoints included</h2>
   <div class="pricing-grid">
     <div class="tier"><h3>Plan A — Free</h3><div class="tier-price"><span class="currency">$</span>0</div><div class="tier-period">Forever free</div>
       <ul class="tier-features"><li>20 req/day</li><li>Community support</li><li>Finance + legal + real estate data</li><li>No credit card required</li></ul>
@@ -234,15 +233,15 @@ r = requests.get(
       <a href="mailto:solobuildtw@gmail.com?subject=API%20Inquiry" class="btn-ghost" style="display:block;text-align:center;padding:12px">Contact Sales</a>
     </div>
     <div class="tier featured"><h3>All-Access ★</h3><div class="tier-price"><span class="currency">$</span>10.99</div><div class="tier-period">/month (50% off)</div>
-      <ul class="tier-features"><li>50 req/day</li><li>Priority support</li><li>All 26 curated endpoints</li><li>Usage analytics</li></ul>
+      <ul class="tier-features"><li>50 req/day</li><li>Priority support</li><li>All 25 curated endpoints</li><li>Usage analytics</li></ul>
       <a href="mailto:solobuildtw@gmail.com?subject=API%20Inquiry" class="btn-primary" style="display:block;text-align:center">Subscribe Now</a>
     </div>
     <div class="tier featured"><h3>All-Access PRO</h3><div class="tier-price"><span class="currency">$</span>29.99</div><div class="tier-period">/month (50% off)</div>
-      <ul class="tier-features"><li>10,000 req/day</li><li>Priority support</li><li>All 26 curated endpoints</li><li>Advanced analytics</li></ul>
+      <ul class="tier-features"><li>10,000 req/day</li><li>Priority support</li><li>All 25 curated endpoints</li><li>Advanced analytics</li></ul>
       <a href="mailto:solobuildtw@gmail.com?subject=API%20Inquiry" class="btn-primary" style="display:block;text-align:center">Subscribe Now</a>
     </div>
     <div class="tier featured"><h3>All-Access ULTRA</h3><div class="tier-price"><span class="currency">$</span>74.99</div><div class="tier-period">/month (50% off)</div>
-      <ul class="tier-features"><li>Unlimited req/day</li><li>Enterprise-grade SLA</li><li>All 26 curated endpoints</li><li>Custom plans</li></ul>
+      <ul class="tier-features"><li>Unlimited req/day</li><li>Enterprise-grade SLA</li><li>All 25 curated endpoints</li><li>Custom plans</li></ul>
       <a href="mailto:solobuildtw@gmail.com?subject=API%20Inquiry" class="btn-ghost" style="display:block;text-align:center;padding:12px">Contact Sales</a>
     </div>
   </div>

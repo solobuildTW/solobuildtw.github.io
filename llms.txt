@@ -5,7 +5,7 @@
 ## 主要產品
 
 - [Claude Code 經驗包](https://solobuildtw.github.io/): 不用寫程式，今晚就能讓 AI 開始幫你做事。教學包 NT$499 / 靈魂包 NT$649 / 組合包 NT$999
-- [Taiwan Data API](https://solobuildtw.github.io/api/): 台灣政府公開資料 REST API。26 endpoints（股票、天氣、AQI、匯率、實價登錄、地震、醫療、交通、教育等）。Cloudflare Workers 部署，全球低延遲
+- [Taiwan Data API](https://solobuildtw.github.io/api/): 台灣政府公開資料 REST API。25 endpoints（股票、天氣、AQI、匯率、實價登錄、地震、醫療、教育等）。Cloudflare Workers 部署，全球低延遲
 - [台灣數據週報](https://solobuildtw.github.io/weekly/): 每週五自動彙整台股、匯率、天氣、空品、實價登錄等政府公開資料，AI 生成市場摘要直送信箱。免費訂閱
 - [Podcast 5 頻道](https://solobuildtw.github.io/podcast/): 每日更新。雨晴的科技日常 / 冷知識電波 / 史上最蠢人類 / 地球的角落 / 燭光怪譚
 
