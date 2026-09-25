@@ -7,7 +7,7 @@
     <description>你知道嗎？世界上有些知識冷到讓人噴飯！芸芸每集帶來一個你從沒想過會想知道的冷知識，三分鐘讓你多一個嚇到朋友的話題。</description>
     <copyright>© 2026 芸芸</copyright>
     <generator>SoloBuildTW Podcast RSS Generator v2</generator>
-    <lastBuildDate>Wed, 06 May 2026 00:00:00 -0000</lastBuildDate>
+    <lastBuildDate>Mon, 14 Sep 2026 00:00:00 -0000</lastBuildDate>
     <atom:link href="https://solobuildtw.github.io/podcast/cold-knowledge/feed.xml" rel="self" type="application/rss+xml"/>
     <managingEditor>harvey36309@hotmail.com (芸芸)</managingEditor>
     <itunes:title>冷知識電波</itunes:title>
@@ -31,6 +31,438 @@
     <itunes:category text="Society &amp; Culture">
       <itunes:category text="Education"/>
     </itunes:category>
+    <item>
+      <title>EP160 你知道嗎？夏威夷白沙灘其實是魚便便，還引發全球黑幫戰爭</title>
+      <description>你知道嗎？你最嚮往的夢幻白色沙灘，竟然大部分都是魚的便便！超扯的吧！這集冷知識電波要來揭開沙子不為人知的驚人秘密，從牠們超乎想像的真實身世，到竟然會自己唱歌的魔法才藝，最後還會發現，我們生活中最不起眼</description>
+      <pubDate>Mon, 14 Sep 2026 00:00:00 -0000</pubDate>
+      <guid>ebe5842406ac2c22dcca8b59b2363df4</guid>
+      <link>https://solobuildtw.github.io/podcast/cold-knowledge/ep/160</link>
+      <enclosure url="https://podcast-cdn.pick-tw.com/audio/CH2/EP160_%E4%BD%A0%E7%9F%A5%E9%81%93%E5%97%8E%EF%BC%9F%E5%A4%8F%E5%A8%81%E5%A4%B7%E7%99%BD%E6%B2%99%E7%81%98%E5%85%B6%E5%AF%A6%E6%98%AF%E9%AD%9A%E4%BE%BF%E4%BE%BF%EF%BC%8C%E9%82%84%E5%BC%95%E7%99%BC%E5%85%A8%E7%90%83%E9%BB%91%E5%B9%AB%E6%88%B0%E7%88%AD.mp3" type="audio/mpeg" length="14644706"/>
+      <itunes:title>EP160 你知道嗎？夏威夷白沙灘其實是魚便便，還引發全球黑幫戰爭</itunes:title>
+      <itunes:author>芸芸</itunes:author>
+      <itunes:duration>00:10:10</itunes:duration>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:episode>160</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:summary>你知道嗎？你最嚮往的夢幻白色沙灘，竟然大部分都是魚的便便！超扯的吧！這集冷知識電波要來揭開沙子不為人知的驚人秘密，從牠們超乎想像的真實身世，到竟然會自己唱歌的魔法才藝，最後還會發現，我們生活中最不起眼</itunes:summary>
+      <itunes:subtitle>你知道嗎？夏威夷白沙灘其實是魚便便，還引發全球黑幫戰爭</itunes:subtitle>
+      <itunes:keywords>冷知識,趣聞,知識,台灣,繁體中文</itunes:keywords>
+      <content:encoded><![CDATA[你知道嗎？你最嚮往的夢幻白色沙灘，竟然大部分都是魚的便便！超扯的吧！這集冷知識電波要來揭開沙子不為人知的驚人秘密，從牠們超乎想像的真實身世，到竟然會自己唱歌的魔法才藝，最後還會發現，我們生活中最不起眼]]></content:encoded>
+    </item>
+    <item>
+      <title>EP135 你知道嗎？烤吐司機比切片麵包早發明十年，這到底是什麼神奇操作</title>
+      <description>你知道嗎？家裡那台烤吐司機，竟然比我們吃的切片麵包還要早誕生！超扯的吧！這就像先發明了手機殼，手機卻晚了十年才出現。</description>
+      <pubDate>Thu, 20 Aug 2026 00:00:00 -0000</pubDate>
+      <guid>bb2a004594aaf189505017af136c1d33</guid>
+      <link>https://solobuildtw.github.io/podcast/cold-knowledge/ep/135</link>
+      <enclosure url="https://podcast-cdn.pick-tw.com/audio/CH2/EP135_%E4%BD%A0%E7%9F%A5%E9%81%93%E5%97%8E%EF%BC%9F%E7%83%A4%E5%90%90%E5%8F%B8%E6%A9%9F%E6%AF%94%E5%88%87%E7%89%87%E9%BA%B5%E5%8C%85%E6%97%A9%E7%99%BC%E6%98%8E%E5%8D%81%E5%B9%B4%EF%BC%8C%E9%80%99%E5%88%B0%E5%BA%95%E6%98%AF%E4%BB%80%E9%BA%BC%E7%A5%9E%E5%A5%87%E6%93%8D%E4%BD%9C.mp3" type="audio/mpeg" length="14463521"/>
+      <itunes:title>EP135 你知道嗎？烤吐司機比切片麵包早發明十年，這到底是什麼神奇操作</itunes:title>
+      <itunes:author>芸芸</itunes:author>
+      <itunes:duration>00:10:02</itunes:duration>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:episode>135</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:summary>你知道嗎？家裡那台烤吐司機，竟然比我們吃的切片麵包還要早誕生！超扯的吧！這就像先發明了手機殼，手機卻晚了十年才出現。</itunes:summary>
+      <itunes:subtitle>你知道嗎？烤吐司機比切片麵包早發明十年，這到底是什麼神奇操作</itunes:subtitle>
+      <itunes:keywords>冷知識,趣聞,知識,台灣,繁體中文</itunes:keywords>
+      <content:encoded><![CDATA[你知道嗎？家裡那台烤吐司機，竟然比我們吃的切片麵包還要早誕生！超扯的吧！這就像先發明了手機殼，手機卻晚了十年才出現。]]></content:encoded>
+    </item>
+    <item>
+      <title>EP121 你知道嗎？蘋果最討厭的顏色，竟然就是紅色本身</title>
+      <description>你知道嗎？一顆紅蘋果最討厭的顏色，竟然就是紅色！這聽起來超扯的對吧？但這集就要告訴你，我們看見的所有顏色，竟然都是物體不要、反射出來的光！這代表顏色根本不是真的存在，而是我們大腦精心打造的幻覺。</description>
+      <pubDate>Thu, 06 Aug 2026 00:00:00 -0000</pubDate>
+      <guid>ce7639d38d57004ba7fab4d41887e588</guid>
+      <link>https://solobuildtw.github.io/podcast/cold-knowledge/ep/121</link>
+      <enclosure url="https://podcast-cdn.pick-tw.com/audio/CH2/EP121_%E4%BD%A0%E7%9F%A5%E9%81%93%E5%97%8E%EF%BC%9F%E8%98%8B%E6%9E%9C%E6%9C%80%E8%A8%8E%E5%8E%AD%E7%9A%84%E9%A1%8F%E8%89%B2%EF%BC%8C%E7%AB%9F%E7%84%B6%E5%B0%B1%E6%98%AF%E7%B4%85%E8%89%B2%E6%9C%AC%E8%BA%AB.mp3" type="audio/mpeg" length="12557627"/>
+      <itunes:title>EP121 你知道嗎？蘋果最討厭的顏色，竟然就是紅色本身</itunes:title>
+      <itunes:author>芸芸</itunes:author>
+      <itunes:duration>00:08:43</itunes:duration>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:episode>121</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:summary>你知道嗎？一顆紅蘋果最討厭的顏色，竟然就是紅色！這聽起來超扯的對吧？但這集就要告訴你，我們看見的所有顏色，竟然都是物體不要、反射出來的光！這代表顏色根本不是真的存在，而是我們大腦精心打造的幻覺。</itunes:summary>
+      <itunes:subtitle>你知道嗎？蘋果最討厭的顏色，竟然就是紅色本身</itunes:subtitle>
+      <itunes:keywords>冷知識,趣聞,知識,台灣,繁體中文</itunes:keywords>
+      <content:encoded><![CDATA[你知道嗎？一顆紅蘋果最討厭的顏色，竟然就是紅色！這聽起來超扯的對吧？但這集就要告訴你，我們看見的所有顏色，竟然都是物體不要、反射出來的光！這代表顏色根本不是真的存在，而是我們大腦精心打造的幻覺。]]></content:encoded>
+    </item>
+    <item>
+      <title>EP119 你知道嗎？有本書畫滿了不存在的植物，六百年來沒人看得懂</title>
+      <description>你知道嗎？世界上有一本六百年前的古書，裡面的文字連最強的 AI 都看不懂，畫的植物也根本不存在地球上！</description>
+      <pubDate>Tue, 04 Aug 2026 00:00:00 -0000</pubDate>
+      <guid>64256d509ca7041ae9a6e54eedf2cf75</guid>
+      <link>https://solobuildtw.github.io/podcast/cold-knowledge/ep/119</link>
+      <enclosure url="https://podcast-cdn.pick-tw.com/audio/CH2/EP119_%E4%BD%A0%E7%9F%A5%E9%81%93%E5%97%8E%EF%BC%9F%E6%9C%89%E6%9C%AC%E6%9B%B8%E7%95%AB%E6%BB%BF%E4%BA%86%E4%B8%8D%E5%AD%98%E5%9C%A8%E7%9A%84%E6%A4%8D%E7%89%A9%EF%BC%8C%E5%85%AD%E7%99%BE%E5%B9%B4%E4%BE%86%E6%B2%92%E4%BA%BA%E7%9C%8B%E5%BE%97%E6%87%82.mp3" type="audio/mpeg" length="13479227"/>
+      <itunes:title>EP119 你知道嗎？有本書畫滿了不存在的植物，六百年來沒人看得懂</itunes:title>
+      <itunes:author>芸芸</itunes:author>
+      <itunes:duration>00:09:21</itunes:duration>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:episode>119</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:summary>你知道嗎？世界上有一本六百年前的古書，裡面的文字連最強的 AI 都看不懂，畫的植物也根本不存在地球上！</itunes:summary>
+      <itunes:subtitle>你知道嗎？有本書畫滿了不存在的植物，六百年來沒人看得懂</itunes:subtitle>
+      <itunes:keywords>冷知識,趣聞,知識,台灣,繁體中文</itunes:keywords>
+      <content:encoded><![CDATA[你知道嗎？世界上有一本六百年前的古書，裡面的文字連最強的 AI 都看不懂，畫的植物也根本不存在地球上！]]></content:encoded>
+    </item>
+    <item>
+      <title>EP114 你知道嗎？洋芋片其實是一場廚房復仇戰的意外產物</title>
+      <description>你知道嗎？你最愛的洋芋片竟然是一道「復仇料理」！超扯的吧！這一切都源自一百多年前，一位脾氣超火爆的主廚，槓上了一位超級挑剔的奧客。一場失控的廚房戰爭，意外催生出全世界最受歡迎的零食。</description>
+      <pubDate>Thu, 30 Jul 2026 00:00:00 -0000</pubDate>
+      <guid>dda00cd851670dd5561cef64f9f0f5bc</guid>
+      <link>https://solobuildtw.github.io/podcast/cold-knowledge/ep/114</link>
+      <enclosure url="https://podcast-cdn.pick-tw.com/audio/CH2/EP114_%E4%BD%A0%E7%9F%A5%E9%81%93%E5%97%8E%EF%BC%9F%E6%B4%8B%E8%8A%8B%E7%89%87%E5%85%B6%E5%AF%A6%E6%98%AF%E4%B8%80%E5%A0%B4%E5%BB%9A%E6%88%BF%E5%BE%A9%E4%BB%87%E6%88%B0%E7%9A%84%E6%84%8F%E5%A4%96%E7%94%A2%E7%89%A9.mp3" type="audio/mpeg" length="12357007"/>
+      <itunes:title>EP114 你知道嗎？洋芋片其實是一場廚房復仇戰的意外產物</itunes:title>
+      <itunes:author>芸芸</itunes:author>
+      <itunes:duration>00:08:34</itunes:duration>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:episode>114</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:summary>你知道嗎？你最愛的洋芋片竟然是一道「復仇料理」！超扯的吧！這一切都源自一百多年前，一位脾氣超火爆的主廚，槓上了一位超級挑剔的奧客。一場失控的廚房戰爭，意外催生出全世界最受歡迎的零食。</itunes:summary>
+      <itunes:subtitle>你知道嗎？洋芋片其實是一場廚房復仇戰的意外產物</itunes:subtitle>
+      <itunes:keywords>冷知識,趣聞,知識,台灣,繁體中文</itunes:keywords>
+      <content:encoded><![CDATA[你知道嗎？你最愛的洋芋片竟然是一道「復仇料理」！超扯的吧！這一切都源自一百多年前，一位脾氣超火爆的主廚，槓上了一位超級挑剔的奧客。一場失控的廚房戰爭，意外催生出全世界最受歡迎的零食。]]></content:encoded>
+    </item>
+    <item>
+      <title>EP109 你知道嗎？你每天用的叉子曾被當成地獄邪物，用它會被詛咒</title>
+      <description>你知道嗎？你每天吃飯用的叉子，以前竟然是惡魔的武器！超扯的吧！在幾百年前，用叉子吃飯可是會被詛咒的喔！</description>
+      <pubDate>Sat, 25 Jul 2026 00:00:00 -0000</pubDate>
+      <guid>85e0dce5b338a5475b891140f8e1073c</guid>
+      <link>https://solobuildtw.github.io/podcast/cold-knowledge/ep/109</link>
+      <enclosure url="https://podcast-cdn.pick-tw.com/audio/CH2/EP109_%E5%86%B7%E7%9F%A5%E8%AD%98%E9%9B%BB%E6%B3%A2CH2%EF%BC%8C%E8%8A%B8%E8%8A%B8%E4%B8%BB%E6%8C%81%E3%80%82%E6%9C%AC%E9%9B%86%E4%B8%BB%E9%A1%8C%EF%BC%9A%E9%A4%90%E6%A1%8C%E4%B8%8A%E6%9C%80%E5%B8%B8%E8%A6%8B%E7%9A%84%E5%8F%89%E5%AD%90%EF%BC%8C%E7%AB%9F.mp3" type="audio/mpeg" length="14776991"/>
+      <itunes:title>EP109 你知道嗎？你每天用的叉子曾被當成地獄邪物，用它會被詛咒</itunes:title>
+      <itunes:author>芸芸</itunes:author>
+      <itunes:duration>00:10:15</itunes:duration>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:episode>109</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:summary>你知道嗎？你每天吃飯用的叉子，以前竟然是惡魔的武器！超扯的吧！在幾百年前，用叉子吃飯可是會被詛咒的喔！</itunes:summary>
+      <itunes:subtitle>你知道嗎？你每天用的叉子曾被當成地獄邪物，用它會被詛咒</itunes:subtitle>
+      <itunes:keywords>冷知識,趣聞,知識,台灣,繁體中文</itunes:keywords>
+      <content:encoded><![CDATA[你知道嗎？你每天吃飯用的叉子，以前竟然是惡魔的武器！超扯的吧！在幾百年前，用叉子吃飯可是會被詛咒的喔！]]></content:encoded>
+    </item>
+    <item>
+      <title>EP105 你知道嗎？西伯利亞森林裡住著一家人，四十年不知世界發生什麼事</title>
+      <description>你知道嗎？竟然有一家人在西伯利亞荒野躲了整整四十年，連第二次世界大戰爆發了都完全不知道！超扯的吧！他們以為天上的飛機是神蹟，第一次嚐到鹽巴就感動到不行。</description>
+      <pubDate>Tue, 21 Jul 2026 00:00:00 -0000</pubDate>
+      <guid>eaf0507462a224d14d34356960d45faa</guid>
+      <link>https://solobuildtw.github.io/podcast/cold-knowledge/ep/105</link>
+      <enclosure url="https://podcast-cdn.pick-tw.com/audio/CH2/EP105_%E4%BD%A0%E7%9F%A5%E9%81%93%E5%97%8E%EF%BC%9F%E8%A5%BF%E4%BC%AF%E5%88%A9%E4%BA%9E%E6%A3%AE%E6%9E%97%E8%A3%A1%E4%BD%8F%E8%91%97%E4%B8%80%E5%AE%B6%E4%BA%BA%EF%BC%8C%E5%9B%9B%E5%8D%81%E5%B9%B4%E4%B8%8D%E7%9F%A5%E4%B8%96%E7%95%8C%E7%99%BC%E7%94%9F%E4%BB%80%E9%BA%BC%E4%BA%8B.mp3" type="audio/mpeg" length="13879214"/>
+      <itunes:title>EP105 你知道嗎？西伯利亞森林裡住著一家人，四十年不知世界發生什麼事</itunes:title>
+      <itunes:author>芸芸</itunes:author>
+      <itunes:duration>00:09:38</itunes:duration>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:episode>105</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:summary>你知道嗎？竟然有一家人在西伯利亞荒野躲了整整四十年，連第二次世界大戰爆發了都完全不知道！超扯的吧！他們以為天上的飛機是神蹟，第一次嚐到鹽巴就感動到不行。</itunes:summary>
+      <itunes:subtitle>你知道嗎？西伯利亞森林裡住著一家人，四十年不知世界發生什麼事</itunes:subtitle>
+      <itunes:keywords>冷知識,趣聞,知識,台灣,繁體中文</itunes:keywords>
+      <content:encoded><![CDATA[你知道嗎？竟然有一家人在西伯利亞荒野躲了整整四十年，連第二次世界大戰爆發了都完全不知道！超扯的吧！他們以為天上的飛機是神蹟，第一次嚐到鹽巴就感動到不行。]]></content:encoded>
+    </item>
+    <item>
+      <title>EP103 你知道嗎？袋熊的便便是方形的，而且還能像樂高一樣完美堆疊</title>
+      <description>超扯的！你知道嗎？世界上竟然有動物的便便是方形的，而且還能像積木一樣堆起來！我第一次知道的時候也傻眼，想說這怎麼可能，又不是在玩麥塊！</description>
+      <pubDate>Sun, 19 Jul 2026 00:00:00 -0000</pubDate>
+      <guid>6dd425bdd3b30a4f40d22a53617915fa</guid>
+      <link>https://solobuildtw.github.io/podcast/cold-knowledge/ep/103</link>
+      <enclosure url="https://podcast-cdn.pick-tw.com/audio/CH2/EP103_%E4%BD%A0%E7%9F%A5%E9%81%93%E5%97%8E%EF%BC%9F%E8%A2%8B%E7%86%8A%E7%9A%84%E4%BE%BF%E4%BE%BF%E6%98%AF%E6%96%B9%E5%BD%A2%E7%9A%84%EF%BC%8C%E8%80%8C%E4%B8%94%E9%82%84%E8%83%BD%E5%83%8F%E6%A8%82%E9%AB%98%E4%B8%80%E6%A8%A3%E5%AE%8C%E7%BE%8E%E5%A0%86%E7%96%8A.mp3" type="audio/mpeg" length="14264155"/>
+      <itunes:title>EP103 你知道嗎？袋熊的便便是方形的，而且還能像樂高一樣完美堆疊</itunes:title>
+      <itunes:author>芸芸</itunes:author>
+      <itunes:duration>00:09:54</itunes:duration>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:episode>103</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:summary>超扯的！你知道嗎？世界上竟然有動物的便便是方形的，而且還能像積木一樣堆起來！我第一次知道的時候也傻眼，想說這怎麼可能，又不是在玩麥塊！</itunes:summary>
+      <itunes:subtitle>你知道嗎？袋熊的便便是方形的，而且還能像樂高一樣完美堆疊</itunes:subtitle>
+      <itunes:keywords>冷知識,趣聞,知識,台灣,繁體中文</itunes:keywords>
+      <content:encoded><![CDATA[超扯的！你知道嗎？世界上竟然有動物的便便是方形的，而且還能像積木一樣堆起來！我第一次知道的時候也傻眼，想說這怎麼可能，又不是在玩麥塊！]]></content:encoded>
+    </item>
+    <item>
+      <title>EP101 你知道嗎？北極有座為了末日準備的超級種子庫，裡面藏著人類糧食的最後希望</title>
+      <description>你知道嗎？在北極圈竟然有一座為了世界末日準備的「末日種子庫」！我第一次知道的時候也傻眼，裡面冰存了全世界超過百萬種農作物備份。</description>
+      <pubDate>Fri, 17 Jul 2026 00:00:00 -0000</pubDate>
+      <guid>bdf3abcb52b9d6065769306906714bb7</guid>
+      <link>https://solobuildtw.github.io/podcast/cold-knowledge/ep/101</link>
+      <enclosure url="https://podcast-cdn.pick-tw.com/audio/CH2/EP101_%E4%BD%A0%E7%9F%A5%E9%81%93%E5%97%8E%EF%BC%9F%E5%8C%97%E6%A5%B5%E6%9C%89%E5%BA%A7%E7%82%BA%E4%BA%86%E6%9C%AB%E6%97%A5%E6%BA%96%E5%82%99%E7%9A%84%E8%B6%85%E7%B4%9A%E7%A8%AE%E5%AD%90%E5%BA%AB%EF%BC%8C%E8%A3%A1%E9%9D%A2%E8%97%8F%E8%91%97%E4%BA%BA%E9%A1%9E%E7%B3%A7%E9%A3%9F%E7%9A%84%E6%9C%80%E5%BE%8C%E5%B8%8C%E6%9C%9B.mp3" type="audio/mpeg" length="13434715"/>
+      <itunes:title>EP101 你知道嗎？北極有座為了末日準備的超級種子庫，裡面藏著人類糧食的最後希望</itunes:title>
+      <itunes:author>芸芸</itunes:author>
+      <itunes:duration>00:09:19</itunes:duration>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:episode>101</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:summary>你知道嗎？在北極圈竟然有一座為了世界末日準備的「末日種子庫」！我第一次知道的時候也傻眼，裡面冰存了全世界超過百萬種農作物備份。</itunes:summary>
+      <itunes:subtitle>你知道嗎？北極有座為了末日準備的超級種子庫，裡面藏著人類糧食的最後希望</itunes:subtitle>
+      <itunes:keywords>冷知識,趣聞,知識,台灣,繁體中文</itunes:keywords>
+      <content:encoded><![CDATA[你知道嗎？在北極圈竟然有一座為了世界末日準備的「末日種子庫」！我第一次知道的時候也傻眼，裡面冰存了全世界超過百萬種農作物備份。]]></content:encoded>
+    </item>
+    <item>
+      <title>EP098 你知道嗎？打嗝竟然是遠古祖先在水裡呼吸留下的神秘基因記憶</title>
+      <description>你知道嗎？每次尷尬的打嗝，竟然是你身體裡沉睡了三億年的小蝌蚪在跟你打招呼！這到底是怎麼回事？這集節目要揭開這個超扯的身體秘密，我第一次知道的時候也傻眼！</description>
+      <pubDate>Tue, 14 Jul 2026 00:00:00 -0000</pubDate>
+      <guid>8d62e797c7cffbfe98313c21db500398</guid>
+      <link>https://solobuildtw.github.io/podcast/cold-knowledge/ep/098</link>
+      <enclosure url="https://podcast-cdn.pick-tw.com/audio/CH2/EP098_%E4%BD%A0%E7%9F%A5%E9%81%93%E5%97%8E%EF%BC%9F%E6%89%93%E5%97%9D%E7%AB%9F%E7%84%B6%E6%98%AF%E9%81%A0%E5%8F%A4%E7%A5%96%E5%85%88%E5%9C%A8%E6%B0%B4%E8%A3%A1%E5%91%BC%E5%90%B8%E7%95%99%E4%B8%8B%E7%9A%84%E7%A5%9E%E7%A7%98%E5%9F%BA%E5%9B%A0%E8%A8%98%E6%86%B6.mp3" type="audio/mpeg" length="13953193"/>
+      <itunes:title>EP098 你知道嗎？打嗝竟然是遠古祖先在水裡呼吸留下的神秘基因記憶</itunes:title>
+      <itunes:author>芸芸</itunes:author>
+      <itunes:duration>00:09:41</itunes:duration>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:episode>98</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:summary>你知道嗎？每次尷尬的打嗝，竟然是你身體裡沉睡了三億年的小蝌蚪在跟你打招呼！這到底是怎麼回事？這集節目要揭開這個超扯的身體秘密，我第一次知道的時候也傻眼！</itunes:summary>
+      <itunes:subtitle>你知道嗎？打嗝竟然是遠古祖先在水裡呼吸留下的神秘基因記憶</itunes:subtitle>
+      <itunes:keywords>冷知識,趣聞,知識,台灣,繁體中文</itunes:keywords>
+      <content:encoded><![CDATA[你知道嗎？每次尷尬的打嗝，竟然是你身體裡沉睡了三億年的小蝌蚪在跟你打招呼！這到底是怎麼回事？這集節目要揭開這個超扯的身體秘密，我第一次知道的時候也傻眼！]]></content:encoded>
+    </item>
+    <item>
+      <title>EP087 你知道嗎？一位廚師看起來健康卻讓幾十人重病，她就是傷寒瑪莉</title>
+      <description>你知道嗎？一個超健康的廚師，做的菜竟然會讓人得重病死掉！這聽起來超扯的，但竟然是真實故事！她到底是誰？為什麼她自己都沒事，卻讓好幾個家庭全家倒下？</description>
+      <pubDate>Fri, 03 Jul 2026 00:00:00 -0000</pubDate>
+      <guid>178936186fa3d121b68f7f4d00b45e6a</guid>
+      <link>https://solobuildtw.github.io/podcast/cold-knowledge/ep/087</link>
+      <enclosure url="https://podcast-cdn.pick-tw.com/audio/CH2/EP087_%E5%86%B7%E7%9F%A5%E8%AD%98%E9%9B%BB%E6%B3%A2CH2%EF%BC%8C%E8%8A%B8%E8%8A%B8%E4%B8%BB%E6%8C%81%E3%80%82%E6%9C%AC%E9%9B%86%E4%B8%BB%E9%A1%8C%EF%BC%9A%E5%8F%B2%E4%B8%8A%E7%AC%AC%E4%B8%80%E4%BD%8D%E3%80%8C%E7%84%A1%E7%97%87%E7%8B%80%E5%B8%B6%E5%8E%9F.mp3" type="audio/mpeg" length="14226538"/>
+      <itunes:title>EP087 你知道嗎？一位廚師看起來健康卻讓幾十人重病，她就是傷寒瑪莉</itunes:title>
+      <itunes:author>芸芸</itunes:author>
+      <itunes:duration>00:09:52</itunes:duration>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:episode>87</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:summary>你知道嗎？一個超健康的廚師，做的菜竟然會讓人得重病死掉！這聽起來超扯的，但竟然是真實故事！她到底是誰？為什麼她自己都沒事，卻讓好幾個家庭全家倒下？</itunes:summary>
+      <itunes:subtitle>你知道嗎？一位廚師看起來健康卻讓幾十人重病，她就是傷寒瑪莉</itunes:subtitle>
+      <itunes:keywords>冷知識,趣聞,知識,台灣,繁體中文</itunes:keywords>
+      <content:encoded><![CDATA[你知道嗎？一個超健康的廚師，做的菜竟然會讓人得重病死掉！這聽起來超扯的，但竟然是真實故事！她到底是誰？為什麼她自己都沒事，卻讓好幾個家庭全家倒下？]]></content:encoded>
+    </item>
+    <item>
+      <title>EP070 你知道嗎？一百年前有份工作薪水超高，代價卻是骨頭從內部腐爛</title>
+      <description>你知道嗎？一百年前竟然有份超夢幻的工作，薪水高到爆炸，還能讓你下班後全身閃閃發光，根本是仙女下凡！但這份工作的代價，卻是她們的生命。</description>
+      <pubDate>Tue, 16 Jun 2026 00:00:00 -0000</pubDate>
+      <guid>dbc893ba463f03e367290fb553340f89</guid>
+      <link>https://solobuildtw.github.io/podcast/cold-knowledge/ep/070</link>
+      <enclosure url="https://podcast-cdn.pick-tw.com/audio/CH2/EP070_%E5%A4%9C%E5%85%89%E4%B8%8B%E7%9A%84%E6%82%B2%E5%8A%87%EF%BC%9A%E9%82%A3%E4%BA%9B%E7%94%A8%E7%94%9F%E5%91%BD%E9%BB%9E%E4%BA%AE%E6%99%82%E4%BB%A3%E7%9A%84%E3%80%8C%E9%90%B3%E5%A5%B3%E5%AD%A9%E3%80%8D%E3%80%82%E5%9C%A8%E4%B8%80%E7%99%BE%E5%B9%B4%E5%89%8D%EF%BC%8C%E7%AB%9F.mp3" type="audio/mpeg" length="13699910"/>
+      <itunes:title>EP070 你知道嗎？一百年前有份工作薪水超高，代價卻是骨頭從內部腐爛</itunes:title>
+      <itunes:author>芸芸</itunes:author>
+      <itunes:duration>00:09:30</itunes:duration>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:episode>70</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:summary>你知道嗎？一百年前竟然有份超夢幻的工作，薪水高到爆炸，還能讓你下班後全身閃閃發光，根本是仙女下凡！但這份工作的代價，卻是她們的生命。</itunes:summary>
+      <itunes:subtitle>你知道嗎？一百年前有份工作薪水超高，代價卻是骨頭從內部腐爛</itunes:subtitle>
+      <itunes:keywords>冷知識,趣聞,知識,台灣,繁體中文</itunes:keywords>
+      <content:encoded><![CDATA[你知道嗎？一百年前竟然有份超夢幻的工作，薪水高到爆炸，還能讓你下班後全身閃閃發光，根本是仙女下凡！但這份工作的代價，卻是她們的生命。]]></content:encoded>
+    </item>
+    <item>
+      <title>EP069 你知道嗎？辣椒根本不是味道，而是你舌頭在尖叫的痛覺信號</title>
+      <description>你知道嗎？你最愛的麻辣鍋、鹹酥雞上的辣椒粉，其實根本不是一種「味道」！超扯的，那竟然是大腦收到的「救命啊！我著火了！」的求救信號！</description>
+      <pubDate>Mon, 15 Jun 2026 00:00:00 -0000</pubDate>
+      <guid>8c64a6e16b9b888ad53b8d632dc6baa7</guid>
+      <link>https://solobuildtw.github.io/podcast/cold-knowledge/ep/069</link>
+      <enclosure url="https://podcast-cdn.pick-tw.com/audio/CH2/EP069_%E8%BE%A3%E6%A4%92%E7%9A%84%E8%BE%A3%E7%AB%9F%E7%84%B6%E4%B8%8D%E6%98%AF%E5%91%B3%E8%A6%BA%EF%BC%8C%E8%80%8C%E6%98%AF%E4%BD%A0%E7%9A%84%E5%A4%A7%E8%85%A6%E5%9C%A8%E5%B0%96%E5%8F%AB%E7%9A%84%E6%B1%82%E6%95%91%E4%BF%A1%E8%99%9F%EF%BC%81%E3%80%82%E8%BE%A3%E6%A4%92%E7%9A%84.mp3" type="audio/mpeg" length="13323746"/>
+      <itunes:title>EP069 你知道嗎？辣椒根本不是味道，而是你舌頭在尖叫的痛覺信號</itunes:title>
+      <itunes:author>芸芸</itunes:author>
+      <itunes:duration>00:09:15</itunes:duration>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:episode>69</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:summary>你知道嗎？你最愛的麻辣鍋、鹹酥雞上的辣椒粉，其實根本不是一種「味道」！超扯的，那竟然是大腦收到的「救命啊！我著火了！」的求救信號！</itunes:summary>
+      <itunes:subtitle>你知道嗎？辣椒根本不是味道，而是你舌頭在尖叫的痛覺信號</itunes:subtitle>
+      <itunes:keywords>冷知識,趣聞,知識,台灣,繁體中文</itunes:keywords>
+      <content:encoded><![CDATA[你知道嗎？你最愛的麻辣鍋、鹹酥雞上的辣椒粉，其實根本不是一種「味道」！超扯的，那竟然是大腦收到的「救命啊！我著火了！」的求救信號！]]></content:encoded>
+    </item>
+    <item>
+      <title>EP067 你知道嗎？這個水族館明星的腦袋被切掉還能長回來，記憶也沒丟</title>
+      <description>你知道嗎？有一種生物的頭就算被切掉一部分，竟然還能長回來，而且連記憶都還在！牠就是長得超級可愛的「六角恐龍」美西螈！</description>
+      <pubDate>Sat, 13 Jun 2026 00:00:00 -0000</pubDate>
+      <guid>7efb7e0e59e2468814a893855d4901c4</guid>
+      <link>https://solobuildtw.github.io/podcast/cold-knowledge/ep/067</link>
+      <enclosure url="https://podcast-cdn.pick-tw.com/audio/CH2/EP067_%E4%BD%A0%E7%9F%A5%E9%81%93%E5%97%8E%EF%BC%9F%E9%80%99%E5%80%8B%E6%B0%B4%E6%97%8F%E9%A4%A8%E6%98%8E%E6%98%9F%E7%9A%84%E8%85%A6%E8%A2%8B%E8%A2%AB%E5%88%87%E6%8E%89%E9%82%84%E8%83%BD%E9%95%B7%E5%9B%9E%E4%BE%86%EF%BC%8C%E8%A8%98%E6%86%B6%E4%B9%9F%E6%B2%92%E4%B8%9F.mp3" type="audio/mpeg" length="14188922"/>
+      <itunes:title>EP067 你知道嗎？這個水族館明星的腦袋被切掉還能長回來，記憶也沒丟</itunes:title>
+      <itunes:author>芸芸</itunes:author>
+      <itunes:duration>00:09:51</itunes:duration>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:episode>67</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:summary>你知道嗎？有一種生物的頭就算被切掉一部分，竟然還能長回來，而且連記憶都還在！牠就是長得超級可愛的「六角恐龍」美西螈！</itunes:summary>
+      <itunes:subtitle>你知道嗎？這個水族館明星的腦袋被切掉還能長回來，記憶也沒丟</itunes:subtitle>
+      <itunes:keywords>冷知識,趣聞,知識,台灣,繁體中文</itunes:keywords>
+      <content:encoded><![CDATA[你知道嗎？有一種生物的頭就算被切掉一部分，竟然還能長回來，而且連記憶都還在！牠就是長得超級可愛的「六角恐龍」美西螈！]]></content:encoded>
+    </item>
+    <item>
+      <title>EP064 你知道嗎？世界上有個房間安靜到能聽見眼球轉動聲</title>
+      <description>你知道嗎？世界上有個房間安靜到能聽見自己眼球轉動的聲音！超扯的！為什麼沒有人能在裡面待超過一小時？進去之後到底會發生什麼讓人崩潰的事？快來跟芸芸一起揭開這個神秘空間的秘密！</description>
+      <pubDate>Wed, 10 Jun 2026 00:00:00 -0000</pubDate>
+      <guid>7605dd55ec8dd5ee30d1b59938fad0fe</guid>
+      <link>https://solobuildtw.github.io/podcast/cold-knowledge/ep/064</link>
+      <enclosure url="https://podcast-cdn.pick-tw.com/audio/CH2/EP064_%E4%B8%96%E7%95%8C%E4%B8%8A%E6%9C%80%E5%AE%89%E9%9D%9C%E7%9A%84%E6%88%BF%E9%96%93%EF%BC%8C%E7%82%BA%E4%BB%80%E9%BA%BC%E6%B2%92%E6%9C%89%E4%BA%BA%E8%83%BD%E5%9C%A8%E8%A3%A1%E9%9D%A2%E5%BE%85%E8%B6%85%E9%81%8E%E4%B8%80%E5%B0%8F%E6%99%82%EF%BC%9F%E3%80%82%E6%8F%AD%E9%96%8B.mp3" type="audio/mpeg" length="13879214"/>
+      <itunes:title>EP064 你知道嗎？世界上有個房間安靜到能聽見眼球轉動聲</itunes:title>
+      <itunes:author>芸芸</itunes:author>
+      <itunes:duration>00:09:38</itunes:duration>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:episode>64</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:summary>你知道嗎？世界上有個房間安靜到能聽見自己眼球轉動的聲音！超扯的！為什麼沒有人能在裡面待超過一小時？進去之後到底會發生什麼讓人崩潰的事？快來跟芸芸一起揭開這個神秘空間的秘密！</itunes:summary>
+      <itunes:subtitle>你知道嗎？世界上有個房間安靜到能聽見眼球轉動聲</itunes:subtitle>
+      <itunes:keywords>冷知識,趣聞,知識,台灣,繁體中文</itunes:keywords>
+      <content:encoded><![CDATA[你知道嗎？世界上有個房間安靜到能聽見自己眼球轉動的聲音！超扯的！為什麼沒有人能在裡面待超過一小時？進去之後到底會發生什麼讓人崩潰的事？快來跟芸芸一起揭開這個神秘空間的秘密！]]></content:encoded>
+    </item>
+    <item>
+      <title>EP060 你知道嗎？有隻蝦子的拳頭比子彈還快，還能讓海水沸騰發光</title>
+      <description>海底竟然藏著一位出拳比子彈還快的拳王？對對對，牠就是螳螂蝦！這一拳下去不只可以打爆硬殼，還能讓海水瞬間沸騰冒泡，真的超扯的！快來聽聽這位海底超級英雄的傳奇故事！</description>
+      <pubDate>Sat, 06 Jun 2026 00:00:00 -0000</pubDate>
+      <guid>fff37c85e1cff1b80adb68f7963943e8</guid>
+      <link>https://solobuildtw.github.io/podcast/cold-knowledge/ep/060</link>
+      <enclosure url="https://podcast-cdn.pick-tw.com/audio/CH2/EP060_%E6%A7%8D%E8%9D%A6%E6%8B%B3%E9%80%9F%E8%B6%85%E8%B6%8A%E5%AD%90%E5%BD%88%EF%BC%8C%E8%9E%B3%E8%9E%82%E8%9D%A6%E8%83%BD%E7%9C%8B%E8%A6%8B%E5%8D%81%E5%85%AD%E7%A8%AE%E9%A1%8F%E8%89%B2%EF%BC%9F%E8%8A%B8%E8%8A%B8%E5%B8%B6%E4%BD%A0%E8%AA%8D%E8%AD%98%E6%B5%B7%E5%BA%95%E6%9C%80.mp3" type="audio/mpeg" length="13958209"/>
+      <itunes:title>EP060 你知道嗎？有隻蝦子的拳頭比子彈還快，還能讓海水沸騰發光</itunes:title>
+      <itunes:author>芸芸</itunes:author>
+      <itunes:duration>00:09:41</itunes:duration>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:episode>60</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:summary>海底竟然藏著一位出拳比子彈還快的拳王？對對對，牠就是螳螂蝦！這一拳下去不只可以打爆硬殼，還能讓海水瞬間沸騰冒泡，真的超扯的！快來聽聽這位海底超級英雄的傳奇故事！</itunes:summary>
+      <itunes:subtitle>你知道嗎？有隻蝦子的拳頭比子彈還快，還能讓海水沸騰發光</itunes:subtitle>
+      <itunes:keywords>冷知識,趣聞,知識,台灣,繁體中文</itunes:keywords>
+      <content:encoded><![CDATA[海底竟然藏著一位出拳比子彈還快的拳王？對對對，牠就是螳螂蝦！這一拳下去不只可以打爆硬殼，還能讓海水瞬間沸騰冒泡，真的超扯的！快來聽聽這位海底超級英雄的傳奇故事！]]></content:encoded>
+    </item>
+    <item>
+      <title>EP055 你知道嗎？有種魚的雄性找到真愛後，會把自己完全融化在對方身上</title>
+      <description>深海裡的燈籠魚長得超可怕，但牠們的愛情故事更扯！為什麼科學家找到的永遠都只有母魚？公魚到底跑去哪了？這個真相超乎想像，我第一次知道的時候也傻眼！</description>
+      <pubDate>Mon, 01 Jun 2026 00:00:00 -0000</pubDate>
+      <guid>34f70ae74d0a145eeeb436e408ebaf70</guid>
+      <link>https://solobuildtw.github.io/podcast/cold-knowledge/ep/055</link>
+      <enclosure url="https://podcast-cdn.pick-tw.com/audio/CH2/EP055_%E9%A1%9B%E8%A6%86%E4%BD%A0%E4%B8%89%E8%A7%80%E7%9A%84%E6%B7%B1%E6%B5%B7%E5%A5%87%E8%81%9E%EF%BC%8C%E9%9B%84%E6%80%A7%E9%AE%9F%E9%B1%87%E9%AD%9A%E5%A6%82%E4%BD%95%E6%8A%8A%E8%87%AA%E5%B7%B1%E8%AE%8A%E6%88%90%E6%84%9B%E7%9A%84%E5%AF%84%E7%94%9F%E8%9F%B2%EF%BC%81%E3%80%82.mp3" type="audio/mpeg" length="13977017"/>
+      <itunes:title>EP055 你知道嗎？有種魚的雄性找到真愛後，會把自己完全融化在對方身上</itunes:title>
+      <itunes:author>芸芸</itunes:author>
+      <itunes:duration>00:09:42</itunes:duration>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:episode>55</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:summary>深海裡的燈籠魚長得超可怕，但牠們的愛情故事更扯！為什麼科學家找到的永遠都只有母魚？公魚到底跑去哪了？這個真相超乎想像，我第一次知道的時候也傻眼！</itunes:summary>
+      <itunes:subtitle>你知道嗎？有種魚的雄性找到真愛後，會把自己完全融化在對方身上</itunes:subtitle>
+      <itunes:keywords>冷知識,趣聞,知識,台灣,繁體中文</itunes:keywords>
+      <content:encoded><![CDATA[深海裡的燈籠魚長得超可怕，但牠們的愛情故事更扯！為什麼科學家找到的永遠都只有母魚？公魚到底跑去哪了？這個真相超乎想像，我第一次知道的時候也傻眼！]]></content:encoded>
+    </item>
+    <item>
+      <title>EP052 你知道嗎？數千萬人都記得一場根本沒發生過的死亡事件</title>
+      <description>你知道嗎？星際大戰的經典台詞「路克，我是你老爸」竟然是錯的！超扯的吧！不只這樣，你記憶中的皮卡丘尾巴、大富翁爺爺的眼鏡，可能通通都是假的！</description>
+      <pubDate>Fri, 29 May 2026 00:00:00 -0000</pubDate>
+      <guid>8c3c057117a8256382cbcec837b5bc11</guid>
+      <link>https://solobuildtw.github.io/podcast/cold-knowledge/ep/052</link>
+      <enclosure url="https://podcast-cdn.pick-tw.com/audio/CH2/EP052_%E6%8F%AD%E9%96%8B%E6%9B%BC%E5%BE%B7%E6%8B%89%E6%95%88%E6%87%89%E4%B9%8B%E8%AC%8E%EF%BC%8C%E7%82%BA%E4%BB%80%E9%BA%BC%E5%85%A8%E4%B8%96%E7%95%8C%E9%83%BD%E8%A8%98%E9%8C%AF%E4%BA%86%E5%90%8C%E4%B8%80%E4%BB%B6%E4%BA%8B%EF%BC%9F%E3%80%82%E6%98%9F%E9%9A%9B%E5%A4%A7%E6%88%B0.mp3" type="audio/mpeg" length="13338793"/>
+      <itunes:title>EP052 你知道嗎？數千萬人都記得一場根本沒發生過的死亡事件</itunes:title>
+      <itunes:author>芸芸</itunes:author>
+      <itunes:duration>00:09:15</itunes:duration>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:episode>52</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:summary>你知道嗎？星際大戰的經典台詞「路克，我是你老爸」竟然是錯的！超扯的吧！不只這樣，你記憶中的皮卡丘尾巴、大富翁爺爺的眼鏡，可能通通都是假的！</itunes:summary>
+      <itunes:subtitle>你知道嗎？數千萬人都記得一場根本沒發生過的死亡事件</itunes:subtitle>
+      <itunes:keywords>冷知識,趣聞,知識,台灣,繁體中文</itunes:keywords>
+      <content:encoded><![CDATA[你知道嗎？星際大戰的經典台詞「路克，我是你老爸」竟然是錯的！超扯的吧！不只這樣，你記憶中的皮卡丘尾巴、大富翁爺爺的眼鏡，可能通通都是假的！]]></content:encoded>
+    </item>
+    <item>
+      <title>EP047 你知道嗎？公斤竟然在偷偷變輕，連科學家都被困惑了一百年</title>
+      <description>你知道嗎？我們每天都在用的「公斤」，竟然一直在偷偷變輕，超扯的！它的標準竟然是一個鎖在巴黎地下室、代號「Le Grand K」的神秘金屬！</description>
+      <pubDate>Sun, 24 May 2026 00:00:00 -0000</pubDate>
+      <guid>06643ac4d8255c151c537495d34fba5d</guid>
+      <link>https://solobuildtw.github.io/podcast/cold-knowledge/ep/047</link>
+      <enclosure url="https://podcast-cdn.pick-tw.com/audio/CH2/EP047_%E4%B8%80%E9%A1%86%E9%87%91%E5%B1%AC%E5%9C%93%E6%9F%B1%E9%AB%94%EF%BC%8C%E5%A6%82%E4%BD%95%E6%8E%8C%E7%AE%A1%E5%85%A8%E4%B8%96%E7%95%8C%E9%87%8D%E9%87%8F%E9%95%B7%E9%81%94%E4%B8%80%E7%99%BE%E4%B8%89%E5%8D%81%E5%B9%B4%EF%BC%9F%E3%80%82%E6%88%91%E5%80%91%E6%AF%8F%E5%A4%A9.mp3" type="audio/mpeg" length="12351364"/>
+      <itunes:title>EP047 你知道嗎？公斤竟然在偷偷變輕，連科學家都被困惑了一百年</itunes:title>
+      <itunes:author>芸芸</itunes:author>
+      <itunes:duration>00:08:34</itunes:duration>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:episode>47</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:summary>你知道嗎？我們每天都在用的「公斤」，竟然一直在偷偷變輕，超扯的！它的標準竟然是一個鎖在巴黎地下室、代號「Le Grand K」的神秘金屬！</itunes:summary>
+      <itunes:subtitle>你知道嗎？公斤竟然在偷偷變輕，連科學家都被困惑了一百年</itunes:subtitle>
+      <itunes:keywords>冷知識,趣聞,知識,台灣,繁體中文</itunes:keywords>
+      <content:encoded><![CDATA[你知道嗎？我們每天都在用的「公斤」，竟然一直在偷偷變輕，超扯的！它的標準竟然是一個鎖在巴黎地下室、代號「Le Grand K」的神秘金屬！]]></content:encoded>
+    </item>
+    <item>
+      <title>EP044 地表最強生物「水熊蟲」，能在太空存活、抗核爆還能假死百年！</title>
+      <description>你知道嗎？古希臘史詩裡的海竟然是酒紅色的！難道古人都是色盲嗎？這集要來聊一個超扯的冷知識，原來「藍色」是我們後來才學會看見的顏色！快來聽聽我們的大腦是怎麼被語言設定的！</description>
+      <pubDate>Thu, 21 May 2026 00:00:00 -0000</pubDate>
+      <guid>afd0658dea5c918225926a8a80ea69ed</guid>
+      <link>https://solobuildtw.github.io/podcast/cold-knowledge/ep/044</link>
+      <enclosure url="https://podcast-cdn.pick-tw.com/audio/CH2/EP044_%E5%B0%8D%E5%B0%8D%E5%B0%8D%EF%BC%8C%E4%BD%A0%E6%B2%92%E6%9C%89%E8%81%BD%E9%8C%AF%EF%BC%8C%E6%98%AF%E5%83%8F%E7%B4%85%E9%85%92%E4%B8%80%E6%A8%A3%E7%9A%84%E6%B7%B1%E8%89%B2%EF%BC%8C%E8%80%8C%E4%B8%8D%E6%98%AF%E6%88%91%E5%80%91%E7%8F%BE%E5%9C%A8%E7%90%86%E6%89%80%E7%95%B6%E7%84%B6%E8%AA%8D%E7%82%BA%E7%9A%84%E8%97%8D%E8%89%B2.mp3" type="audio/mpeg" length="13279861"/>
+      <itunes:title>EP044 地表最強生物「水熊蟲」，能在太空存活、抗核爆還能假死百年！</itunes:title>
+      <itunes:author>芸芸</itunes:author>
+      <itunes:duration>00:09:13</itunes:duration>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:episode>44</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:summary>你知道嗎？古希臘史詩裡的海竟然是酒紅色的！難道古人都是色盲嗎？這集要來聊一個超扯的冷知識，原來「藍色」是我們後來才學會看見的顏色！快來聽聽我們的大腦是怎麼被語言設定的！</itunes:summary>
+      <itunes:subtitle>地表最強生物「水熊蟲」，能在太空存活、抗核爆還能假死百年！</itunes:subtitle>
+      <itunes:keywords>冷知識,趣聞,知識,台灣,繁體中文</itunes:keywords>
+      <content:encoded><![CDATA[你知道嗎？古希臘史詩裡的海竟然是酒紅色的！難道古人都是色盲嗎？這集要來聊一個超扯的冷知識，原來「藍色」是我們後來才學會看見的顏色！快來聽聽我們的大腦是怎麼被語言設定的！]]></content:encoded>
+    </item>
+    <item>
+      <title>EP043 古代希臘竟然有電腦？解密超越時代的安提基瑟拉儀！</title>
+      <description>你知道嗎？你最愛的番茄醬，最早居然不是番茄做的，而是鹹鹹腥腥的魚內臟發酵醬！超扯的對吧！我第一次知道的時候也傻眼！</description>
+      <pubDate>Wed, 20 May 2026 00:00:00 -0000</pubDate>
+      <guid>25bbbdda703dae3b780c4a21f9b1e4fd</guid>
+      <link>https://solobuildtw.github.io/podcast/cold-knowledge/ep/043</link>
+      <enclosure url="https://podcast-cdn.pick-tw.com/audio/CH2/EP043_%E7%95%AA%E8%8C%84%E9%86%AC%E8%BA%AB%E4%B8%96%E5%A4%A7%E8%A7%A3%E5%AF%86%EF%BC%8C%E5%AE%83%E7%9A%84%E7%A5%96%E5%85%88%E7%AB%9F%E7%84%B6%E6%98%AF%E7%99%BC%E9%85%B5%E9%AD%9A%E5%85%A7%E8%87%9F.mp3" type="audio/mpeg" length="14245973"/>
+      <itunes:title>EP043 古代希臘竟然有電腦？解密超越時代的安提基瑟拉儀！</itunes:title>
+      <itunes:author>芸芸</itunes:author>
+      <itunes:duration>00:09:53</itunes:duration>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:episode>43</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:summary>你知道嗎？你最愛的番茄醬，最早居然不是番茄做的，而是鹹鹹腥腥的魚內臟發酵醬！超扯的對吧！我第一次知道的時候也傻眼！</itunes:summary>
+      <itunes:subtitle>古代希臘竟然有電腦？解密超越時代的安提基瑟拉儀！</itunes:subtitle>
+      <itunes:keywords>冷知識,趣聞,知識,台灣,繁體中文</itunes:keywords>
+      <content:encoded><![CDATA[你知道嗎？你最愛的番茄醬，最早居然不是番茄做的，而是鹹鹹腥腥的魚內臟發酵醬！超扯的對吧！我第一次知道的時候也傻眼！]]></content:encoded>
+    </item>
+    <item>
+      <title>EP042 燈塔水母：地球上唯一已知能「返老還童」的生物！</title>
+      <description>你知道嗎？你家廚房那罐鹽巴，在古代竟然比黃金還貴，甚至能直接當成薪水發！超扯的吧！這集芸芸就要帶你穿越時空，揭開這個白色晶體的超神奇秘密，保證你聽完會對家裡的鹽罐肅然起敬！</description>
+      <pubDate>Tue, 19 May 2026 00:00:00 -0000</pubDate>
+      <guid>f3aa2f42f383c0959bb1efd9ce0f9e57</guid>
+      <link>https://solobuildtw.github.io/podcast/cold-knowledge/ep/042</link>
+      <enclosure url="https://podcast-cdn.pick-tw.com/audio/CH2/EP042_%E4%BD%A0%E5%AE%B6%E5%BB%9A%E6%88%BF%E9%82%A3%E7%BD%90%E6%99%AE%E9%80%9A%E7%9A%84%E9%B9%BD%E5%B7%B4%EF%BC%8C%E5%9C%A8%E5%8F%A4%E4%BB%A3%E7%AB%9F%E7%84%B6%E6%AF%94%E9%BB%83%E9%87%91%E9%82%84%E8%A6%81%E5%80%BC%E9%8C%A2%EF%BC%8C%E7%94%9A%E8%87%B3%E5%8F%AF%E4%BB%A5%E7%9B%B4%E6%8E%A5%E7%95%B6%E6%88%90%E8%96%AA%E6%B0%B4%E7%99%BC%E7%B5%A6%E4%BD%A0%E8%80%B6.mp3" type="audio/mpeg" length="14031560"/>
+      <itunes:title>EP042 燈塔水母：地球上唯一已知能「返老還童」的生物！</itunes:title>
+      <itunes:author>芸芸</itunes:author>
+      <itunes:duration>00:09:44</itunes:duration>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:episode>42</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:summary>你知道嗎？你家廚房那罐鹽巴，在古代竟然比黃金還貴，甚至能直接當成薪水發！超扯的吧！這集芸芸就要帶你穿越時空，揭開這個白色晶體的超神奇秘密，保證你聽完會對家裡的鹽罐肅然起敬！</itunes:summary>
+      <itunes:subtitle>燈塔水母：地球上唯一已知能「返老還童」的生物！</itunes:subtitle>
+      <itunes:keywords>冷知識,趣聞,知識,台灣,繁體中文</itunes:keywords>
+      <content:encoded><![CDATA[你知道嗎？你家廚房那罐鹽巴，在古代竟然比黃金還貴，甚至能直接當成薪水發！超扯的吧！這集芸芸就要帶你穿越時空，揭開這個白色晶體的超神奇秘密，保證你聽完會對家裡的鹽罐肅然起敬！]]></content:encoded>
+    </item>
+    <item>
+      <title>EP040 藍色，這個我們習以為常的顏色，在古代竟然比黃金還要珍貴！</title>
+      <description>你知道嗎？一顆普通的糖果竟然可以治好你的頭痛欸！超扯的！這不是什麼魔法，而是我們大腦內建的超能力「安慰劑效應」！這集芸芸就要來解密，為什麼我們的大腦這麼好騙，又同時這麼厲害。</description>
+      <pubDate>Sun, 17 May 2026 00:00:00 -0000</pubDate>
+      <guid>794d0c8af88cc04665d1a410f1251952</guid>
+      <link>https://solobuildtw.github.io/podcast/cold-knowledge/ep/040</link>
+      <enclosure url="https://podcast-cdn.pick-tw.com/audio/CH2/EP040_%E4%B8%80%E9%A1%86%E6%AF%AB%E7%84%A1%E8%97%A5%E6%95%88%E7%9A%84%E7%B3%96%E6%9E%9C%EF%BC%8C%E7%AB%9F%E7%84%B6%E6%AF%94%E7%9C%9F%E6%AD%A3%E7%9A%84%E6%AD%A2%E7%97%9B%E8%97%A5%E9%82%84%E6%9C%89%E6%95%88%EF%BC%8C%E9%80%99%E4%B8%8D%E6%98%AF%E9%AD%94%E6%B3%95%EF%BC%8C%E8%80%8C%E6%98%AF%E4%BD%A0%E5%A4%A7%E8%85%A6%E7%9A%84%E8%B6%85%E8%83%BD%E5%8A%9B.mp3" type="audio/mpeg" length="13207136"/>
+      <itunes:title>EP040 藍色，這個我們習以為常的顏色，在古代竟然比黃金還要珍貴！</itunes:title>
+      <itunes:author>芸芸</itunes:author>
+      <itunes:duration>00:09:10</itunes:duration>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:episode>40</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:summary>你知道嗎？一顆普通的糖果竟然可以治好你的頭痛欸！超扯的！這不是什麼魔法，而是我們大腦內建的超能力「安慰劑效應」！這集芸芸就要來解密，為什麼我們的大腦這麼好騙，又同時這麼厲害。</itunes:summary>
+      <itunes:subtitle>藍色，這個我們習以為常的顏色，在古代竟然比黃金還要珍貴！</itunes:subtitle>
+      <itunes:keywords>冷知識,趣聞,知識,台灣,繁體中文</itunes:keywords>
+      <content:encoded><![CDATA[你知道嗎？一顆普通的糖果竟然可以治好你的頭痛欸！超扯的！這不是什麼魔法，而是我們大腦內建的超能力「安慰劑效應」！這集芸芸就要來解密，為什麼我們的大腦這麼好騙，又同時這麼厲害。]]></content:encoded>
+    </item>
+    <item>
+      <title>EP031 你知道嗎？兩萬八千隻黃色小鴨在海上漂流，竟然幫科學家破解海洋之謎</title>
+      <description>超扯的！你洗澡的黃色小鴨，竟然是比人類還厲害的海洋學家？一場海上風暴，讓將近三萬隻洗澡玩具變成了迷你探險家，展開橫跨大洋的奇幻漂流。牠們究竟發現了什麼驚人秘密？快來聽聽這群最萌科學家的故事！</description>
+      <pubDate>Fri, 08 May 2026 00:00:00 -0000</pubDate>
+      <guid>a3dba6df7e756ccfa4f00c50132ccd48</guid>
+      <link>https://solobuildtw.github.io/podcast/cold-knowledge/ep/031</link>
+      <enclosure url="https://podcast-cdn.pick-tw.com/audio/CH2/EP031_%E4%B8%80%E5%A0%B4%E6%84%8F%E5%A4%96%E7%9A%84%E6%B5%B7%E4%B8%8A%E7%81%BD%E9%9B%A3%EF%BC%8C%E5%A6%82%E4%BD%95%E8%AE%93%E4%B8%8A%E8%90%AC%E9%9A%BB%E9%BB%83%E8%89%B2%E5%B0%8F%E9%B4%A8%E6%88%90%E7%82%BA%E5%81%89%E5%A4%A7%E7%9A%84%E6%B5%B7%E6%B4%8B%E5%AD%B8%E5%AE%B6%EF%BC%9F.mp3" type="audio/mpeg" length="14211492"/>
+      <itunes:title>EP031 你知道嗎？兩萬八千隻黃色小鴨在海上漂流，竟然幫科學家破解海洋之謎</itunes:title>
+      <itunes:author>芸芸</itunes:author>
+      <itunes:duration>00:09:52</itunes:duration>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:episode>31</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:summary>超扯的！你洗澡的黃色小鴨，竟然是比人類還厲害的海洋學家？一場海上風暴，讓將近三萬隻洗澡玩具變成了迷你探險家，展開橫跨大洋的奇幻漂流。牠們究竟發現了什麼驚人秘密？快來聽聽這群最萌科學家的故事！</itunes:summary>
+      <itunes:subtitle>你知道嗎？兩萬八千隻黃色小鴨在海上漂流，竟然幫科學家破解海洋之謎</itunes:subtitle>
+      <itunes:keywords>冷知識,趣聞,知識,台灣,繁體中文</itunes:keywords>
+      <content:encoded><![CDATA[超扯的！你洗澡的黃色小鴨，竟然是比人類還厲害的海洋學家？一場海上風暴，讓將近三萬隻洗澡玩具變成了迷你探險家，展開橫跨大洋的奇幻漂流。牠們究竟發現了什麼驚人秘密？快來聽聽這群最萌科學家的故事！]]></content:encoded>
+    </item>
     <item>
       <title>EP029 你知道嗎？一百年前西伯利亞發生一場神秘大爆炸，卻沒留下任何坑洞</title>
       <description>你知道嗎？一百多年前西伯利亞發生了一場比原子彈強一千倍的神秘大爆炸，把整片森林都夷為平地，但現場竟然連一個小坑都沒有！超扯的！</description>

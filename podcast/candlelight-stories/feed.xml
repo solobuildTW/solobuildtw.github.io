@@ -7,7 +7,7 @@
     <description>深夜，一根蠟燭，一個故事。燭先生在黑暗中細語，帶你走進那些不能見光的怪談。</description>
     <copyright>© 2026 燭先生</copyright>
     <generator>SoloBuildTW Podcast RSS Generator v2</generator>
-    <lastBuildDate>Tue, 28 Apr 2026 00:00:00 -0000</lastBuildDate>
+    <lastBuildDate>Tue, 28 Jul 2026 00:00:00 -0000</lastBuildDate>
     <atom:link href="https://solobuildtw.github.io/podcast/candlelight-stories/feed.xml" rel="self" type="application/rss+xml"/>
     <managingEditor>solobuildtw@gmail.com (燭先生)</managingEditor>
     <itunes:title>燭光怪譚</itunes:title>
@@ -31,6 +31,42 @@
     <itunes:category text="Fiction">
       <itunes:category text="Horror"/>
     </itunes:category>
+    <item>
+      <title>EP112 那部電梯，按下按鈕後就沒有人再回來過</title>
+      <description>按照特定樓層順序按電梯，將來到達一個地圖上不存在的樓層。燭先生專述這張流傳已久的異世界電梯儀式。燭先生專述。</description>
+      <pubDate>Tue, 28 Jul 2026 00:00:00 -0000</pubDate>
+      <guid>f4b231f4ac768ca34cd19d42c130821e</guid>
+      <link>https://solobuildtw.github.io/podcast/candlelight-stories/ep/112</link>
+      <enclosure url="https://podcast-cdn.pick-tw.com/audio/CH5/EP112_%E6%8C%89%E7%85%A7%E7%89%B9%E5%AE%9A%E6%A8%93%E5%B1%A4%E9%A0%86%E5%BA%8F%E6%8C%89%E9%9B%BB%E6%A2%AF%EF%BC%8C%E5%B0%87%E4%BE%86%E5%88%B0%E9%81%94%E4%B8%80%E5%80%8B%E5%9C%B0%E5%9C%96%E4%B8%8A%E4%B8%8D%E5%AD%98%E5%9C%A8%E7%9A%84%E6%A8%93%E5%B1%A4%E3%80%82%E7%87%AD%E5%85%88.mp3" type="audio/mpeg" length="14857239"/>
+      <itunes:title>EP112 那部電梯，按下按鈕後就沒有人再回來過</itunes:title>
+      <itunes:author>燭先生</itunes:author>
+      <itunes:duration>00:10:19</itunes:duration>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:episode>112</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:summary>按照特定樓層順序按電梯，將來到達一個地圖上不存在的樓層。燭先生專述這張流傳已久的異世界電梯儀式。燭先生專述。</itunes:summary>
+      <itunes:subtitle>那部電梯，按下按鈕後就沒有人再回來過</itunes:subtitle>
+      <itunes:keywords>鬼故事,怪談,靈異,深夜,台灣</itunes:keywords>
+      <content:encoded><![CDATA[按照特定樓層順序按電梯，將來到達一個地圖上不存在的樓層。燭先生專述這張流傳已久的異世界電梯儀式。燭先生專述。]]></content:encoded>
+    </item>
+    <item>
+      <title>EP048 那座山裡傳來的笑聲，叫出了爺爺的名字。他從此再也沒有上過山</title>
+      <description>燭先生以低語緩節奏，帶來一則關於「山裡的捉迷藏，永遠不要當最後一個被找到的人。」的日式怪談。你曾經在爬山的時候，聽到身後有人輕輕叫你的名字嗎？，故事在靜謐中鋪展不安，留下難以消散的餘韻。</description>
+      <pubDate>Mon, 25 May 2026 00:00:00 -0000</pubDate>
+      <guid>ab6f36e673f4934edb617260b0a6e446</guid>
+      <link>https://solobuildtw.github.io/podcast/candlelight-stories/ep/048</link>
+      <enclosure url="https://podcast-cdn.pick-tw.com/audio/CH5/EP048_%E7%87%AD%E5%85%88%E7%94%9F%E4%BB%A5%E4%BD%8E%E8%AA%9E%E7%B7%A9%E7%AF%80%E5%A5%8F%EF%BC%8C%E5%B8%B6%E4%BE%86%E4%B8%80%E5%89%87%E9%97%9C%E6%96%BC%E3%80%8C%E5%B1%B1%E8%A3%A1%E7%9A%84%E6%8D%89%E8%BF%B7%E8%97%8F%EF%BC%8C%E6%B0%B8%E9%81%A0%E4%B8%8D%E8%A6%81%E7%95%B6%E6%9C%80.mp3" type="audio/mpeg" length="14706146"/>
+      <itunes:title>EP048 那座山裡傳來的笑聲，叫出了爺爺的名字。他從此再也沒有上過山</itunes:title>
+      <itunes:author>燭先生</itunes:author>
+      <itunes:duration>00:10:12</itunes:duration>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:episode>48</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:summary>燭先生以低語緩節奏，帶來一則關於「山裡的捉迷藏，永遠不要當最後一個被找到的人。」的日式怪談。你曾經在爬山的時候，聽到身後有人輕輕叫你的名字嗎？，故事在靜謐中鋪展不安，留下難以消散的餘韻。</itunes:summary>
+      <itunes:subtitle>那座山裡傳來的笑聲，叫出了爺爺的名字。他從此再也沒有上過山</itunes:subtitle>
+      <itunes:keywords>鬼故事,怪談,靈異,深夜,台灣</itunes:keywords>
+      <content:encoded><![CDATA[燭先生以低語緩節奏，帶來一則關於「山裡的捉迷藏，永遠不要當最後一個被找到的人。」的日式怪談。你曾經在爬山的時候，聽到身後有人輕輕叫你的名字嗎？，故事在靜謐中鋪展不安，留下難以消散的餘韻。]]></content:encoded>
+    </item>
     <item>
       <title>EP021 她的眼睛在黑暗中看著你，而你永遠不知道她在看什麼</title>
       <description>燭先生低語講述：人形之語：當凝視你的，不再是死物。。燭火搖曳，光影在牆上緩緩地舞動，彷彿有了自己的生命。</description>
